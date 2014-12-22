@@ -19,6 +19,6 @@ hostname = socket.gethostname()
 query = plc_api.GetNodes(auth, {'hostname': hostname}, ['site_id'])
 
 site_id = query[0]['site_id']
-site_info = api_server.GetSites(auth, {'site_id': site_id}, ['site_id', 'name', 'url','latitude', 'longitude', 'login_base'])
+site_info = plc_api.GetSites(auth, {'site_id': site_id}, ['site_id', 'name', 'url','latitude', 'longitude', 'login_base'])
 site_info = urllib.urlencode(site_info[0])
 urllib.urlopen(phonehome_url, site_info)
