@@ -1,0 +1,599 @@
+#!/usr/bin/perl -w
+use strict;
+use sigtrap;
+use Getopt::Long;
+
+#######################################################################
+# usage: codeploy [-a] local-dir url-for-local-dir remote-dir
+#
+#                                           by KyoungSoo Park
+#######################################################################
+
+# global variables
+my $g_now = time();                # current time, needed when touching files
+my $g_tempdir = "__codeploy_temp"; # temp directory
+
+#######################################################################
+# Subroutines
+#######################################################################
+
+# make a temp directory
+sub maketempdir
+{
+    my $dir = shift;
+
+    system("rm -rf $dir") if (-d $dir);
+    mkdir $dir;
+    system("chmod o+x $dir");
+}
+
+# get a temporary file name under $dir
+sub gettempfile
+{
+    my $dir = shift;
+    my ($file, $i);
+
+    die "temp file directory($dir) doesn't exist\n" unless (-d $dir);
+
+    $i = 0;
+    while (1) {
+	$file = sprintf "$dir/temp%d", $i++;
+	next if (-e $file);
+	return $file;
+    }
+}
+
+# scan the directory recursively to get deploying information
+sub scandir
+{
+    my $dir = shift;
+    my $depth = shift;
+    my ($file, $md5sum);
+    my @allfiles = ();
+    my ($dirs, $hashes, $leaf_dir) = ("", "", 1);
+
+    # skip too deep directories, preventing recursive links
+    if ($depth >= 20) {
+	print STDERR "depth went too deep\n";
+	return ($dirs, $hashes);
+    }
+
+    # read in all the files under this directory
+    opendir(LOCAL_DIR, $dir);
+    @allfiles = grep !/^\./, readdir LOCAL_DIR;
+    closedir(LOCAL_DIR);
+
+    # recursively calculate md5sum of normal files
+    #           / gather leaf directories
+    foreach $file (@allfiles) {
+	my $filepath = "$dir/$file";
+
+        # see if it's a directory
+	if (-d $filepath) {  
+
+	    # skip codeploy temp directory
+	    next if ($filepath =~ /$g_tempdir/) ;
+
+	    # scan thru the directory
+	    my ($temp1, $temp2) = scandir ($depth == 1 ? $file : $filepath, 
+					   $depth + 1);
+
+	    if ($temp1) {
+		$dirs = ($dirs) ? "$temp1, \n\t$dirs" : $temp1;
+	    }
+	    if ($temp2) {
+		$hashes = ($hashes) ? "$temp2, \n\t$hashes" : $temp2;
+	    }
+	    $leaf_dir = 0;
+
+	} elsif (-f $filepath) {
+	    my @sbuf = stat $filepath;   # get stat info
+	    
+	    # touch it if it's too recent
+	    if (($g_now - $sbuf[9]) <= 3600) {
+		print STDERR "warning : $filepath too young, ", 
+                  	     "modification time will be touched\n";
+
+                # utime atime, mtime, files...
+		utime $g_now, $g_now - 3600, $filepath;
+	    }
+
+	    # calculate md5sum
+	    chomp($md5sum = `md5sum $filepath`);
+	    if ($md5sum =~ /([^ ]+)\s*([^ ]+)/) {
+		my ($mode, $oct_mode, $item, $tempfile);
+
+		$mode = $sbuf[2] & 07777;
+		$oct_mode = sprintf "%04o", $mode;
+		if ($mode & 0111) { # executable ?
+		    # an executable file will be copied to a temp directory
+		    # with a temp name, disabling all the execution bits
+
+		    $tempfile = gettempfile($g_tempdir);
+		    system("cp -f $filepath $tempfile");
+		    $item = "\"$tempfile\" => \[$oct_mode, \"$1\", \"$2\" \]";
+		    chmod 0644, $tempfile;
+
+		} else {
+		    $item = "\"$2\" => \[$oct_mode, \"$1\"\, \"\"]";
+		}	
+		$hashes = ($hashes) ? "$item, \n\t$hashes" : $item;
+	    }
+	}
+    }
+
+    # check if it's a leaf directory
+    $dirs = "\"$dir\"" if ($leaf_dir);
+
+    return ($dirs, $hashes);
+}
+
+# output a script into a tempfile & return its name
+sub output_script
+{
+    my $alldirs = shift;
+    my $allhashes = shift;
+    my $rdir = shift;
+    my $lurl = shift;
+    my $is_all = shift;
+    my $tempfile = gettempfile(".");
+    my $oldh;
+
+    open(H_SCRIPT, ">$tempfile") or die "couldn't open a scriptfile";
+    $oldh = select H_SCRIPT;
+
+# print out a script from here
+print <<EOL
+\#!/usr/bin/perl -w
+require 5.002;
+use strict;
+use sigtrap;
+use Socket;
+
+#######################################################################
+sub getbigfileserv 
+{
+    # return which node to contact for getbig
+    # first, try to resolve "codeploy.codeen.org" and if it fails
+    # it asks its local codemon (current port is 23126)
+    my (\$paddr, \$server) = ("", "");  
+
+    \$server = gethostbyname("codeploy.codeen.org");
+    return inet_ntoa(\$server) unless (\$server eq "");
+
+    socket(SOCK_COD, PF_INET, SOCK_STREAM, getprotobyname('tcp')) or 
+	do { print STDERR "socket creation failed\\n"; return "";};
+
+    \$paddr = sockaddr_in(23126, inet_aton("127.0.0.1"));
+    connect(SOCK_COD, \$paddr) or
+	do { print STDERR "connection failed\\n"; close(SOCK_COD); return "";};
+
+    if (defined(recv(SOCK_COD, \$server, 512, 0))) { 
+	chomp(\$server);
+    }   
+    close(SOCK_COD);
+
+    return \$server;
+}
+
+#######################################################################
+sub connect_to_getbig
+{
+    my \$server = shift;      # ip address of a getbig server
+    my \$paddr;
+
+    # connect to the server
+    socket(SOCK_GB, PF_INET, SOCK_STREAM, getprotobyname('tcp')) or 
+    do { print STDERR "socket creation failed\\n"; return -1;};
+
+    \$paddr = sockaddr_in(3125, inet_aton(\$server));	
+    connect(SOCK_GB, \$paddr) or
+    do { print STDERR "connection failed\\n"; close(SOCK_GB); return -1; };
+
+    return 0;
+}
+
+#######################################################################
+sub download
+{
+    my \$src = shift;
+    my \$dest = shift;
+    my \$md5sum = shift;
+    my \$use_origin = shift;
+    my (\$size, \$paddr, \$host, \$request, \$buffer), 
+    my (\$length, \$count, \$sock, \$http_ver, \$in_header);
+
+    # find the host string
+    if (\$src =~ /http:\\/\\/([^\\/:]+)/) {
+	\$host = \$1;
+    } else {
+	print STDERR "\$src : wrong format of URL\\n";
+	return -2;
+    }
+
+    # see if we need to contact the origin server
+    if (\$use_origin) {
+	my \$iaddr = gethostbyname(\$host);
+
+	# connect to the origin server
+	socket(SOCK_ORI, PF_INET, SOCK_STREAM, getprotobyname('tcp')) or 
+        do { print STDERR "socket creation failed\\n"; return -2;};
+	
+	\$paddr = sockaddr_in(80, \$iaddr);
+	connect(SOCK_ORI, \$paddr) or
+        do { print STDERR "connection failed\\n"; close(SOCK_ORI); return -2;};
+
+	\$http_ver = "HTTP/1.0";
+	\$sock = *SOCK_ORI;
+    } else {
+	\$http_ver = "HTTP/1.1\\r\\nConnection: Keep-Alive";
+	\$sock = *SOCK_GB;
+    }
+
+    # build a request
+    \$request = sprintf ("%s%s%s%s", 
+			 "GET \$src \$http_ver\\r\\n",
+			 "Host: \$host\\r\\n",
+			 "md5sum: \$md5sum\\r\\n",
+			 "connection: keep-alive\\r\\n\\r\\n");
+
+    # send a request
+    send(\$sock, \$request, 0) or
+    do { print STDERR "send failed\\n"; return (\$use_origin) ? -2 : -1;};
+
+    # open a file for the contents
+    open(H_FILE, ">\$dest") or 
+    do { print STDERR "file opening failed\\n"; return -2;};
+
+    # receiving the contents
+    (\$length, \$count, \$in_header) = (-1, 0, 1);
+    while (defined(recv(\$sock, \$buffer, 32768, 0))) {
+	
+	# size : bytes received
+	if ((\$size = length(\$buffer)) == 0) { 
+            # connection is closed ?
+	    close(H_FILE);
+	    return -1;
+	}
+
+        # still getting headers ?
+	if (\$in_header) {   
+
+	    # looking for content-length
+	    if (\$length == -1 &&
+		\$buffer =~ /content-length:(.+)\\r\\n/im) {
+		\$length = (\$1 + 0);
+	    }
+
+	    # looking for the end of the header
+	    if (\$buffer =~ /\\r\\n\\r\\n/m) {
+		\$in_header = 0;
+		print H_FILE \$\';
+		\$count += length(\$\');
+	    } 
+	} else {
+	    # now, we're getting the body
+	    print H_FILE \$buffer;
+	    \$count += \$size;
+	}
+
+	# if we've got everything, then break out
+	last if (\$length >= 0 && \$count >= \$length);
+    }
+
+    # close the file
+    close(H_FILE);
+
+    # close the connection if it's to the original server
+    close(SOCK_ORI) if (\$use_origin);
+
+    return 0;
+}
+
+#######################################################################
+sub need_update
+{
+    # see if we need to update this file
+    my \$file = shift;
+    my \$md5sum = shift;
+    my \$chksum;
+
+    # if the file is absent, it needs to be updated
+    return 1 unless (-e \$file);
+
+    # now, the file exists => check md5sum
+    chomp(\$chksum = `md5sum \$file`);
+    if (\$chksum =~ /([^ ]+)\\s*([^ ]+)/) { 
+	return 0 if (\$md5sum eq \$1);
+    }
+    return 1;
+}
+
+#######################################################################
+sub die_with_error
+{
+    # die with an error message
+    my \$msg = shift;
+
+    unlink "./\$0";     # delete this script
+    die \$msg;
+}
+
+#########################################################################
+# main module in the script
+#########################################################################
+my (\$file, \$dir, \$origfile, \$cwd, \$host, \$sock);
+my \%chksumHash = ($$allhashes);
+my \@alldirs = ($$alldirs);
+my \$updateNum = 0;
+my \$server = "";
+
+# learn my host name 
+chomp(\$host = `hostname`);
+
+# get the current working directory
+\$cwd = \$ENV{PWD};
+chmop(\$cwd = `pwd`) if (!defined(\$cwd));
+
+# create the target directory if it doesn't exist
+system("mkdir -p $rdir") unless (-d "$rdir");
+(-d "$rdir") or die_with_error("\$host : couldn't create $rdir!\\n");
+
+# change directory to the target directory
+chdir "$rdir";
+
+# first, copy the directory hierarchy
+foreach \$dir (\@alldirs) { 
+    system("mkdir -p \$dir") unless (-d \$dir);
+}
+
+# second, update necessary files
+foreach \$file (keys \%chksumHash) {
+    my (\$hash, \$retry, \$res) = (\$chksumHash{\$file}[1], 0, 0);
+
+    # know the original file in case it's in the temp directory
+    \$origfile = \$chksumHash{\$file}[2];
+    \$origfile = \$file if (\$origfile eq "");
+
+    # update the file by using bigfile service by CoDeeN
+    while (need_update(\$origfile, \$hash)) {
+
+	# warning for retry
+	if (\$retry > 0) {
+	    print STDERR "\$host: \$origfile -> \${retry}-th retry\\n";
+	}
+
+	# get a getbig server & connect to it
+	if (\$server eq "") {
+	    \$server = getbigfileserv();
+	    if (\$server eq "") {
+		die_with_error("\$host : codemon is not running\\n");
+	    }
+	    if (connect_to_getbig(\$server) < 0) {
+		die_with_error("\$host : can't connect to bigfile service\\n");
+	    }
+	}
+
+        # if it fails for three consecutive times, 
+	# it directly goes to the origin server
+	\$res = download("$lurl/\$file", \$origfile, \$hash, 
+			 (\$retry >= 3) ? 1 : 0);
+
+        # see if we've got an error
+	if (\$res < 0) {
+	    if (\$res == -1) {
+		# close this connection. reconnect to another next time
+		close(SOCK_GB);
+		\$server = "";
+	    } elsif (\$res == -2) {
+		print STDERR "\$host: error occurred, skipping \$origfile\\n";
+		last;
+	    }
+	} elsif (\$retry >= 10) {
+	    print STDERR "too many failures, skipping \$origfile\\n";
+	    last;
+	}
+	
+	# change the file permission
+	chmod \$chksumHash{\$file}[0], \$origfile;
+	\$updateNum++ if (\$retry == 0);
+	\$retry++;
+    }
+}
+# close the connection
+close(SOCK_GB) if (\$server);
+
+# print out how many files got updated
+print STDERR "\$host finished (\$updateNum files updated)\\n";
+EOL
+;
+
+if ($is_all) {
+    print <<ALLINONE
+
+# bunzip & untar everything 
+if (\$origfile =~ /(.*tar).bz2\$/) {
+    system("bunzip2 \$origfile");	   
+    system("tar xf \$1 1>/dev/null 2>&1");
+    unlink \$1;
+}
+
+ALLINONE
+;
+}
+
+print <<EOL
+
+# now everything is done, 
+# we go back to the previous directory => necessary ?
+chdir \$cwd;
+
+# delete myself
+unlink "\$cwd/\$0";
+EOL
+;
+
+# done with producing the script
+close H_SCRIPT;
+select $oldh;
+
+# set the script executable
+chmod 0777, $tempfile;
+return $tempfile;
+
+}
+
+# wait until all nodes finish executing the script
+sub wait_all_nodes
+{
+    my $scriptfile = shift;;
+    my $temp1 = gettempfile(".");
+    my $temp2 = "${temp1}.temp";
+    my $cmd = "\'echo \`hostname;ls $scriptfile | wc -l\`\'";
+
+    # copy the node list file into a temp file
+    system("cp -f $ENV{MQ_NODES} $temp1");
+    $ENV{MQ_NODES} = $temp1;
+
+    while (1) {
+	my $count = 0;
+	
+	# see if the script file is still being executed
+	open(H_NODELIST, "> $temp2");
+	open(H_PIPE, "multiquery $cmd 2>/dev/null |");  
+	while (<H_PIPE>) {
+	    if (/(.+) ([01])$/) {
+		if ($2 == 1) {
+		    print H_NODELIST "$1\n"; 
+		    $count++;
+		}
+	    }
+	}
+	close(H_PIPE);
+	close(H_NODELIST);
+
+	# if we finish all, break out
+	last if ($count == 0);
+
+	# update the node list file
+	system("cp -f $temp2 $temp1");
+	print "waiting for $count nodes to finish:\n";
+	print `cat $temp1`;
+
+	# sleep 30 seconds
+	sleep(30);
+    }
+
+    # delete the temporary files
+    unlink $temp1 if (-e $temp1);
+    unlink $temp2 if (-e $temp2);
+}
+
+#######################################################################
+# Main module
+#######################################################################
+my ($ldir, $rdir, $lurl, $cwd, $scriptfile);
+my ($alldirs, $allhashes, $srcdir, $tempfile);
+my $is_all = 0;
+my $ver = "0.81";             # version number
+
+# print out the version number
+print "codeploy version $ver\n\n";
+
+# check the number of arguments
+$#ARGV >= 2 or 
+die "need more arguments: $0 local-dir url-for-local-dir remote-dir\n";
+
+# get a parameter 
+GetOptions("a!" => \$is_all);
+
+########################################################################
+# read & check the arguments; remove the trailing '/'
+$ldir = $ARGV[0];
+$lurl = $ARGV[1];
+$rdir = $ARGV[2];
+
+$ldir =~ s/\/\s*$//;
+$lurl =~ s/\/\s*$//;
+$rdir =~ s/\/\s*$//;
+
+# error checking (environment variables for multiquery/multicopy)
+die "environment var(MQ_NODES) not set!\n" unless (defined($ENV{MQ_NODES}));
+die "a file \"$ENV{MQ_NODES}\" not exist!\n"  unless (-e $ENV{MQ_NODES});
+die "environment var(MQ_SLICE) not set!\n" unless (defined($ENV{MQ_SLICE}));
+die "$ldir doesn't exist\n" unless (-e $ldir);
+die "$ldir is not a directory\n" unless (-d $ldir);
+
+########################################################################
+# record the current working directory
+$cwd = $ENV{PWD};
+chomp($cwd = `pwd`) if (!defined($cwd));
+
+########################################################################
+# change to the local directory
+chdir $ldir;
+
+########################################################################
+# make a temp directory for copying executables
+if ($is_all) {
+    # tar & bzip the whole directory
+
+    # remove previous files
+    system("rm -rf $g_tempdir") if (-d $g_tempdir);
+
+    # tar all the files
+    print "<<tar all files...>>\n";
+    $tempfile = gettempfile(".");
+    $tempfile .= "$$.tar";
+    system("tar cf ./$tempfile * 1>/dev/null 2>&1");
+
+    # bzip the tarball file
+    print "<<compressing the tarball...>>\n";
+    system("bzip2 -f ./$tempfile");
+}
+
+maketempdir($g_tempdir);
+
+if ($is_all) {
+    # move to the temp file & modify the url to point to this 
+    system("mv -f ${tempfile}.bz2 ./$g_tempdir");
+    chdir $g_tempdir;
+    $lurl .= "/$g_tempdir";
+}
+
+########################################################################
+# scan the directory & get leaf directory & hash information
+print "<<generating a script...>>\n";
+($alldirs, $allhashes) = scandir(".", 1);
+
+########################################################################
+# change to the previous directory
+chdir $cwd;
+
+########################################################################
+# print out a script
+$scriptfile = output_script(\$alldirs, \$allhashes, $rdir, $lurl, $is_all);
+
+########################################################################
+# copying the script to all nodes
+print "<<copying the script...>>\n";
+$| = 1;           # set autoflush to true
+open(H_PIPE, "multicopy $scriptfile \'\@:\' 2> /dev/null |");
+while (<H_PIPE>) { print "*" if (/done/); }
+print "\n";
+close(H_PIPE);
+
+########################################################################
+# execute the script
+$| = 0;           # reset autoflush to false
+print "<<executing the script...>>\n";
+system("multiquery \'$scriptfile \&\'");
+
+########################################################################
+# delete the script;
+unlink $scriptfile;
+
+########################################################################
+# wait until all nodes finish
+wait_all_nodes($scriptfile);
+print "\n<<deployment finished!!>>\n";

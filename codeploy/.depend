@@ -1,0 +1,5 @@
+applib.o: applib.c applib.h gettimeofdayex.h debug.h
+filecheck.o: filecheck.c applib.h gettimeofdayex.h parsequery.h
+gettimeofdayex.o: gettimeofdayex.c gettimeofdayex.h
+multiquery.o: multiquery.c applib.h gettimeofdayex.h
+parsequery.o: parsequery.c parsequery.h
