@@ -39,7 +39,7 @@ print "Found %d node(s) to be deleted" % (len(todel_nodes))
 
 if len(todel_nodes) > 0:
 	#remove nodes from slice
-	print "Removing nodes from slice ...",
+	print "Removing nodes from slice ..."
 	sys.stdout.flush()
 	result = plc_api.SliceNodesDel(auth, slice_name, todel_nodes)
 	if result == 1:
