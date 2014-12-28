@@ -1,7 +1,7 @@
 #!/usr/bin/python
 ### phonehome.py
 ### Hello World demonstration script
-phonehome_url = "http://146.148.66.148/phonehome.php"
+phonehome_url = "http://146.148.66.148:8000/hello/"
 import sys, urllib, xmlrpclib, socket
 
 # PlanetLab PLCAPI url
@@ -20,5 +20,8 @@ query = plc_api.GetNodes(auth, {'hostname': hostname}, ['site_id'])
 
 site_id = query[0]['site_id']
 site_info = plc_api.GetSites(auth, {'site_id': site_id}, ['site_id', 'name', 'url','latitude', 'longitude', 'login_base'])
+if isinstance(site_info[0]['name'], unicode):
+        site_info[0]['name'] = site_info[0]['name'].encode('utf-8')
 site_info = urllib.urlencode(site_info[0])
+print site_info
 urllib.urlopen(phonehome_url, site_info)

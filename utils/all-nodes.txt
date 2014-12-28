@@ -676,7 +676,7 @@ node1.planetlab.albany.edu
 planetlab03.cs.washington.edu
 pl2.eecs.utk.edu
 planetlab1.cesnet.cz
-planetlab2.unineuchatel.ch
+plab1.cs.msu.ru
 planet1.cs.huji.ac.il
 planetlab5.cs.cornell.edu
 planetlab-5.eecs.cwru.edu
@@ -894,7 +894,7 @@ planetlab2.ionio.gr
 planet2.cs.rochester.edu
 planetlab-1a.ics.uci.edu
 planet01.hhi.fraunhofer.de
-plab1.cs.msu.ru
+planetlab2.unineuchatel.ch
 pln.zju.edu.cn
 planetlab1.eee.hku.hk
 vayu.iitd.ernet.in
