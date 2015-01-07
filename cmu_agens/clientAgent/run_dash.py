@@ -58,7 +58,7 @@ port = 8615
 video = 'BBB'	
 client = getMyName()
 
-waitRandom(1, 10)
+waitRandom(1, 100)
 
 ## Query the centralized monitoring server to obtain a list of cache agents
 cache_agents = get_cache_agents()
