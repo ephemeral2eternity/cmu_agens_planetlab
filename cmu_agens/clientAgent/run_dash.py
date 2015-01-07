@@ -72,8 +72,11 @@ cache_agent_rtts = pingSrvs(cache_agents)
 
 # Upload the ping RTTs to google cloud storage
 pingFile = "./data/" + client + "_PING.json"
-with open(pingFile, 'w') as outfile:
+try:
+	outfile = open(pingFile, 'w')
 	json.dump(cache_agent_rtts, outfile, sort_keys = True, indent = 4, ensure_ascii=False)
+except IOError as e:
+	print "Failed to write file ", pingFile
 
 cache_agent = attach_cache_agent(cache_agent_rtts)
 print "=============== Cache Agent for Client: ", client, " is ", cache_agent, " ======================"
@@ -90,8 +93,11 @@ for i in range(1, expNum + 1):
 
 	## Save candidate servers for the experiment
 	candidatesFile = "./data/" + clientID + "_candidates.json"
-	with open(candidatesFile, 'w') as cFile:
+	try:
+		cFile = open(candidatesFile, 'w')
 		json.dump(candidates, cFile, sort_keys = True, indent = 4, ensure_ascii = False)
+	except IOError as e:
+		print "Failed to write file ", cFile
 
 	print "Selected candidate servers for ", clientID, " are :"
 	for srv in candidate_srvs:
