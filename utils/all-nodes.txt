@@ -208,7 +208,6 @@ pluto.cs.binghamton.edu
 planetlab2.pjwstk.edu.pl
 planetlab-1.cs.auckland.ac.nz
 planetlab4.csres.utexas.edu
-planetlab2.cs.purdue.edu
 planetlab-1.cs.unibas.ch
 planetlab2.iitb.ac.in
 planetlab1.dojima.wide.ad.jp
@@ -233,7 +232,7 @@ pl1.yonsei.ac.kr
 planetlab-02.naist.jp
 pl1.eng.monash.edu.au
 planet5.cs.ucsb.edu
-planetlab1.cs.uiuc.edu
+planetlab2.bgu.ac.il
 75-130-96-13.static.oxfr.ma.charter.com
 planetlab-1.cse.ohio-state.edu
 int-pl1.ise.eng.osaka-u.ac.jp
@@ -248,6 +247,7 @@ planetlab2.eecs.umich.edu
 pli1-pa-5.hpl.hp.com
 planetlab2.cs.uchicago.edu
 pl2.csl.utoronto.ca
+planetlab1.cyfronet.pl
 marie.iet.unipi.it
 onelab1.info.ucl.ac.be
 planetlab4.wail.wisc.edu
@@ -330,7 +330,7 @@ planetlab1.fit.vutbr.cz
 planetlab1.pop-rs.rnp.br
 planetlab1.cs.ucl.ac.uk
 plab1.cs.ust.hk
-planetlab2.bgu.ac.il
+kc-sce-plab1.umkc.edu
 lim-planetlab-1.univ-reunion.fr
 planetlab2.research.nicta.com.au
 planetlab2.ewi.tudelft.nl
@@ -530,7 +530,6 @@ planetlab3.csres.utexas.edu
 dfn-ple1.x-win.dfn.de
 peeramidion.irisa.fr
 pl001.ece.upatras.gr
-planetlab2.csie.nuk.edu.tw
 planetlab1.u-strasbg.fr
 pl1.dce.edu
 ple1.zcu.cz
@@ -756,7 +755,7 @@ planetlabtwo.ccs.neu.edu
 evghu1.colbud.hu
 ple3.ipv6.lip6.fr
 planetlab1.informatik.uni-erlangen.de
-kc-sce-plab1.umkc.edu
+planetlab2.csie.nuk.edu.tw
 pl1.cs.unm.edu
 planetlab2.poly.edu
 pl2.rcc.uottawa.ca
@@ -911,7 +910,7 @@ planetlab2.cs.ucl.ac.uk
 planet0.jaist.ac.jp
 planetlab4.cs.duke.edu
 pl1.cis.uab.edu
-planetlab1.cyfronet.pl
+plan1.project.cwi.nl
 planetlab5.flux.utah.edu
 mlab1.gr-ix.gr
 planetlab1.plab.ege.edu.tr
@@ -974,7 +973,7 @@ plnode01.cs.mu.oz.au
 planetlab1.eas.asu.edu
 planetlab2.c3sl.ufpr.br
 pl2.cis.uab.edu
-plan1.project.cwi.nl
+planetlab2.cs.purdue.edu
 utet.ii.uam.es
 planetlab2-santiago.lan.redclara.net
 plewifi.ipv6.lip6.fr
@@ -992,6 +991,7 @@ planetlab1.mini.pw.edu.pl
 pl2-higashi.ics.es.osaka-u.ac.jp
 planetslug5.cse.ucsc.edu
 planetlab6.cs.cornell.edu
+planetlab1.cs.uiuc.edu
 planetlab2.singaren.net.sg
 planetlab2.utt.fr
 planetlab2.cs.vu.nl
