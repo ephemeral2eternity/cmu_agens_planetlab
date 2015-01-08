@@ -234,7 +234,7 @@ def dash(cache_agent, server_addrs, selected_srv, videoName, clientID):
         try:
 		outfile = open(trFileName, 'w')
                 json.dump(client_tr, outfile, sort_keys = True, indent = 4, ensure_ascii=False)
-	except IOError as e:
+	except IOError:
 		print "Failed to write file: ", trFileName
 
         shutil.rmtree('./tmp')
@@ -378,14 +378,14 @@ def qas_dash(cache_agent, server_addrs, candidates, videoName, clientID, alpha):
 	try:
 		outfile = open(trFileName, 'w')
 		json.dump(client_tr, outfile, sort_keys = True, indent = 4, ensure_ascii = False)
-	except IOError as e:
+	except IOError:
 		print "Failed to write file: ", trFileName
 
 	srv_qoe_tr_filename = "./data/" + clientID + "_" + videoName + "_srvqoe.json"
 	try:
 		outfile = open(srv_qoe_tr_filename, 'w')
 		json.dump(srv_qoe_tr, outfile, sort_keys=True, indent=4, ensure_ascii=False)
-	except IOError as e:
+	except IOError:
 		print "Failed to write file: ", srv_qoe_tr_filename
 
         shutil.rmtree('./tmp')
@@ -539,13 +539,13 @@ def cqas_dash(cache_agent, server_addrs, candidates, videoName, clientID, alpha)
 	try:
 		outfile = open(trFileName, 'w')
 		json.dump(client_tr, outfile, sort_keys = True, indent = 4, ensure_ascii=False)
-	except IOError as e:
+	except IOError:
 		print "Failed to write file: ", trFileName
 	srv_qoe_tr_filename = "./data/" + clientID + "_" + videoName + "_srvqoe.json"
 	try:
 		outfile =  open(srv_qoe_tr_filename, 'w')
 		json.dump(srv_qoe_tr, outfile, sort_keys = True, indent = 4, ensure_ascii = False)
-	except IOError as e:
+	except IOError:
 		print "Failed to write file: ", srv_qoe_tr_filename
 	
 	shutil.rmtree('./tmp')

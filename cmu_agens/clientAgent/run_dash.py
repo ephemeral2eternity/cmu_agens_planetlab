@@ -75,7 +75,7 @@ pingFile = "./data/" + client + "_PING.json"
 try:
 	outfile = open(pingFile, 'w')
 	json.dump(cache_agent_rtts, outfile, sort_keys = True, indent = 4, ensure_ascii=False)
-except IOError as e:
+except IOError:
 	print "Failed to write file ", pingFile
 
 cache_agent = attach_cache_agent(cache_agent_rtts)
@@ -96,7 +96,7 @@ for i in range(1, expNum + 1):
 	try:
 		cFile = open(candidatesFile, 'w')
 		json.dump(candidates, cFile, sort_keys = True, indent = 4, ensure_ascii = False)
-	except IOError as e:
+	except IOError:
 		print "Failed to write file ", cFile
 
 	print "Selected candidate servers for ", clientID, " are :"

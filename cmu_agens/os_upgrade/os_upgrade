@@ -1,0 +1,11 @@
+#!/bin/sh
+
+os_version=`cat /etc/redhat-release`
+echo "$os_version"
+
+if [ $os_version ?? '14' ]
+then
+	echo "Current OS Version: $os_version. OS does not need to be upgraded!"
+else
+	echo "Current OS Version: $os_version. OS needs to be upgraded!"
+fi
