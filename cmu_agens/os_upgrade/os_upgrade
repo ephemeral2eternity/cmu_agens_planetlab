@@ -3,9 +3,114 @@
 os_version=`cat /etc/redhat-release`
 echo "$os_version"
 
-if [ $os_version ?? '14' ]
-then
-	echo "Current OS Version: $os_version. OS does not need to be upgraded!"
-else
-	echo "Current OS Version: $os_version. OS needs to be upgraded!"
-fi
+function upgrade_os_8 {
+	echo "=================== Upgrading from Fedora release 8 (WereWolf) to Fedora release 9 (Sulphur) Now! ====================="
+	rpm -Uvh http://dl.fedoraproject.org/pub/archive/fedora/linux/updates/9/i386.newkey/fedora-release-notes-9.0.2-1.noarch.rpm
+	rpm -Uvh http://dl.fedoraproject.org/pub/archive/fedora/linux/updates/9/i386.newkey/fedora-release-9-5.transition.noarch.rpm
+	yum -y upgrade
+	local upgraded_version=`cat /etc/redhat-release`
+	echo "$upgraded_version"
+}
+
+function upgrade_os_9 {
+	echo "=================== Upgrading from Fedora release 9 (Sulphur) to Fedora release 10 (Cambridge) Now! ====================="
+	rpm -Uvh http://dl.fedoraproject.org/pub/archive/fedora/linux/releases/10/Fedora/i386/os/Packages/fedora-release-notes-10.0.0-1.noarch.rpm
+	rpm -Uvh http://dl.fedoraproject.org/pub/archive/fedora/linux/releases/10/Fedora/i386/os/Packages/fedora-release-10-1.noarch.rpm
+	local upgraded_version=`cat /etc/redhat-release`
+	echo "$upgraded_version"
+}
+
+function upgrade_os_10 {
+	echo "=================== Upgrading from Fedora release 10 (Cambridge) to Fedora release 11 (Leonidas) Now! ====================="
+	yum -y install yum-utils
+	/usr/sbin/yum-complete-transaction -y
+	yum -y upgrade
+	#local file_exist = `[ -f /etc/sysconfig/kernel ] && echo "Found" || echo "Not Found"`
+	#if [$local_file_exist ?? 'Not']
+	#then
+	#	touch /etc/sysconfig/kernel
+	#fi
+	#echo -e "DEFAULTKERNEL=kernel-PAE" >> /etc/sysconfig/kernel
+	yum -y install kernel-PAE
+	yum clean all
+	yum -y upgrade
+	rpm -Uvh http://dl.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/i386/os/Packages/desktop-file-utils-0.15-7.fc11.i586.rpm
+	rpm -Uvh http://dl.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/i386/os/Packages/xdg-utils-1.0.2-8.20081121cvs.fc11.noarch.rpm
+	rpm -Uvh http://dl.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/i386/os/Packages/fedora-release-notes-11.0.0-2.fc11.noarch.rpm
+	rpm -Uvh http://dl.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/i386/os/Packages/fedora-release-11-1.noarch.rpm
+	yum -y upgrade
+	local upgraded_version=`cat /etc/redhat-release`
+	echo "$upgraded_version"
+}
+
+function upgrade_os_11 {
+	echo "=================== Upgrading from Fedora release 11 (Leonidas) to Fedora release 12 (Constantine) Now! ====================="
+	rpm -Uvh http://dl.fedoraproject.org/pub/archive/fedora/linux/releases/12/Fedora/i386/os/Packages/fedora-release-notes-12.0.0-4.fc12.noarch.rpm
+	rpm -Uvh http://dl.fedoraproject.org/pub/archive/fedora/linux/releases/12/Fedora/i386/os/Packages/fedora-release-12-1.noarch.rpm
+	yum clean all
+	yum -y upgrade
+	local upgraded_version=`cat /etc/redhat-release`
+	echo "$upgraded_version"
+}
+
+function upgrade_os_12 {
+	echo "=================== Upgrading from Fedora release 12 (Constantine) to Fedora release 13 (Goddard) Now! ====================="
+	rpm -Uvh http://dl.fedoraproject.org/pub/archive/fedora/linux/releases/13/Fedora/i386/os/Packages/fedora-release-notes-13-3.fc13.noarch.rpm
+	rpm -Uvh http://dl.fedoraproject.org/pub/archive/fedora/linux/releases/13/Fedora/i386/os/Packages/fedora-release-13-1.noarch.rpm	
+	yum clean all
+	yum -y upgrade
+	local upgraded_version=`cat /etc/redhat-release`
+	echo "$upgraded_version"
+}
+
+function upgrade_os_13 {
+	echo "=================== Upgrading from Fedora release 13 (Goddard) to Fedora release 14 (Laughlin) Now! ====================="
+	rpm -Uvh http://dl.fedoraproject.org/pub/archive/fedora/linux/releases/14/Fedora/i386/os/Packages/fedora-release-notes-14.0.3-1.fc14.noarch.rpm
+	rpm -Uvh http://dl.fedoraproject.org/pub/archive/fedora/linux/releases/14/Fedora/i386/os/Packages/fedora-release-14-1.noarch.rpm
+	yum clean all
+	cp ~/os_upgrade/fedora.repo /etc/yum.repos.d/
+	cp ~/os_upgrade/fedora-updates.repo /etc/yum.repos.d/
+	yum -y upgrade --skip-broken
+	local upgraded_version=`cat /etc/redhat-release`
+	echo "$upgraded_version"
+}
+
+while [[ ! ("$os_version" =~ "14")]]
+do
+	if [[ "$os_version" =~ "8" ]]
+	then
+		echo "Current OS Version: $os_version. OS needs to be upgraded!"
+		upgrade_os_8
+		os_version=`cat /etc/redhat-release`
+	elif [[ "$os_version" =~ "9" ]]
+	then
+		echo "Current OS Version: $os_version. OS needs to be upgraded!"
+		upgrade_os_9
+		os_version=`cat /etc/redhat-release`
+	elif [[ "$os_version" =~ "10" ]]
+	then
+		echo "Current OS Version: $os_version. OS needs to be upgraded!"
+		upgrade_os_10
+		os_version=`cat /etc/redhat-release`
+	elif [[ "$os_version" =~ "11" ]]
+	then
+		echo "Current OS Version: $os_version. OS needs to be upgraded!"
+		upgrade_os_11
+		os_version=`cat /etc/redhat-release`
+	elif [[ "$os_version" =~ "12" ]]
+	then
+		echo "Current OS Version: $os_version. OS needs to be upgraded!"
+		upgrade_os_12
+		os_version=`cat /etc/redhat-release`
+	elif [[ "$os_version" =~ "13" ]]
+	then
+		echo "Current OS Version: $os_version. OS needs to be upgraded!"
+		upgrade_os_13
+		os_version=`cat /etc/redhat-release`
+	else
+		echo "Error: Unknown OS Version: $os_version!"
+		break
+	fi
+done
+
+echo "Current OS Version: $os_version. OS does not need upgrades!"
