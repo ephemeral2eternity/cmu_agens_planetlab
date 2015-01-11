@@ -16,7 +16,7 @@ def getMyName():
 ## Query the list of all cache agents via our PlanetLab node monitor server.
 def get_cache_agents():
 	plsrv = '146.148.66.148'
-	url = "http://%s:8000/overlay/"%plsrv
+	url = "http://%s:8000/overlay/node/"%plsrv
 	req = urllib2.Request(url)
 	cache_agents = {}
 	try:
