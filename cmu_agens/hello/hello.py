@@ -3,7 +3,7 @@
 ### Hello World demonstration script
 update_site_url = "http://146.148.66.148:8000/hello/site/"
 update_node_url = "http://146.148.66.148:8000/hello/node/"
-import sys, urllib, xmlrpclib, socket, subprocess
+import sys, urllib, xmlrpclib, socket, subprocess, platform
 
 # PlanetLab PLCAPI url
 plc_host = 'www.planet-lab.org'
@@ -30,10 +30,11 @@ urllib.urlopen(update_site_url, site_info)
 ## Get OS version
 p = subprocess.Popen(["cat", "/etc/redhat-release"], stdout=subprocess.PIPE)
 os_version = p.stdout.read()
+print os_version
 
 ## Get Python Version
-pp = subprocess.Popen(["python", "-V"], stdout=subprocess.PIPE)
-python_version = pp.stdout.read()
+python_version = "python " + platform.python_version()
+print python_version
 
 node_info = {}
 node_info['node_id'] = query[0]['node_id']

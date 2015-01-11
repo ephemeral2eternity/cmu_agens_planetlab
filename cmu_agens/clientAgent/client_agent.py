@@ -230,7 +230,7 @@ def dash(cache_agent, server_addrs, selected_srv, videoName, clientID):
                 chunk_download += 1
                 chunkNext += 1
 
-        trFileName = "./data/" + clientID + "_" + videoName + ".json"
+        trFileName = "~/data/" + clientID + "_" + videoName + ".json"
         try:
 		outfile = open(trFileName, 'w')
                 json.dump(client_tr, outfile, sort_keys = True, indent = 4, ensure_ascii=False)
@@ -372,7 +372,7 @@ def qas_dash(cache_agent, server_addrs, candidates, videoName, clientID, alpha):
                 chunkNext += 1
 
 	## Write trace files out and upload to google cloud storage
-        trFileName = "./data/" + clientID + "_" + videoName + ".json"
+        trFileName = "~/data/" + clientID + "_" + videoName + ".json"
         # with open(trFileName, 'w') as outfile:
         #        json.dump(client_tr, outfile, sort_keys = True, indent = 4, ensure_ascii=False)
 	try:
@@ -381,7 +381,7 @@ def qas_dash(cache_agent, server_addrs, candidates, videoName, clientID, alpha):
 	except IOError:
 		print "Failed to write file: ", trFileName
 
-	srv_qoe_tr_filename = "./data/" + clientID + "_" + videoName + "_srvqoe.json"
+	srv_qoe_tr_filename = "~/data/" + clientID + "_" + videoName + "_srvqoe.json"
 	try:
 		outfile = open(srv_qoe_tr_filename, 'w')
 		json.dump(srv_qoe_tr, outfile, sort_keys=True, indent=4, ensure_ascii=False)
@@ -535,13 +535,13 @@ def cqas_dash(cache_agent, server_addrs, candidates, videoName, clientID, alpha)
 
 	# trFileName = "./data/" + clientID + "_" + videoName + "_" + str(time.time()) + ".json"
 	## Writer out traces files and upload to google cloud
-	trFileName = "./data/" + clientID + "_" + videoName + ".json"
+	trFileName = "~/data/" + clientID + "_" + videoName + ".json"
 	try:
 		outfile = open(trFileName, 'w')
 		json.dump(client_tr, outfile, sort_keys = True, indent = 4, ensure_ascii=False)
 	except IOError:
 		print "Failed to write file: ", trFileName
-	srv_qoe_tr_filename = "./data/" + clientID + "_" + videoName + "_srvqoe.json"
+	srv_qoe_tr_filename = "~/data/" + clientID + "_" + videoName + "_srvqoe.json"
 	try:
 		outfile =  open(srv_qoe_tr_filename, 'w')
 		json.dump(srv_qoe_tr, outfile, sort_keys = True, indent = 4, ensure_ascii = False)
