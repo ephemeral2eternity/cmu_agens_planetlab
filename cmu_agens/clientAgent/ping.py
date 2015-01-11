@@ -52,7 +52,10 @@ def getRTT(ip, count):
 
 def getMnRTT(ip, count):
 	rttList = getRTT(ip, count)
-	mnRTT = sum(rttList) / float(len(rttList))
+	if len(rttList) > 0:
+		mnRTT = sum(rttList) / float(len(rttList))
+	else:
+		mnRtt = 500.0
 	return mnRTT
 
 def parsePingRst(pingString, count):
@@ -64,7 +67,7 @@ def parsePingRst(pingString, count):
 		if "time=" in curline:
 			curDataStr = curline.split(':', 2)[1]
 			curData = extract_number(curDataStr)
-		rtts.append(float(curData[-1]))
+			rtts.append(float(curData[-1]))
 	return rtts
 
 # if getRTT(server_ip, 5):
