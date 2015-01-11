@@ -61,8 +61,9 @@ def parsePingRst(pingString, count):
 	for i in range(1, count+1):
 		curline = lines[i]
 		# print curline
-		curDataStr = curline.split(':', 2)[1]
-		curData = extract_number(curDataStr)
+		if "time=" in curline:
+			curDataStr = curline.split(':', 2)[1]
+			curData = extract_number(curDataStr)
 		rtts.append(float(curData[-1]))
 	return rtts
 
