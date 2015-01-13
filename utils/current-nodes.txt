@@ -22,7 +22,6 @@ planetlab-03.cs.princeton.edu
 planetlab-13.e5.ijs.si
 planetlab-coffee.ait.ie
 ple2.tu.koszalin.pl
-planetlab-3.cs.ucy.ac.cy
 planetlab1.sics.se
 planet-lab4.uba.ar
 aguila2.lsi.upc.edu
@@ -42,6 +41,7 @@ kc-sce-plab2.umkc.edu
 planetlab-3.cmcl.cs.cmu.edu
 plonk.cs.uwaterloo.ca
 planetlab2.cs.purdue.edu
+planetlab2.csie.nuk.edu.tw
 planetlab2.koganei.itrc.net
 planetlab-1.scie.uestc.edu.cn
 planet1.pnl.nitech.ac.jp
@@ -52,9 +52,12 @@ planetlab2.informatik.uni-erlangen.de
 planetlab1.aut.ac.nz
 planetlab1.cnds.jhu.edu
 planet3.cc.gt.atl.ga.us
+host2.planetlab.informatik.tu-darmstadt.de
 planetlab-n1.wand.net.nz
+host4.planetlab.informatik.tu-darmstadt.de
 planetlab2.comp.nus.edu.sg
 75-130-96-13.static.oxfr.ma.charter.com
+planet01.hhi.fraunhofer.de
 planetlab3.cesnet.cz
 planetlab1.exp-math.uni-essen.de
 planetlab1.dojima.wide.ad.jp
@@ -85,7 +88,6 @@ planetlab-2.fhi-fokus.de
 peeramidion.irisa.fr
 planetlab2.netlab.uky.edu
 planetlab-um00.di.uminho.pt
-iason.inf.uth.gr
 planetlab2.tau.ac.il
 dannan.disy.inf.uni-konstanz.de
 147-179.surfsnel.dsl.internl.net
@@ -159,7 +161,6 @@ planetlab6.goto.info.waseda.ac.jp
 host147-82-static.93-94-b.business.telecomitalia.it
 planetlab-1.cs.ucy.ac.cy
 planetlab2.informatik.uni-goettingen.de
-planet01.hhi.fraunhofer.de
 planetlab-1.ing.unimo.it
 planetlab2.cs.unc.edu
 orval.infonet.fundp.ac.be
@@ -214,7 +215,6 @@ pli1-pa-2.hpl.hp.com
 planetlab02.tkn.tu-berlin.de
 planetlab1.urv.cat
 planetlab1.tlm.unavarra.es
-planetlab2.tlm.unavarra.es
 planet1.elte.hu
 planetlab1.tsuniv.edu
 cs-planetlab4.cs.surrey.sfu.ca
@@ -226,7 +226,6 @@ planetlab1.cti.espol.edu.ec
 planet-lab-node1.netgroup.uniroma2.it
 planetlab1.ucsd.edu
 planetlab4.mini.pw.edu.pl
-ricepl-4.cs.rice.edu
 planetlab-3.imperial.ac.uk
 planetlab2.cqupt.edu.cn
 evghu9.colbud.hu
@@ -253,7 +252,6 @@ roam1.cs.ou.edu
 stella.planetlab.ntua.gr
 planetlab-2.research.netlab.hut.fi
 planetlab1.pjwstk.edu.pl
-planetlab3.cs.st-andrews.ac.uk
 onelab6.iet.unipi.it
 chronos.disy.inf.uni-konstanz.de
 planetlab2.cs.aueb.gr
@@ -265,6 +263,7 @@ planetlab2.virtues.fi
 pluto.cs.brown.edu
 plab1.create-net.org
 pl1.eecs.utk.edu
+planetlab2.cnis.nyit.edu
 pl2.cs.yale.edu
 planetlab2.temple.edu
 planetlab1.science.unitn.it
@@ -306,9 +305,6 @@ planet2.zib.de
 ops.ii.uam.es
 planetlab1.nrl.eecs.qmul.ac.uk
 planetlab2.nrl.eecs.qmul.ac.uk
-planetlab1.ie.cuhk.edu.hk
-planetlab2.cs.du.edu
-planetlab-2.di.fc.ul.pt
 planetlab4.cs.uoregon.edu
 netapp7.cs.kookmin.ac.kr
 planetlab-02.vt.nodes.planet-lab.org
@@ -427,7 +423,6 @@ planetlab2.cs.colorado.edu
 planetlab-node-01.ucd.ie
 planetlab2.ics.forth.gr
 planetlab2.exp-math.uni-essen.de
-planetlab-1.di.fc.ul.pt
 planet1.colbud.hu
 rochefort.infonet.fundp.ac.be
 onelab1.info.ucl.ac.be
@@ -437,7 +432,6 @@ planetlab1.mta.ac.il
 planetlab-2.tagus.ist.utl.pt
 ple1.ait.ac.th
 planetlab3.bupt.edu.cn
-medea.inf.uth.gr
 onelab2.info.ucl.ac.be
 planetlab1.ecs.vuw.ac.nz
 righthand.eecs.harvard.edu
@@ -466,6 +460,7 @@ planetlab-1.ssvl.kth.se
 pl2.eng.monash.edu.au
 planetlab1.cqupt.edu.cn
 pl2.cs.montana.edu
+planetlab1.cnis.nyit.edu
 pl2.sos.info.hiroshima-cu.ac.jp
 planetlab1.uta.edu
 planetlab1.sfc.wide.ad.jp
@@ -489,6 +484,8 @@ pl2.6test.edu.cn
 planetlab2.jcp-consult.net
 planetlab-2.cs.colostate.edu
 planetlab1.utdallas.edu
+planetlab1.ustc.edu.cn
+planetlab1.hiit.fi
 aladdin.planetlab.extranet.uni-passau.de
 roti.mimuw.edu.pl
 planetlab1.csee.usf.edu

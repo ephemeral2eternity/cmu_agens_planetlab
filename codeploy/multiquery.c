@@ -206,7 +206,7 @@ BuildCommand(char *nodeName, int argc, char *argv[])
   }
   else {
     sprintf(command, "%s -n -T %s%s '", whichSSH, envSliceName, nodeName);
-    // sprintf(command, "%s -n -t %s%s '", whichSSH, envSliceName, nodeName);
+    // sprintf(command, "%s -n -t -t %s%s '", whichSSH, envSliceName, nodeName);
 
     for (i = 1; i < argc; i++) {
       sprintf(&command[strlen(command)], "%s%s", argv[i],

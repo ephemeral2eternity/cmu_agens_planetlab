@@ -6,7 +6,7 @@ import json
 import operator
 import urllib2, socket
 from ping import *
-from dash_agent import *
+from qas_dash_agent import *
 
 ## Get Client Agent Name
 def getMyName():
@@ -71,9 +71,13 @@ if is_empty(cache_agents):
 cache_agent_rtts = pingSrvs(cache_agents)
 
 # Upload the ping RTTs to google cloud storage
-pingFile = "./data/" + client + "_PING.json"
+pingFile = "./data/" + client + "_QAS_PING.json"
+#try:
 with open(pingFile, 'w') as outfile:
+	# outfile = open(pingFile, 'w')
 	json.dump(cache_agent_rtts, outfile, sort_keys = True, indent = 4, ensure_ascii=False)
+#except IOError:
+#	print "Failed to write file ", pingFile
 
 cache_agent = attach_cache_agent(cache_agent_rtts)
 print "=============== Cache Agent for Client: ", client, " is ", cache_agent, " ======================"
@@ -89,12 +93,17 @@ for i in range(1, expNum + 1):
 	clientID = client + "_" + expID
 
 	## Save candidate servers for the experiment
-	candidatesFile = "./data/" + clientID + "_candidates.json"
-	with open(candidatesFile, 'w') as cFile:
-		json.dump(candidates, cFile, sort_keys = True, indent = 4, ensure_ascii = False)
+	candidatesFile = "./data/" + clientID + "_QAS_CANDS.json"
+	#try:
+	#	cFile = open(candidatesFile, 'w')
+	#	json.dump(candidates, cFile, sort_keys = True, indent = 4, ensure_ascii = False)
+	#except IOError:
+	#	print "Failed to write file ", candidatesFile
+	with open(candidatesFile, 'w') as outfile:
+		json.dump(candidates, outfile, sort_keys = True, indent = 4, ensure_ascii = False)
 
 	print "Selected candidate servers for ", clientID, " are :"
 	for srv in candidate_srvs:
 		print srv
-	dash_agent(clientID, cache_agent, candidates, cache_agent_rtts, port, video)
+	qas_dash_agent(clientID, cache_agent, candidates, cache_agents, port, video)
 	waitRandom(10, 1000)
