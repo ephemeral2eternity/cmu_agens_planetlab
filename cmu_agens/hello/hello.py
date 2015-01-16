@@ -43,6 +43,7 @@ node_info['hostname'] = query[0]['hostname']
 node_info['node_type'] = query[0]['node_type']
 node_info['node_os'] = os_version
 node_info['node_python'] = python_version
+node_info['node_ip'] = socket.gethostbyname(node_info['hostname'])
 node_info = urllib.urlencode(node_info)
 print node_info
 urllib.urlopen(update_node_url, node_info)
