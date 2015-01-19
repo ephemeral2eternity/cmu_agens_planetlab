@@ -14,7 +14,7 @@ def qas_dash_agent(clientID, cache_agent, candidates, cache_agents, port, videoN
 		server_addrs[srv] = server_ips[srv] + ":" + str(port)
 
 	# Perform QAS DASH streaming
-	qasdashID = clientID + '_QAS_DASH'
+	qasdashID = clientID + '_QAS'
 	print "=========== QAS-DASH Streaming for " + qasdashID + "  ============="
 	print "########## The cache agent is : " + cache_agent + ". ##############"
 	alpha = 0.5
