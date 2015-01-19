@@ -86,6 +86,7 @@ def query_QoE(cache_agent):
 	res_headers = res.info()
 	# qoe_vector = json.loads(r.headers['Params'])
 	qoe_vector = json.loads(res_headers['Params'])
+	res.close()
 	return qoe_vector
 
 # ================================================================================
@@ -120,6 +121,7 @@ def update_srv_QoEs(cache_agent, server_qoes):
 	res = urllib2.urlopen(req)
 	res_headers = res.info()
 	qoe_vector = json.loads(res_headers['Params'])
+	res.close()
 	return qoe_vector
 
 # ================================================================================

@@ -78,7 +78,7 @@ with open(pingFile, 'w') as outfile:
 cache_agent = attach_cache_agent(cache_agent_rtts)
 print "=============== Cache Agent for Client: ", client, " is ", cache_agent, " ======================"
 
-expNum = 10
+expNum = 1
 
 for i in range(1, expNum + 1):
 	expID = 'exp' + str(i)
