@@ -71,7 +71,7 @@ if is_empty(cache_agents):
 cache_agent_rtts = pingSrvs(cache_agents)
 
 # Upload the ping RTTs to google cloud storage
-pingFile = "./data/" + client + "_PING.json"
+pingFile = "./data/" + client + "_DASH_PING.json"
 with open(pingFile, 'w') as outfile:
 	json.dump(cache_agent_rtts, outfile, sort_keys = True, indent = 4, ensure_ascii=False)
 
@@ -89,7 +89,7 @@ for i in range(1, expNum + 1):
 	clientID = client + "_" + expID
 
 	## Save candidate servers for the experiment
-	candidatesFile = "./data/" + clientID + "_candidates.json"
+	candidatesFile = "./data/" + clientID + "_DASH_CANDS.json"
 	with open(candidatesFile, 'w') as cFile:
 		json.dump(candidates, cFile, sort_keys = True, indent = 4, ensure_ascii = False)
 

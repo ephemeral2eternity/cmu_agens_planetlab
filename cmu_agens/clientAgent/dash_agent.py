@@ -8,20 +8,10 @@ def dash_agent(clientID, cache_agent, candidates, cache_agent_rtts, port, videoN
 	server_ips = candidates
 	client = clientID.split("_")[0]
 
-	# Get server addresses for candidate servers
-	#server_addrs = {}
-	#for srv in server_ips.keys():
-	#	server_addrs[srv] = server_ips[srv] + ":" + str(port)
-
 	# Get RTTs from candidate servers
 	candidate_rtts = {}
 	for srv in candidates:
 		candidate_rtts[srv] = cache_agent_rtts[srv]
-
-	## Upload the ping RTTs to google cloud storage
-	#pingFile = "./data/" + clientID + "-PING.json"
-	#with open(pingFile, 'w') as outfile:
-	#	json.dump(candidate_rtts, outfile, sort_keys = True, indent = 4, ensure_ascii=False)
 
 	# Use the closest server as selected server
 	sorted_rtts = sorted(candidate_rtts.items(), key=operator.itemgetter(1))
