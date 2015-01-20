@@ -17,6 +17,7 @@ def mpd_parser(server_address, videoName):
 	mpdFile = 'stream.mpd'
 
 	url = 'http://' + server_address + '/' + videoName + '/' + mpdFile
+	print "MPD URL: ", url
 	#r = requests.get(url)
 	r = urllib2.Request(url)
 	f = urllib2.urlopen(r)
