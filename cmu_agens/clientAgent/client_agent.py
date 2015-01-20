@@ -80,8 +80,8 @@ def averageQoE(client_trace, curSrv):
 # @input : cache_agent --- The cache agent the user is closest to
 # @return: qoe_vector --- QoEs of all servers observed from cache_agent
 # ================================================================================
-def query_QoE(cache_agent):
-	req = urllib2.Request("http://" + cache_agent + "/QoE?query")
+def query_QoE(cache_agent, port):
+	req = urllib2.Request("http://" + cache_agent + ":" + str(port) + "/QoE?query")
 	res = urllib2.urlopen(req)
 	res_headers = res.info()
 	# qoe_vector = json.loads(r.headers['Params'])
@@ -111,8 +111,8 @@ def query_QoE(cache_agent):
 #	   server_name --- the name of the server the user is downloading chunks from
 # @return: qoe_vector --- QoEs of all servers observed from cache_agent
 # ================================================================================
-def update_srv_QoEs(cache_agent, server_qoes):
-	request_str = "http://" + cache_agent + "/QoE?update"
+def update_srv_QoEs(cache_agent, port, server_qoes):
+	request_str = "http://" + cache_agent + ":" + str(port) + "/QoE?update"
 	for srv in server_qoes.keys():
 		request_str = request_str + "&" + srv + "=" + str(server_qoes[srv])
 	#r = requests.get(request_str) 
@@ -150,7 +150,7 @@ def get_server_QoE(qoe_vector, server_addrs, candidates):
 #	   videoName --- The name of the video the user is requesting
 #	   clientID --- The ID of client.
 # ================================================================================
-def dash(cache_agent, server_addrs, selected_srv, videoName, clientID):
+def dash(cache_agent, server_addrs, selected_srv, port, videoName, clientID):
 	# Initialize server addresses
 	srv_ip = server_addrs[selected_srv]
 
@@ -250,7 +250,7 @@ def dash(cache_agent, server_addrs, selected_srv, videoName, clientID):
 #	   clientID --- The ID of client.
 #	   alpha --- The forgetting factor of local QoE evaluation
 # ================================================================================
-def qas_dash(cache_agent, server_addrs, candidates, videoName, clientID, alpha):
+def qas_dash(cache_agent, server_addrs, candidates, port, videoName, clientID, alpha):
 	# Initialize servers' qoe
         cache_agent_ip = server_addrs[cache_agent]
 	server_qoes = {}
@@ -393,10 +393,10 @@ def qas_dash(cache_agent, server_addrs, candidates, videoName, clientID, alpha):
 #	   videoName --- The name of the video the user is requesting
 #	   clientID --- The ID of client.
 # ================================================================================
-def cqas_dash(cache_agent, server_addrs, candidates, videoName, clientID, alpha):
+def cqas_dash(cache_agent, server_addrs, candidates, port, videoName, clientID, alpha):
 	# Initialize servers' qoe
 	cache_agent_ip = server_addrs[cache_agent]
-	qoe_vector = query_QoE(cache_agent_ip)
+	qoe_vector = query_QoE(cache_agent_ip, port)
 	server_qoes = get_server_QoE(qoe_vector, server_addrs, candidates)
 
 	# Selecting a server with maximum QoE
@@ -502,7 +502,7 @@ def cqas_dash(cache_agent, server_addrs, candidates, videoName, clientID, alpha)
 		if chunkNext%10 == 0 and chunkNext > 4:
 			# mnQoE = averageQoE(client_tr, selected_srv)
 			## qoe_vector = update_QoE(cache_agent_ip, mnQoE, selected_srv)
-			qoe_vector = update_srv_QoEs(cache_agent_ip, server_qoes)
+			qoe_vector = update_srv_QoEs(cache_agent_ip, port, server_qoes)
 			server_qoes = get_server_QoE(qoe_vector, server_addrs, candidates)
 			print "[CQAS-DASH] Received Server QoE is :" + json.dumps(server_qoes)
 			print "[CQAS-DASH] Selected server for next 10 chunks is :" + selected_srv

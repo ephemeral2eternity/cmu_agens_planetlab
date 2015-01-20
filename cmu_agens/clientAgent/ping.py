@@ -35,7 +35,7 @@ def getRTT(ip, count):
 	'''
 	Pings a host and return True if it is available, False if not.
 	'''
-	cmd = ['ping', '-c', str(count), ip]
+	cmd = ['ping', '-c', str(count), '-i', '5', ip]
 	process = Popen(cmd, stdout=PIPE, stderr=PIPE)
 	stdout, stderr = process.communicate()
 	rttList = parsePingRst(stdout, count)
@@ -55,7 +55,7 @@ def getMnRTT(ip, count):
 	if len(rttList) > 0:
 		mnRTT = sum(rttList) / float(len(rttList))
 	else:
-		mnRtt = 500.0
+		mnRTT = 500.0
 	return mnRTT
 
 def parsePingRst(pingString, count):

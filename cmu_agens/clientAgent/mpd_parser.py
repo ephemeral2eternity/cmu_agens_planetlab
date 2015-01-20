@@ -56,5 +56,6 @@ def mpd_parser(server_address, videoName):
 
 	# for item in representations:
 	#	print item
+	f.close()
 
 	return {'representations' : representations, 'mediaDuration':mediaLength, 'minBufferTime': minBufferTime}

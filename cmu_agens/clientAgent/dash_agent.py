@@ -9,9 +9,9 @@ def dash_agent(clientID, cache_agent, candidates, cache_agent_rtts, port, videoN
 	client = clientID.split("_")[0]
 
 	# Get server addresses for candidate servers
-	server_addrs = {}
-	for srv in server_ips.keys():
-		server_addrs[srv] = server_ips[srv] + ":" + str(port)
+	#server_addrs = {}
+	#for srv in server_ips.keys():
+	#	server_addrs[srv] = server_ips[srv] + ":" + str(port)
 
 	# Get RTTs from candidate servers
 	candidate_rtts = {}
@@ -32,4 +32,4 @@ def dash_agent(clientID, cache_agent, candidates, cache_agent_rtts, port, videoN
 	print "=========== DASH Streaming for " + dashID + "  ============="
 	print "########## The cache agent is : " + cache_agent + "##############"
 	print "########## The default selected server is : " + selected_srv + " ##############"
-	dash(cache_agent, server_addrs, selected_srv, videoName, dashID)
+	dash(cache_agent, server_ips, selected_srv, port, videoName, dashID)
