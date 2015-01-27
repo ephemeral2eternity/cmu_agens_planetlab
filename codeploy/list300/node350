@@ -33,6 +33,7 @@ planetlab2.koganei.itrc.net
 planetlab-1.scie.uestc.edu.cn
 planet1.pnl.nitech.ac.jp
 planetlab1.koganei.itrc.net
+planetlab2.cs.umass.edu
 planetlab1.cs.uiuc.edu
 ricepl-2.cs.rice.edu
 planetlab2.informatik.uni-erlangen.de
@@ -62,6 +63,7 @@ planetlab3.net.in.tum.de
 planetvs2.informatik.uni-stuttgart.de
 planetlab-2.scie.uestc.edu.cn
 pli1-pa-3.hpl.hp.com
+planetlab1.cse.msu.edu
 planetlab1.tmit.bme.hu
 planetlab-2.fhi-fokus.de
 peeramidion.irisa.fr
@@ -203,7 +205,6 @@ planetlab3.xeno.cl.cam.ac.uk
 ops.ii.uam.es
 planetlab1.nrl.eecs.qmul.ac.uk
 planetlab2.nrl.eecs.qmul.ac.uk
-planetlab1.ie.cuhk.edu.hk
 planetlab2.cs.du.edu
 planetlab4.cs.uoregon.edu
 netapp7.cs.kookmin.ac.kr
@@ -233,7 +234,6 @@ ple2.ipv6.lip6.fr
 ple4.ipv6.lip6.fr
 anateus.ipv6.lip6.fr
 pl1.cs.montana.edu
-openlab01.pl.sophia.inria.fr
 onelab10.pl.sophia.inria.fr
 planetlab5.csee.usf.edu
 planetlab-04.vt.nodes.planet-lab.org
