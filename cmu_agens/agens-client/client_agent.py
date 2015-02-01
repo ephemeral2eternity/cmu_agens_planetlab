@@ -201,6 +201,7 @@ def simple_dash(videoName, clientID, srv_ip):
                 loadTS = time.time();
                 vchunk_sz = download_chunk(srv_ip, videoName, vidChunk)
                 curTS = time.time()
+		rsp_time = curTS - loadTS
                 est_bw = vchunk_sz * 8 / (curTS - loadTS)
                 time_elapsed = curTS - preTS
                 # print "[AGENP] Time Elapsed when downloading :" + str(time_elapsed)
@@ -218,7 +219,7 @@ def simple_dash(videoName, clientID, srv_ip):
                 # print "[AGENP] Current QoE for chunk #" + str(chunkNext) + " is " + str(chunk_QoE)
                 print "|---", str(int(curTS)), "---|---", str(chunkNext), "---|---", nextRep, "---|---", str(chunk_QoE), "---|---", str(curBuffer), "---|---", str(freezingTime), "---|"
 
-                client_tr[chunkNext] = dict(TS=int(curTS), Representation=nextRep, QoE=chunk_QoE, Buffer=curBuffer, Freezing=freezingTime)
+                client_tr[chunkNext] = dict(TS=int(curTS), Representation=nextRep, QoE=chunk_QoE, Buffer=curBuffer, Freezing=freezingTime, Response=rsp_time)
 
                 # Update iteration information
                 curBuffer = curBuffer + chunkLen
@@ -298,6 +299,7 @@ def dash(cache_agent, server_addrs, selected_srv, port, videoName, clientID):
                 loadTS = time.time();
                 vchunk_sz = download_chunk(srv_ip, videoName, vidChunk)
                 curTS = time.time()
+		rsp_time = loadTS - curTS
                 est_bw = vchunk_sz * 8 / (curTS - loadTS)
                 time_elapsed = curTS - preTS
                 # print "[AGENP] Time Elapsed when downloading :" + str(time_elapsed)
@@ -315,7 +317,7 @@ def dash(cache_agent, server_addrs, selected_srv, port, videoName, clientID):
                 # print "[AGENP] Current QoE for chunk #" + str(chunkNext) + " is " + str(chunk_QoE)
                 print "|---", str(int(curTS)), "---|---", str(chunkNext), "---|---", nextRep, "---|---", str(chunk_QoE), "---|---", str(curBuffer), "---|---", str(freezingTime), "---|---", selected_srv, "---|"
 
-                client_tr[chunkNext] = dict(TS=int(curTS), Representation=nextRep, QoE=chunk_QoE, Buffer=curBuffer, Freezing=freezingTime, Server=selected_srv)
+                client_tr[chunkNext] = dict(TS=int(curTS), Representation=nextRep, QoE=chunk_QoE, Buffer=curBuffer, Freezing=freezingTime, Server=selected_srv, Response=rsp_time)
 
                 # Update iteration information
                 curBuffer = curBuffer + chunkLen
@@ -417,6 +419,7 @@ def qas_dash(cache_agent, server_addrs, candidates, port, videoName, clientID, a
                 loadTS = time.time();
                 vchunk_sz = download_chunk(selected_srv_ip, videoName, vidChunk)
                 curTS = time.time()
+		rsp_time = loadTS - curTS
                 est_bw = vchunk_sz * 8 / (curTS - loadTS)
                 time_elapsed = curTS - preTS
                 # print "[AGENP] Time Elapsed when downloading :" + str(time_elapsed)
@@ -438,7 +441,7 @@ def qas_dash(cache_agent, server_addrs, candidates, port, videoName, clientID, a
                 print "|---", str(int(curTS)),  "---|---", str(chunkNext), "---|---", nextRep, "---|---", str(chunk_QoE), "---|---", str(curBuffer), "---|---", str(freezingTime), "---|---", selected_srv, "---|"
 
 		# Write out traces
-                client_tr[chunkNext] = dict(TS=int(curTS), Representation=nextRep, QoE=chunk_QoE, Buffer=curBuffer, Freezing=freezingTime, Server=selected_srv)
+                client_tr[chunkNext] = dict(TS=int(curTS), Representation=nextRep, QoE=chunk_QoE, Buffer=curBuffer, Freezing=freezingTime, Server=selected_srv, Reponse=rsp_time)
 		# Assign values but not dictionary pointer
 		new_srv_qoes = {}
 		for c in candidates:
@@ -567,6 +570,7 @@ def cqas_dash(cache_agent, server_addrs, candidates, port, videoName, clientID, 
 		loadTS = time.time();
 		vchunk_sz = download_chunk(selected_srv_ip, videoName, vidChunk)
 		curTS = time.time()
+		rsp_time = loadTS - curTS
 		est_bw = vchunk_sz * 8 / (curTS - loadTS)
 		time_elapsed = curTS - preTS
 		if time_elapsed > curBuffer:
@@ -585,7 +589,7 @@ def cqas_dash(cache_agent, server_addrs, candidates, port, videoName, clientID, 
                 server_qoes[selected_srv] = server_qoes[selected_srv] * (1 - alpha) + alpha * chunk_QoE
 		print "|---", str(int(curTS)), "---|---", str(chunkNext), "---|---", nextRep, "---|---", str(chunk_QoE), "---|---", str(curBuffer), "---|---", str(freezingTime), "---|---", selected_srv, "---|"
 		
-		client_tr[chunkNext] = dict(TS=int(curTS), Representation=nextRep, QoE=chunk_QoE, Buffer=curBuffer, Freezing=freezingTime, Server=selected_srv)
+		client_tr[chunkNext] = dict(TS=int(curTS), Representation=nextRep, QoE=chunk_QoE, Buffer=curBuffer, Freezing=freezingTime, Server=selected_srv, Response=rsp_time)
 		srv_qoe_tr[chunkNext] = server_qoes
 
                 if chunk_QoE > 4.0:

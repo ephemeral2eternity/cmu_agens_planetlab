@@ -1,0 +1,5 @@
+30 1 1 2 * python ~/moncloud/
+30 1 1 2 * ./moncloud/monTR.sh
+30 2 1 2 * python ~/agens-client/run_exp1.py
+30 3 1 2 * python ~/agens-client/run_exp2.py
+30 4 1 2 * python ~/agens-client/run_exp3.py

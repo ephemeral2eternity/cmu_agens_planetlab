@@ -5,6 +5,8 @@ import sys
 import json
 import operator
 import urllib2, socket
+import glob
+import os
 from ping import *
 from client_agent import *
 
@@ -34,6 +36,23 @@ def get_cache_agents():
                 print "[Error-AGENP-Client] Failed to obtain avaialble cache agent list!"
         return cache_agents
 
+def read_latest_rtts():
+	cache_agent_rtts = {}
+	latestFile = max(glob.iglob('./log/*_PING.json'), key=os.path.getctime)
+	all_srvs_rtts = json.load(open(latestFile))
+	for key in all_srvs_rtts:
+		if "gc" in key:
+			cache_agent = key.replace("gc", "cache-")
+			cache_agent_rtts[cache_agent] = all_srvs_rtts[key]
+	return cache_agent_rtts
+
+## Get the closest cache agent to the client.
+def get_closest_cache(srvRtts):
+        sorted_srv_rtts = sorted(srvRtts.items(), key=operator.itemgetter(1))
+        cache_agent = sorted_srv_rtts[0][0]
+        return cache_agent
+
+
 port = 8615
 video = 'BBB'	
 client = getMyName()
@@ -43,16 +62,10 @@ waitRandom(1, 100)
 cache_agents = get_cache_agents()
 
 ## Read PING file for the current client
-cache_agent_rtts = json.load(open("./info/" + client + "_PING.json"))
+cache_agent_rtts = read_latest_rtts()
 
-## Read CLOSEST file for the current client
-closest = json.load(open("./info/" + client + "_CLOSEST.json"))
-
-print "=============== The closest server for Client: ", client, " is ", closest['Server'], " ======================"
-print "=============== The closest zone for Client: ", client, " is ", closest['Region'], " ======================"
-print "=============== The closest region for Client: ", client, " is ", closest['Zone'], " ======================"
-
-selected_srv_ip = cache_agents[closest['Server']]
+## Get the closest server for the current client
+selected_srv_ip = get_closest_cache(cache_agent_rtts)
 
 expID = 'exp1'
 clientID = client + '_' + expID
