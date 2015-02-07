@@ -7,13 +7,11 @@ import datetime
 import shutil
 import math
 import json
-# import requests
 import urllib2
 import random
 from operator import itemgetter
 from mpd_parser import *
 from download_chunk import *
-#from gcs_upload import *
 
 def findRep(sortedVidBWS, est_bw_val, bufferSz, minBufferSz):
 	for i in range(len(sortedVidBWS)):
@@ -84,24 +82,9 @@ def query_QoE(cache_agent, port):
 	req = urllib2.Request("http://" + cache_agent + ":" + str(port) + "/QoE?query")
 	res = urllib2.urlopen(req)
 	res_headers = res.info()
-	# qoe_vector = json.loads(r.headers['Params'])
 	qoe_vector = json.loads(res_headers['Params'])
 	res.close()
 	return qoe_vector
-
-# ================================================================================
-# Upload user experiences with a candidate server to cache agent
-# @input : cache_agent --- The cache agent the user is closest to
-#	   qoe --- User quality experiences with server denoted by server_name over
-#		   5 chunks
-#	   server_name --- the name of the server the user is downloading chunks from
-# @return: qoe_vector --- QoEs of all servers observed from cache_agent
-# ================================================================================
-# Function has been revised to update_srv_QoEs
-#def update_QoE(cache_agent, qoe, server_name):
-#	r = requests.get("http://" + cache_agent + "/QoE?update&" + "q=" + str(qoe) + "&s=" + server_name)
-#	qoe_vector = json.loads(r.headers['Params'])
-#	return qoe_vector
 
 # ================================================================================
 # Upload user experiences with all candidate servers to the cache agent
@@ -115,8 +98,6 @@ def update_srv_QoEs(cache_agent, port, server_qoes):
 	request_str = "http://" + cache_agent + ":" + str(port) + "/QoE?update"
 	for srv in server_qoes.keys():
 		request_str = request_str + "&" + srv + "=" + str(server_qoes[srv])
-	#r = requests.get(request_str) 
-	#qoe_vector = json.loads(r.headers['Params'])
 	req = urllib2.Request(request_str)
 	res = urllib2.urlopen(req)
 	res_headers = res.info()
@@ -149,7 +130,7 @@ def get_server_QoE(qoe_vector, server_addrs, candidates):
 #	   clientID --- The ID of client.
 #	   srv_ip --- The ip address of the server
 # ================================================================================
-def simple_dash(videoName, clientID, srv_ip):
+def simple_dash(videoName, clientID, srv, srv_ip):
 	# Read MPD file
 	rsts = mpd_parser(srv_ip, videoName)
         vidLength = int(rsts['mediaDuration'])
@@ -204,7 +185,6 @@ def simple_dash(videoName, clientID, srv_ip):
 		rsp_time = curTS - loadTS
                 est_bw = vchunk_sz * 8 / (curTS - loadTS)
                 time_elapsed = curTS - preTS
-                # print "[AGENP] Time Elapsed when downloading :" + str(time_elapsed)
                 if time_elapsed > curBuffer:
                         freezingTime = time_elapsed - curBuffer
                         curBuffer = 0
@@ -219,7 +199,7 @@ def simple_dash(videoName, clientID, srv_ip):
                 # print "[AGENP] Current QoE for chunk #" + str(chunkNext) + " is " + str(chunk_QoE)
                 print "|---", str(int(curTS)), "---|---", str(chunkNext), "---|---", nextRep, "---|---", str(chunk_QoE), "---|---", str(curBuffer), "---|---", str(freezingTime), "---|"
 
-                client_tr[chunkNext] = dict(TS=int(curTS), Representation=nextRep, QoE=chunk_QoE, Buffer=curBuffer, Freezing=freezingTime, Response=rsp_time)
+                client_tr[chunkNext] = dict(TS=int(curTS), Representation=nextRep, QoE=chunk_QoE, Buffer=curBuffer, Freezing=freezingTime, Server=srv, Response=rsp_time)
 
                 # Update iteration information
                 curBuffer = curBuffer + chunkLen
@@ -234,9 +214,6 @@ def simple_dash(videoName, clientID, srv_ip):
                 json.dump(client_tr, outfile, sort_keys = True, indent = 4, ensure_ascii=False)
 
         shutil.rmtree('./tmp')
-
-        ## Upload the trace file to google cloud
-        #bucketName = "agens-data"
 
 # ================================================================================
 # Client agent to run DASH
@@ -299,14 +276,12 @@ def dash(cache_agent, server_addrs, selected_srv, port, videoName, clientID):
                 loadTS = time.time();
                 vchunk_sz = download_chunk(srv_ip, videoName, vidChunk)
                 curTS = time.time()
-		rsp_time = loadTS - curTS
+		rsp_time = curTS - loadTS
                 est_bw = vchunk_sz * 8 / (curTS - loadTS)
                 time_elapsed = curTS - preTS
-                # print "[AGENP] Time Elapsed when downloading :" + str(time_elapsed)
                 if time_elapsed > curBuffer:
                         freezingTime = time_elapsed - curBuffer
                         curBuffer = 0
-                        # print "[AGENP] Client freezes for " + str(freezingTime)
                 else:
                         freezingTime = 0
                         curBuffer = curBuffer - time_elapsed
@@ -314,7 +289,6 @@ def dash(cache_agent, server_addrs, selected_srv, port, videoName, clientID):
                 # Compute QoE of a chunk here
                 curBW = num(reps[nextRep]['bw'])
                 chunk_QoE = computeQoE(freezingTime, curBW, maxBW)
-                # print "[AGENP] Current QoE for chunk #" + str(chunkNext) + " is " + str(chunk_QoE)
                 print "|---", str(int(curTS)), "---|---", str(chunkNext), "---|---", nextRep, "---|---", str(chunk_QoE), "---|---", str(curBuffer), "---|---", str(freezingTime), "---|---", selected_srv, "---|"
 
                 client_tr[chunkNext] = dict(TS=int(curTS), Representation=nextRep, QoE=chunk_QoE, Buffer=curBuffer, Freezing=freezingTime, Server=selected_srv, Response=rsp_time)
@@ -332,10 +306,6 @@ def dash(cache_agent, server_addrs, selected_srv, port, videoName, clientID):
                 json.dump(client_tr, outfile, sort_keys = True, indent = 4, ensure_ascii=False)
 
         shutil.rmtree('./tmp')
-
-        ## Upload the trace file to google cloud
-        #bucketName = "agens-data"
-        #gcs_upload(bucketName, trFileName)
 		
 # ================================================================================
 # Client agent to run QoE driven Adaptive Server Selection DASH
@@ -397,7 +367,6 @@ def qas_dash(cache_agent, server_addrs, candidates, port, videoName, clientID, a
         startTS = time.time()
         print "[QAS-DASH] Start playing video at " + datetime.datetime.fromtimestamp(int(startTS)).strftime("%Y-%m-%d %H:%M:%S")
         est_bw = vchunk_sz * 8 / (startTS - loadTS)
-        # print "[AGENP] Estimated bandwidth is : " + str(est_bw) + " at chunk #init"
         print "|-- TS --|-- Chunk # --|- Representation -|-- QoE --|-- Buffer --|-- Freezing --|-- Selected Server --|"
         preTS = startTS
         chunk_download += 1
@@ -419,7 +388,7 @@ def qas_dash(cache_agent, server_addrs, candidates, port, videoName, clientID, a
                 loadTS = time.time();
                 vchunk_sz = download_chunk(selected_srv_ip, videoName, vidChunk)
                 curTS = time.time()
-		rsp_time = loadTS - curTS
+		rsp_time = curTS - loadTS
                 est_bw = vchunk_sz * 8 / (curTS - loadTS)
                 time_elapsed = curTS - preTS
                 # print "[AGENP] Time Elapsed when downloading :" + str(time_elapsed)
@@ -437,7 +406,6 @@ def qas_dash(cache_agent, server_addrs, candidates, port, videoName, clientID, a
 
                 # Update QoE evaluations on local client
                 server_qoes[selected_srv] = server_qoes[selected_srv] * (1 - alpha) + alpha * chunk_QoE
-                # print "[AGENP] Current QoE for chunk #" + str(chunkNext) + " is " + str(chunk_QoE)
                 print "|---", str(int(curTS)),  "---|---", str(chunkNext), "---|---", nextRep, "---|---", str(chunk_QoE), "---|---", str(curBuffer), "---|---", str(freezingTime), "---|---", selected_srv, "---|"
 
 		# Write out traces
@@ -447,7 +415,6 @@ def qas_dash(cache_agent, server_addrs, candidates, port, videoName, clientID, a
 		for c in candidates:
 			new_srv_qoes[c] = server_qoes[c]
 		srv_qoe_tr[chunkNext] = new_srv_qoes
-		# srv_qoe_tr[chunkNext] = server_qoes
 	
 		# Switching servers only after two chunks
 		if chunkNext > 4:
@@ -456,7 +423,6 @@ def qas_dash(cache_agent, server_addrs, candidates, port, videoName, clientID, a
 			selected_srv = max(server_qoes.iteritems(), key=itemgetter(1))[0]
                 	selected_srv_ip = server_addrs[selected_srv]
                 	print "[QAS-DASH] Update Server QoEs ar :" + json.dumps(server_qoes)
-                	# print "[AGENP] Selected server for next 5 chunks is :" + selected_srv
 
                 # Update iteration information
                 curBuffer = curBuffer + chunkLen
@@ -476,11 +442,6 @@ def qas_dash(cache_agent, server_addrs, candidates, port, videoName, clientID, a
 		json.dump(srv_qoe_tr, outfile, sort_keys=True, indent=4, ensure_ascii=False)
 
         shutil.rmtree('./tmp')
-
-        ## Upload the trace file to google cloud
-        #bucketName = "agens-data"
-        #gcs_upload(bucketName, trFileName)
-	#gcs_upload(bucketName, srv_qoe_tr_filename)
 
 # ================================================================================
 # Client agent to run collaborative QoE driven Adaptive Server Selection DASH
@@ -555,7 +516,6 @@ def cqas_dash(cache_agent, server_addrs, candidates, port, videoName, clientID, 
 
 		# Greedily increase the bitrate because server is switched to a better one
 		if (pre_selected_srv != selected_srv):
-                        # nextRep = increaseRep(sortedVids, nextRep)
                         prob = good_chunks[selected_srv] / float(vidLength/chunkLen)
                         rnd = random.random()
                         ## Probabilistic switching
@@ -570,7 +530,7 @@ def cqas_dash(cache_agent, server_addrs, candidates, port, videoName, clientID, 
 		loadTS = time.time();
 		vchunk_sz = download_chunk(selected_srv_ip, videoName, vidChunk)
 		curTS = time.time()
-		rsp_time = loadTS - curTS
+		rsp_time = curTS - loadTS
 		est_bw = vchunk_sz * 8 / (curTS - loadTS)
 		time_elapsed = curTS - preTS
 		if time_elapsed > curBuffer:
