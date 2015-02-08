@@ -3,7 +3,7 @@
 import math
 
 def computeQoE(freezing_time, cur_bw, max_bw):
-	delta = 0.5
+	delta = 0.2
 	a = [1.3554, 40]
 	b = [5.0, 6.3484, 4.4, 0.72134]
 	q = [5.0, 5.0]

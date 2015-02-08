@@ -4,7 +4,6 @@ import random
 import sys
 import json
 import operator
-import numpy
 import urllib2, socket
 from ping import *
 from agent_util import *

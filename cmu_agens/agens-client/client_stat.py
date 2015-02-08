@@ -1,5 +1,15 @@
 ## Get the statistics from a client trace file
-import numpy
+
+def get_mn(data):
+	mn = sum(data) / float(len(data))
+	return mn
+
+def get_std(data):
+	mn = get_mn(data)
+	ss = sum((x - mn)**2 for x in data)
+	pvar = ss / float(len(data))
+	std = pvar**0.5
+	return std
 
 ## Get statistics from trace file
 def get_qoe_stat(client_trace):
@@ -8,8 +18,8 @@ def get_qoe_stat(client_trace):
 		chunk_info = client_trace[key]
 		qoes.append(chunk_info['QoE'])
 	qoe_stat = {}
-	qoe_stat['Average'] = sum(qoes)/float(len(qoes))
-	qoe_stat['Std'] = numpy.std(qoes)
+	qoe_stat['Average'] = get_mn(qoes)
+	qoe_stat['Std'] = get_std(qoes)
 	return qoe_stat
 
 ## Get statistics from trace file
@@ -24,7 +34,7 @@ def get_rsp_stat(client_trace):
 	rsp_stat = {}
 	for key in rsp_times:
 		cur_stat = {}
-		cur_stat['Average'] = sum(rsp_times[key])/float(len(rsp_times[key]))
-		cur_stat['Std'] = numpy.std(rsp_times[key])
+		cur_stat['Average'] = get_mn(rsp_times[key])
+		cur_stat['Std'] = get_std(rsp_times[key])
 		rsp_stat[key] = cur_stat
 	return rsp_stat
