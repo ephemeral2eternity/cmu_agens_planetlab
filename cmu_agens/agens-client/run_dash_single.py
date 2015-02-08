@@ -6,7 +6,7 @@ import json
 import operator
 import urllib2, socket
 from ping import *
-from client_agent import *
+from simple_dash import *
 
 ## Get Client Agent Name
 def getMyName():

@@ -16,8 +16,9 @@ def getMyName():
 video = 'BBB'	
 client = getMyName()
 
-cache_server_ip = "104.155.11.164" 
+cache_server = "cache-05"
+cache_server_ip = "104.155.229.210" 
 
-clientID = client + "_stress"
+clientID = client + "_simple"
 
-simple_dash(video, clientID, cache_server_ip)
+simple_dash(video, clientID, cache_server, cache_server_ip)
