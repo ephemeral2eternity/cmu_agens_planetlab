@@ -75,7 +75,40 @@ function upgrade_os_13 {
 	echo "$upgraded_version"
 }
 
-while [[ ! ("$os_version" =~ "14")]]
+function upgrade_os_14 {
+	echo "=================== Upgrading from Fedora release 14 (Laughlin) to Fedora release 15 (Lovelock) Now! ====================="
+	cp /home/cmu_agens/os_upgrade/fedora.repo /etc/yum.repos.d/
+	cp /home/cmu_agens/os_upgrade/fedora-updates.repo /etc/yum.repos.d/
+	yum -y update yum
+	yum clean all
+	yum -y upgrade --skip-broken
+	yum -y --releasever=15 --disableplugin=presto distro-sync
+	local upgraded_version=`cat /etc/redhat-release`
+	echo "$upgraded_version"
+}
+
+function upgrade_os_15 {
+	echo "=================== Upgrading from Fedora release 15 (Lovelock) to Fedora release 16 (Verne) Now! ====================="
+	yum -y update yum
+	yum clean all
+	yum -y upgrade --skip-broken
+	yum -y --releasever=16 --disableplugin=presto distro-sync
+	local upgraded_version=`cat /etc/redhat-release`
+	echo "$upgraded_version"
+}
+
+function upgrade_os_16 {
+	echo "=================== Upgrading from Fedora release 16 (Verne) to Fedora release 18 () Now! ====================="
+	yum -y update yum
+	yum clean all
+	yum -y --releasever=18 --disableplugin=presto distro-sync
+	
+	local upgraded_version=`cat /etc/redhat-release`
+	echo "$upgraded_version"
+}
+
+
+while [[ ! ("$os_version" =~ "19")]]
 do
 	if [[ "$os_version" =~ "8" ]]
 	then
@@ -106,6 +139,25 @@ do
 	then
 		echo "Current OS Version: $os_version. OS needs to be upgraded!"
 		upgrade_os_13
+		os_version=`cat /etc/redhat-release`
+	elif [[ "$os_version" =~ "14" ]]
+	then
+		echo "Current OS Version: $os_version. OS needs to be upgraded!"
+		upgrade_os_14
+		os_version=`cat /etc/redhat-release`
+	elif [[ "$os_version" =~ "15" ]]
+	then
+		echo "Current OS Version: $os_version. OS needs to be upgraded!"
+		upgrade_os_15
+		os_version=`cat /etc/redhat-release`
+	elif [[ "$os_version" =~ "16" ]]
+	then
+		echo "Current OS Version: $os_version. OS needs to be upgraded!"
+		upgrade_os_16
+		os_version=`cat /etc/redhat-release`
+	then
+		echo "Current OS Version: $os_version. OS needs to be upgraded!"
+		upgrade_os_18
 		os_version=`cat /etc/redhat-release`
 	else
 		echo "Error: Unknown OS Version: $os_version!"

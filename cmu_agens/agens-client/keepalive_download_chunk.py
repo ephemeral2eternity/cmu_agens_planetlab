@@ -1,15 +1,19 @@
+import httplib
 import os
-import urllib2
 
-def download_chunk(server_addr, vidName, chunk_name):
-	url = 'http://' + server_addr + '/' + vidName + '/' + chunk_name
-	# print "download url: " + url
+def keepalive_download_chunk(conn, vidName, chunk_name):
+	conn.request('GET', '/' + vidName + '/' + chunk_name, headers={"Connection":" keep-alive"})
 	try:
-		u = urllib2.urlopen(url)
-	except urllib2.URLError, e:
-		print e.code
-		print "[Error] Chunk Downloading Error!", e.read()
-		return 0
+		r = conn.getresponse()
+	except:
+		conn.connect()
+		r = conn.getresponse()
+
+	if r.status == 200:
+		print "ok"
+	else:
+		print "problem : the query returned %s because %s" % (r.status, r.reason) 
+		
 
 	localCache = './tmp/'
 
@@ -22,14 +26,12 @@ def download_chunk(server_addr, vidName, chunk_name):
 	localFile = localCache + chunk_name.replace('/', '-')
 
 	f = open(localFile, 'wb')
-	meta = u.info()
-	file_size = int(meta.getheaders("Content-Length")[0])
-	# print "Downloading: %s Bytes: %s" % (localFile, file_size)
+	file_size = int(r.getheaders()[0][1])
 
 	file_size_dl = 0
 	block_sz = 8192
 	while True:
-		buffer = u.read(block_sz)
+		buffer = r.read(block_sz)
 		if not buffer:
 			break
 
@@ -37,8 +39,6 @@ def download_chunk(server_addr, vidName, chunk_name):
 	f.write(buffer)
 	status = r"%10d  [%3.2f%%]" % (file_size_dl, file_size_dl * 100. / file_size)
 	status = status + chr(8)*(len(status)+1)
-	# print status,
 
 	f.close()
-	u.close()
 	return file_size

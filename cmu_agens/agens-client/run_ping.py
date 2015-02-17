@@ -109,7 +109,7 @@ srvs = {
 
 curname = socket.gethostname()
 
-N = 1
+N = 2
 
 for n in range(N):
 	pingAllSrvs(curname, srvs)

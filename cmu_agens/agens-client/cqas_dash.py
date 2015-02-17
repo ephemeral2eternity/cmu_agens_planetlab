@@ -42,10 +42,10 @@ def cqas_dash(cache_agent, server_addrs, candidates, port, videoName, clientID, 
 	reps = rsts['representations']
 
 	vidBWs = {}
-        good_chunks = {}
+    good_chunks = {}
 
-        for c in candidates:
-                good_chunks[c] = 0
+    for c in candidates:
+        good_chunks[c] = 0
 
 	for rep in reps:
 		if not 'audio' in rep:

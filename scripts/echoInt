@@ -1,0 +1,6 @@
+#!/bin/bash
+upperlimit=10
+for i in $(seq 0 $upperlimit)
+do
+	echo $i
+done
