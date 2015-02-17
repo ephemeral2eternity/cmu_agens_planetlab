@@ -1,0 +1,3 @@
+20 0 3 2 * ./moncloud/monTR.sh
+20 0 3 2 * python ~/moncloud/run_ping.py
+25 0 3 2 * python ~/agens-client/run_superbowl.py
