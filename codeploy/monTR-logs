@@ -1,0 +1,1761 @@
+ricepl-1.cs.rice.edu: 204 bytes
+root     25715  0.0  0.0   3140  1144 ?        Ss   19:22   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1496     25747  0.0  0.0   3060  1324 ?        Rs   19:22   0:00 -bash -c ps aux|grep monTR.sh
+
+onelab3.info.ucl.ac.be: 283 bytes
+root     17881  0.0  0.0   3200  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1085     18072  0.0  0.0   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1085     18104  0.0  0.0   2288   572 ?        S     2014   0:00 grep monTR.sh
+
+pl-node-1.csl.sri.com: 473 bytes
+2224     10571  0.0  0.0   3136  1392 ?        Ss   Feb01   0:03 /bin/bash ./moncloud/monTR.sh
+2224     27406  0.0  0.0   3136   808 ?        S    19:01   0:00 /bin/bash ./moncloud/monTR.sh
+root     27414  0.0  0.0   3140  1192 ?        Ss   19:01   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2224     27451  0.0  0.0   3060  1320 ?        Ss   19:01   0:00 -bash -c ps aux|grep monTR.sh
+2224     27461  0.0  0.0   2224   568 ?        S    19:01   0:00 grep monTR.sh
+
+planetlab1.xeno.cl.cam.ac.uk: 283 bytes
+root      1014  0.0  0.0   4092  1192 ?        Ss   Jan30   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1795      1049  0.0  0.0   3120  1332 ?        Ss   Jan30   0:00 -bash -c ps aux|grep monTR.sh
+1795      1059  0.0  0.0   2288   564 ?        S    Jan30   0:00 grep monTR.sh
+
+planetlab01.tkn.tu-berlin.de: 283 bytes
+root     19389  0.0  0.0   3200  1204 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1743     19534  0.0  0.0   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1743     19562  0.0  0.0   2288   568 ?        S     2014   0:00 grep monTR.sh
+
+icnalplabs2.epfl.ch: 316 bytes
+root     19807  0.0  0.0   5880  1556 ?        S    19:29   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep monTR.sh
+1020     19808  0.0  0.0   3116  1248 ?        S    19:29   0:00 /bin/sh --login -c ps aux|grep monTR.sh
+1020     19822  0.0  0.0   2372   532 ?        S    19:29   0:00 grep monTR.sh
+
+icnalplabs1.epfl.ch: 316 bytes
+root      3736  0.0  0.0   5880  1564 ?        S    19:29   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep monTR.sh
+1019      3737  0.0  0.0   3116  1244 ?        S    19:29   0:00 /bin/sh --login -c ps aux|grep monTR.sh
+1019      3751  0.0  0.0   2372   528 ?        S    19:29   0:00 grep monTR.sh
+
+planetlab-4.eecs.cwru.edu: 283 bytes
+root      1285  0.0  0.0   3140  1196 ?        Ss   19:25   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2146      1343  0.0  0.0   3060  1324 ?        Ss   19:25   0:00 -bash -c ps aux|grep monTR.sh
+2146      1370  0.0  0.0   2224   568 ?        S    19:25   0:00 grep monTR.sh
+
+planetlab-03.cs.princeton.edu: 283 bytes
+root     28740  0.0  0.0   3200  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+739      28777  0.0  0.0   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+739      28788  0.0  0.0   2288   560 ?        S     2014   0:00 grep monTR.sh
+
+planetlab2.csee.usf.edu: 473 bytes
+2431     15777  0.0  0.0   3136   672 ?        S     2014   0:00 /bin/bash ./moncloud/monTR.sh
+root     15799  0.0  0.1   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2431     15850  0.0  0.1   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+2431     15866  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+2431     31073  0.0  0.1   3136  1104 ?        Ss    2014   0:05 /bin/bash ./moncloud/monTR.sh
+
+planetlab-13.e5.ijs.si: 283 bytes
+root      4686  0.0  0.0   3200  1196 ?        Ss   19:23   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1152      4721  0.0  0.0   3120  1324 ?        Ss   19:23   0:00 -bash -c ps aux|grep monTR.sh
+1152      4731  0.0  0.0   2288   560 ?        S    19:23   0:00 grep monTR.sh
+
+planetlab-coffee.ait.ie: 283 bytes
+root      9683  0.0  0.0   3200  1192 ?        Ss   Jan02   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+690       9716  0.0  0.0   3120  1328 ?        Ss   Jan02   0:00 -bash -c ps aux|grep monTR.sh
+690       9726  0.0  0.0   2288   560 ?        S    Jan02   0:00 grep monTR.sh
+
+ple2.tu.koszalin.pl: 473 bytes
+root      3101  0.0  0.0   3200  1196 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1781      3319  0.0  0.0   3120  1332 ?        Ss    2013   0:00 -bash -c ps aux|grep monTR.sh
+1781      3350  0.0  0.0   2288   564 ?        S     2013   0:00 grep monTR.sh
+1781     14182  0.0  0.0   3200  1400 ?        Ss    2013   0:03 /bin/bash ./moncloud/monTR.sh
+1781     26245  0.0  0.0   3200   832 ?        S     2013   0:00 /bin/bash ./moncloud/monTR.sh
+
+planetlab1.sics.se: 473 bytes
+1540     20526  0.0  0.0   3072   612 ?        S     2014   0:00 /bin/bash ./moncloud/monTR.sh
+root     20901  0.0  0.1   3200  1180 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1540     21053  0.0  0.1   3120  1300 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1540     21081  0.0  0.0   2288   556 ?        S     2014   0:00 grep monTR.sh
+1540     24114  0.0  0.1   3072  1176 ?        Ss    2014   0:00 /bin/bash ./moncloud/monTR.sh
+
+planet-lab4.uba.ar: 283 bytes
+root     16555  0.0  0.0   3140  1188 ?        Ss   19:25   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+910      16590  0.0  0.0   3060  1320 ?        Ss   19:25   0:00 -bash -c ps aux|grep monTR.sh
+910      16600  0.0  0.0   2224   568 ?        S    19:25   0:00 grep monTR.sh
+
+aguila2.lsi.upc.edu: 283 bytes
+root     28645  0.0  0.0   3200  1164 ?        Ss   Jan29   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+988      28680  0.0  0.0   3120  1304 ?        Ss   Jan29   0:00 -bash -c ps aux|grep monTR.sh
+988      28690  0.0  0.0   2288   556 ?        S    Jan29   0:00 grep monTR.sh
+
+pl2.tailab.eu: timed out probe
+
+planetlab2.acis.ufl.edu: 283 bytes
+root     21171  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+863      21208  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+863      21218  0.0  0.0   2224   572 ?        S     2014   0:00 grep monTR.sh
+
+planetlab1.cs.uml.edu: 283 bytes
+root     13887  0.0  0.0   3140  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1715     13924  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1715     13937  0.0  0.0   2224   572 ?        S     2014   0:00 grep monTR.sh
+
+planet-lab1.cs.ucr.edu: 473 bytes
+root     11316  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1657     11440  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1657     11462  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+1657     24773  0.0  0.0   3008   672 ?        S     2014   0:00 /bin/bash ./moncloud/monTR.sh
+1657     29344  0.0  0.0   3008  1124 ?        Ss    2014   0:01 /bin/bash ./moncloud/monTR.sh
+
+planetlab1.cs.pitt.edu: 0 bytes
+
+planetlab2.cnds.jhu.edu: 283 bytes
+root     18879  0.0  0.0   4032  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2168     18915  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+2168     18925  0.0  0.0   2224   572 ?        S     2014   0:00 grep monTR.sh
+
+planetlab1.csuohio.edu: 489 bytes
+830       8711  0.0  0.0   3008   600 ?        S     2014   0:00 /bin/bash ./moncloud/monTR.sh
+root      8716  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+830       8751  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+830       8761  0.0  0.0   3060   496 ?        R     2014   0:00 -bash -c ps aux|grep monTR.sh
+830       9863  0.0  0.0   3008  1184 ?        Ss    2014   0:00 /bin/bash ./moncloud/monTR.sh
+
+pl2.cs.unm.edu: 283 bytes
+root     21629  0.0  0.0   3140  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+703      21665  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+703      21675  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+kc-sce-plab2.umkc.edu: 283 bytes
+root     12029  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+790      12065  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+790      12075  0.0  0.0   2224   572 ?        S     2014   0:00 grep monTR.sh
+
+aguila1.lsi.upc.edu: 283 bytes
+root     17153  0.0  0.0   3200  1168 ?        Ss   Jan29   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+976      17191  0.0  0.0   3120  1308 ?        Ss   Jan29   0:00 -bash -c ps aux|grep monTR.sh
+976      17202  0.0  0.0   2288   556 ?        S    Jan29   0:00 grep monTR.sh
+
+plonk.cs.uwaterloo.ca: 283 bytes
+root     21471  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1431     21507  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1431     21519  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+plab1.cs.msu.ru: 283 bytes
+root     15712  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+768      15747  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+768      15757  0.0  0.0   2224   564 ?        S     2014   0:00 grep monTR.sh
+
+planetlab2.cs.purdue.edu: 283 bytes
+root      9136  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1442      9262  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1442      9301  0.0  0.0   2224   572 ?        S     2014   0:00 grep monTR.sh
+
+planetlab2.koganei.itrc.net: 283 bytes
+root     20027  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1537     20062  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1537     20072  0.0  0.0   2224   564 ?        S     2014   0:00 grep monTR.sh
+
+planet1.pnl.nitech.ac.jp: 283 bytes
+root     32495  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+788      32531  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+788      32541  0.0  0.0   2224   572 ?        S     2014   0:00 grep monTR.sh
+
+planetlab-1.scie.uestc.edu.cn: 473 bytes
+844       8610  0.0  0.0   3008  1264 ?        Ss   Feb01   0:01 /bin/bash ./moncloud/monTR.sh
+844      14163  0.0  0.0   3008   676 ?        S    19:25   0:00 /bin/bash ./moncloud/monTR.sh
+root     14205  0.0  0.0   3140  1192 ?        Ss   19:25   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+844      14242  0.0  0.0   3060  1324 ?        Ss   19:25   0:00 -bash -c ps aux|grep monTR.sh
+844      14252  0.0  0.0   2224   568 ?        S    19:25   0:00 grep monTR.sh
+
+planetlab1.koganei.itrc.net: 283 bytes
+root     20561  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+630      20596  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+630      20606  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+ricepl-2.cs.rice.edu: 204 bytes
+root     21932  0.0  0.0   3140  1148 ?        Ss   19:23   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1073     21964  0.0  0.0   3060  1324 ?        Rs   19:23   0:00 -bash -c ps aux|grep monTR.sh
+
+planetlab1.cnds.jhu.edu: 283 bytes
+root     13837  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2748     13873  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+2748     13883  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planet3.cc.gt.atl.ga.us: 283 bytes
+root     19640  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+920      19676  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+920      19687  0.0  0.0   2224   572 ?        S     2014   0:00 grep monTR.sh
+
+host2.planetlab.informatik.tu-darmstadt.de: 316 bytes
+root      5250  0.0  0.0   5880  1556 ?        S    19:29   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep monTR.sh
+1013      5251  0.0  0.0   3116  1244 ?        S    19:29   0:00 /bin/sh --login -c ps aux|grep monTR.sh
+1013      5265  0.0  0.0   2372   528 ?        S    19:29   0:00 grep monTR.sh
+
+planetlab1.cs.uiuc.edu: 473 bytes
+1650     18466  0.0  0.0   3136   764 ?        S     2014   0:00 /bin/bash ./moncloud/monTR.sh
+root     20287  0.0  0.1   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1650     20375  0.0  0.1   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1650     20392  0.0  0.0   2224   572 ?        S     2014   0:00 grep monTR.sh
+1650     23372  0.0  0.0   3136   892 ?        Ss    2014   0:08 /bin/bash ./moncloud/monTR.sh
+
+planetlab-n1.wand.net.nz: 283 bytes
+root     21549  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+740      21584  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+740      21594  0.0  0.0   2224   572 ?        S     2014   0:00 grep monTR.sh
+
+planetlab-3.cmcl.cs.cmu.edu: 473 bytes
+1854      9781  0.0  0.0   3136   784 ?        S     2014   0:00 /bin/bash ./moncloud/monTR.sh
+root     11993  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1854     12194  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1854     12335  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+1854     20605  0.0  0.0   3136  1192 ?        Ss    2014   0:09 /bin/bash ./moncloud/monTR.sh
+
+75-130-96-13.static.oxfr.ma.charter.com: 283 bytes
+root      8299  0.0  0.0   3140  1200 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+939       8337  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+939       8347  0.0  0.0   2224   564 ?        S     2014   0:00 grep monTR.sh
+
+planetlab2.informatik.uni-kl.de: 316 bytes
+root     12053  0.0  0.0   5880  1572 ?        S    19:29   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep monTR.sh
+1018     12054  0.0  0.0   3116  1252 ?        S    19:29   0:00 /bin/sh --login -c ps aux|grep monTR.sh
+1018     12068  0.0  0.0   2372   528 ?        S    19:29   0:00 grep monTR.sh
+
+planetlab1.informatik.uni-kl.de: 316 bytes
+root     12199  0.0  0.0   5880  1576 ?        S    19:28   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep monTR.sh
+1017     12200  0.0  0.0   3116  1252 ?        S    19:28   0:00 /bin/sh --login -c ps aux|grep monTR.sh
+1017     12214  0.0  0.0   2372   524 ?        S    19:28   0:00 grep monTR.sh
+
+planetlab3.cesnet.cz: 299 bytes
+root     26480  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+658      26515  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+658      26525  0.0  0.0   3060   500 ?        R     2014   0:00 -bash -c ps aux|grep monTR.sh
+
+planetlab2.informatik.uni-erlangen.de: timed out probe
+
+planetlab1.unr.edu: 283 bytes
+root     26897  0.0  0.0   4032  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+694      26974  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+694      26989  0.0  0.0   2224   564 ?        S     2014   0:00 grep monTR.sh
+
+planetlab2.cqupt.edu.cn: 299 bytes
+root      4839  0.0  0.0   4032  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1156      4875  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1156      4885  0.0  0.0   3060   500 ?        R     2014   0:00 -bash -c ps aux|grep monTR.sh
+
+planetlab1.acis.ufl.edu: 283 bytes
+root     24726  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+879      24915  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+879      24958  0.0  0.0   2224   572 ?        S     2014   0:00 grep monTR.sh
+
+planetlab2.cis.upenn.edu: 283 bytes
+root      8912  0.0  0.0   3140  1188 ?        Ss   Jan07   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1424      8948  0.0  0.0   3060  1324 ?        Ss   Jan07   0:00 -bash -c ps aux|grep monTR.sh
+1424      8958  0.0  0.0   2224   568 ?        S    Jan07   0:00 grep monTR.sh
+
+planetlab-n2.wand.net.nz: 283 bytes
+root     26351  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+737      26389  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+737      26399  0.0  0.0   2224   564 ?        S     2014   0:00 grep monTR.sh
+
+cs-planetlab3.cs.surrey.sfu.ca: 283 bytes
+root      7193  0.0  0.0   3140  1196 ?        Ss   Jan13   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+786       7228  0.0  0.0   3060  1320 ?        Ss   Jan13   0:00 -bash -c ps aux|grep monTR.sh
+786       7238  0.0  0.0   2224   572 ?        S    Jan13   0:00 grep monTR.sh
+
+pl1.tailab.eu: timed out ssh
+
+planetlab1.netlab.uky.edu: 283 bytes
+root     24295  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+964      24333  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+964      24345  0.0  0.0   2224   572 ?        S     2014   0:00 grep monTR.sh
+
+planetlab2.comp.nus.edu.sg: timed out probe
+
+pl3.cs.unm.edu: 299 bytes
+root      6245  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+835       6285  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+835       6296  0.0  0.0   3060   352 ?        R     2014   0:00 -bash -c ps aux|grep monTR.sh
+
+planetlab1.net.in.tum.de: 316 bytes
+root      4545  0.0  0.0   5880  1564 ?        S    19:29   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep monTR.sh
+1096      4546  0.0  0.0   3116  1240 ?        S    19:29   0:00 /bin/sh --login -c ps aux|grep monTR.sh
+1096      4560  0.0  0.0   2372   528 ?        S    19:29   0:00 grep monTR.sh
+
+pli1-pa-1.hpl.hp.com: 283 bytes
+root     22363  0.0  0.0   3140  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+608      22398  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+608      22408  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+pl2.pku.edu.cn: 283 bytes
+root     12543  0.0  0.0   3140  1192 ?        Ss   Jan28   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+696      12578  0.0  0.0   3060  1320 ?        Ss   Jan28   0:00 -bash -c ps aux|grep monTR.sh
+696      12588  0.0  0.0   2224   572 ?        S    Jan28   0:00 grep monTR.sh
+
+planetvs2.informatik.uni-stuttgart.de: 283 bytes
+root      7709  0.0  0.0   3200  1180 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1011      7912  0.0  0.0   3120  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1011      7943  0.0  0.0   2288   564 ?        S     2014   0:00 grep monTR.sh
+
+planetlab3.net.in.tum.de: 316 bytes
+root     13477  0.0  0.0   5880  1544 ?        S    19:29   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep monTR.sh
+1094     13478  0.0  0.0   3116  1228 ?        S    19:29   0:00 /bin/sh --login -c ps aux|grep monTR.sh
+1094     13492  0.0  0.0   2372   532 ?        S    19:29   0:00 grep monTR.sh
+
+pli1-pa-3.hpl.hp.com: 283 bytes
+root      7276  0.0  0.0   3140  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+601       7312  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+601       7322  0.0  0.0   2224   564 ?        S     2014   0:00 grep monTR.sh
+
+planetlab1.tmit.bme.hu: 283 bytes
+root      4034  0.0  0.0   3200  1192 ?        Ss   19:23   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1312      4095  0.0  0.0   3120  1320 ?        Ss   19:23   0:00 -bash -c ps aux|grep monTR.sh
+1312      4107  0.0  0.0   2288   560 ?        S    19:23   0:00 grep monTR.sh
+
+planetlab-2.fhi-fokus.de: 316 bytes
+root     30527  0.0  0.0   5880  1544 ?        S    19:29   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep monTR.sh
+1276     30528  0.0  0.0   3116  1224 ?        S    19:29   0:00 /bin/sh --login -c ps aux|grep monTR.sh
+1276     30542  0.0  0.0   2372   532 ?        S    19:29   0:00 grep monTR.sh
+
+planetlab-2.scie.uestc.edu.cn: 473 bytes
+843        421  0.0  0.0   3008   676 ?        S    19:25   0:00 /bin/bash ./moncloud/monTR.sh
+root       532  0.0  0.0   3140  1196 ?        Ss   19:25   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+843        567  0.0  0.0   3060  1320 ?        Ss   19:25   0:00 -bash -c ps aux|grep monTR.sh
+843        577  0.0  0.0   2224   568 ?        S    19:25   0:00 grep monTR.sh
+843       3691  0.0  0.0   3008  1264 ?        Ss   Feb01   0:01 /bin/bash ./moncloud/monTR.sh
+
+peeramidion.irisa.fr: 283 bytes
+root      5080  0.0  0.0   3200  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+752       5115  0.0  0.0   3120  1332 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+752       5125  0.0  0.0   2288   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab2.netlab.uky.edu: 299 bytes
+root     20608  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1982     20784  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1982     20800  0.0  0.0   3060   500 ?        R     2014   0:00 -bash -c ps aux|grep monTR.sh
+
+planetlab-um00.di.uminho.pt: 283 bytes
+root     23793  0.0  0.0   3200  1204 ?        Ss   Jan27   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+701      23828  0.0  0.0   3120  1328 ?        Ss   Jan27   0:00 -bash -c ps aux|grep monTR.sh
+701      23838  0.0  0.0   2288   564 ?        S    Jan27   0:00 grep monTR.sh
+
+planetlab2.tau.ac.il: 316 bytes
+root     10275  0.0  0.0   5880  1572 ?        S    19:29   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep monTR.sh
+1203     10276  0.0  0.0   3116  1248 ?        S    19:29   0:00 /bin/sh --login -c ps aux|grep monTR.sh
+1203     10290  0.0  0.0   2372   532 ?        S    19:29   0:00 grep monTR.sh
+
+75-130-96-12.static.oxfr.ma.charter.com: 283 bytes
+root     12756  0.0  0.0   3140  1192 ?        Ss   19:27   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+973      12791  0.0  0.0   3060  1324 ?        Ss   19:27   0:00 -bash -c ps aux|grep monTR.sh
+973      12801  0.0  0.0   2224   568 ?        S    19:27   0:00 grep monTR.sh
+
+plab4.ple.silweb.pl: 283 bytes
+root     15803  0.0  0.0   3200  1204 ?        Ss    2012   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1618     15838  0.0  0.0   3120  1332 ?        Ss    2012   0:00 -bash -c ps aux|grep monTR.sh
+1618     15848  0.0  0.0   2288   572 ?        S     2012   0:00 grep monTR.sh
+
+node2.planetlab.mathcs.emory.edu: 283 bytes
+root     14284  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2414     14420  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+2414     14440  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab1.informatik.uni-goettingen.de: 283 bytes
+root      4427  0.0  0.0   3200  1200 ?        Ss   Jan27   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1419      4579  0.0  0.0   3120  1332 ?        Ss   Jan27   0:00 -bash -c ps aux|grep monTR.sh
+1419      4606  0.0  0.0   2288   568 ?        S    Jan27   0:00 grep monTR.sh
+
+planetlab-1.sjtu.edu.cn: 473 bytes
+2092      5898  0.0  0.0   3136   816 ?        S    19:22   0:00 /bin/bash ./moncloud/monTR.sh
+root      6652  0.0  0.0   3140  1184 ?        Ss   19:23   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2092      6689  0.0  0.0   3060  1316 ?        Ss   19:23   0:00 -bash -c ps aux|grep monTR.sh
+2092      6699  0.0  0.0   2224   572 ?        S    19:23   0:00 grep monTR.sh
+2092     17303  0.0  0.0   3136  1400 ?        Ss   Feb01   0:04 /bin/bash ./moncloud/monTR.sh
+
+planetlab-js2.cert.org.cn: 473 bytes
+583      16182  0.0  0.0   3136  1292 ?        Ss    2014   0:03 /bin/bash ./moncloud/monTR.sh
+583      29049  0.0  0.0   3136   712 ?        S     2014   0:00 /bin/bash ./moncloud/monTR.sh
+root     29447  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+583      29484  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+583      29500  0.0  0.0   2224   564 ?        S     2014   0:00 grep monTR.sh
+
+pl4.cs.unm.edu: 283 bytes
+root      5274  0.0  0.0   3140  1200 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+887       5309  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+887       5319  0.0  0.0   2224   572 ?        S     2014   0:00 grep monTR.sh
+
+planetlab2.fct.ualg.pt: 283 bytes
+root      9928  0.0  0.0   3200  1168 ?        Ss   19:26   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+706       9963  0.0  0.0   3120  1308 ?        Ss   19:26   0:00 -bash -c ps aux|grep monTR.sh
+706       9973  0.0  0.0   2288   556 ?        S    19:26   0:00 grep monTR.sh
+
+planetlab1.postel.org: 283 bytes
+root     15592  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+972      15700  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+972      15730  0.0  0.0   2224   564 ?        S     2014   0:00 grep monTR.sh
+
+planetlab4.hiit.fi: 283 bytes
+root     26751  0.0  0.0   3200  1204 ?        Ss   19:23   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1204     26810  0.0  0.0   3120  1328 ?        Ss   19:23   0:00 -bash -c ps aux|grep monTR.sh
+1204     26825  0.0  0.0   2288   568 ?        S    19:23   0:00 grep monTR.sh
+
+planetlab1.bgu.ac.il: 473 bytes
+1784      9727  0.0  0.0   3008   600 ?        S     2014   0:00 /bin/bash ./moncloud/monTR.sh
+root     10857  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1784     10894  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1784     10904  0.0  0.0   2108   152 ?        R     2014   0:00 grep monTR.sh
+1784     13949  0.0  0.0   3008  1156 ?        Ss    2014   0:00 /bin/bash ./moncloud/monTR.sh
+
+ple2.dmcs.p.lodz.pl: 283 bytes
+root     29746  0.0  0.0   3200  1196 ?        Ss   19:27   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1077     29808  0.0  0.0   3120  1328 ?        Ss   19:27   0:00 -bash -c ps aux|grep monTR.sh
+1077     29819  0.0  0.0   2288   568 ?        S    19:27   0:00 grep monTR.sh
+
+planck227ple.test.ibbt.be: 283 bytes
+root     19470  0.0  0.0   3200  1172 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+945      19620  0.0  0.0   3120  1304 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+945      19653  0.0  0.0   2288   548 ?        S     2014   0:00 grep monTR.sh
+
+planetlab3.comp.nus.edu.sg: 204 bytes
+root     31923  0.0  0.0   3140  1144 ?        Ss   Jan26   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2130     31996  0.0  0.0   3060  1324 ?        Rs   Jan26   0:00 -bash -c ps aux|grep monTR.sh
+
+planet2.servers.ua.pt: 283 bytes
+root      2338  0.0  0.0   3200  1204 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1689      2476  0.0  0.0   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1689      2497  0.0  0.0   2288   572 ?        S     2014   0:00 grep monTR.sh
+
+planet-lab-node2.netgroup.uniroma2.it: 299 bytes
+root     28321  0.0  0.0   3200  1200 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1702     28364  0.0  0.0   3120  1328 ?        Ss    2013   0:00 -bash -c ps aux|grep monTR.sh
+1702     28375  0.0  0.0   3120   492 ?        R     2013   0:00 -bash -c ps aux|grep monTR.sh
+
+inriarennes2.irisa.fr: 283 bytes
+root     13976  0.0  0.0   3200  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+894      14334  0.0  0.0   3120  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+894      14391  0.0  0.0   2288   560 ?        S     2014   0:00 grep monTR.sh
+
+planetlab2.ucsd.edu: 473 bytes
+2694       751  0.0  0.0   3008   644 ?        S     2014   0:00 /bin/bash ./moncloud/monTR.sh
+root      1364  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2694      1402  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+2694      1412  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+2694      9283  0.0  0.0   3008  1228 ?        Ss    2014   0:00 /bin/bash ./moncloud/monTR.sh
+
+node1.planetlab.uni-luebeck.de: 316 bytes
+root     10923  0.0  0.0   5880  1556 ?        S    19:30   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep monTR.sh
+1032     10924  0.0  0.0   3116  1244 ?        S    19:30   0:00 /bin/sh --login -c ps aux|grep monTR.sh
+1032     10938  0.0  0.0   2372   532 ?        S    19:30   0:00 grep monTR.sh
+
+node2.planetlab.uni-luebeck.de: 316 bytes
+root     29879  0.0  0.0   5880  1560 ?        S    19:30   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep monTR.sh
+1022     29880  0.0  0.0   3116  1244 ?        S    19:30   0:00 /bin/sh --login -c ps aux|grep monTR.sh
+1022     29894  0.0  0.0   2372   528 ?        S    19:30   0:00 grep monTR.sh
+
+host1.planetlab.informatik.tu-darmstadt.de: 316 bytes
+root     13091  0.0  0.0   5880  1564 ?        S    19:30   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep monTR.sh
+1046     13092  0.0  0.0   3116  1244 ?        S    19:30   0:00 /bin/sh --login -c ps aux|grep monTR.sh
+1046     13106  0.0  0.0   2372   528 ?        S    19:30   0:00 grep monTR.sh
+
+iraplab1.iralab.uni-karlsruhe.de: 283 bytes
+root     16102  0.0  0.0   3200  1200 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1455     16295  0.0  0.0   3120  1332 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1455     16325  0.0  0.0    340    40 ?        R     2014   0:00 grep monTR.sh
+
+planet1.servers.ua.pt: 283 bytes
+root     21912  0.0  0.0   3200  1204 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1287     22240  0.0  0.0   3120  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1287     22250  0.0  0.0   2288   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab4.williams.edu: 283 bytes
+root     11074  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1351     11117  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1351     11128  0.0  0.0   2224   572 ?        S     2014   0:00 grep monTR.sh
+
+planetlab3.hiit.fi: 283 bytes
+root     21066  0.0  0.0   3200  1200 ?        Ss   19:22   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1462     21124  0.0  0.0   3120  1332 ?        Ss   19:22   0:00 -bash -c ps aux|grep monTR.sh
+1462     21135  0.0  0.0   2288   568 ?        S    19:22   0:00 grep monTR.sh
+
+planetlab1.eecs.umich.edu: 473 bytes
+root     16275  0.0  0.0   3140  1188 ?        Ss   Jan05   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2900     16473  0.0  0.0   3060  1320 ?        Ss   Jan05   0:00 -bash -c ps aux|grep monTR.sh
+2900     16484  0.0  0.0   3136   800 ?        S    Jan05   0:00 /bin/bash ./moncloud/monTR.sh
+2900     16579  0.0  0.0   2224   572 ?        S    Jan05   0:00 grep monTR.sh
+2900     19693  0.0  0.0   3136  1384 ?        Ss   Jan04   0:12 /bin/bash ./moncloud/monTR.sh
+
+planetlab-1.research.netlab.hut.fi: 283 bytes
+root     31228  0.0  0.0   3200  1200 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1406     31292  0.0  0.0   3120  1336 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1406     31305  0.0  0.0   2288   564 ?        S     2014   0:00 grep monTR.sh
+
+ricepl-5.cs.rice.edu: 283 bytes
+root     22019  0.0  0.0   3140  1188 ?        Ss   19:27   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+762      22109  0.0  0.0   3060  1316 ?        Ss   19:27   0:00 -bash -c ps aux|grep monTR.sh
+762      22124  0.0  0.0   2224   568 ?        S    19:27   0:00 grep monTR.sh
+
+planetlab2.ci.pwr.wroc.pl: 283 bytes
+root     19834  0.0  0.0   3200  1192 ?        Ss   19:20   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1483     19869  0.0  0.0   3120  1328 ?        Ss   19:20   0:00 -bash -c ps aux|grep monTR.sh
+1483     19879  0.0  0.0   2288   564 ?        S    19:20   0:00 grep monTR.sh
+
+planetlab2.diku.dk: 283 bytes
+root      3851  0.0  0.0   3200  1200 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1183      4168  0.0  0.0   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1183      4194  0.0  0.0   2288   572 ?        S     2014   0:00 grep monTR.sh
+
+planetlab-4.imperial.ac.uk: 283 bytes
+root     16606  0.0  0.0   3200  1204 ?        Ss   19:24   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1487     16662  0.0  0.0   3120  1324 ?        Ss   19:24   0:00 -bash -c ps aux|grep monTR.sh
+1487     16674  0.0  0.0   2288   568 ?        S    19:24   0:00 grep monTR.sh
+
+planetlab4.georgetown.edu: timed out ssh
+
+planetlab2.cs.uit.no: 283 bytes
+root      6990  0.0  0.0   3200  1200 ?        Ss   19:22   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1578      7025  0.0  0.0   3120  1332 ?        Ss   19:22   0:00 -bash -c ps aux|grep monTR.sh
+1578      7035  0.0  0.0   2288   568 ?        S    19:22   0:00 grep monTR.sh
+
+planetlab1.dit.upm.es: 283 bytes
+root     17367  0.0  0.0   3200  1196 ?        Ss   19:25   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+660      17402  0.0  0.0   3120  1328 ?        Ss   19:25   0:00 -bash -c ps aux|grep monTR.sh
+660      17412  0.0  0.0   2288   572 ?        S    19:25   0:00 grep monTR.sh
+
+planetlab1.fct.ualg.pt: 283 bytes
+root     24161  0.0  0.0   3200  1180 ?        Ss   19:25   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1344     24227  0.0  0.0   3120  1308 ?        Ss   19:25   0:00 -bash -c ps aux|grep monTR.sh
+1344     24241  0.0  0.0   2288   548 ?        S    19:25   0:00 grep monTR.sh
+
+iraplab2.iralab.uni-karlsruhe.de: 283 bytes
+root     10770  0.0  0.0   3200  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1406     10808  0.0  0.0   3120  1336 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1406     10818  0.0  0.0   2288   564 ?        S     2014   0:00 grep monTR.sh
+
+planetlab2.cs.unc.edu: 283 bytes
+root      2882  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+784       2917  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+784       2927  0.0  0.0   2224   564 ?        S     2014   0:00 grep monTR.sh
+
+planetlab6.goto.info.waseda.ac.jp: 283 bytes
+root     24807  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+763      24870  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+763      24883  0.0  0.0   2224   564 ?        S     2014   0:00 grep monTR.sh
+
+vn5.cse.wustl.edu: 283 bytes
+root     16376  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2109     16412  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+2109     16423  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab-1.ing.unimo.it: 316 bytes
+root     22298  0.0  0.0   5880  1572 ?        S    19:30   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep monTR.sh
+1212     22299  0.0  0.0   3116  1252 ?        S    19:30   0:00 /bin/sh --login -c ps aux|grep monTR.sh
+1212     22313  0.0  0.0   2372   528 ?        S    19:30   0:00 grep monTR.sh
+
+prata.mimuw.edu.pl: 286 bytes
+root     117844  0.0  0.0   3200  1184 ?        Ss   Jan02   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1176     117880  0.0  0.0   3120  1320 ?        Ss   Jan02   0:00 -bash -c ps aux|grep monTR.sh
+1176     117890  0.0  0.0   2288   560 ?        S    Jan02   0:00 grep monTR.sh
+
+ple1.dmcs.p.lodz.pl: 283 bytes
+root     31692  0.0  0.0   3200  1200 ?        Ss   19:24   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1783     31729  0.0  0.0   3120  1328 ?        Ss   19:24   0:00 -bash -c ps aux|grep monTR.sh
+1783     31739  0.0  0.0   2288   572 ?        S    19:24   0:00 grep monTR.sh
+
+planetlab2.research.nicta.com.au: 316 bytes
+root     13507  0.0  0.0   5880  1556 ?        S    19:30   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep monTR.sh
+1213     13508  0.0  0.0   3116  1248 ?        S    19:30   0:00 /bin/sh --login -c ps aux|grep monTR.sh
+1213     13522  0.0  0.0   2372   532 ?        S    19:30   0:00 grep monTR.sh
+
+planetlab1.upm.ro: 283 bytes
+root      4309  0.0  0.0   3200  1200 ?        Ss   Jan30   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+845       4371  0.0  0.0   3120  1332 ?        Ss   Jan30   0:00 -bash -c ps aux|grep monTR.sh
+845       4385  0.0  0.0   2288   568 ?        S    Jan30   0:00 grep monTR.sh
+
+planetlabeu-1.tssg.org: 283 bytes
+root     31092  0.0  0.0   3200  1188 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+900      31170  0.0  0.0   3120  1324 ?        Ss    2013   0:00 -bash -c ps aux|grep monTR.sh
+900      31181  0.0  0.0   2288   568 ?        S     2013   0:00 grep monTR.sh
+
+planetlab1.di.unito.it: 283 bytes
+root     23500  0.0  0.0   3200  1176 ?        Ss   19:26   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+711      23558  0.0  0.0   3120  1308 ?        Ss   19:26   0:00 -bash -c ps aux|grep monTR.sh
+711      23571  0.0  0.0   2288   552 ?        S    19:26   0:00 grep monTR.sh
+
+planetlab2.s3.kth.se: timed out probe
+
+planetlab1.ci.pwr.wroc.pl: 283 bytes
+root      5002  0.0  0.0   4092  1188 ?        Ss   19:24   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1443      5037  0.0  0.0   3120  1324 ?        Ss   19:24   0:00 -bash -c ps aux|grep monTR.sh
+1443      5047  0.0  0.0   2288   564 ?        S    19:24   0:00 grep monTR.sh
+
+planetlab1.rd.tut.fi: 316 bytes
+root      6982  0.0  0.0   5880  1564 ?        S    19:30   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep monTR.sh
+1200      6983  0.0  0.0   3116  1252 ?        S    19:30   0:00 /bin/sh --login -c ps aux|grep monTR.sh
+1200      6997  0.0  0.0   2372   528 ?        S    19:30   0:00 grep monTR.sh
+
+onelab4.warsaw.rd.tp.pl: 283 bytes
+root     11952  0.0  0.0   3200  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+837      11987  0.0  0.0   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+837      11997  0.0  0.0   2288   564 ?        S     2014   0:00 grep monTR.sh
+
+planetlab2.eecs.jacobs-university.de: 283 bytes
+root     29527  0.0  0.1   3200  1164 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1078     29585  0.0  0.1   3120  1304 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1078     29599  0.0  0.0   2288   556 ?        S     2014   0:00 grep monTR.sh
+
+planetlab1.upc.es: 283 bytes
+root     11088  0.0  0.1   3200  1180 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1819     11250  0.0  0.1   3120  1300 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1819     11280  0.0  0.0   2288   556 ?        S     2014   0:00 grep monTR.sh
+
+planetlab3.upc.es: 283 bytes
+root     20540  0.0  0.0   3200  1176 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1705     20601  0.0  0.0   3120  1308 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1705     20615  0.0  0.0   2288   556 ?        S     2014   0:00 grep monTR.sh
+
+planetlab-2.ing.unimo.it: 316 bytes
+root     14737  0.0  0.0   5880  1572 ?        S    19:30   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep monTR.sh
+1214     14738  0.0  0.0   3116  1252 ?        S    19:30   0:00 /bin/sh --login -c ps aux|grep monTR.sh
+1214     14752  0.0  0.0   2372   528 ?        S    19:30   0:00 grep monTR.sh
+
+planetlab-node3.it-sudparis.eu: 283 bytes
+root      6665  0.0  0.0   3200  1200 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2018      6701  0.0  0.0   3120  1332 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+2018      6711  0.0  0.0   2288   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab3.informatik.uni-erlangen.de: 316 bytes
+root     53645  0.0  0.0   5880  1564 ?        S    19:20   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep monTR.sh
+1019     53646  0.0  0.0   3116  1248 ?        S    19:20   0:00 /bin/sh --login -c ps aux|grep monTR.sh
+1019     53660  0.0  0.0   2372   528 ?        S    19:20   0:00 grep monTR.sh
+
+gschembra3.diit.unict.it: 283 bytes
+root      6581  0.0  0.1   3200  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1864      6723  0.0  0.1   3120  1332 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1864      6752  0.0  0.0   2288   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab-1.fhi-fokus.de: 316 bytes
+root     24693  0.0  0.0   5880  1540 ?        S    19:30   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep monTR.sh
+1198     24694  0.0  0.0   3116  1224 ?        S    19:30   0:00 /bin/sh --login -c ps aux|grep monTR.sh
+1198     24708  0.0  0.0   2372   524 ?        S    19:30   0:00 grep monTR.sh
+
+pli1-pa-2.hpl.hp.com: 283 bytes
+root     14819  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+604      14854  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+604      14866  0.0  0.0   2224   572 ?        S     2014   0:00 grep monTR.sh
+
+ple2.cesnet.cz: 283 bytes
+root     22829  0.0  0.0   3200  1200 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1677     22872  0.0  0.0   3120  1324 ?        Ss    2013   0:00 -bash -c ps aux|grep monTR.sh
+1677     22882  0.0  0.0   2288   564 ?        S     2013   0:00 grep monTR.sh
+
+ple1.cesnet.cz: 283 bytes
+root     14173  0.0  0.0   3200  1200 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1712     14337  0.0  0.0   3120  1332 ?        Ss    2013   0:00 -bash -c ps aux|grep monTR.sh
+1712     14364  0.0  0.0   2288   572 ?        S     2013   0:00 grep monTR.sh
+
+planetlab02.tkn.tu-berlin.de: 283 bytes
+root     18775  0.0  0.0   3200  1200 ?        Ss   19:27   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+707      18815  0.0  0.0   3120  1328 ?        Ss   19:27   0:00 -bash -c ps aux|grep monTR.sh
+707      18825  0.0  0.0   2288   568 ?        S    19:27   0:00 grep monTR.sh
+
+planetlab1.urv.cat: 283 bytes
+root     24148  0.0  0.0   3200  1204 ?        Ss   19:23   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1429     24183  0.0  0.0   3120  1328 ?        Ss   19:23   0:00 -bash -c ps aux|grep monTR.sh
+1429     24193  0.0  0.0   2288   568 ?        S    19:23   0:00 grep monTR.sh
+
+planetlab1.tsuniv.edu: 283 bytes
+root      9024  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1381      9159  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1381      9176  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab1.tlm.unavarra.es: 283 bytes
+root     10023  0.0  0.0   3200  1200 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1452     10134  0.0  0.0   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1452     10154  0.0  0.0   2288   568 ?        S     2014   0:00 grep monTR.sh
+
+planet1.elte.hu: 283 bytes
+root     29939  0.0  0.0   3200  1208 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1667     29989  0.0  0.0   3120  1332 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1667     30002  0.0  0.0   2288   572 ?        S     2014   0:00 grep monTR.sh
+
+cs-planetlab4.cs.surrey.sfu.ca: 283 bytes
+root     32512  0.0  0.0   3140  1192 ?        Ss   Jan13   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+702      32547  0.0  0.0   3060  1320 ?        Ss   Jan13   0:00 -bash -c ps aux|grep monTR.sh
+702      32557  0.0  0.0   2224   572 ?        S    Jan13   0:00 grep monTR.sh
+
+planetlab3.cs.uoregon.edu: 283 bytes
+root     20338  0.0  0.0   4032  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1783     20450  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1783     20474  0.0  0.0   2224   568 ?        R     2014   0:00 grep monTR.sh
+
+planetlab2.cs.uoregon.edu: 299 bytes
+root     22342  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1791     22406  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1791     22416  0.0  0.0   3060   504 ?        R     2014   0:00 -bash -c ps aux|grep monTR.sh
+
+planetlab1.u-strasbg.fr: 283 bytes
+root     16444  0.0  0.0   3200  1180 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1187     16479  0.0  0.0   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1187     16489  0.0  0.0   2288   560 ?        S     2014   0:00 grep monTR.sh
+
+planetlab1.cti.espol.edu.ec: 283 bytes
+root     28326  0.0  0.0   3140  1196 ?        Ss   19:27   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+525      28361  0.0  0.0   3060  1316 ?        Ss   19:27   0:00 -bash -c ps aux|grep monTR.sh
+525      28371  0.0  0.0   2224   568 ?        S    19:27   0:00 grep monTR.sh
+
+planet-lab-node1.netgroup.uniroma2.it: 283 bytes
+root     16620  0.0  0.0   3200  1188 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1911     16699  0.0  0.0   3120  1332 ?        Ss    2013   0:00 -bash -c ps aux|grep monTR.sh
+1911     16713  0.0  0.0   2288   560 ?        S     2013   0:00 grep monTR.sh
+
+planetlab4.mini.pw.edu.pl: 283 bytes
+root     19537  0.0  0.0   3140  1188 ?        Ss   19:24   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1107     19573  0.0  0.0   3060  1320 ?        Ss   19:24   0:00 -bash -c ps aux|grep monTR.sh
+1107     19583  0.0  0.0   2224   564 ?        S    19:24   0:00 grep monTR.sh
+
+planetlab-3.imperial.ac.uk: 283 bytes
+root     13633  0.0  0.0   3200  1204 ?        Ss   19:28   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+700      13669  0.0  0.0   3120  1332 ?        Ss   19:28   0:00 -bash -c ps aux|grep monTR.sh
+700      13679  0.0  0.0   2288   564 ?        S    19:28   0:00 grep monTR.sh
+
+mars.planetlab.haw-hamburg.de: 299 bytes
+root     23564  0.0  0.0   3200  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1512     23900  0.0  0.0   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1512     23941  0.0  0.0   3120   492 ?        R     2014   0:00 -bash -c ps aux|grep monTR.sh
+
+planetlab1.informatik.uni-erlangen.de: timed out probe
+
+planetlab1.eecs.wsu.edu: 283 bytes
+root      8006  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1600      8178  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1600      8201  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab1.csg.uzh.ch: 316 bytes
+root      5708  0.0  0.0   5880  1560 ?        S    19:24   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep monTR.sh
+1218      5709  0.0  0.0   3116  1248 ?        S    19:24   0:00 /bin/sh --login -c ps aux|grep monTR.sh
+1218      5723  0.0  0.0   2372   524 ?        S    19:24   0:00 grep monTR.sh
+
+planetlab4.goto.info.waseda.ac.jp: 283 bytes
+root      9792  0.0  0.0   3140  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+739       9829  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+739       9839  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab1.pop-mg.rnp.br: 283 bytes
+root     25843  0.0  0.0   3140  1188 ?        Ss   Jan10   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1415     25881  0.0  0.0   3060  1320 ?        Ss   Jan10   0:00 -bash -c ps aux|grep monTR.sh
+1415     25892  0.0  0.0   2224   564 ?        S    Jan10   0:00 grep monTR.sh
+
+ebb.colgate.edu: 283 bytes
+root     32650  0.0  0.0   3140  1192 ?        Ss   Jan02   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+720      32686  0.0  0.0   3060  1320 ?        Ss   Jan02   0:00 -bash -c ps aux|grep monTR.sh
+720      32696  0.0  0.0   2224   568 ?        S    Jan02   0:00 grep monTR.sh
+
+planetlab2.csuohio.edu: 283 bytes
+root     10950  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+779      11058  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+779      11079  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab03.cs.washington.edu: 283 bytes
+root     11312  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1350     11373  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1350     11387  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab-js1.cert.org.cn: 473 bytes
+642      15206  0.0  0.0   3136  1288 ?        Ss    2014   0:04 /bin/bash ./moncloud/monTR.sh
+642      18751  0.0  0.0   3136   708 ?        S     2014   0:00 /bin/bash ./moncloud/monTR.sh
+root     21345  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+642      21380  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+642      21390  0.0  0.0   2224   560 ?        S     2014   0:00 grep monTR.sh
+
+plnode-04.gpolab.bbn.com: 283 bytes
+root      2180  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1316      2217  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1316      2227  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab1.eecs.ucf.edu: 283 bytes
+root     19302  0.0  0.0   4032  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+972      19338  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+972      19348  0.0  0.0   2224   564 ?        S     2014   0:00 grep monTR.sh
+
+planetlab-2.calpoly-netlab.net: 283 bytes
+root     19718  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2067     19754  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+2067     19764  0.0  0.0   2224   572 ?        S     2014   0:00 grep monTR.sh
+
+planetlab-01.cs.princeton.edu: 283 bytes
+1534      8108  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1534      9195  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+root     28968  0.0  0.0   3140  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+
+pl2.zju.edu.cn: 489 bytes
+1120      6891  0.0  0.0   3136   724 ?        S     2013   0:00 /bin/bash ./moncloud/monTR.sh
+root     12005  0.0  0.0   3140  1188 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1120     12235  0.0  0.0   3060  1320 ?        Ss    2013   0:00 -bash -c ps aux|grep monTR.sh
+1120     12252  0.0  0.0   3060   252 ?        R     2013   0:00 -bash -c ps aux|grep monTR.sh
+1120     17379  0.0  0.0   3136  1312 ?        Ss    2013   0:01 /bin/bash ./moncloud/monTR.sh
+
+planetlab1.cs.ucla.edu: 283 bytes
+root      5547  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1456      5585  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1456      5597  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab2.williams.edu: 283 bytes
+root     29611  0.0  0.0   3140  1144 ?        Ss   19:28   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+829      29642  0.0  0.0   3060  1324 ?        Ss   19:28   0:00 -bash -c ps aux|grep monTR.sh
+829      29654  0.0  0.0   2224   572 ?        S    19:28   0:00 grep monTR.sh
+
+planetlab1.cs.uoregon.edu: 283 bytes
+root     21474  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2036     21542  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+2036     21567  0.0  0.0   2112   268 ?        R     2014   0:00 grep monTR.sh
+
+planetlab2.cti.espol.edu.ec: 283 bytes
+root     15196  0.0  0.0   3140  1200 ?        Ss   19:25   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+526      15231  0.0  0.0   3060  1320 ?        Ss   19:25   0:00 -bash -c ps aux|grep monTR.sh
+526      15241  0.0  0.0   2224   564 ?        S    19:25   0:00 grep monTR.sh
+
+roam1.cs.ou.edu: 283 bytes
+root     24070  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2190     24224  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+2190     24242  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+pl1.rcc.uottawa.ca: 283 bytes
+root     16413  0.0  0.0   3140  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2210     16495  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+2210     16509  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab1.ucsd.edu: 473 bytes
+954      10764  0.0  0.0   3008  1224 ?        Ss    2014   0:00 /bin/bash ./moncloud/monTR.sh
+954      13444  0.0  0.0   3008   640 ?        S     2014   0:00 /bin/bash ./moncloud/monTR.sh
+root     13450  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+954      13485  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+954      13495  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+node1.planetlab.mathcs.emory.edu: 283 bytes
+root     27863  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2613     27899  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+2613     27912  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+stella.planetlab.ntua.gr: 283 bytes
+root     25225  0.0  0.1   3200  1176 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+864      25279  0.0  0.1   3120  1304 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+864      25292  0.0  0.0   2288   560 ?        S     2014   0:00 grep monTR.sh
+
+planetlab2.cs.aueb.gr: 283 bytes
+root     25460  0.0  0.0   3200  1208 ?        Ss   19:22   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1597     25496  0.0  0.0   3120  1332 ?        Ss   19:22   0:00 -bash -c ps aux|grep monTR.sh
+1597     25506  0.0  0.0   2288   568 ?        S    19:22   0:00 grep monTR.sh
+
+pluto.cs.brown.edu: 283 bytes
+root      4858  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2485      4980  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+2485      4994  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab1.virtues.fi: 283 bytes
+root      5559  0.0  0.0   3200  1188 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+856       5718  0.0  0.0   3120  1320 ?        Ss    2013   0:00 -bash -c ps aux|grep monTR.sh
+856       5752  0.0  0.0   2288   560 ?        S     2013   0:00 grep monTR.sh
+
+planetlab2.virtues.fi: 299 bytes
+root      4511  0.0  0.0   3200  1188 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+864       4666  0.0  0.0   3120  1320 ?        Ss    2013   0:00 -bash -c ps aux|grep monTR.sh
+864       4687  0.0  0.0   3120   276 ?        R     2013   0:00 -bash -c ps aux|grep monTR.sh
+
+ple2.ait.ac.th: 283 bytes
+root     13890  0.0  0.0   3200  1192 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1407     13925  0.0  0.0   3120  1328 ?        Ss    2013   0:00 -bash -c ps aux|grep monTR.sh
+1407     13935  0.0  0.0   2288   564 ?        S     2013   0:00 grep monTR.sh
+
+planetlab2.cnis.nyit.edu: 283 bytes
+root      8797  0.0  0.0   3140  1196 ?        Ss   19:27   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1507      8832  0.0  0.0   3060  1324 ?        Ss   19:27   0:00 -bash -c ps aux|grep monTR.sh
+1507      8842  0.0  0.0   2224   568 ?        S    19:27   0:00 grep monTR.sh
+
+pl1.eecs.utk.edu: 283 bytes
+root     20923  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1233     21054  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1233     21076  0.0  0.0   2224   560 ?        R     2014   0:00 grep monTR.sh
+
+pl2.cs.yale.edu: 283 bytes
+root       444  0.0  0.0   3140  1200 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1419       675  0.0  0.0   3060  1320 ?        Ss    2013   0:00 -bash -c ps aux|grep monTR.sh
+1419       704  0.0  0.0   2224   564 ?        S     2013   0:00 grep monTR.sh
+
+planetlab2.temple.edu: 283 bytes
+root     20208  0.0  0.0   3140  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+688      20243  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+688      20253  0.0  0.0   2224   564 ?        S     2014   0:00 grep monTR.sh
+
+pl1.pku.edu.cn: 283 bytes
+root      2937  0.0  0.0   3140  1188 ?        Ss   Jan28   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+689       3001  0.0  0.0   3060  1320 ?        Ss   Jan28   0:00 -bash -c ps aux|grep monTR.sh
+689       3019  0.0  0.0   2224   568 ?        S    Jan28   0:00 grep monTR.sh
+
+onelab3.warsaw.rd.tp.pl: 283 bytes
+root     27426  0.0  0.0   3200  1172 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1251     27459  0.0  0.0   3120  1304 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1251     27469  0.0  0.0   2288   556 ?        S     2014   0:00 grep monTR.sh
+
+planetlab-2.man.poznan.pl: 283 bytes
+root     27303  0.0  0.1   3200  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1304     27356  0.0  0.1   3120  1308 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1304     27370  0.0  0.0   2288   556 ?        S     2014   0:00 grep monTR.sh
+
+planetlab1.cs.uit.no: 283 bytes
+root     15751  0.0  0.0   3200  1196 ?        Ss   19:24   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1332     15786  0.0  0.0   3120  1328 ?        Ss   19:24   0:00 -bash -c ps aux|grep monTR.sh
+1332     15796  0.0  0.0   2288   564 ?        S    19:24   0:00 grep monTR.sh
+
+planetlab2.unr.edu: 283 bytes
+root       849  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+949        909  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+949        921  0.0  0.0   2224   572 ?        S     2014   0:00 grep monTR.sh
+
+planetlab-2.research.netlab.hut.fi: 299 bytes
+root      4958  0.0  0.0   3200  1204 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1356     10143  0.0  0.0   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1356     10163  0.0  0.0   3120   168 ?        R     2014   0:00 -bash -c ps aux|grep monTR.sh
+
+planetlab1.temple.edu: 283 bytes
+root     22311  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1077     22346  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1077     22356  0.0  0.0   2224   572 ?        S     2014   0:00 grep monTR.sh
+
+planetlab-tea.ait.ie: 283 bytes
+root     16370  0.0  0.0   3200  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+714      16403  0.0  0.0   3120  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+714      16413  0.0  0.0   2288   560 ?        S     2014   0:00 grep monTR.sh
+
+pl1.bell-labs.fr: 283 bytes
+root      2102  0.0  0.0   3200  1196 ?        Ss   19:26   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1579      2137  0.0  0.0   3120  1332 ?        Ss   19:26   0:00 -bash -c ps aux|grep monTR.sh
+1579      2147  0.0  0.0   2288   564 ?        S    19:26   0:00 grep monTR.sh
+
+pl2.bell-labs.fr: 283 bytes
+root     32149  0.0  0.0   3200  1200 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1602     32290  0.0  0.0   3120  1332 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1602     32317  0.0  0.0   2288   572 ?        S     2014   0:00 grep monTR.sh
+
+planetlab-1.tagus.ist.utl.pt: 473 bytes
+1447     15743  0.0  0.0   3072   612 ?        S    19:22   0:00 /bin/bash ./moncloud/monTR.sh
+root     15927  0.0  0.0   3200  1184 ?        Ss   19:22   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1447     15968  0.0  0.0   3120  1304 ?        Ss   19:22   0:00 -bash -c ps aux|grep monTR.sh
+1447     15981  0.0  0.0   2288   556 ?        S    19:22   0:00 grep monTR.sh
+1447     26181  0.0  0.0   3072  1172 ?        Ss   18:56   0:00 /bin/bash ./moncloud/monTR.sh
+
+planetlab2.cs.ucla.edu: 283 bytes
+root     11672  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1340     11782  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1340     11804  0.0  0.0   2224   572 ?        S     2014   0:00 grep monTR.sh
+
+planetlab2.xeno.cl.cam.ac.uk: 283 bytes
+root      1808  0.0  0.0   3200  1196 ?        Ss   Jan29   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1734      1845  0.0  0.0   3120  1328 ?        Ss   Jan29   0:00 -bash -c ps aux|grep monTR.sh
+1734      1858  0.0  0.0   2288   560 ?        S    Jan29   0:00 grep monTR.sh
+
+pl1.cs.yale.edu: 299 bytes
+root     10973  0.0  0.0   3140  1192 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1290     11036  0.0  0.0   3060  1320 ?        Ss    2013   0:00 -bash -c ps aux|grep monTR.sh
+1290     11047  0.0  0.0   3060   500 ?        R     2013   0:00 -bash -c ps aux|grep monTR.sh
+
+planetlab2.wiwi.hu-berlin.de: 283 bytes
+root     32428  0.0  0.0   3200  1192 ?        Ss   19:26   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1228     32463  0.0  0.0   3120  1324 ?        Ss   19:26   0:00 -bash -c ps aux|grep monTR.sh
+1228     32473  0.0  0.0   2288   560 ?        S    19:26   0:00 grep monTR.sh
+
+planetvs1.informatik.uni-stuttgart.de: 283 bytes
+root      5859  0.0  0.0   3200  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+838       5898  0.0  0.0   3120  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+838       5908  0.0  0.0   2288   560 ?        S     2014   0:00 grep monTR.sh
+
+plab2.ple.silweb.pl: 283 bytes
+root      3494  0.0  0.0   3200  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+887       3540  0.0  0.0   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+887       3552  0.0  0.0   2288   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab1.eurecom.fr: 473 bytes
+1419     14777  0.0  0.0   3200   728 ?        S     2013   0:00 /bin/bash ./moncloud/monTR.sh
+root     30585  0.0  0.0   3200  1204 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1419     30725  0.0  0.0   3120  1328 ?        Ss    2013   0:00 -bash -c ps aux|grep monTR.sh
+1419     30745  0.0  0.0   2288   572 ?        S     2013   0:00 grep monTR.sh
+1419     31880  0.0  0.0   3200  1288 ?        Ss    2013   0:01 /bin/bash ./moncloud/monTR.sh
+
+planetlab2.informatik.uni-wuerzburg.de: 283 bytes
+root     24240  0.0  0.0   3200  1188 ?        Ss   19:23   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1635     24275  0.0  0.0   3120  1332 ?        Ss   19:23   0:00 -bash -c ps aux|grep monTR.sh
+1635     24285  0.0  0.0   2288   568 ?        S    19:23   0:00 grep monTR.sh
+
+plab1.create-net.org: 473 bytes
+1822      5185  0.0  0.0   3328   844 ?        S     2014   0:00 /bin/bash ./moncloud/monTR.sh
+root      6361  0.0  0.0   3200  1200 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1822      6502  0.0  0.0   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1822      6526  0.0  0.0    588   120 ?        D     2014   0:00 grep monTR.sh
+1822     23124  0.0  0.0   3328  1388 ?        Ss    2014   0:07 /bin/bash ./moncloud/monTR.sh
+
+inriarennes1.irisa.fr: 283 bytes
+root     29743  0.0  0.0   3200  1200 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+888      29777  0.0  0.0   3120  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+888      29787  0.0  0.0   2288   560 ?        S     2014   0:00 grep monTR.sh
+
+planetlab1.rutgers.edu: 283 bytes
+root       900  0.0  0.1   3140  1188 ?        Ss   19:20   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2358       965  0.0  0.1   3060  1320 ?        Ss   19:20   0:00 -bash -c ps aux|grep monTR.sh
+2358       975  0.0  0.0   2224   564 ?        S    19:20   0:00 grep monTR.sh
+
+host4-plb.loria.fr: 316 bytes
+root     20300  0.0  0.0   5880  1572 ?        S    19:30   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep monTR.sh
+1213     20301  0.0  0.0   3116  1256 ?        S    19:30   0:00 /bin/sh --login -c ps aux|grep monTR.sh
+1213     20315  0.0  0.0   2372   532 ?        S    19:30   0:00 grep monTR.sh
+
+planetlab3.xeno.cl.cam.ac.uk: 283 bytes
+root     13238  0.0  0.0   3200  1192 ?        Ss   Jan30   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1464     13274  0.0  0.0   3120  1324 ?        Ss   Jan30   0:00 -bash -c ps aux|grep monTR.sh
+1464     13284  0.0  0.0   2288   560 ?        S    Jan30   0:00 grep monTR.sh
+
+planetlab1.research.nicta.com.au: 316 bytes
+root     22863  0.0  0.0   5880  1560 ?        S    19:30   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep monTR.sh
+1200     22864  0.0  0.0   3116  1248 ?        S    19:30   0:00 /bin/sh --login -c ps aux|grep monTR.sh
+1200     22878  0.0  0.0   2372   532 ?        S    19:30   0:00 grep monTR.sh
+
+ops.ii.uam.es: 299 bytes
+root     17193  0.0  0.1   3200  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1075     17375  0.0  0.1   3120  1332 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1075     17409  0.0  0.0   3120   176 ?        R     2014   0:00 -bash -c ps aux|grep monTR.sh
+
+planetlab2.nrl.eecs.qmul.ac.uk: 283 bytes
+root      2327  0.0  0.0   3200  1184 ?        Ss   Jan22   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+886       2362  0.0  0.0   3120  1332 ?        Ss   Jan22   0:00 -bash -c ps aux|grep monTR.sh
+886       2372  0.0  0.0   2288   564 ?        S    Jan22   0:00 grep monTR.sh
+
+planetlab4.cs.uoregon.edu: 283 bytes
+root      8035  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1777      8070  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1777      8080  0.0  0.0   2224   572 ?        S     2014   0:00 grep monTR.sh
+
+planetlab1.cs.umass.edu: timed out probe
+
+plab2.create-net.org: 473 bytes
+1679     10111  0.0  0.0   3200   808 ?        S     2014   0:00 /bin/bash ./moncloud/monTR.sh
+root     10114  0.0  0.0   3200  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1679     10149  0.0  0.0   3120  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1679     10159  0.0  0.0   2288   568 ?        S     2014   0:00 grep monTR.sh
+1679     22673  0.0  0.0   3200  1368 ?        Ss    2014   0:05 /bin/bash ./moncloud/monTR.sh
+
+planetlab2.eecs.ucf.edu: 283 bytes
+root     14509  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+950      14544  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+950      14554  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab-02.vt.nodes.planet-lab.org: 283 bytes
+root     20260  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1696     20296  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1696     20306  0.0  0.0   2224   564 ?        S     2014   0:00 grep monTR.sh
+
+planetlab1.ie.cuhk.edu.hk: 283 bytes
+root     11527  0.0  0.0   2656  1072 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+871      11564  0.0  0.0   2624  1204 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+871      11574  0.0  0.0   1968   500 ?        S     2014   0:00 grep monTR.sh
+
+plab3.eece.ksu.edu: 283 bytes
+root      2857  0.0  0.0   3140  1188 ?        Ss   19:22   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1560      2892  0.0  0.0   3060  1320 ?        Ss   19:22   0:00 -bash -c ps aux|grep monTR.sh
+1560      2902  0.0  0.0   2224   568 ?        S    19:22   0:00 grep monTR.sh
+
+planetlab3.williams.edu: 283 bytes
+root     13797  0.0  0.0   3140  1144 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1029     13829  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1029     13839  0.0  0.0   2224   564 ?        S     2014   0:00 grep monTR.sh
+
+planet-lab3.uba.ar: 283 bytes
+root     20311  0.0  0.0   3140  1196 ?        Ss   19:27   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+834      20350  0.0  0.0   3060  1320 ?        Ss   19:27   0:00 -bash -c ps aux|grep monTR.sh
+834      20364  0.0  0.0   2224   572 ?        S    19:27   0:00 grep monTR.sh
+
+netapp7.cs.kookmin.ac.kr: 473 bytes
+927       9450  0.0  0.0   3136  1308 ?        Ss    2014   0:01 /bin/bash ./moncloud/monTR.sh
+root     10387  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+927      10419  0.0  0.0   3136   724 ?        S     2014   0:00 /bin/bash ./moncloud/monTR.sh
+927      10454  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+927      10467  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab1.comp.nus.edu.sg: 283 bytes
+root     11428  0.0  0.0   3140  1196 ?        Ss   Jan26   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2918     11465  0.0  0.0   3060  1316 ?        Ss   Jan26   0:00 -bash -c ps aux|grep monTR.sh
+2918     11475  0.0  0.0   2224   568 ?        S    Jan26   0:00 grep monTR.sh
+
+planetlab4.cnds.jhu.edu: 0 bytes
+
+planetlab1.cs.ubc.ca: 299 bytes
+root      1591  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1313      1629  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1313      1640  0.0  0.0   3060   500 ?        R     2014   0:00 -bash -c ps aux|grep monTR.sh
+
+planetlab2.c3sl.ufpr.br: 283 bytes
+root     30283  0.0  0.0   3140  1184 ?        Ss   19:27   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+868      30322  0.0  0.0   3060  1320 ?        Ss   19:27   0:00 -bash -c ps aux|grep monTR.sh
+868      30334  0.0  0.0   2224   572 ?        S    19:27   0:00 grep monTR.sh
+
+planetlab4.postel.org: 283 bytes
+root     28152  0.0  0.0   3140  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2156     28188  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+2156     28198  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab-um10.di.uminho.pt: 283 bytes
+root      3191  0.0  0.0   3200  1200 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1553      3226  0.0  0.0   3120  1332 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1553      3236  0.0  0.0   2288   564 ?        S     2014   0:00 grep monTR.sh
+
+planetlab2.tsuniv.edu: 283 bytes
+root      6623  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1345      6664  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1345      6674  0.0  0.0   2224   572 ?        S     2014   0:00 grep monTR.sh
+
+planetlab-2.cs.uic.edu: 283 bytes
+root     16376  0.0  0.0   3140  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1953     16412  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1953     16422  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab2.pop-mg.rnp.br: 283 bytes
+root     30502  0.0  0.0   3140  1192 ?        Ss   Jan10   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1192     30540  0.0  0.0   3060  1316 ?        Ss   Jan10   0:00 -bash -c ps aux|grep monTR.sh
+1192     30550  0.0  0.0   2224   568 ?        S    Jan10   0:00 grep monTR.sh
+
+planetlab2.rutgers.edu: 283 bytes
+root      1231  0.0  0.1   3140  1192 ?        Ss   19:24   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2271      1293  0.0  0.1   3060  1320 ?        Ss   19:24   0:00 -bash -c ps aux|grep monTR.sh
+2271      1306  0.0  0.0   2224   568 ?        S    19:24   0:00 grep monTR.sh
+
+merkur.planetlab.haw-hamburg.de: 283 bytes
+root     25928  0.0  0.0   3200  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1424     25961  0.0  0.0   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1424     25971  0.0  0.0   2288   564 ?        S     2014   0:00 grep monTR.sh
+
+planetlab1.nrl.eecs.qmul.ac.uk: 489 bytes
+870       9588  0.0  0.0   3072   640 ?        S     2014   0:00 /bin/bash ./moncloud/monTR.sh
+root      9762  0.0  0.0   3200  1180 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+870       9797  0.0  0.0   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+870       9810  0.0  0.0   3120   492 ?        R     2014   0:00 -bash -c ps aux|grep monTR.sh
+870      18969  0.0  0.0   3072  1204 ?        Ss    2014   0:00 /bin/bash ./moncloud/monTR.sh
+
+empusa.ipv6.lip6.fr: 316 bytes
+root      6750  0.0  0.0   5880  1560 ?        S    19:31   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep monTR.sh
+1021      6751  0.0  0.0   3116  1244 ?        S    19:31   0:00 /bin/sh --login -c ps aux|grep monTR.sh
+1021      6765  0.0  0.0   2372   524 ?        S    19:31   0:00 grep monTR.sh
+
+ampelos.ipv6.lip6.fr: 316 bytes
+root     24426  0.0  0.0   5880  1564 ?        S    19:31   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep monTR.sh
+1109     24427  0.0  0.0   3116  1248 ?        S    19:31   0:00 /bin/sh --login -c ps aux|grep monTR.sh
+1109     24441  0.0  0.0   2372   532 ?        S    19:31   0:00 grep monTR.sh
+
+sybaris.ipv6.lip6.fr: 316 bytes
+root     25629  0.0  0.0   5880  1560 ?        S    19:31   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep monTR.sh
+1276     25630  0.0  0.0   3116  1244 ?        S    19:31   0:00 /bin/sh --login -c ps aux|grep monTR.sh
+1276     25644  0.0  0.0   2372   528 ?        S    19:31   0:00 grep monTR.sh
+
+plewifi.ipv6.lip6.fr: 283 bytes
+root     15774  0.0  0.0   3200  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+943      15809  0.0  0.0   3120  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+943      15819  0.0  0.0   2288   568 ?        S     2014   0:00 grep monTR.sh
+
+ple6.ipv6.lip6.fr: 283 bytes
+root     30458  0.0  0.0   3200  1204 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+793      30502  0.0  0.0   3120  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+793      30513  0.0  0.0   2288   568 ?        S     2014   0:00 grep monTR.sh
+
+ple4.ipv6.lip6.fr: 283 bytes
+root     16978  0.0  0.0   3200  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1216     17013  0.0  0.0   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1216     17023  0.0  0.0   2288   560 ?        S     2014   0:00 grep monTR.sh
+
+ple2.ipv6.lip6.fr: 283 bytes
+root     32145  0.0  0.1   3200  1180 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1611     32179  0.0  0.1   3120  1300 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1611     32189  0.0  0.0   2288   552 ?        S     2014   0:00 grep monTR.sh
+
+anateus.ipv6.lip6.fr: 316 bytes
+root      7341  0.0  0.0   5880  1564 ?        S    19:31   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep monTR.sh
+1019      7342  0.0  0.0   3116  1244 ?        S    19:31   0:00 /bin/sh --login -c ps aux|grep monTR.sh
+1019      7356  0.0  0.0   2372   528 ?        S    19:31   0:00 grep monTR.sh
+
+pl1.cs.montana.edu: 299 bytes
+root     23107  0.0  0.0   3140  1196 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+916      23254  0.0  0.0   3060  1320 ?        Ss    2013   0:00 -bash -c ps aux|grep monTR.sh
+916      23274  0.0  0.0   3060   500 ?        R     2013   0:00 -bash -c ps aux|grep monTR.sh
+
+planetlab5.csee.usf.edu: 473 bytes
+1688      1322  0.0  0.0   3136  1336 ?        Ss    2014   0:02 /bin/bash ./moncloud/monTR.sh
+1688      4705  0.0  0.0   3136   752 ?        S     2014   0:00 /bin/bash ./moncloud/monTR.sh
+root      5021  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1688      5056  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1688      5066  0.0  0.0   2224   564 ?        S     2014   0:00 grep monTR.sh
+
+planetlab-04.vt.nodes.planet-lab.org: 283 bytes
+root     11703  0.0  0.0   3140  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1675     11796  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1675     11813  0.0  0.0   2224   572 ?        S     2014   0:00 grep monTR.sh
+
+onelab10.pl.sophia.inria.fr: 316 bytes
+root     19574  0.0  0.0   5880  1568 ?        S    19:31   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep monTR.sh
+1217     19575  0.0  0.0   3116  1252 ?        S    19:31   0:00 /bin/sh --login -c ps aux|grep monTR.sh
+1217     19589  0.0  0.0   2372   524 ?        S    19:31   0:00 grep monTR.sh
+
+planetlabone.ccs.neu.edu: 283 bytes
+root      2190  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1195      2317  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1195      2333  0.0  0.0   2224   572 ?        S     2014   0:00 grep monTR.sh
+
+planetlab1.s3.kth.se: timed out probe
+
+planetlab3.rutgers.edu: 283 bytes
+root      4016  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1519      4052  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1519      4062  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+plink.cs.uwaterloo.ca: 283 bytes
+root     10322  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2346     10462  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+2346     10476  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planet2.cc.gt.atl.ga.us: 283 bytes
+root     15010  0.0  0.1   3140  1188 ?        Ss   Jan30   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1855     15045  0.0  0.1   3060  1324 ?        Ss   Jan30   0:00 -bash -c ps aux|grep monTR.sh
+1855     15055  0.0  0.0   2224   572 ?        S    Jan30   0:00 grep monTR.sh
+
+pl-node-0.csl.sri.com: 473 bytes
+789      10675  0.0  0.0   3136  1388 ?        Ss   Feb01   0:03 /bin/bash ./moncloud/monTR.sh
+789      28475  0.0  0.0   3136   804 ?        S    19:24   0:00 /bin/bash ./moncloud/monTR.sh
+root     28599  0.0  0.0   3140  1192 ?        Ss   19:24   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+789      28635  0.0  0.0   3060  1320 ?        Ss   19:24   0:00 -bash -c ps aux|grep monTR.sh
+789      28645  0.0  0.0   2224   572 ?        S    19:24   0:00 grep monTR.sh
+
+planet2.pnl.nitech.ac.jp: 283 bytes
+root     14718  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+762      14753  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+762      14763  0.0  0.0   2224   564 ?        S     2014   0:00 grep monTR.sh
+
+planetlab2.unl.edu: 473 bytes
+1213      8609  0.0  0.0   3008  1176 ?        Ss    2014   0:00 /bin/bash ./moncloud/monTR.sh
+1213     20286  0.0  0.0   3008   680 ?        S     2014   0:00 /bin/bash ./moncloud/monTR.sh
+root     21553  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1213     21588  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1213     21599  0.0  0.0   2224   572 ?        S     2014   0:00 grep monTR.sh
+
+planetlab2.cesnet.cz: 283 bytes
+root      2132  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1286      2167  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1286      2178  0.0  0.0   2224   572 ?        S     2014   0:00 grep monTR.sh
+
+planetlab-1.ida.liu.se: 283 bytes
+root     25671  0.0  0.0   3200  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+979      25706  0.0  0.0   3120  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+979      25716  0.0  0.0   2288   560 ?        S     2014   0:00 grep monTR.sh
+
+plab3.cs.msu.ru: 283 bytes
+root      6648  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+771       6683  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+771       6696  0.0  0.0   2224   564 ?        S     2014   0:00 grep monTR.sh
+
+node1.planetlab.albany.edu: 283 bytes
+root     28144  0.0  0.0   3140  1188 ?        Ss   19:27   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+991      28183  0.0  0.0   3060  1320 ?        Ss   19:27   0:00 -bash -c ps aux|grep monTR.sh
+991      28194  0.0  0.0   2224   568 ?        S    19:27   0:00 grep monTR.sh
+
+planetlab-2.ida.liu.se: 283 bytes
+root      9359  0.0  0.0   3200  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1101      9538  0.0  0.0   3120  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1101      9568  0.0  0.0   2288   556 ?        S     2014   0:00 grep monTR.sh
+
+planetlab2.mini.pw.edu.pl: 283 bytes
+root     21948  0.0  0.0   3200  1184 ?        Ss   19:27   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1036     21981  0.0  0.0   3120  1324 ?        Ss   19:27   0:00 -bash -c ps aux|grep monTR.sh
+1036     21991  0.0  0.0   2288   564 ?        S    19:27   0:00 grep monTR.sh
+
+openlab01.pl.sophia.inria.fr: timed out probe
+
+planetlab1.c3sl.ufpr.br: 283 bytes
+root     25127  0.0  0.0   4032  1184 ?        Ss   19:26   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+813      25188  0.0  0.0   3060  1324 ?        Ss   19:26   0:00 -bash -c ps aux|grep monTR.sh
+813      25198  0.0  0.0   2224   392 ?        R    19:26   0:00 grep monTR.sh
+
+planetlab1.cesnet.cz: 283 bytes
+root     30208  0.0  0.0   3140  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1364     30321  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1364     30343  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+pli1-pa-4.hpl.hp.com: 283 bytes
+root      2613  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1299      2649  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1299      2659  0.0  0.0   2224   564 ?        S     2014   0:00 grep monTR.sh
+
+planetlab0.otemachi.wide.ad.jp: 283 bytes
+root     14453  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+756      14490  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+756      14500  0.0  0.0   2224   564 ?        S     2014   0:00 grep monTR.sh
+
+planetlab1.cs.okstate.edu: 283 bytes
+root     12889  0.0  0.0   3140  1188 ?        Ss   Jan27   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1074     12924  0.0  0.0   3060  1324 ?        Ss   Jan27   0:00 -bash -c ps aux|grep monTR.sh
+1074     12934  0.0  0.0   2224   572 ?        S    Jan27   0:00 grep monTR.sh
+
+planetlab3.arizona-gigapop.net: 283 bytes
+root      2384  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1259      2474  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1259      2490  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab2.arizona-gigapop.net: 204 bytes
+root     20622  0.0  0.0   3140  1144 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1255     20653  0.0  0.0   3060  1320 ?        Rs    2014   0:00 -bash -c ps aux|grep monTR.sh
+
+planet4.cc.gt.atl.ga.us: 283 bytes
+root     15756  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2044     15799  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+2044     15809  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab3.ucsd.edu: 473 bytes
+2502      1973  0.0  0.0   3008  1228 ?        Ss    2014   0:00 /bin/bash ./moncloud/monTR.sh
+2502     19152  0.0  0.0   3008   644 ?        S     2014   0:00 /bin/bash ./moncloud/monTR.sh
+root     21117  0.0  0.0   3140  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2502     21198  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+2502     21214  0.0  0.0   2224   564 ?        S     2014   0:00 grep monTR.sh
+
+planetlab1.cs.colorado.edu: 283 bytes
+root      1952  0.0  0.0   3140  1184 ?        Ss   Jan27   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2445      1988  0.0  0.0   3060  1320 ?        Ss   Jan27   0:00 -bash -c ps aux|grep monTR.sh
+2445      1998  0.0  0.0   2224   568 ?        S    Jan27   0:00 grep monTR.sh
+
+planetlab1.cs.otago.ac.nz: 283 bytes
+root     10123  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1316     10159  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1316     10170  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planet-plc-1.mpi-sws.org: 283 bytes
+root      3942  0.0  0.0   3140  1200 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+701       3978  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+701       3988  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab-01.bu.edu: 283 bytes
+root      2423  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1312      2530  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1312      2549  0.0  0.0   2224   564 ?        S     2014   0:00 grep monTR.sh
+
+planetlabtwo.ccs.neu.edu: 283 bytes
+root     17531  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1752     17580  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1752     17590  0.0  0.0   2224   572 ?        S     2014   0:00 grep monTR.sh
+
+planetlab-1.cs.uic.edu: 283 bytes
+root      2184  0.0  0.0   3140  1196 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+900       2221  0.0  0.0   3060  1320 ?        Ss    2013   0:00 -bash -c ps aux|grep monTR.sh
+900       2232  0.0  0.0   2224   568 ?        S     2013   0:00 grep monTR.sh
+
+planet-lab2.cs.ucr.edu: 473 bytes
+1149      1853  0.0  0.0   3008  1104 ?        Ss    2014   0:01 /bin/bash ./moncloud/monTR.sh
+1149     16133  0.0  0.0   3008   668 ?        S     2014   0:00 /bin/bash ./moncloud/monTR.sh
+root     18960  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1149     18996  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1149     19006  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab02.cs.washington.edu: 283 bytes
+root     20854  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2596     20890  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+2596     20900  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab1.cs.columbia.edu: 283 bytes
+root     31231  0.0  0.1   3140  1184 ?        Ss   Jan10   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+769      31278  0.0  0.1   3060  1324 ?        Ss   Jan10   0:00 -bash -c ps aux|grep monTR.sh
+769      31289  0.0  0.0   2224   572 ?        S    Jan10   0:00 grep monTR.sh
+
+planetlab1.unl.edu: 473 bytes
+1234      9730  0.0  0.0   3008   688 ?        S     2014   0:00 /bin/bash ./moncloud/monTR.sh
+root      9839  0.0  0.0   4032  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1234      9874  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1234      9884  0.0  0.0   2224   564 ?        S     2014   0:00 grep monTR.sh
+1234     28766  0.0  0.0   3008  1272 ?        Ss    2014   0:01 /bin/bash ./moncloud/monTR.sh
+
+pl1.eng.monash.edu.au: 283 bytes
+root     15365  0.0  0.0   3140  1188 ?        Ss   Jan26   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+934      15401  0.0  0.0   3060  1320 ?        Ss   Jan26   0:00 -bash -c ps aux|grep monTR.sh
+934      15411  0.0  0.0   2224   564 ?        S    Jan26   0:00 grep monTR.sh
+
+planetlab2.eecs.wsu.edu: 283 bytes
+root     12717  0.0  0.0   4032  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1973     12759  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1973     12770  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+pl2.ucs.indiana.edu: 283 bytes
+root     22574  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2349     22644  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+2349     22658  0.0  0.0   2224   572 ?        S     2014   0:00 grep monTR.sh
+
+planetlab-5.eecs.cwru.edu: 283 bytes
+root     18350  0.0  0.0   3140  1184 ?        Ss   19:25   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1996     18385  0.0  0.0   3060  1320 ?        Ss   19:25   0:00 -bash -c ps aux|grep monTR.sh
+1996     18395  0.0  0.0   2224   568 ?        S    19:25   0:00 grep monTR.sh
+
+netapp6.cs.kookmin.ac.kr: 473 bytes
+948       2190  0.0  0.0   3136   740 ?        S    19:26   0:00 /bin/bash ./moncloud/monTR.sh
+root      2368  0.0  0.0   3140  1188 ?        Ss   19:26   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+948       2405  0.0  0.0   3060  1324 ?        Ss   19:26   0:00 -bash -c ps aux|grep monTR.sh
+948       2417  0.0  0.0   2224   572 ?        S    19:26   0:00 grep monTR.sh
+948      27195  0.0  0.0   3136  1324 ?        Ss   Feb01   0:02 /bin/bash ./moncloud/monTR.sh
+
+planetlab-1.calpoly-netlab.net: 283 bytes
+root     28204  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2072     28240  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+2072     28250  0.0  0.0   2224   572 ?        S     2014   0:00 grep monTR.sh
+
+planetlab3.cnds.jhu.edu: 299 bytes
+root     14238  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2204     14359  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+2204     14376  0.0  0.0   3060   500 ?        R     2014   0:00 -bash -c ps aux|grep monTR.sh
+
+vn4.cse.wustl.edu: 283 bytes
+root     11062  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2300     11098  0.0  0.0   3060  1320 ?        Rs    2014   0:00 -bash -c ps aux|grep monTR.sh
+2300     11108  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab3.cs.columbia.edu: 283 bytes
+root      6785  0.0  0.1   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+815       6883  0.0  0.1   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+815       6905  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planet-plc-2.mpi-sws.org: 283 bytes
+root      3939  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+895       3975  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+895       3985  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab1.cs.unc.edu: 283 bytes
+root      7118  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1351      7178  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1351      7188  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+plnode-03.gpolab.bbn.com: 283 bytes
+root      6497  0.0  0.0   3140  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1813      6540  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1813      6550  0.0  0.0   2224   572 ?        S     2014   0:00 grep monTR.sh
+
+saturn.planetlab.carleton.ca: 283 bytes
+root     29269  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1206     29478  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1206     29494  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab2.cs.columbia.edu: 473 bytes
+786      16368  0.0  0.0   3136   772 ?        S     2014   0:00 /bin/bash ./moncloud/monTR.sh
+root     16563  0.0  0.1   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+786      16607  0.0  0.1   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+786      16618  0.0  0.0   2224   564 ?        S     2014   0:00 grep monTR.sh
+786      26170  0.0  0.0   3136   924 ?        Ss    2014   0:11 /bin/bash ./moncloud/monTR.sh
+
+planetlab1.arizona-gigapop.net: 283 bytes
+root      2167  0.0  0.0   3140  1144 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1728      2202  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1728      2214  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab1.cs.purdue.edu: 283 bytes
+root     30731  0.0  0.0   3140  1188 ?        Ss   19:28   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+3011     30767  0.0  0.0   3060  1324 ?        Ss   19:28   0:00 -bash -c ps aux|grep monTR.sh
+3011     30777  0.0  0.0   2224   564 ?        S    19:28   0:00 grep monTR.sh
+
+planetlab2.cs.uoi.gr: 283 bytes
+root     15668  0.0  0.1   3200  1168 ?        Ss   19:26   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+532      15703  0.0  0.1   3120  1304 ?        Ss   19:26   0:00 -bash -c ps aux|grep monTR.sh
+532      15713  0.0  0.0   2288   552 ?        S    19:26   0:00 grep monTR.sh
+
+planetlab2.sics.se: 283 bytes
+root     12262  0.0  0.1   3200  1180 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1459     12295  0.0  0.1   3120  1300 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1459     12306  0.0  0.0   2288   560 ?        S     2014   0:00 grep monTR.sh
+
+plab4.eece.ksu.edu: 299 bytes
+root     32660  0.0  0.0   3140  1192 ?        Ss   19:22   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2114     32695  0.0  0.0   3060  1320 ?        Ss   19:22   0:00 -bash -c ps aux|grep monTR.sh
+2114     32705  0.0  0.0   3060   336 ?        R    19:22   0:00 -bash -c ps aux|grep monTR.sh
+
+vicky.planetlab.ntua.gr: 283 bytes
+root      3903  0.0  0.1   3200  1176 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1400      4046  0.0  0.1   3120  1304 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1400      4065  0.0  0.0   2288   560 ?        S     2014   0:00 grep monTR.sh
+
+planetlab2.cs.colorado.edu: 283 bytes
+root      6364  0.0  0.0   3140  1192 ?        Ss   Jan10   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2004      6405  0.0  0.0   3060  1320 ?        Ss   Jan10   0:00 -bash -c ps aux|grep monTR.sh
+2004      6415  0.0  0.0   2224   568 ?        S    Jan10   0:00 grep monTR.sh
+
+planetlab1.otemachi.wide.ad.jp: 283 bytes
+root     19342  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1472     19380  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1472     19390  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab1.unineuchatel.ch: 283 bytes
+root      7264  0.0  0.0   3200  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1476      7422  0.0  0.0   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1476      7449  0.0  0.0   2288   572 ?        S     2014   0:00 grep monTR.sh
+
+planetlab2.ics.forth.gr: 473 bytes
+root      3387  0.0  0.0   3200  1204 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1326      3489  0.0  0.0   3120  1332 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1326      3513  0.0  0.0   2288   564 ?        S     2014   0:00 grep monTR.sh
+1326      6913  0.0  0.0   3072  1264 ?        Ss    2014   0:01 /bin/bash ./moncloud/monTR.sh
+1326     23593  0.0  0.0   3072   704 ?        S     2014   0:00 /bin/bash ./moncloud/monTR.sh
+
+pli1-pa-6.hpl.hp.com: 473 bytes
+1782      3452  0.0  0.0   3008   656 ?        S     2014   0:00 /bin/bash ./moncloud/monTR.sh
+root      5069  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1782      5105  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1782      5115  0.0  0.0   2224   564 ?        S     2014   0:00 grep monTR.sh
+1782     25258  0.0  0.0   3008  1244 ?        Ss    2014   0:01 /bin/bash ./moncloud/monTR.sh
+
+planetlab-2.tagus.ist.utl.pt: 283 bytes
+root      6062  0.0  0.0   3200  1180 ?        Ss   19:23   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1408      6097  0.0  0.0   3120  1304 ?        Ss   19:23   0:00 -bash -c ps aux|grep monTR.sh
+1408      6107  0.0  0.0   2288   556 ?        S    19:23   0:00 grep monTR.sh
+
+planetlab1.mta.ac.il: 283 bytes
+root     28822  0.0  0.0   3200  1196 ?        Ss   Jan01   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1308     28855  0.0  0.0   3120  1324 ?        Ss   Jan01   0:00 -bash -c ps aux|grep monTR.sh
+1308     28865  0.0  0.0   2288   560 ?        S    Jan01   0:00 grep monTR.sh
+
+planetlab3.bupt.edu.cn: 299 bytes
+root     14809  0.0  0.0   3140  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1065     14844  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1065     14854  0.0  0.0   3060   504 ?        R     2014   0:00 -bash -c ps aux|grep monTR.sh
+
+ple1.ait.ac.th: 283 bytes
+root     12815  0.0  0.0   3200  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1324     12852  0.0  0.0   3120  1332 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1324     12863  0.0  0.0   2288   568 ?        S     2014   0:00 grep monTR.sh
+
+righthand.eecs.harvard.edu: 283 bytes
+root      6484  0.0  0.0   3140  1192 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1223      6521  0.0  0.0   3060  1320 ?        Ss    2013   0:00 -bash -c ps aux|grep monTR.sh
+1223      6531  0.0  0.0   2224   572 ?        S     2013   0:00 grep monTR.sh
+
+planetlab1.ecs.vuw.ac.nz: 283 bytes
+root      9921  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1948      9958  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1948      9968  0.0  0.0   2224   564 ?        S     2014   0:00 grep monTR.sh
+
+pl1.sos.info.hiroshima-cu.ac.jp: 283 bytes
+root     26889  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+826      26924  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+826      26935  0.0  0.0   2224   572 ?        S     2014   0:00 grep monTR.sh
+
+planetlab1.cs.uoi.gr: 283 bytes
+root     26089  0.0  0.1   3200  1172 ?        Ss   19:26   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+837      26125  0.0  0.1   3120  1308 ?        Ss   19:26   0:00 -bash -c ps aux|grep monTR.sh
+837      26135  0.0  0.0   2288   552 ?        S    19:26   0:00 grep monTR.sh
+
+planetlab2.ecs.vuw.ac.nz: 283 bytes
+root      8626  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1401      8661  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1401      8672  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab1.extern.kuleuven.be: 283 bytes
+root     30943  0.0  0.0   3200  1184 ?        Ss   19:27   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1013     30980  0.0  0.0   3120  1328 ?        Ss   19:27   0:00 -bash -c ps aux|grep monTR.sh
+1013     30990  0.0  0.0   2288   564 ?        S    19:27   0:00 grep monTR.sh
+
+onelab1.info.ucl.ac.be: 283 bytes
+root     30981  0.0  0.1   3200  1168 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1101     31045  0.0  0.1   3120  1308 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1101     31060  0.0  0.0   2288   556 ?        S     2014   0:00 grep monTR.sh
+
+planetlab2.extern.kuleuven.be: 283 bytes
+root     28825  0.0  0.0   3200  1188 ?        Ss   19:28   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+922      28886  0.0  0.0   3120  1328 ?        Ss   19:28   0:00 -bash -c ps aux|grep monTR.sh
+922      28897  0.0  0.0   2288   564 ?        S    19:28   0:00 grep monTR.sh
+
+planetlab3.mini.pw.edu.pl: 283 bytes
+root     12614  0.0  0.0   3140  1188 ?        Ss   19:27   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+532      12649  0.0  0.0   3060  1320 ?        Ss   19:27   0:00 -bash -c ps aux|grep monTR.sh
+532      12659  0.0  0.0   2224   568 ?        S    19:27   0:00 grep monTR.sh
+
+planetlab2.sfc.wide.ad.jp: 204 bytes
+root      4194  0.0  0.0   3140  1140 ?        Ss   19:24   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1965      4225  0.0  0.0   3060  1320 ?        Rs   19:24   0:00 -bash -c ps aux|grep monTR.sh
+
+onelab2.info.ucl.ac.be: 473 bytes
+1683     12599  0.0  0.1   3072  1216 ?        Ss   Feb01   0:01 /bin/bash ./moncloud/monTR.sh
+1683     20217  0.0  0.0   3072   660 ?        S    19:19   0:00 /bin/bash ./moncloud/monTR.sh
+root     20492  0.0  0.1   3200  1180 ?        Ss   19:20   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1683     20527  0.0  0.1   3120  1308 ?        Ss   19:20   0:00 -bash -c ps aux|grep monTR.sh
+1683     20537  0.0  0.0   2288   560 ?        S    19:20   0:00 grep monTR.sh
+
+planetlab2.clemson.edu: 0 bytes
+
+planet-lab1.uba.ar: 283 bytes
+root       775  0.0  0.0   3140  1188 ?        Ss   19:28   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+985        810  0.0  0.0   3060  1320 ?        Ss   19:28   0:00 -bash -c ps aux|grep monTR.sh
+985        820  0.0  0.0   2224   568 ?        S    19:28   0:00 grep monTR.sh
+
+planetlab1.clemson.edu: 283 bytes
+root     27298  0.0  0.0   3140  1196 ?        Ss   19:29   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+873      27333  0.0  0.0   3060  1324 ?        Ss   19:29   0:00 -bash -c ps aux|grep monTR.sh
+873      27343  0.0  0.0   2224   572 ?        S    19:29   0:00 grep monTR.sh
+
+planetlab2.cs.okstate.edu: 283 bytes
+root     18439  0.0  0.0   3140  1188 ?        Ss   19:29   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1071     18474  0.0  0.0   3060  1320 ?        Ss   19:29   0:00 -bash -c ps aux|grep monTR.sh
+1071     18484  0.0  0.0   2224   568 ?        S    19:29   0:00 grep monTR.sh
+
+planetlab2.cs.otago.ac.nz: 283 bytes
+root     15674  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1249     15709  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1249     15719  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab01.alucloud.com: 0 bytes
+
+pl2.cs.montana.edu: 283 bytes
+root      5116  0.0  0.0   3140  1188 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+917       5151  0.0  0.0   3060  1324 ?        Ss    2013   0:00 -bash -c ps aux|grep monTR.sh
+917       5161  0.0  0.0   2224   572 ?        S     2013   0:00 grep monTR.sh
+
+pl2.eng.monash.edu.au: 283 bytes
+root     30232  0.0  0.0   3140  1188 ?        Ss   Jan26   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1789     30267  0.0  0.0   3060  1324 ?        Ss   Jan26   0:00 -bash -c ps aux|grep monTR.sh
+1789     30277  0.0  0.0   2224   568 ?        S    Jan26   0:00 grep monTR.sh
+
+planetlab-1.ssvl.kth.se: 283 bytes
+root      6287  0.0  0.1   3140  1184 ?        Ss   Jan10   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1636      6336  0.0  0.1   3060  1320 ?        Ss   Jan10   0:00 -bash -c ps aux|grep monTR.sh
+1636      6348  0.0  0.0   2224   572 ?        S    Jan10   0:00 grep monTR.sh
+
+planetlab1.cqupt.edu.cn: 299 bytes
+root     23246  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1142     23281  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1142     23291  0.0  0.0   3060   496 ?        R     2014   0:00 -bash -c ps aux|grep monTR.sh
+
+planetlab1.sfc.wide.ad.jp: 204 bytes
+root     28665  0.0  0.0   3140  1140 ?        Ss   Jan12   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1315     28697  0.0  0.0   3060  1320 ?        Rs   Jan12   0:00 -bash -c ps aux|grep monTR.sh
+
+planetlab1.utt.fr: 283 bytes
+root      3754  0.0  0.0   3200  1208 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2019      3868  0.0  0.0   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+2019      3890  0.0  0.0   2288   564 ?        S     2014   0:00 grep monTR.sh
+
+planetlab1.cnis.nyit.edu: 283 bytes
+root     27652  0.0  0.0   3140  1200 ?        Ss   19:29   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1621     27695  0.0  0.0   3060  1320 ?        Ss   19:29   0:00 -bash -c ps aux|grep monTR.sh
+1621     27715  0.0  0.0   2224   572 ?        S    19:29   0:00 grep monTR.sh
+
+utet.ii.uam.es: 283 bytes
+root     15152  0.0  0.0   3200  1196 ?        Ss   Jan02   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1425     15189  0.0  0.0   3120  1328 ?        Ss   Jan02   0:00 -bash -c ps aux|grep monTR.sh
+1425     15199  0.0  0.0   2288   568 ?        S    Jan02   0:00 grep monTR.sh
+
+planetlab2.upc.es: 283 bytes
+root      1277  0.0  0.1   3200  1180 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1496      1320  0.0  0.1   3120  1308 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1496      1336  0.0  0.0   2288   556 ?        S     2014   0:00 grep monTR.sh
+
+dplanet1.uoc.edu: 283 bytes
+root     22203  0.0  0.0   3200  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1765     22238  0.0  0.0   3120  1332 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1765     22248  0.0  0.0   2288   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab2.cs.uml.edu: 299 bytes
+root      4089  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1680      4204  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1680      4220  0.0  0.0   3060   500 ?        R     2014   0:00 -bash -c ps aux|grep monTR.sh
+
+planetlab1.uta.edu: 0 bytes
+
+planetlab3.wail.wisc.edu: 283 bytes
+1333       410  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1333       428  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+root     32756  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+
+planetlab2.cs.ubc.ca: 299 bytes
+root      6660  0.0  0.0   3140  1200 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1312      6793  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1312      6807  0.0  0.0   3060   504 ?        R     2014   0:00 -bash -c ps aux|grep monTR.sh
+
+pl2.sos.info.hiroshima-cu.ac.jp: 283 bytes
+root      4043  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+798       4078  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+798       4088  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab01.dis.unina.it: 473 bytes
+root       655  0.0  0.0   3200  1176 ?        Ss   19:19   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+760        688  0.0  0.0   3120  1300 ?        Ss   19:19   0:00 -bash -c ps aux|grep monTR.sh
+760        698  0.0  0.0   2288   556 ?        S    19:19   0:00 grep monTR.sh
+760      19067  0.0  0.0   3200  1344 ?        Ss   Feb01   0:18 /bin/bash ./moncloud/monTR.sh
+760      32660  0.0  0.0   3200   784 ?        S    19:18   0:00 /bin/bash ./moncloud/monTR.sh
+
+pl2.6test.edu.cn: 299 bytes
+root     22199  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1533     22234  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1533     22244  0.0  0.0   3060   500 ?        R     2014   0:00 -bash -c ps aux|grep monTR.sh
+
+planetlab2.jcp-consult.net: 299 bytes
+root     19746  0.0  0.0   3200  1180 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1017     19858  0.0  0.0   3120  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1017     19879  0.0  0.0   3120   492 ?        R     2014   0:00 -bash -c ps aux|grep monTR.sh
+
+planetlab02.alucloud.com: timed out probe
+
+planetlab2.utdallas.edu: 473 bytes
+1299       380  0.0  0.0   3008   648 ?        S     2014   0:00 /bin/bash ./moncloud/monTR.sh
+root       773  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1299       812  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1299       822  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+1299     23409  0.0  0.0   3008  1232 ?        Ss    2014   0:00 /bin/bash ./moncloud/monTR.sh
+
+planetlab-2.cse.ohio-state.edu: 283 bytes
+root      5147  0.0  0.1   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1373      5239  0.0  0.1   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1373      5313  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab1.ustc.edu.cn: 473 bytes
+1144     14964  0.0  0.0   3008   652 ?        S     2014   0:00 /bin/bash ./moncloud/monTR.sh
+root     19769  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1144     19835  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1144     19846  0.0  0.0   2224   572 ?        S     2014   0:00 grep monTR.sh
+1144     31377  0.0  0.0   3008  1240 ?        Ss    2014   0:00 /bin/bash ./moncloud/monTR.sh
+
+planetlab1.citadel.edu: 283 bytes
+root      5810  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+857       5856  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+857       5866  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab-2.cs.colostate.edu: timed out probe
+
+planetlab1.mini.pw.edu.pl: 283 bytes
+root     26446  0.0  0.0   3200  1188 ?        Ss   19:27   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1090     26481  0.0  0.0   3120  1324 ?        Ss   19:27   0:00 -bash -c ps aux|grep monTR.sh
+1090     26493  0.0  0.0   2288   564 ?        S    19:27   0:00 grep monTR.sh
+
+planetlab-01.vt.nodes.planet-lab.org: 283 bytes
+root     23242  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+864      23280  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+864      23291  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+
+planetlab1.cs.du.edu: 283 bytes
+root      4036  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2026      4220  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+2026      4240  0.0  0.0   2224   572 ?        S     2014   0:00 grep monTR.sh
+
+planetlab1.utdallas.edu: 473 bytes
+root      1305  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+2760      1342  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+2760      1352  0.0  0.0   2224   568 ?        S     2014   0:00 grep monTR.sh
+2760     15970  0.0  0.0   3008  1228 ?        Ss    2014   0:00 /bin/bash ./moncloud/monTR.sh
+2760     31459  0.0  0.0   3008   644 ?        S     2014   0:00 /bin/bash ./moncloud/monTR.sh
+
+planetlab1.fit.vutbr.cz: 299 bytes
+root      8083  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1503      8259  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1503      8279  0.0  0.0   3060   172 ?        R     2014   0:00 -bash -c ps aux|grep monTR.sh
+
+lefthand.eecs.harvard.edu: 283 bytes
+root     17447  0.0  0.0   3140  1188 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1338     17556  0.0  0.0   3060  1324 ?        Ss    2013   0:00 -bash -c ps aux|grep monTR.sh
+1338     17566  0.0  0.0   2224   572 ?        S     2013   0:00 grep monTR.sh
+
+pl1.6test.edu.cn: 283 bytes
+root     26001  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1425     26053  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep monTR.sh
+1425     26063  0.0  0.0   2224   572 ?        S     2014   0:00 grep monTR.sh
+
+planetlab-2.sjtu.edu.cn: 283 bytes
+root     27538  0.0  0.0   3140  1188 ?        Ss   Feb01   0:00 /bin/su - cmu_agens -c ps aux|grep monTR.sh
+1158     27573  0.0  0.0   3060  1320 ?        Ss   Feb01   0:00 -bash -c ps aux|grep monTR.sh
+1158     27583  0.0  0.0   2224   568 ?        S    Feb01   0:00 grep monTR.sh
+

@@ -1,0 +1,18 @@
+#!/bin/bash
+f=$1
+N=0
+cat $f | while read LINE; do
+	N=$((N+1))
+	FOLDER="/home/Chen/weekday/ping/$LINE/"
+	echo "Make directory in $FOLDER"
+	if [ ! -d "$FOLDER" ]; then
+		mkdir $FOLDER
+		echo "${FOLDER} created successfully !!!"
+	else
+		echo "${FOLDER} already created !!!"
+	fi
+	echo "Copy Files from $LINE:~/log/*.json to the folder $FOLDER"
+	cmd1="scp -i /home/Chen/.ssh/id_rsa -r cmu_agens@$LINE:~/log/*.json $FOLDER"
+	echo "run command: $cmd1"
+	eval $cmd1
+done

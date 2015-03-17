@@ -1,0 +1,2169 @@
+pl-node-1.csl.sri.com: 504 bytes
+2224     10572  0.0  0.1  10160  5412 ?        Ss   Feb01   0:05 python /home/cmu_agens/moncloud/run_ping.py
+root     27062  0.0  0.0   3140  1192 ?        Ss   19:00   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2224     27099  0.0  0.0   3060  1324 ?        Ss   19:00   0:00 -bash -c ps aux|grep python
+2224     27109  0.0  0.0   2224   560 ?        S    19:00   0:00 grep python
+2224     30114  0.4  0.1  11772  7196 ?        Ss   Feb01   5:53 python /home/cmu_agens/agens-client/run_superbowl.py
+
+ricepl-1.cs.rice.edu: 520 bytes
+root     25292  0.0  0.0   3140  1140 ?        Ss   19:22   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1496     25328  0.0  0.0   3060  1320 ?        Ss   19:22   0:00 -bash -c ps aux|grep python
+1496     25338  0.0  0.0   3060   500 ?        D    19:22   0:00 -bash -c ps aux|grep python
+1496     25503  0.0  0.1  10168  5420 ?        Ss   Feb01   0:06 python /home/cmu_agens/moncloud/run_ping.py
+1496     30329  0.9  0.2  11772  7204 ?        Ss   Feb01  12:53 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab-4.eecs.cwru.edu: 0 bytes
+
+onelab3.info.ucl.ac.be: 504 bytes
+1085      4191  0.0  0.0  11496  6880 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+root      7913  0.0  0.0   3200  1200 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1085      8113  0.0  0.0   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1085      8139  0.0  0.0   2288   572 ?        S     2014   0:00 grep python
+1085     22637  0.0  0.0  12816  8356 ?        Ss    2014   2:24 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab1.xeno.cl.cam.ac.uk: 504 bytes
+root       786  0.0  0.0   3200  1196 ?        Ss   Jan30   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1795       821  0.0  0.0   3120  1324 ?        Ss   Jan30   0:00 -bash -c ps aux|grep python
+1795       831  0.0  0.0   2288   556 ?        S    Jan30   0:00 grep python
+1795      6048  0.1  0.1  12816  8316 ?        Ss   Jan29   8:31 python /home/cmu_agens/agens-client/run_superbowl.py
+1795     25486  0.0  0.0  11504  6884 ?        Ss   Jan29   0:05 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab01.tkn.tu-berlin.de: 504 bytes
+root      3530  0.0  0.0   3200  1200 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1743      3671  0.0  0.0   3120  1332 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1743      3697  0.0  0.0   2288   560 ?        S     2014   0:00 grep python
+1743     19822  0.0  0.1  11500  6452 ?        Ss    2014   0:08 python /home/cmu_agens/moncloud/run_ping.py
+1743     25545  0.0  0.1  12820  7856 ?        Ss    2014   8:05 python /home/cmu_agens/agens-client/run_superbowl.py
+
+icnalplabs2.epfl.ch: 428 bytes
+root     19771  0.0  0.0   5880  1560 ?        S    19:28   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep python
+1020     19772  0.0  0.0   3116  1248 ?        S    19:28   0:00 /bin/sh --login -c ps aux|grep python
+1020     19786  0.0  0.0   2372   528 ?        S    19:28   0:00 grep python
+1020     33955  0.1  0.0  12200  7748 ?        Ss   Feb01   1:36 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab-03.cs.princeton.edu: 277 bytes
+root     28441  0.0  0.0   3200  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+739      28478  0.0  0.0   3120  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+739      28489  0.0  0.0   2288   552 ?        S     2014   0:00 grep python
+
+icnalplabs1.epfl.ch: 310 bytes
+root      3700  0.0  0.0   5880  1556 ?        S    19:28   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep python
+1019      3701  0.0  0.0   3116  1248 ?        S    19:28   0:00 /bin/sh --login -c ps aux|grep python
+1019      3715  0.0  0.0   2372   528 ?        S    19:28   0:00 grep python
+
+planetlab-coffee.ait.ie: 504 bytes
+690       1312  0.0  0.1  12812  8312 ?        Ss   Jan02   6:39 python /home/cmu_agens/agens-client/run_superbowl.py
+root      9311  0.0  0.0   3200  1188 ?        Ss   Jan02   0:00 /bin/su - cmu_agens -c ps aux|grep python
+690       9345  0.0  0.0   3120  1328 ?        Ss   Jan02   0:00 -bash -c ps aux|grep python
+690       9355  0.0  0.0   2288   556 ?        S    Jan02   0:00 grep python
+690      17750  0.0  0.0  11496  6880 ?        Ss   Jan01   0:03 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab-13.e5.ijs.si: 504 bytes
+root      4515  0.0  0.0   3200  1200 ?        Ss   19:22   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1152      4550  0.0  0.0   3120  1324 ?        Ss   19:22   0:00 -bash -c ps aux|grep python
+1152      4560  0.0  0.0   2288   560 ?        S    19:22   0:00 grep python
+1152     13755  0.3  0.1  12820  7272 ?        Ss   Feb01   5:02 python /home/cmu_agens/agens-client/run_superbowl.py
+1152     32748  0.0  0.1  11500  5888 ?        Ss   Feb01   0:05 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab2.csee.usf.edu: 504 bytes
+2431      3979  0.1  0.3  11772  4108 ?        Rs    2014 128:40 python /home/cmu_agens/agens-client/run_superbowl.py
+root     15078  0.0  0.1   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2431     15172  0.0  0.1   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+2431     15247  0.0  0.0   2224   560 ?        S     2014   0:00 grep python
+2431     31076  0.0  0.2  10164  2336 ?        Ss    2014   0:11 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab1.sics.se: 386 bytes
+root      3498  0.0  0.1   3200  1172 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1540      3653  0.0  0.1   3120  1300 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1540      3681  0.0  0.0   2288   556 ?        S     2014   0:00 grep python
+1540     24110  0.0  0.6  11500  6856 ?        Ss    2014   0:00 python /home/cmu_agens/moncloud/run_ping.py
+
+pl2.tailab.eu: timed out probe
+
+aguila2.lsi.upc.edu: 504 bytes
+988      21795  0.0  0.2  11500  5732 ?        Ss   Jan28   0:11 python /home/cmu_agens/moncloud/run_ping.py
+root     28147  0.0  0.0   3200  1176 ?        Ss   Jan29   0:00 /bin/su - cmu_agens -c ps aux|grep python
+988      28182  0.0  0.0   3120  1304 ?        Ss   Jan29   0:00 -bash -c ps aux|grep python
+988      28192  0.0  0.0   2288   552 ?        S    Jan29   0:00 grep python
+988      32050  0.0  0.3  12792  7136 ?        Ss   Jan28   5:03 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab1.cs.uml.edu: 520 bytes
+1715      5289  0.0  0.1  11764  7196 ?        Ss    2014  15:51 python /home/cmu_agens/agens-client/run_superbowl.py
+root     13330  0.0  0.0   3140  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1715     13367  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1715     13377  0.0  0.0   3060   500 ?        R     2014   0:00 -bash -c ps aux|grep python
+1715     17380  0.0  0.0  10164  5416 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+
+planet-lab4.uba.ar: 520 bytes
+root     16371  0.0  0.0   3140  1192 ?        Ss   19:25   0:00 /bin/su - cmu_agens -c ps aux|grep python
+910      16417  0.0  0.0   3060  1316 ?        Ss   19:25   0:00 -bash -c ps aux|grep python
+910      16429  0.0  0.0   3060   496 ?        D    19:25   0:00 -bash -c ps aux|grep python
+910      28660  0.0  0.0  10164  2352 ?        Ss   Feb01   0:01 python /home/cmu_agens/moncloud/run_ping.py
+910      30609  0.0  0.1  11764  4772 ?        Ss   Feb01   1:07 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab2.acis.ufl.edu: 504 bytes
+863       6276  0.0  0.1  10164  4636 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+root     19974  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+863      20045  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+863      20055  0.0  0.0   2224   560 ?        S     2014   0:00 grep python
+863      20067  0.0  0.1  11768  6388 ?        Ss    2014 139:31 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planet-lab1.cs.ucr.edu: 427 bytes
+root     17056  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1657     17155  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1657     29340  0.0  0.1  10164  4112 ?        Ss    2014   0:03 python /home/cmu_agens/moncloud/run_ping.py
+1657     31285  0.0  0.1  11768  5800 ?        Rs    2014 136:04 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab1.cs.pitt.edu: 0 bytes
+
+planetlab2.cnds.jhu.edu: 386 bytes
+root     18037  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2168     18082  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+2168     18093  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+2168     27286  0.0  0.1  10160  5412 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab1.csuohio.edu: 504 bytes
+830       1223  0.0  0.1  11764  7200 ?        Ss    2014   9:22 python /home/cmu_agens/agens-client/run_superbowl.py
+root      8260  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+830       8299  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+830       8313  0.0  0.0   2224   560 ?        S     2014   0:00 grep python
+830       9864  0.0  0.1   9908  5368 ?        Ss    2014   0:00 python /home/cmu_agens/moncloud/run_ping.py
+
+ple2.tu.koszalin.pl: 386 bytes
+1781     14183  0.0  0.1  11496  6880 ?        Ss    2013   0:05 python /home/cmu_agens/moncloud/run_ping.py
+root     21721  0.0  0.0   3200  1200 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1781     21948  0.0  0.0   3120  1332 ?        Ss    2013   0:00 -bash -c ps aux|grep python
+1781     21970  0.0  0.0   2288   564 ?        S     2013   0:00 grep python
+
+aguila1.lsi.upc.edu: 504 bytes
+976      12568  0.0  0.3  11500  6276 ?        Ss   Jan28   0:17 python /home/cmu_agens/moncloud/run_ping.py
+root     16979  0.0  0.0   3200  1168 ?        Ss   Jan29   0:00 /bin/su - cmu_agens -c ps aux|grep python
+976      17017  0.0  0.0   3120  1308 ?        Ss   Jan29   0:00 -bash -c ps aux|grep python
+976      17029  0.0  0.0    356   112 ?        R    Jan29   0:00 grep python
+976      25823  0.0  0.3  12812  7692 ?        Ss   Jan28   5:57 python /home/cmu_agens/agens-client/run_superbowl.py
+
+kc-sce-plab2.umkc.edu: 318 bytes
+root     11702  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+790      11757  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+790      21605  0.0  0.1  11764  6312 ?        Ss    2014   6:06 python /home/cmu_agens/agens-client/run_superbowl.py
+
+pl2.cs.unm.edu: 386 bytes
+703       8935  0.0  0.0  10160  5416 ?        Ss    2014   0:03 python /home/cmu_agens/moncloud/run_ping.py
+root     20734  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+703      20770  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+703      20780  0.0  0.0   2224   568 ?        S     2014   0:00 grep python
+
+plonk.cs.uwaterloo.ca: 504 bytes
+1431      2448  0.0  0.1  11768  6260 ?        Ss    2014  12:44 python /home/cmu_agens/agens-client/run_superbowl.py
+root     21199  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1431     21234  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1431     21244  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+1431     21930  0.0  0.1  10164  4588 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab2.cs.purdue.edu: 504 bytes
+1442      6603  0.0  0.1  10164  5096 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+1442     17650  0.0  0.1  11772  6776 ?        Ss    2014 139:54 python /home/cmu_agens/agens-client/run_superbowl.py
+root     31797  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1442     31904  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1442     31937  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+
+plab1.cs.msu.ru: 427 bytes
+768       9366  0.0  0.3  11768  6288 ?        Ss    2014   6:12 python /home/cmu_agens/agens-client/run_superbowl.py
+root     15274  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+768      15310  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+768      25819  0.0  0.2  10168  4604 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab2.koganei.itrc.net: 504 bytes
+1537      3718  0.0  0.1  11772  7200 ?        Ss    2014  11:06 python /home/cmu_agens/agens-client/run_superbowl.py
+root     19833  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1537     19871  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1537     19881  0.0  0.0   2224   560 ?        S     2014   0:00 grep python
+1537     25808  0.0  0.1  10168  5416 ?        Ss    2014   0:06 python /home/cmu_agens/moncloud/run_ping.py
+
+planet1.pnl.nitech.ac.jp: 504 bytes
+788      17774  0.0  0.1  10164  5412 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+root     32048  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+788      32084  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+788      32094  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+788      32621  0.0  0.1  11772  7200 ?        Ss    2014   3:48 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab-1.scie.uestc.edu.cn: 504 bytes
+844       7688  0.0  0.0  11428  6912 ?        Ss   19:21   0:00 python /home/cmu_agens/agens-client/run_superbowl.py
+844       8609  0.0  0.0  10164  5416 ?        Ss   Feb01   0:03 python /home/cmu_agens/moncloud/run_ping.py
+root     11217  0.0  0.0   4032  1188 ?        Ss   19:24   0:00 /bin/su - cmu_agens -c ps aux|grep python
+844      11252  0.0  0.0   3060  1324 ?        Ss   19:24   0:00 -bash -c ps aux|grep python
+844      11262  0.0  0.0   2224   564 ?        S    19:24   0:00 grep python
+
+planetlab1.koganei.itrc.net: 504 bytes
+root     20282  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+630      20320  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+630      20330  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+630      20442  0.0  0.1  10160  5408 ?        Ss    2014   0:06 python /home/cmu_agens/moncloud/run_ping.py
+630      31160  0.0  0.1  11768  7196 ?        Ss    2014  11:25 python /home/cmu_agens/agens-client/run_superbowl.py
+
+ricepl-2.cs.rice.edu: 520 bytes
+1073     16398  0.0  0.1  10160  5416 ?        Ss   Feb01   0:06 python /home/cmu_agens/moncloud/run_ping.py
+root     21576  0.0  0.0   3140  1144 ?        Ss   19:22   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1073     21627  0.0  0.0   3060  1320 ?        Ss   19:22   0:00 -bash -c ps aux|grep python
+1073     21639  0.0  0.0   3060   500 ?        D    19:22   0:00 -bash -c ps aux|grep python
+1073     26684  0.7  0.2  11768  7204 ?        Ss   Feb01  10:10 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab1.cnds.jhu.edu: 504 bytes
+2748      4254  0.0  0.1  11772  6292 ?        Ss    2014   8:15 python /home/cmu_agens/agens-client/run_superbowl.py
+root     11797  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2748     12099  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+2748     12116  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+2748     25926  0.0  0.1  10160  4612 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+
+planet3.cc.gt.atl.ga.us: 504 bytes
+920       4658  0.0  0.1  11772  6300 ?        Ss    2014   5:37 python /home/cmu_agens/agens-client/run_superbowl.py
+root     19386  0.0  0.0   4032  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+920      19425  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+920      19435  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+920      26475  0.0  0.1  10164  4616 ?        Ss    2014   0:07 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab-3.cmcl.cs.cmu.edu: 504 bytes
+1854      9523  0.0  0.2  11772  5620 ?        Rs    2014 102:35 python /home/cmu_agens/agens-client/run_superbowl.py
+root     10510  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1854     10655  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1854     10704  0.0  0.0   2224   568 ?        S     2014   0:00 grep python
+1854     20608  0.0  0.1  10164  3484 ?        Ss    2014   0:14 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab1.cs.uiuc.edu: 277 bytes
+root     19680  0.0  0.1   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1650     19755  0.0  0.1   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1650     19775  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+
+host2.planetlab.informatik.tu-darmstadt.de: 537 bytes
+1013      1888  0.0  0.0  11540  6880 ?        Ss   Feb01   0:05 python /home/cmu_agens/moncloud/run_ping.py
+1013      3317  0.1  0.0  12844  8312 ?        Ss   Feb01   2:36 python /home/cmu_agens/agens-client/run_superbowl.py
+root      5212  0.0  0.0   5880  1560 ?        S    19:28   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep python
+1013      5213  0.0  0.0   3116  1240 ?        S    19:28   0:00 /bin/sh --login -c ps aux|grep python
+1013      5227  0.0  0.0   2372   532 ?        S    19:28   0:00 grep python
+
+75-130-96-13.static.oxfr.ma.charter.com: 504 bytes
+939       3348  0.0  0.1  10160  5416 ?        Ss    2014   0:03 python /home/cmu_agens/moncloud/run_ping.py
+root      3855  0.0  0.0   3140  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+939       3891  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+939       3901  0.0  0.0   2224   568 ?        S     2014   0:00 grep python
+939      29104  0.0  0.1  11768  7200 ?        Ss    2014   8:07 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab2.informatik.uni-kl.de: 537 bytes
+1018      8834  0.0  0.0  11412  6792 ?        Ss   Feb01   0:05 python /home/cmu_agens/moncloud/run_ping.py
+1018     10237  0.1  0.0  12840  8312 ?        Ss   Feb01   2:17 python /home/cmu_agens/agens-client/run_superbowl.py
+root     12015  0.0  0.0   5880  1572 ?        S    19:28   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep python
+1018     12016  0.0  0.0   3116  1252 ?        S    19:28   0:00 /bin/sh --login -c ps aux|grep python
+1018     12030  0.0  0.0   2372   528 ?        S    19:28   0:00 grep python
+
+planetlab1.informatik.uni-kl.de: 537 bytes
+1017      8959  0.0  0.0  11420  6792 ?        Ss   Feb01   0:05 python /home/cmu_agens/moncloud/run_ping.py
+1017     10286  0.1  0.0  12840  8340 ?        Ss   Feb01   2:17 python /home/cmu_agens/agens-client/run_superbowl.py
+root     12098  0.0  0.0   5880  1568 ?        S    19:28   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep python
+1017     12099  0.0  0.0   3116  1256 ?        S    19:28   0:00 /bin/sh --login -c ps aux|grep python
+1017     12113  0.0  0.0   2372   528 ?        S    19:28   0:00 grep python
+
+planetlab2.informatik.uni-erlangen.de: timed out probe
+
+pl1.tailab.eu: timed out ssh
+
+planetlab3.cesnet.cz: 504 bytes
+658       8316  0.0  0.1  11768  7200 ?        Ss    2014   9:11 python /home/cmu_agens/agens-client/run_superbowl.py
+root     26358  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+658      26393  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+658      26403  0.0  0.0   2224   568 ?        S     2014   0:00 grep python
+658      31048  0.0  0.1  10164  5416 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab1.unr.edu: 386 bytes
+root      9541  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+694       9618  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+694       9633  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+694      14323  0.0  0.0  10160  5412 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab-n1.wand.net.nz: 395 bytes
+root     21269  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+740      21305  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+740      21315  0.0  0.0   2224   568 ?        S     2014   0:00 grep python
+740      25074  0.0  0.1  11768  7200 ?        Ss    2014  12:11 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab2.cqupt.edu.cn: 309 bytes
+root      4562  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1156      4598  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1156      5982  0.0  0.0  10164  3836 ?        Ss    2014   0:03 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab1.acis.ufl.edu: 504 bytes
+root      9396  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+879       9589  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+879       9631  0.0  0.0   2092   272 ?        R     2014   0:00 grep python
+879       9842  0.0  0.1  10164  4636 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+879      16499  0.0  0.1  11764  6296 ?        Ss    2014  84:16 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab-n2.wand.net.nz: 395 bytes
+root     25922  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+737      25958  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+737      25968  0.0  0.0   2224   568 ?        S     2014   0:00 grep python
+737      32558  0.0  0.1  11768  7192 ?        Ss    2014  12:06 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab1.netlab.uky.edu: 504 bytes
+964       2845  0.0  0.1  10164  4420 ?        Ss    2014   0:06 python /home/cmu_agens/moncloud/run_ping.py
+964      15989  0.0  0.1  11772  5820 ?        Ss    2014  29:20 python /home/cmu_agens/agens-client/run_superbowl.py
+root     23808  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+964      23850  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+964      23861  0.0  0.0    600   132 ?        D     2014   0:00 grep python
+
+planetlab2.cis.upenn.edu: 504 bytes
+root      8539  0.0  0.0   3140  1192 ?        Ss   Jan07   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1424      8575  0.0  0.0   3060  1324 ?        Ss   Jan07   0:00 -bash -c ps aux|grep python
+1424      8585  0.0  0.0   2224   560 ?        S    Jan07   0:00 grep python
+1424     20196  0.3  0.1  11772  6112 ?        Rs   Jan06 133:43 python /home/cmu_agens/agens-client/run_superbowl.py
+1424     32434  0.0  0.1  10160  4416 ?        Ss   Jan06   0:04 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab2.comp.nus.edu.sg: timed out probe
+
+pl3.cs.unm.edu: 520 bytes
+root      5711  0.0  0.0   3140  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+835       5746  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+835       5757  0.0  0.0   3060   500 ?        R     2014   0:00 -bash -c ps aux|grep python
+835      15264  0.0  0.0  11768  7200 ?        Ss    2014   8:21 python /home/cmu_agens/agens-client/run_superbowl.py
+835      31776  0.0  0.0  10160  5416 ?        Ss    2014   0:03 python /home/cmu_agens/moncloud/run_ping.py
+
+cs-planetlab3.cs.surrey.sfu.ca: 504 bytes
+786       3380  0.0  0.1  11768  7200 ?        Ss   Jan12   3:00 python /home/cmu_agens/agens-client/run_superbowl.py
+root      7077  0.0  0.0   3140  1188 ?        Ss   Jan13   0:00 /bin/su - cmu_agens -c ps aux|grep python
+786       7112  0.0  0.0   3060  1320 ?        Ss   Jan13   0:00 -bash -c ps aux|grep python
+786       7122  0.0  0.0   2224   560 ?        S    Jan13   0:00 grep python
+786      17195  0.0  0.1  10164  5416 ?        Ss   Jan12   0:04 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab1.net.in.tum.de: 428 bytes
+root      4509  0.0  0.0   5880  1568 ?        S    19:28   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep python
+1096      4510  0.0  0.0   3116  1244 ?        S    19:28   0:00 /bin/sh --login -c ps aux|grep python
+1096      4524  0.0  0.0   2372   528 ?        S    19:29   0:00 grep python
+1096     29551  0.1  0.0  12200  7748 ?        Ss   Feb01   2:34 python /home/cmu_agens/agens-client/run_superbowl.py
+
+pli1-pa-1.hpl.hp.com: 504 bytes
+608      17051  0.0  0.0  10160  5416 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+root     22195  0.0  0.0   3140  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+608      22231  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+608      22241  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+608      24841  0.1  0.1  11768  7200 ?        Ss    2014 267:25 python /home/cmu_agens/agens-client/run_superbowl.py
+
+pl2.pku.edu.cn: 386 bytes
+root     12337  0.0  0.0   3140  1184 ?        Ss   Jan28   0:00 /bin/su - cmu_agens -c ps aux|grep python
+696      12372  0.0  0.0   3060  1324 ?        Ss   Jan28   0:00 -bash -c ps aux|grep python
+696      12382  0.0  0.0   2224   564 ?        S    Jan28   0:00 grep python
+696      31326  0.0  0.1  10164  5416 ?        Ss   Jan27   0:59 python /home/cmu_agens/moncloud/run_ping.py
+
+planetvs2.informatik.uni-stuttgart.de: 504 bytes
+1011      9208  0.0  0.0  11500  6880 ?        Ss    2014   0:03 python /home/cmu_agens/moncloud/run_ping.py
+root     14677  0.0  0.0   4092  1180 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1011     14905  0.0  0.0   3120  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1011     14937  0.0  0.0   2288   556 ?        S     2014   0:00 grep python
+1011     15710  0.0  0.0  12816  8312 ?        Ss    2014   5:42 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab3.net.in.tum.de: 310 bytes
+root     13441  0.0  0.0   5880  1544 ?        S    19:29   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep python
+1094     13442  0.0  0.0   3116  1228 ?        S    19:29   0:00 /bin/sh --login -c ps aux|grep python
+1094     13456  0.0  0.0   2372   532 ?        S    19:29   0:00 grep python
+
+pli1-pa-3.hpl.hp.com: 504 bytes
+root      6900  0.0  0.0   3140  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+601       6935  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+601       6945  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+601      13203  0.0  0.0  10164  5420 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+601      20439  0.0  0.1  11764  7200 ?        Ss    2014 135:09 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab1.tmit.bme.hu: 504 bytes
+root      1992  0.0  0.0   3200  1196 ?        Ss   19:22   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1312      2027  0.0  0.0   3120  1320 ?        Ss   19:22   0:00 -bash -c ps aux|grep python
+1312      2037  0.0  0.0   2288   556 ?        S    19:22   0:00 grep python
+1312     10049  0.0  0.1  11504  6864 ?        Ss   Feb01   0:03 python /home/cmu_agens/moncloud/run_ping.py
+1312     25526  0.5  0.2  12816  8268 ?        Ss   Feb01   7:21 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab-2.fhi-fokus.de: 419 bytes
+1276     27949  0.0  0.1  10220  5372 ?        Ss   Feb01   0:06 python /home/cmu_agens/moncloud/run_ping.py
+root     30311  0.0  0.0   5880  1544 ?        S    19:29   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep python
+1276     30312  0.0  0.0   3116  1228 ?        S    19:29   0:00 /bin/sh --login -c ps aux|grep python
+1276     30326  0.0  0.0   2372   532 ?        S    19:29   0:00 grep python
+
+planetlab-2.scie.uestc.edu.cn: 386 bytes
+root       349  0.0  0.0   3140  1192 ?        Ss   19:25   0:00 /bin/su - cmu_agens -c ps aux|grep python
+843        385  0.0  0.0   3060  1324 ?        Ss   19:25   0:00 -bash -c ps aux|grep python
+843        395  0.0  0.0   2224   564 ?        S    19:25   0:00 grep python
+843       3692  0.0  0.0  10156  5408 ?        Ss   Feb01   0:03 python /home/cmu_agens/moncloud/run_ping.py
+
+peeramidion.irisa.fr: 504 bytes
+root      4975  0.0  0.0   3200  1200 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+752       5010  0.0  0.0   3120  1332 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+752       5020  0.0  0.0   2288   564 ?        S     2014   0:00 grep python
+752      11187  0.0  0.1  11500  6884 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+752      23800  0.0  0.2  12816  8316 ?        Ss    2014   9:26 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab2.netlab.uky.edu: 504 bytes
+1982      2116  0.0  0.1  10160  4612 ?        Ss    2014   0:06 python /home/cmu_agens/moncloud/run_ping.py
+1982     19307  0.0  0.1  11768  6288 ?        Ss    2014 138:35 python /home/cmu_agens/agens-client/run_superbowl.py
+root     31077  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1982     31258  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1982     31280  0.0  0.0   2224   568 ?        S     2014   0:00 grep python
+
+planetlab-um00.di.uminho.pt: 277 bytes
+root     23610  0.0  0.0   3200  1196 ?        Ss   Jan27   0:00 /bin/su - cmu_agens -c ps aux|grep python
+701      23646  0.0  0.0   3120  1324 ?        Ss   Jan27   0:00 -bash -c ps aux|grep python
+701      23656  0.0  0.0   2288   568 ?        S    Jan27   0:00 grep python
+
+planetlab2.tau.ac.il: 419 bytes
+1203      8812  0.0  0.1  10220  2456 ?        Ss   Feb01   0:04 python /home/cmu_agens/moncloud/run_ping.py
+root     10237  0.0  0.0   5880  1568 ?        S    19:29   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep python
+1203     10238  0.0  0.0   3116  1248 ?        S    19:29   0:00 /bin/sh --login -c ps aux|grep python
+1203     10252  0.0  0.0    416   100 ?        D    19:29   0:00 grep python
+
+plab4.ple.silweb.pl: 386 bytes
+1618      7237  0.0  0.0  11500  2196 ?        Ss    2012   0:05 python /home/cmu_agens/moncloud/run_ping.py
+root     15627  0.0  0.0   3200  1200 ?        Ss    2012   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1618     15662  0.0  0.0   3120  1328 ?        Ss    2012   0:00 -bash -c ps aux|grep python
+1618     15672  0.0  0.0   2288   560 ?        S     2012   0:00 grep python
+
+node2.planetlab.mathcs.emory.edu: 504 bytes
+root      1732  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2414      1851  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+2414      1869  0.0  0.0   2224   568 ?        S     2014   0:00 grep python
+2414      5039  0.0  0.1  10160  4612 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+2414     12224  0.0  0.1  11768  6284 ?        Ss    2014   9:23 python /home/cmu_agens/agens-client/run_superbowl.py
+
+75-130-96-12.static.oxfr.ma.charter.com: 277 bytes
+root     12696  0.0  0.0   3140  1192 ?        Ss   19:27   0:00 /bin/su - cmu_agens -c ps aux|grep python
+973      12731  0.0  0.0   3060  1320 ?        Ss   19:27   0:00 -bash -c ps aux|grep python
+973      12743  0.0  0.0   2224   564 ?        S    19:27   0:00 grep python
+
+planetlab1.informatik.uni-goettingen.de: 277 bytes
+root      2427  0.0  0.0   3200  1208 ?        Ss   Jan27   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1419      2560  0.0  0.0   3120  1336 ?        Ss   Jan27   0:00 -bash -c ps aux|grep python
+1419      2586  0.0  0.0   2288   564 ?        S    Jan27   0:00 grep python
+
+planetlab1.postel.org: 504 bytes
+972       4592  0.0  0.3  11776  6288 ?        Rs    2014  60:56 python /home/cmu_agens/agens-client/run_superbowl.py
+root     15175  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+972      15280  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+972      15306  0.0  0.0   2224   524 ?        R     2014   0:00 grep python
+972      32710  0.0  0.2  10168  4616 ?        Ss    2014   0:17 python /home/cmu_agens/moncloud/run_ping.py
+
+pl4.cs.unm.edu: 504 bytes
+root      5108  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+887       5143  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+887       5153  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+887      21021  0.0  0.0  10164  5420 ?        Ss    2014   0:03 python /home/cmu_agens/moncloud/run_ping.py
+887      31209  0.0  0.0  11772  7204 ?        Ss    2014   4:23 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab-1.sjtu.edu.cn: 386 bytes
+root      6174  0.0  0.0   3140  1192 ?        Ss   19:22   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2092      6209  0.0  0.0   3060  1320 ?        Ss   19:22   0:00 -bash -c ps aux|grep python
+2092      6219  0.0  0.0    600   136 ?        D    19:22   0:00 grep python
+2092     17304  0.0  0.1  10164  5412 ?        Ss   Feb01   0:05 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab-js2.cert.org.cn: 504 bytes
+583      16183  0.0  0.0  10160  5408 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+583      20225  0.0  0.0  11420  6940 ?        Ss    2014   0:00 python /home/cmu_agens/agens-client/run_superbowl.py
+root     29119  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+583      29154  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+583      29164  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+
+planetlab4.hiit.fi: 504 bytes
+1204      5919  0.0  0.1  11504  6884 ?        Ss   Feb01   0:06 python /home/cmu_agens/moncloud/run_ping.py
+1204     19265  0.3  0.2  12824  8308 ?        Ss   Feb01   4:13 python /home/cmu_agens/agens-client/run_superbowl.py
+root     24121  0.0  0.0   3200  1204 ?        Ss   19:22   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1204     24156  0.0  0.0   3120  1328 ?        Ss   19:22   0:00 -bash -c ps aux|grep python
+1204     24166  0.0  0.0   2288   564 ?        S    19:22   0:00 grep python
+
+planetlab2.fct.ualg.pt: 277 bytes
+root      9680  0.0  0.0   3200  1168 ?        Ss   19:25   0:00 /bin/su - cmu_agens -c ps aux|grep python
+706       9723  0.0  0.0   3120  1304 ?        Ss   19:25   0:00 -bash -c ps aux|grep python
+706       9733  0.0  0.0    588   120 ?        D    19:25   0:00 grep python
+
+ple2.dmcs.p.lodz.pl: 395 bytes
+root     27719  0.0  0.0   3200  1192 ?        Ss   19:27   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1077     27754  0.0  0.0   3120  1328 ?        Ss   19:27   0:00 -bash -c ps aux|grep python
+1077     27764  0.0  0.0   2288   568 ?        S    19:27   0:00 grep python
+1077     28342  0.4  0.2  12812  8284 ?        Ss   Feb01   6:12 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planck227ple.test.ibbt.be: 395 bytes
+root     11988  0.0  0.0   3200  1172 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+945      12135  0.0  0.0   3120  1300 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+945      12161  0.0  0.0   2288   548 ?        S     2014   0:00 grep python
+945      32233  0.0  0.2  12812  8320 ?        Ss    2014  19:37 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab1.bgu.ac.il: 504 bytes
+root     10649  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1784     10702  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1784     10713  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+1784     13947  0.0  0.1  10164  2820 ?        Ss    2014   0:01 python /home/cmu_agens/moncloud/run_ping.py
+1784     22844  0.0  0.2  11768  5168 ?        Ss    2014   2:24 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab2.ucsd.edu: 504 bytes
+root      1023  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2694      1058  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+2694      1070  0.0  0.0   2224   568 ?        S     2014   0:00 grep python
+2694      9285  0.0  0.1  10168  4612 ?        Ss    2014   0:03 python /home/cmu_agens/moncloud/run_ping.py
+2694     15687  0.0  0.2  11772  6288 ?        Ss    2014  87:15 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planet2.servers.ua.pt: 411 bytes
+root      5593  0.0  0.0   3200  1204 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1689      5793  0.0  0.0   3120  1332 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1689      5845  0.0  0.0   3120   500 ?        R     2014   0:00 -bash -c ps aux|grep python
+1689      5942  0.0  0.1  12816  7392 ?        Ss    2014   2:59 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab3.comp.nus.edu.sg: 293 bytes
+root     31524  0.0  0.0   3140  1148 ?        Ss   Jan26   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2130     31555  0.0  0.0   3060  1320 ?        Ss   Jan26   0:00 -bash -c ps aux|grep python
+2130     31565  0.0  0.0   3060   500 ?        D    Jan26   0:00 -bash -c ps aux|grep python
+
+planet-lab-node2.netgroup.uniroma2.it: 402 bytes
+1702      1788  0.0  0.1  11496  5084 ?        Ss    2013   0:03 python /home/cmu_agens/moncloud/run_ping.py
+root     27657  0.0  0.0   3200  1188 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1702     27690  0.0  0.0   3120  1328 ?        Ss    2013   0:00 -bash -c ps aux|grep python
+1702     27700  0.0  0.0   3120   492 ?        R     2013   0:00 -bash -c ps aux|grep python
+
+inriarennes2.irisa.fr: 504 bytes
+894       4353  0.0  0.1  12808  8332 ?        Ss    2014   5:43 python /home/cmu_agens/agens-client/run_superbowl.py
+894      12624  0.0  0.1  11500  6884 ?        Ss    2014   0:03 python /home/cmu_agens/moncloud/run_ping.py
+root     18196  0.0  0.0   3200  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+894      18453  0.0  0.0   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+894      18531  0.0  0.0   2288   556 ?        S     2014   0:00 grep python
+
+planetlab1.eecs.umich.edu: 395 bytes
+root     15610  0.0  0.0   3140  1184 ?        Ss   Jan05   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2900     15786  0.0  0.0   3060  1320 ?        Ss   Jan05   0:00 -bash -c ps aux|grep python
+2900     15835  0.0  0.0   2224   560 ?        S    Jan05   0:00 grep python
+2900     31309  0.1  0.2  11768  5884 ?        Rs   Jan04  52:14 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab4.georgetown.edu: timed out ssh
+
+host1.planetlab.informatik.tu-darmstadt.de: 537 bytes
+1046      9778  0.0  0.0  10220  5492 ?        Ss   Feb01   0:04 python /home/cmu_agens/moncloud/run_ping.py
+1046     11190  0.2  0.0  12200  7748 ?        Ss   Feb01   3:19 python /home/cmu_agens/agens-client/run_superbowl.py
+root     13053  0.0  0.0   5880  1556 ?        S    19:29   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep python
+1046     13054  0.0  0.0   3116  1240 ?        S    19:29   0:00 /bin/sh --login -c ps aux|grep python
+1046     13068  0.0  0.0   2372   528 ?        S    19:29   0:00 grep python
+
+node1.planetlab.uni-luebeck.de: 310 bytes
+root     10887  0.0  0.0   5880  1556 ?        S    19:29   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep python
+1032     10888  0.0  0.0   3116  1240 ?        S    19:29   0:00 /bin/sh --login -c ps aux|grep python
+1032     10902  0.0  0.0   2372   528 ?        S    19:29   0:00 grep python
+
+node2.planetlab.uni-luebeck.de: 310 bytes
+root     29843  0.0  0.0   5880  1560 ?        S    19:29   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep python
+1022     29844  0.0  0.0   3116  1240 ?        S    19:29   0:00 /bin/sh --login -c ps aux|grep python
+1022     29858  0.0  0.0   2372   532 ?        S    19:29   0:00 grep python
+
+planetlab4.williams.edu: 504 bytes
+1351      1482  0.0  0.1  10168  4620 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+1351      5589  0.0  0.1  11764  6284 ?        Ss    2014   4:16 python /home/cmu_agens/agens-client/run_superbowl.py
+root     10726  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1351     10766  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1351     10776  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+
+iraplab1.iralab.uni-karlsruhe.de: 504 bytes
+1455      5590  0.0  0.0  11500  6884 ?        Ss    2014   0:06 python /home/cmu_agens/moncloud/run_ping.py
+root     18689  0.0  0.0   3200  1200 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1455     18881  0.0  0.0   3120  1332 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1455     18913  0.0  0.0   2288   560 ?        S     2014   0:00 grep python
+1455     32560  0.0  0.1  12820  8320 ?        Ss    2014  17:17 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab3.hiit.fi: 504 bytes
+1462      1819  0.0  0.1  11496  6864 ?        Ss   Feb01   0:05 python /home/cmu_agens/moncloud/run_ping.py
+1462     15213  0.2  0.2  12820  8312 ?        Ss   Feb01   3:58 python /home/cmu_agens/agens-client/run_superbowl.py
+root     17867  0.0  0.0   3200  1204 ?        Ss   19:22   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1462     17905  0.0  0.0   3120  1332 ?        Ss   19:22   0:00 -bash -c ps aux|grep python
+1462     17915  0.0  0.0   2288   564 ?        S    19:22   0:00 grep python
+
+planetlab-1.research.netlab.hut.fi: 504 bytes
+1406     16430  0.0  0.0  11500  6880 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+root     28123  0.0  0.0   3200  1200 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1406     28158  0.0  0.0   3120  1336 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1406     28168  0.0  0.0   2288   568 ?        S     2014   0:00 grep python
+1406     28639  0.0  0.1  12796  8336 ?        Ss    2014   5:05 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planet1.servers.ua.pt: 520 bytes
+root      5624  0.0  0.0   3200  1204 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1287      5953  0.0  0.0   3120  1332 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1287      6020  0.0  0.0   3120   500 ?        D     2014   0:00 -bash -c ps aux|grep python
+1287     14180  0.0  0.0  12792  3976 ?        Ss    2014  10:06 python /home/cmu_agens/agens-client/run_superbowl.py
+1287     31858  0.0  0.0  11496  2324 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+
+ricepl-5.cs.rice.edu: 504 bytes
+762       9389  0.5  0.1  11772  7204 ?        Ss   Feb01   6:47 python /home/cmu_agens/agens-client/run_superbowl.py
+root     18145  0.0  0.0   3140  1192 ?        Ss   19:26   0:00 /bin/su - cmu_agens -c ps aux|grep python
+762      18180  0.0  0.0   3060  1320 ?        Ss   19:26   0:00 -bash -c ps aux|grep python
+762      18190  0.0  0.0   2224   564 ?        S    19:26   0:00 grep python
+762      21890  0.0  0.1  10164  5416 ?        Ss   Feb01   0:04 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab2.ci.pwr.wroc.pl: 504 bytes
+1483      1849  0.0  0.0  10176  5400 ?        Ss   Feb01   0:03 python /home/cmu_agens/moncloud/run_ping.py
+root     13551  0.0  0.0   3200  1200 ?        Ss   19:20   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1483     13611  0.0  0.0   3120  1324 ?        Ss   19:20   0:00 -bash -c ps aux|grep python
+1483     13627  0.0  0.0   2288   556 ?        S    19:20   0:00 grep python
+1483     15116  0.5  0.1  11820  7096 ?        Ss   Feb01   6:46 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab2.diku.dk: 277 bytes
+root      9716  0.0  0.0   3200  1208 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1183      9845  0.0  0.0   3120  1332 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1183      9869  0.0  0.0    588   120 ?        D     2014   0:00 grep python
+
+planetlab-4.imperial.ac.uk: 277 bytes
+root     13275  0.0  0.0   3200  1208 ?        Ss   19:24   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1487     13315  0.0  0.0   3120  1328 ?        Ss   19:24   0:00 -bash -c ps aux|grep python
+1487     13327  0.0  0.0   2288   568 ?        S    19:24   0:00 grep python
+
+planetlab2.cs.uit.no: 277 bytes
+root      6870  0.0  0.0   3200  1196 ?        Ss   19:21   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1578      6906  0.0  0.0   3120  1328 ?        Ss   19:21   0:00 -bash -c ps aux|grep python
+1578      6916  0.0  0.0   2288   568 ?        S    19:21   0:00 grep python
+
+planetlab1.fct.ualg.pt: 504 bytes
+1344      2505  0.9  0.2  12808  8304 ?        Ss   Feb01  13:02 python /home/cmu_agens/agens-client/run_superbowl.py
+1344     20679  0.0  0.1  11308  6768 ?        Ss   Feb01   0:07 python /home/cmu_agens/moncloud/run_ping.py
+root     22339  0.0  0.0   3200  1180 ?        Ss   19:24   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1344     22373  0.0  0.0   3120  1304 ?        Ss   19:24   0:00 -bash -c ps aux|grep python
+1344     22383  0.0  0.0   2288   552 ?        S    19:24   0:00 grep python
+
+planetlab1.dit.upm.es: 504 bytes
+660       5506  0.0  0.1  11372  6760 ?        Ss   Feb01   0:05 python /home/cmu_agens/moncloud/run_ping.py
+root     14570  0.0  0.0   3200  1188 ?        Ss   19:24   0:00 /bin/su - cmu_agens -c ps aux|grep python
+660      14605  0.0  0.0   3120  1328 ?        Ss   19:24   0:00 -bash -c ps aux|grep python
+660      14615  0.0  0.0   2288   452 ?        D    19:24   0:00 grep python
+660      14715  0.4  0.2  12812  8296 ?        Ss   Feb01   6:29 python /home/cmu_agens/agens-client/run_superbowl.py
+
+iraplab2.iralab.uni-karlsruhe.de: 504 bytes
+root     10591  0.0  0.0   3200  1204 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1406     10624  0.0  0.0   3120  1332 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1406     10636  0.0  0.0   2288   560 ?        S     2014   0:00 grep python
+1406     13208  0.0  0.0  11816  7220 ?        Ss    2014  15:01 python /home/cmu_agens/agens-client/run_superbowl.py
+1406     27332  0.0  0.0  10180  5496 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab2.cs.unc.edu: 427 bytes
+root      2263  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+784       2300  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+784      10381  0.0  0.1  10168  4620 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+784      23130  0.0  0.1  11768  6292 ?        Ss    2014   6:52 python /home/cmu_agens/agens-client/run_superbowl.py
+
+vn5.cse.wustl.edu: 504 bytes
+2109     14124  0.0  0.1  10164  4616 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+root     15685  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2109     15723  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+2109     15733  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+2109     26788  0.0  0.1  11768  6300 ?        Ss    2014   9:18 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab6.goto.info.waseda.ac.jp: 504 bytes
+763      16402  0.0  0.1  11768  7192 ?        Ss    2014   6:25 python /home/cmu_agens/agens-client/run_superbowl.py
+root     21330  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+763      21366  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+763      21376  0.0  0.0   2224   568 ?        S     2014   0:00 grep python
+763      32584  0.0  0.1  10160  5412 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab-1.ing.unimo.it: 419 bytes
+1212     20859  0.0  0.0  10220  3400 ?        Ss   Feb01   0:03 python /home/cmu_agens/moncloud/run_ping.py
+root     22260  0.0  0.0   5880  1572 ?        S    19:29   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep python
+1212     22261  0.0  0.0   3116  1252 ?        S    19:29   0:00 /bin/sh --login -c ps aux|grep python
+1212     22275  0.0  0.0   2372   532 ?        S    19:29   0:00 grep python
+
+prata.mimuw.edu.pl: 390 bytes
+1176      75133  0.0  0.0  11300  6788 ?        Ss   Jan01   0:03 python /home/cmu_agens/moncloud/run_ping.py
+root     114222  0.0  0.0   3200  1184 ?        Ss   Jan02   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1176     114258  0.0  0.0   3120  1320 ?        Ss   Jan02   0:00 -bash -c ps aux|grep python
+1176     114268  0.0  0.0   2288   556 ?        S    Jan02   0:00 grep python
+
+planetlab2.research.nicta.com.au: 537 bytes
+1213     12104  0.0  0.0  11352  5712 ?        Ss   Feb01   0:04 python /home/cmu_agens/moncloud/run_ping.py
+root     13469  0.0  0.0   5880  1560 ?        S    19:29   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep python
+1213     13470  0.0  0.0   3116  1248 ?        S    19:29   0:00 /bin/sh --login -c ps aux|grep python
+1213     13484  0.0  0.0    416   100 ?        D    19:29   0:00 grep python
+1213     13561  0.0  0.0  12844  7128 ?        Ss   Feb01   1:19 python /home/cmu_agens/agens-client/run_superbowl.py
+
+ple1.dmcs.p.lodz.pl: 386 bytes
+1783     16888  0.0  0.1  11372  6760 ?        Ss   Feb01   0:06 python /home/cmu_agens/moncloud/run_ping.py
+root     31449  0.0  0.0   3200  1196 ?        Ss   19:24   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1783     31484  0.0  0.0   3120  1332 ?        Ss   19:24   0:00 -bash -c ps aux|grep python
+1783     31494  0.0  0.0   2288   568 ?        S    19:24   0:00 grep python
+
+planetlab1.upm.ro: 504 bytes
+root      1129  0.0  0.0   3200  1196 ?        Ss   Jan30   0:00 /bin/su - cmu_agens -c ps aux|grep python
+845       1163  0.0  0.0   3120  1332 ?        Ss   Jan30   0:00 -bash -c ps aux|grep python
+845       1173  0.0  0.0   2288   564 ?        S    Jan30   0:00 grep python
+845      13032  0.0  0.2  12808  8332 ?        Ss   Jan29   2:57 python /home/cmu_agens/agens-client/run_superbowl.py
+845      30269  0.0  0.1  11368  6788 ?        Ss   Jan29   0:03 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlabeu-1.tssg.org: 504 bytes
+900       1204  0.0  0.0  11388  2648 ?        Ss    2013   0:05 python /home/cmu_agens/moncloud/run_ping.py
+900      16946  0.0  0.1  12808  4776 ?        Ss    2013   4:48 python /home/cmu_agens/agens-client/run_superbowl.py
+root     24306  0.0  0.0   3200  1192 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep python
+900      24342  0.0  0.0   3120  1328 ?        Ss    2013   0:00 -bash -c ps aux|grep python
+900      24352  0.0  0.0   2288   568 ?        S     2013   0:00 grep python
+
+planetlab1.di.unito.it: 504 bytes
+711       2143  0.0  0.2  11380  6764 ?        Ss   Feb01   0:09 python /home/cmu_agens/moncloud/run_ping.py
+711      12150  1.6  0.2  12808  8324 ?        Ss   Feb01  21:46 python /home/cmu_agens/agens-client/run_superbowl.py
+root     20307  0.0  0.0   3200  1176 ?        Ss   19:26   0:00 /bin/su - cmu_agens -c ps aux|grep python
+711      20342  0.0  0.0   3120  1308 ?        Ss   19:26   0:00 -bash -c ps aux|grep python
+711      20352  0.0  0.0   2288   552 ?        S    19:26   0:00 grep python
+
+planetlab1.ci.pwr.wroc.pl: 504 bytes
+root      1327  0.0  0.0   3200  1188 ?        Ss   19:23   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1443      1362  0.0  0.0   3120  1324 ?        Ss   19:23   0:00 -bash -c ps aux|grep python
+1443      1372  0.0  0.0   2288   556 ?        S    19:23   0:00 grep python
+1443     12854  0.6  0.1  12816  8344 ?        Ss   Feb01   8:13 python /home/cmu_agens/agens-client/run_superbowl.py
+1443     30086  0.0  0.1  11372  6788 ?        Ss   Feb01   0:04 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab2.s3.kth.se: timed out probe
+
+planetlab1.rd.tut.fi: 537 bytes
+1200      4626  0.0  0.0  10220  5500 ?        Ss   Feb01   0:05 python /home/cmu_agens/moncloud/run_ping.py
+1200      6068  0.1  0.0  12200  7740 ?        Ss   Feb01   1:51 python /home/cmu_agens/agens-client/run_superbowl.py
+root      6944  0.0  0.0   5880  1564 ?        S    19:29   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep python
+1200      6945  0.0  0.0   3116  1248 ?        S    19:29   0:00 /bin/sh --login -c ps aux|grep python
+1200      6959  0.0  0.0   2372   532 ?        S    19:29   0:00 grep python
+
+onelab4.warsaw.rd.tp.pl: 504 bytes
+root      9059  0.0  0.0   3200  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+837       9094  0.0  0.0   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+837       9104  0.0  0.0   2288   564 ?        S     2014   0:00 grep python
+837      12725  0.0  0.1  11368  6796 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+837      24824  0.0  0.2  12804  8296 ?        Ss    2014   5:15 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab1.upc.es: 504 bytes
+1819     12003  0.0  0.2  11376  2528 ?        Ss    2014   0:07 python /home/cmu_agens/moncloud/run_ping.py
+root     27732  0.0  0.1   3200  1172 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1819     27878  0.0  0.1   3120  1304 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1819     27902  0.0  0.0   2288   556 ?        S     2014   0:00 grep python
+1819     29358  0.0  0.4  12816  4888 ?        Ss    2014  11:08 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab3.upc.es: 504 bytes
+1705     13152  0.0  0.2  12800  8276 ?        Ss    2014  10:05 python /home/cmu_agens/agens-client/run_superbowl.py
+root     18741  0.0  0.0   3200  1176 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1705     18776  0.0  0.0   3120  1304 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1705     18786  0.0  0.0   2288   552 ?        S     2014   0:00 grep python
+1705     30961  0.0  0.1  11356  6744 ?        Ss    2014   0:07 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab-2.ing.unimo.it: 428 bytes
+root     14701  0.0  0.0   5880  1568 ?        S    19:29   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep python
+1214     14702  0.0  0.0   3116  1256 ?        S    19:29   0:00 /bin/sh --login -c ps aux|grep python
+1214     14716  0.0  0.0    648   124 ?        D    19:29   0:00 grep python
+1214     22187  0.1  0.1  12200  7028 ?        Ss   Feb01   1:58 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab2.eecs.jacobs-university.de: 504 bytes
+1078      4173  0.0  0.7  12812  7996 ?        Ss    2014  11:06 python /home/cmu_agens/agens-client/run_superbowl.py
+1078     23256  0.0  0.3  11372  3848 ?        Ss    2014   0:10 python /home/cmu_agens/moncloud/run_ping.py
+root     27430  0.0  0.1   3200  1168 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1078     27463  0.0  0.1   3120  1304 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1078     27473  0.0  0.0   2288   552 ?        S     2014   0:00 grep python
+
+planetlab-node3.it-sudparis.eu: 504 bytes
+root      2504  0.0  0.0   3200  1200 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2018      2539  0.0  0.0   3120  1336 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+2018      2549  0.0  0.0    356   112 ?        D     2014   0:00 grep python
+2018     14912  0.0  0.1  12812  6264 ?        Ss    2014  11:15 python /home/cmu_agens/agens-client/run_superbowl.py
+2018     31086  0.0  0.1  11364  4400 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab3.informatik.uni-erlangen.de: 419 bytes
+1019     51353  0.0  0.2  11324  5440 ?        Ss   Feb01   0:05 python /home/cmu_agens/moncloud/run_ping.py
+root     53466  0.0  0.0   5880  1556 ?        S    19:19   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep python
+1019     53467  0.0  0.0   3116  1248 ?        S    19:19   0:00 /bin/sh --login -c ps aux|grep python
+1019     53481  0.0  0.0    648   124 ?        D    19:19   0:00 grep python
+
+planetlab-1.fhi-fokus.de: 419 bytes
+1198     21490  0.0  0.0  10220  3864 ?        Ss   Feb01   0:05 python /home/cmu_agens/moncloud/run_ping.py
+root     24535  0.0  0.0   5880  1544 ?        S    19:29   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep python
+1198     24536  0.0  0.0   3116  1220 ?        S    19:29   0:00 /bin/sh --login -c ps aux|grep python
+1198     24550  0.0  0.0   2372   528 ?        S    19:29   0:00 grep python
+
+gschembra3.diit.unict.it: 427 bytes
+1864      7864  0.0  0.4  12816  4276 ?        Ss    2014   7:32 python /home/cmu_agens/agens-client/run_superbowl.py
+root     14167  0.0  0.1   3200  1200 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1864     14393  0.0  0.1   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1864     29881  0.0  0.2  11380  2444 ?        Ss    2014   0:06 python /home/cmu_agens/moncloud/run_ping.py
+
+pli1-pa-2.hpl.hp.com: 504 bytes
+root     13196  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+604      13231  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+604      13241  0.0  0.0   2224   568 ?        S     2014   0:00 grep python
+604      17105  0.0  0.0  10160  5416 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+604      22070  0.0  0.1  11768  7200 ?        Ss    2014 177:17 python /home/cmu_agens/agens-client/run_superbowl.py
+
+ple2.cesnet.cz: 504 bytes
+1677      7192  0.0  0.0  11376  5096 ?        Ss    2013   0:04 python /home/cmu_agens/moncloud/run_ping.py
+root     18769  0.0  0.0   3200  1200 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1677     18802  0.0  0.0   3120  1328 ?        Ss    2013   0:00 -bash -c ps aux|grep python
+1677     18812  0.0  0.0   2288   568 ?        S     2013   0:00 grep python
+1677     25178  0.0  0.0  12804  6796 ?        Ss    2013   4:46 python /home/cmu_agens/agens-client/run_superbowl.py
+
+ple1.cesnet.cz: 504 bytes
+1712     19659  0.0  0.0  11380  4872 ?        Ss    2013   0:04 python /home/cmu_agens/moncloud/run_ping.py
+root     23135  0.0  0.0   4092  1200 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1712     23305  0.0  0.0   3120  1328 ?        Ss    2013   0:00 -bash -c ps aux|grep python
+1712     23325  0.0  0.0   2288   564 ?        S     2013   0:00 grep python
+1712     30091  0.0  0.0  12808  6680 ?        Ss    2013   4:29 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab02.tkn.tu-berlin.de: 504 bytes
+707      13333  0.3  0.2  12816  8332 ?        Ss   Feb01   5:02 python /home/cmu_agens/agens-client/run_superbowl.py
+root     14754  0.0  0.0   3200  1208 ?        Ss   19:26   0:00 /bin/su - cmu_agens -c ps aux|grep python
+707      14790  0.0  0.0   3120  1332 ?        Ss   19:26   0:00 -bash -c ps aux|grep python
+707      14800  0.0  0.0   2288   568 ?        S    19:26   0:00 grep python
+707      30327  0.0  0.1  11308  6792 ?        Ss   Feb01   0:06 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab1.urv.cat: 395 bytes
+1429      4558  0.5  0.2  12804  8280 ?        Ss   Feb01   7:47 python /home/cmu_agens/agens-client/run_superbowl.py
+root     20407  0.0  0.0   3200  1200 ?        Ss   19:23   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1429     20442  0.0  0.0   3120  1324 ?        Ss   19:23   0:00 -bash -c ps aux|grep python
+1429     20452  0.0  0.0   2288   564 ?        S    19:23   0:00 grep python
+
+planet1.elte.hu: 504 bytes
+1667      1314  0.0  0.1  12808  6084 ?        Ss    2014   4:28 python /home/cmu_agens/agens-client/run_superbowl.py
+1667     15208  0.0  0.1  11388  4356 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+root     26087  0.0  0.0   3200  1200 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1667     26122  0.0  0.0   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1667     26137  0.0  0.0   2288   564 ?        S     2014   0:00 grep python
+
+planetlab1.tlm.unavarra.es: 504 bytes
+1452     10129  0.0  0.1  11404  6780 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+root     21126  0.0  0.0   3200  1200 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1452     21241  0.0  0.0   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1452     21261  0.0  0.0    588   120 ?        D     2014   0:00 grep python
+1452     24438  0.0  0.2  12808  8292 ?        Ss    2014   4:25 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab2.cs.uoregon.edu: 427 bytes
+1791     11144  0.0  0.1  10168  5416 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+root     18754  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1791     18789  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1791     26061  0.0  0.1  11768  7196 ?        Ss    2014   2:11 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab3.cs.uoregon.edu: 504 bytes
+root      5262  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1783      5434  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1783      5456  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+1783     20242  0.0  0.1  11772  7200 ?        Ss    2014   4:55 python /home/cmu_agens/agens-client/run_superbowl.py
+1783     23584  0.0  0.1  10164  5416 ?        Ss    2014   0:06 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab1.tsuniv.edu: 504 bytes
+1381      8514  0.0  0.0  11772  7192 ?        Ss    2014   3:14 python /home/cmu_agens/agens-client/run_superbowl.py
+root     21384  0.0  0.0   3140  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1381     21502  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1381     21515  0.0  0.0   2228   604 ?        S     2014   0:00 grep python
+1381     28013  0.0  0.0  10164  5420 ?        Ss    2014   0:02 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab1.u-strasbg.fr: 386 bytes
+root     12792  0.0  0.0   3200  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1187     12827  0.0  0.0   3120  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1187     12837  0.0  0.0    356   112 ?        D     2014   0:00 grep python
+1187     25960  0.0  0.0  11376  5664 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab1.informatik.uni-erlangen.de: timed out probe
+
+planetlab1.cti.espol.edu.ec: 504 bytes
+525      10155  0.2  0.0  11768  7200 ?        Ss   Feb01   3:01 python /home/cmu_agens/agens-client/run_superbowl.py
+root     24943  0.0  0.0   3140  1196 ?        Ss   19:26   0:00 /bin/su - cmu_agens -c ps aux|grep python
+525      25009  0.0  0.0   3060  1320 ?        Ss   19:26   0:00 -bash -c ps aux|grep python
+525      25019  0.0  0.0   2224   564 ?        S    19:26   0:00 grep python
+525      31030  0.0  0.0  10164  5420 ?        Ss   Feb01   0:06 python /home/cmu_agens/moncloud/run_ping.py
+
+cs-planetlab4.cs.surrey.sfu.ca: 504 bytes
+702      13424  0.0  0.1  10168  4620 ?        Ss   Jan12   0:04 python /home/cmu_agens/moncloud/run_ping.py
+702      19472  0.0  0.1  11772  6316 ?        Ss   Jan12   3:24 python /home/cmu_agens/agens-client/run_superbowl.py
+root     32247  0.0  0.0   3140  1184 ?        Ss   Jan13   0:00 /bin/su - cmu_agens -c ps aux|grep python
+702      32282  0.0  0.0   3060  1324 ?        Ss   Jan13   0:00 -bash -c ps aux|grep python
+702      32292  0.0  0.0   2224   564 ?        S    Jan13   0:00 grep python
+
+planet-lab-node1.netgroup.uniroma2.it: 402 bytes
+root      1286  0.0  0.0   4092  1192 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1911      1364  0.0  0.0   3120  1328 ?        Ss    2013   0:00 -bash -c ps aux|grep python
+1911      1380  0.0  0.0   3120   492 ?        R     2013   0:00 -bash -c ps aux|grep python
+1911     20893  0.0  0.1  11380  6784 ?        Ss    2013   0:03 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab-3.imperial.ac.uk: 277 bytes
+root      8877  0.0  0.0   3200  1200 ?        Ss   19:27   0:00 /bin/su - cmu_agens -c ps aux|grep python
+700       8912  0.0  0.0   3120  1332 ?        Ss   19:27   0:00 -bash -c ps aux|grep python
+700       8922  0.0  0.0   2288   564 ?        S    19:27   0:00 grep python
+
+planetlab1.eecs.wsu.edu: 277 bytes
+root     22156  0.0  0.0   4032  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1600     22321  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1600     22337  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+
+planetlab4.mini.pw.edu.pl: 504 bytes
+1107     13296  0.0  0.1  10164  4432 ?        Ss   Feb01   0:05 python /home/cmu_agens/moncloud/run_ping.py
+root     15792  0.0  0.0   3140  1188 ?        Ss   19:23   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1107     15830  0.0  0.0   3060  1316 ?        Ss   19:24   0:00 -bash -c ps aux|grep python
+1107     15843  0.0  0.0   2224   564 ?        S    19:24   0:00 grep python
+1107     22904  0.4  0.1  11772  6108 ?        Ss   Feb01   6:28 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab1.csg.uzh.ch: 428 bytes
+root      5651  0.0  0.0   5880  1556 ?        S    19:23   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep python
+1218      5652  0.0  0.0   3116  1244 ?        S    19:23   0:00 /bin/sh --login -c ps aux|grep python
+1218      5666  0.0  0.0   2372   528 ?        S    19:23   0:00 grep python
+1218     19263  0.1  0.0  12200  7756 ?        Ss   Feb01   1:28 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab4.goto.info.waseda.ac.jp: 427 bytes
+739       2176  0.0  0.1  11768  6292 ?        Ss    2014   6:14 python /home/cmu_agens/agens-client/run_superbowl.py
+root      6357  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+739       6459  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+739      27195  0.0  0.1  10160  4608 ?        Ss    2014   0:03 python /home/cmu_agens/moncloud/run_ping.py
+
+mars.planetlab.haw-hamburg.de: 402 bytes
+root     17417  0.0  0.0   3200  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1512     18740  0.0  0.0  11372  6792 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+1512     21451  0.0  0.0   3120  1332 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1512     26829  0.0  0.0   3120   496 ?        R     2014   0:00 -bash -c ps aux|grep python
+
+planetlab1.pop-mg.rnp.br: 504 bytes
+1415     18468  0.0  0.1  10164  4592 ?        Ss   Jan09   0:03 python /home/cmu_agens/moncloud/run_ping.py
+root     21256  0.0  0.0   3140  1192 ?        Ss   Jan10   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1415     21292  0.0  0.0   3060  1324 ?        Ss   Jan10   0:00 -bash -c ps aux|grep python
+1415     21303  0.0  0.0   2224   568 ?        S    Jan10   0:00 grep python
+1415     28818  0.0  0.1  11772  6296 ?        Ss   Jan09   1:37 python /home/cmu_agens/agens-client/run_superbowl.py
+===========================================================================
+
+planetlab-js1.cert.org.cn: 386 bytes
+642      15207  0.0  0.0  10164  5412 ?        Ss    2014   0:06 python /home/cmu_agens/moncloud/run_ping.py
+root     19190  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+642      19254  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+642      19268  0.0  0.0   2224   560 ?        S     2014   0:00 grep python
+
+ebb.colgate.edu: 504 bytes
+720       7807  0.0  0.1  11768  7192 ?        Ss   Jan01   3:05 python /home/cmu_agens/agens-client/run_superbowl.py
+720      21267  0.0  0.1  10164  5416 ?        Ss   Jan01   0:02 python /home/cmu_agens/moncloud/run_ping.py
+root     27861  0.0  0.0   3140  1196 ?        Ss   Jan02   0:00 /bin/su - cmu_agens -c ps aux|grep python
+720      27927  0.0  0.0   3060  1316 ?        Ss   Jan02   0:00 -bash -c ps aux|grep python
+720      27938  0.0  0.0   2224   564 ?        S    Jan02   0:00 grep python
+
+planetlab2.csuohio.edu: 504 bytes
+779       9962  0.0  0.1  10164  5416 ?        Ss    2014   0:07 python /home/cmu_agens/moncloud/run_ping.py
+root     19814  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+779      19953  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+779      19981  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+779      32204  0.0  0.1  11772  7196 ?        Ss    2014   8:45 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab03.cs.washington.edu: 504 bytes
+root      9040  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1350      9133  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1350      9147  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+1350     16212  0.0  0.1  11764  7192 ?        Rs    2014 156:38 python /home/cmu_agens/agens-client/run_superbowl.py
+1350     16376  0.0  0.1  10164  5416 ?        Ss    2014   0:07 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab1.ucsd.edu: 504 bytes
+954      10763  0.0  0.1  10164  4608 ?        Ss    2014   0:03 python /home/cmu_agens/moncloud/run_ping.py
+root     13107  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+954      13149  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+954      13159  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+954      19240  0.0  0.1  11768  6316 ?        Ss    2014   9:58 python /home/cmu_agens/agens-client/run_superbowl.py
+
+pl2.zju.edu.cn: 200 bytes
+root      7694  0.0  0.0   3140  1192 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1120      8238  0.0  0.0   3060  1324 ?        Ss    2013   0:00 -bash -c ps aux|grep python
+
+plnode-04.gpolab.bbn.com: 427 bytes
+1316     11855  0.0  0.1  10164  5416 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+1316     28886  0.0  0.1  11768  7192 ?        Ss    2014  10:54 python /home/cmu_agens/agens-client/run_superbowl.py
+root     31266  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1316     31343  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+
+planetlab-01.cs.princeton.edu: 277 bytes
+1534      5494  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1534      8126  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+root     29311  0.0  0.0   3140  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+
+planetlab1.eecs.ucf.edu: 504 bytes
+972      13713  0.0  0.1  10164  4600 ?        Ss    2014   0:03 python /home/cmu_agens/moncloud/run_ping.py
+root     18988  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+972      19029  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+972      19039  0.0  0.0   2224   560 ?        S     2014   0:00 grep python
+972      22016  0.0  0.1  11768  6292 ?        Ss    2014   4:35 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab2.williams.edu: 520 bytes
+829      24296  0.0  0.1  10164  5420 ?        Ss   Feb01   0:04 python /home/cmu_agens/moncloud/run_ping.py
+root     29380  0.0  0.0   3140  1144 ?        Ss   19:27   0:00 /bin/su - cmu_agens -c ps aux|grep python
+829      29413  0.0  0.0   3060  1320 ?        Ss   19:27   0:00 -bash -c ps aux|grep python
+829      29424  0.0  0.0   3060   500 ?        D    19:27   0:00 -bash -c ps aux|grep python
+829      29609  0.2  0.2  11764  7184 ?        Ss   Feb01   3:22 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab2.cti.espol.edu.ec: 386 bytes
+526       3413  0.0  0.0  10168  5424 ?        Ss   Feb01   0:07 python /home/cmu_agens/moncloud/run_ping.py
+root     13010  0.0  0.0   3140  1188 ?        Ss   19:24   0:00 /bin/su - cmu_agens -c ps aux|grep python
+526      13072  0.0  0.0   3060  1316 ?        Ss   19:24   0:00 -bash -c ps aux|grep python
+526      13090  0.0  0.0   2224   560 ?        S    19:24   0:00 grep python
+
+planetlab1.cs.uoregon.edu: 520 bytes
+2036      8779  0.0  0.1  11764  7180 ?        Ss    2014   2:39 python /home/cmu_agens/agens-client/run_superbowl.py
+root     17732  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2036     17795  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+2036     17807  0.0  0.0   3060   504 ?        R     2014   0:00 -bash -c ps aux|grep python
+2036     19777  0.0  0.1  10168  5408 ?        Ss    2014   0:06 python /home/cmu_agens/moncloud/run_ping.py
+
+roam1.cs.ou.edu: 504 bytes
+2190      2786  0.0  0.1  11764  7192 ?        Ss    2014   6:38 python /home/cmu_agens/agens-client/run_superbowl.py
+2190      9543  0.0  0.1  10168  5420 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+root     13947  0.0  0.0   3140  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2190     14105  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+2190     14124  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+
+planetlab-2.calpoly-netlab.net: 504 bytes
+2067      9806  0.0  0.1  11768  7204 ?        Ss    2014   9:46 python /home/cmu_agens/agens-client/run_superbowl.py
+root     16518  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2067     16627  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+2067     16638  0.0  0.0   2224   568 ?        S     2014   0:00 grep python
+2067     25051  0.0  0.1  10164  5416 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+
+pl1.rcc.uottawa.ca: 504 bytes
+2210      1915  0.0  0.0  11768  7196 ?        Ss    2014   2:45 python /home/cmu_agens/agens-client/run_superbowl.py
+root      3576  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2210      3728  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+2210      3744  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+2210     27186  0.0  0.0  10164  5416 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab1.cs.ucla.edu: 427 bytes
+root      5055  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1456      5106  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1456      8596  0.0  0.1  11772  6292 ?        Rs    2014   7:01 python /home/cmu_agens/agens-client/run_superbowl.py
+1456     28523  0.0  0.1  10164  4612 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+
+stella.planetlab.ntua.gr: 504 bytes
+864       3145  0.0  0.4  12808  4412 ?        Ss    2014   3:21 python /home/cmu_agens/agens-client/run_superbowl.py
+864      22124  0.0  0.2  11372  2612 ?        Ss    2014   0:07 python /home/cmu_agens/moncloud/run_ping.py
+root     23257  0.0  0.1   3200  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+864      23313  0.0  0.1   3120  1304 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+864      23327  0.0  0.0   2288   552 ?        S     2014   0:00 grep python
+
+node1.planetlab.mathcs.emory.edu: 504 bytes
+2613     17793  0.0  0.1  10160  4612 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+2613     27437  0.0  0.1  11772  6296 ?        Ss    2014   8:33 python /home/cmu_agens/agens-client/run_superbowl.py
+root     27519  0.0  0.0   3140  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2613     27555  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+2613     27565  0.0  0.0   2224   560 ?        S     2014   0:00 grep python
+
+planetlab2.cs.aueb.gr: 504 bytes
+1597      9649  0.0  0.1  11344  6636 ?        Ss   Feb01   0:06 python /home/cmu_agens/moncloud/run_ping.py
+root     23767  0.0  0.0   3200  1200 ?        Ss   19:21   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1597     23855  0.0  0.0   3120  1332 ?        Ss   19:21   0:00 -bash -c ps aux|grep python
+1597     23877  0.0  0.0   2288   568 ?        S    19:21   0:00 grep python
+1597     25891  0.6  0.2  12800  8136 ?        Ss   Feb01   9:20 python /home/cmu_agens/agens-client/run_superbowl.py
+
+pluto.cs.brown.edu: 504 bytes
+2485      1719  0.0  0.1  10164  4616 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+2485     10102  0.0  0.1  11768  6316 ?        Ss    2014   4:54 python /home/cmu_agens/agens-client/run_superbowl.py
+root     26954  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2485     27083  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+2485     27135  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+
+planetlab1.virtues.fi: 386 bytes
+856      15481  0.0  0.0  11376  6784 ?        Ss    2013   0:03 python /home/cmu_agens/moncloud/run_ping.py
+root     24369  0.0  0.0   3200  1184 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep python
+856      24543  0.0  0.0   3120  1320 ?        Ss    2013   0:00 -bash -c ps aux|grep python
+856      24569  0.0  0.0   2288   556 ?        S     2013   0:00 grep python
+
+ple2.ait.ac.th: 504 bytes
+1407      1757  0.0  0.1  12808  4880 ?        Ss    2013   6:57 python /home/cmu_agens/agens-client/run_superbowl.py
+root     11733  0.0  0.0   3200  1192 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1407     11805  0.0  0.0   3120  1328 ?        Ss    2013   0:00 -bash -c ps aux|grep python
+1407     11821  0.0  0.0    356   116 ?        D     2013   0:00 grep python
+1407     18539  0.0  0.0  11388  2992 ?        Ss    2013   0:04 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab2.virtues.fi: 277 bytes
+root     22630  0.0  0.0   3200  1192 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep python
+864      22954  0.0  0.0   3120  1320 ?        Ss    2013   0:00 -bash -c ps aux|grep python
+864      23163  0.0  0.0    356   112 ?        D     2013   0:00 grep python
+
+planetlab-2.research.netlab.hut.fi: 427 bytes
+1356      4600  0.0  0.0  12820  7028 ?        Ss    2014   4:00 python /home/cmu_agens/agens-client/run_superbowl.py
+root     11099  0.0  0.0   3200  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1356     14397  0.0  0.0   3120  1332 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1356     14744  0.0  0.0  11380  5556 ?        Ss    2014   0:06 python /home/cmu_agens/moncloud/run_ping.py
+
+pl1.eecs.utk.edu: 386 bytes
+1233     10554  0.0  0.1  10164  5404 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+root     15331  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1233     15459  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1233     15485  0.0  0.0   2224   560 ?        S     2014   0:00 grep python
+
+pl2.cs.yale.edu: 386 bytes
+root     15955  0.0  0.0   3140  1192 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1419     16198  0.0  0.0   3060  1324 ?        Ss    2013   0:00 -bash -c ps aux|grep python
+1419     16229  0.0  0.0   2224   564 ?        S     2013   0:00 grep python
+1419     27011  0.0  0.1  10164  5420 ?        Ss    2013   0:03 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab2.temple.edu: 504 bytes
+688       5578  0.0  0.0  10160  5412 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+688      18401  0.0  0.0  11768  7204 ?        Ss    2014   7:16 python /home/cmu_agens/agens-client/run_superbowl.py
+root     19994  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+688      20029  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+688      20039  0.0  0.0   2224   560 ?        S     2014   0:00 grep python
+
+pl1.pku.edu.cn: 386 bytes
+root       818  0.0  0.0   3140  1192 ?        Ss   Jan28   0:00 /bin/su - cmu_agens -c ps aux|grep python
+689        888  0.0  0.0   3060  1324 ?        Ss   Jan28   0:00 -bash -c ps aux|grep python
+689        917  0.0  0.0   2224   564 ?        S    Jan28   0:00 grep python
+689      20200  0.0  0.1  10164  5416 ?        Ss   Jan27   0:59 python /home/cmu_agens/moncloud/run_ping.py
+
+onelab3.warsaw.rd.tp.pl: 504 bytes
+1251     11659  0.0  0.1  11372  6760 ?        Ss    2014   0:06 python /home/cmu_agens/moncloud/run_ping.py
+1251     24008  0.0  0.1  12804  8292 ?        Ss    2014   6:57 python /home/cmu_agens/agens-client/run_superbowl.py
+root     26007  0.0  0.0   3200  1176 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1251     26073  0.0  0.0   3120  1304 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1251     26101  0.0  0.0   3120   368 ?        R     2014   0:00 grep python
+
+planetlab-2.man.poznan.pl: 504 bytes
+1304      9345  0.0  0.2  11380  2496 ?        Ss    2014   0:10 python /home/cmu_agens/moncloud/run_ping.py
+1304     22323  0.0  0.1  12804  1384 ?        Ss    2014   1:47 python /home/cmu_agens/agens-client/run_superbowl.py
+root     25124  0.0  0.1   3200  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1304     25184  0.0  0.1   3120  1300 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1304     25201  0.0  0.0   2288   556 ?        S     2014   0:00 grep python
+
+plab1.create-net.org: 395 bytes
+1822       331  0.0  0.0   3120  1332 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1822       432  0.0  0.0   2288   564 ?        S     2014   0:00 grep python
+1822      6108  0.0  0.0  12808  7372 ?        Ss    2014   2:31 python /home/cmu_agens/agens-client/run_superbowl.py
+root     32056  0.0  0.0   3200  1204 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+
+planetlab2.unr.edu: 504 bytes
+949       6787  0.0  0.0  11768  7196 ?        Ss    2014   7:02 python /home/cmu_agens/agens-client/run_superbowl.py
+949      17840  0.0  0.0  10164  5412 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+root     31115  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+949      31150  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+949      31160  0.0  0.0   2224   568 ?        S     2014   0:00 grep python
+
+planetlab2.cnis.nyit.edu: 277 bytes
+root      8628  0.0  0.0   3140  1196 ?        Ss   19:26   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1507      8687  0.0  0.0   3060  1320 ?        Ss   19:26   0:00 -bash -c ps aux|grep python
+1507      8703  0.0  0.0   2224   564 ?        S    19:26   0:00 grep python
+
+planetlab1.temple.edu: 386 bytes
+root     22209  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1077     22247  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1077     22258  0.0  0.0   2224   568 ?        S     2014   0:00 grep python
+1077     26457  0.0  0.1  10168  5416 ?        Ss    2014   0:03 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab1.cs.uit.no: 504 bytes
+1332       339  0.2  0.2  12812  8200 ?        Ss   Feb01   3:52 python /home/cmu_agens/agens-client/run_superbowl.py
+root     15536  0.0  0.0   3200  1200 ?        Ss   19:23   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1332     15576  0.0  0.0   3120  1332 ?        Ss   19:23   0:00 -bash -c ps aux|grep python
+1332     15586  0.0  0.0   2288   564 ?        S    19:23   0:00 grep python
+1332     18416  0.0  0.1  11376  6508 ?        Ss   Feb01   0:05 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab-tea.ait.ie: 520 bytes
+714      10060  0.0  0.1  12808  8312 ?        Ss    2014   6:20 python /home/cmu_agens/agens-client/run_superbowl.py
+root     16242  0.0  0.0   3200  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+714      16275  0.0  0.0   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+714      16285  0.0  0.0   3120   496 ?        R     2014   0:00 -bash -c ps aux|grep python
+714      31373  0.0  0.0  11308  6784 ?        Ss    2014   0:03 python /home/cmu_agens/moncloud/run_ping.py
+
+pl1.bell-labs.fr: 504 bytes
+root      1962  0.0  0.0   3200  1196 ?        Ss   19:26   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1579      2003  0.0  0.0   3120  1328 ?        Ss   19:26   0:00 -bash -c ps aux|grep python
+1579      2013  0.0  0.0   2288   564 ?        S    19:26   0:00 grep python
+1579      7780  0.9  0.1  12820  7692 ?        Ss   Feb01  12:13 python /home/cmu_agens/agens-client/run_superbowl.py
+1579     26822  0.0  0.1  11376  6176 ?        Ss   Feb01   0:06 python /home/cmu_agens/moncloud/run_ping.py
+
+pl2.bell-labs.fr: 504 bytes
+root     24737  0.0  0.0   3200  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1602     24986  0.0  0.0   3120  1332 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1602     25034  0.0  0.0   2288   568 ?        S     2014   0:00 grep python
+1602     28916  0.0  0.1  11308  6356 ?        Ss    2014   0:06 python /home/cmu_agens/moncloud/run_ping.py
+1602     29131  0.0  0.1  12808  7840 ?        Ss    2014  12:06 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab2.xeno.cl.cam.ac.uk: 504 bytes
+root      1705  0.0  0.0   3200  1192 ?        Ss   Jan29   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1734      1741  0.0  0.0   3120  1324 ?        Ss   Jan29   0:00 -bash -c ps aux|grep python
+1734      1751  0.0  0.0   2288   552 ?        S    Jan29   0:00 grep python
+1734      4697  0.1  0.1  12820  8336 ?        Ss   Jan28   7:57 python /home/cmu_agens/agens-client/run_superbowl.py
+1734     26474  0.0  0.0  11316  6796 ?        Ss   Jan28   0:04 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab-1.tagus.ist.utl.pt: 504 bytes
+1447      4035  0.3  0.1  11812  6788 ?        Ss   19:01   0:06 python /home/cmu_agens/agens-client/run_superbowl.py
+root     14327  0.0  0.0   3200  1176 ?        Ss   19:21   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1447     14404  0.0  0.0   3120  1304 ?        Ss   19:21   0:00 -bash -c ps aux|grep python
+1447     14426  0.0  0.0   2288   556 ?        S    19:21   0:00 grep python
+1447     18077  0.0  0.1  10176  5144 ?        Ss   18:51   0:00 python /home/cmu_agens/moncloud/run_ping.py
+
+pl1.cs.yale.edu: 504 bytes
+1290      2243  0.0  0.1  11772  7200 ?        Ss    2013   3:39 python /home/cmu_agens/agens-client/run_superbowl.py
+root      8390  0.0  0.0   3140  1192 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1290      8462  0.0  0.0   3060  1320 ?        Ss    2013   0:00 -bash -c ps aux|grep python
+1290      8475  0.0  0.0   2224   564 ?        S     2013   0:00 grep python
+1290     11965  0.0  0.1  10168  5424 ?        Ss    2013   0:03 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab2.wiwi.hu-berlin.de: 277 bytes
+root     32334  0.0  0.0   3200  1196 ?        Ss   19:25   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1228     32372  0.0  0.0   3120  1324 ?        Ss   19:25   0:00 -bash -c ps aux|grep python
+1228     32382  0.0  0.0   2288   556 ?        S    19:25   0:00 grep python
+
+planetvs1.informatik.uni-stuttgart.de: 504 bytes
+root      5630  0.0  0.0   3200  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+838       5665  0.0  0.0   3120  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+838       5675  0.0  0.0   2288   556 ?        S     2014   0:00 grep python
+838       7923  0.0  0.0  12804  8324 ?        Ss    2014   6:18 python /home/cmu_agens/agens-client/run_superbowl.py
+838      26309  0.0  0.0  11372  6788 ?        Ss    2014   0:03 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab2.cs.ucla.edu: 504 bytes
+root      3689  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1340      4304  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1340      4474  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+1340      5143  0.0  0.1  10164  4568 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+1340      9500  0.0  0.1  11764  6240 ?        Ss    2014   8:14 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab1.eurecom.fr: 402 bytes
+root     13131  0.0  0.0   3200  1200 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1419     13363  0.0  0.0   3120  1332 ?        Ss    2013   0:00 -bash -c ps aux|grep python
+1419     13411  0.0  0.0   3120   500 ?        D     2013   0:00 -bash -c ps aux|grep python
+1419     31881  0.0  0.1  11300  6752 ?        Ss    2013   0:03 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab1.rutgers.edu: 504 bytes
+root       646  0.0  0.1   3140  1188 ?        Ss   19:20   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2358       701  0.0  0.1   3060  1320 ?        Ss   19:20   0:00 -bash -c ps aux|grep python
+2358       725  0.0  0.0   2092   280 ?        R    19:20   0:00 grep python
+2358     11067  0.0  0.2  10168  2256 ?        Ss   Feb01   0:13 python /home/cmu_agens/moncloud/run_ping.py
+2358     25958  6.8  0.4  11772  4808 ?        Ss   Feb01  92:28 python /home/cmu_agens/agens-client/run_superbowl.py
+
+inriarennes1.irisa.fr: 504 bytes
+888      11616  0.0  0.1  11372  6788 ?        Ss    2014   0:03 python /home/cmu_agens/moncloud/run_ping.py
+888      24075  0.0  0.1  12816  8332 ?        Ss    2014   6:39 python /home/cmu_agens/agens-client/run_superbowl.py
+root     29430  0.0  0.0   3200  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+888      29463  0.0  0.0   3120  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+888      29473  0.0  0.0   2288   552 ?        S     2014   0:00 grep python
+
+plab2.ple.silweb.pl: 504 bytes
+887      21651  0.0  0.1  12820  4216 ?        Ss    2014   4:12 python /home/cmu_agens/agens-client/run_superbowl.py
+887      21938  0.0  0.0  11304  2540 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+root     31263  0.0  0.0   3200  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+887      31454  0.0  0.0   3120  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+887      31491  0.0  0.0   2288   564 ?        S     2014   0:00 grep python
+
+planetlab2.informatik.uni-wuerzburg.de: 277 bytes
+root     24037  0.0  0.0   3200  1188 ?        Ss   19:23   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1635     24085  0.0  0.0   3120  1336 ?        Ss   19:23   0:00 -bash -c ps aux|grep python
+1635     24096  0.0  0.0    356   112 ?        D    19:23   0:00 grep python
+
+planetlab3.xeno.cl.cam.ac.uk: 504 bytes
+1464     10295  0.0  0.0  11300  6780 ?        Ss   Jan29   0:05 python /home/cmu_agens/moncloud/run_ping.py
+root     13079  0.0  0.0   3200  1192 ?        Ss   Jan30   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1464     13114  0.0  0.0   3120  1332 ?        Ss   Jan30   0:00 -bash -c ps aux|grep python
+1464     13124  0.0  0.0   2288   556 ?        S    Jan30   0:00 grep python
+1464     26834  0.1  0.1  12808  8312 ?        Ss   Jan29   7:39 python /home/cmu_agens/agens-client/run_superbowl.py
+
+host4-plb.loria.fr: 537 bytes
+1213     17045  0.0  0.0  10220  2896 ?        Ss   Feb01   0:03 python /home/cmu_agens/moncloud/run_ping.py
+1213     18439  0.2  0.1  12200  5784 ?        Ss   Feb01   3:41 python /home/cmu_agens/agens-client/run_superbowl.py
+root     20262  0.0  0.0   5880  1576 ?        S    19:30   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep python
+1213     20263  0.0  0.0   3116  1256 ?        S    19:30   0:00 /bin/sh --login -c ps aux|grep python
+1213     20277  0.0  0.0   2372   528 ?        S    19:30   0:00 grep python
+
+planetlab1.research.nicta.com.au: 537 bytes
+1200     21478  0.0  0.0  10220  5496 ?        Ss   Feb01   0:04 python /home/cmu_agens/moncloud/run_ping.py
+root     22825  0.0  0.0   5880  1560 ?        S    19:30   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep python
+1200     22826  0.0  0.0   3116  1252 ?        S    19:30   0:00 /bin/sh --login -c ps aux|grep python
+1200     22840  0.0  0.0   2372   532 ?        S    19:30   0:00 grep python
+1200     22935  0.0  0.0  12200  7752 ?        Ss   Feb01   1:06 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab1.cs.umass.edu: timed out probe
+
+planetlab2.nrl.eecs.qmul.ac.uk: 504 bytes
+root      2149  0.0  0.0   3200  1184 ?        Ss   Jan22   0:00 /bin/su - cmu_agens -c ps aux|grep python
+886       2184  0.0  0.0   3120  1328 ?        Ss   Jan22   0:00 -bash -c ps aux|grep python
+886       2194  0.0  0.0   2288   552 ?        S    Jan22   0:00 grep python
+886      10115  0.0  0.0  11372  6792 ?        Ss   Jan21   0:04 python /home/cmu_agens/moncloud/run_ping.py
+886      23088  0.0  0.0  12812  8316 ?        Ss   Jan21   2:46 python /home/cmu_agens/agens-client/run_superbowl.py
+
+ops.ii.uam.es: 293 bytes
+root     17014  0.0  0.1   3200  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1075     17284  0.0  0.1   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1075     17491  0.0  0.0   3120   496 ?        R     2014   0:00 -bash -c ps aux|grep python
+
+planetlab4.cs.uoregon.edu: 309 bytes
+root      7734  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1777      7770  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1777     19698  0.0  0.1  10168  5416 ?        Ss    2014   0:06 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab1.ie.cuhk.edu.hk: 277 bytes
+root     11475  0.0  0.0   2656  1068 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+871      11511  0.0  0.0   2624  1196 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+871      11521  0.0  0.0   1968   500 ?        S     2014   0:00 grep python
+
+plab2.create-net.org: 504 bytes
+1679      3103  0.0  0.1  12816  8324 ?        Ss    2014   1:34 python /home/cmu_agens/agens-client/run_superbowl.py
+root     10026  0.0  0.0   3200  1200 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1679     10062  0.0  0.0   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1679     10072  0.0  0.0   2288   560 ?        S     2014   0:00 grep python
+1679     22683  0.0  0.0  11372  6784 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab2.eecs.ucf.edu: 504 bytes
+950      11992  0.0  0.1  10164  5416 ?        Ss    2014   0:03 python /home/cmu_agens/moncloud/run_ping.py
+root     13116  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+950      13230  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+950      13251  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+950      30333  0.0  0.1  11772  7204 ?        Ss    2014   9:18 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab-02.vt.nodes.planet-lab.org: 504 bytes
+1696     13007  0.0  0.1  11772  7200 ?        Ss    2014   6:02 python /home/cmu_agens/agens-client/run_superbowl.py
+root     20095  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1696     20135  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1696     20145  0.0  0.0   2224   568 ?        S     2014   0:00 grep python
+1696     31958  0.0  0.1  10164  5416 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+
+netapp7.cs.kookmin.ac.kr: 386 bytes
+927       9453  0.0  0.1  10164  5412 ?        Ss    2014   0:03 python /home/cmu_agens/moncloud/run_ping.py
+root     10128  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+927      10165  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+927      10175  0.0  0.0   2224   568 ?        S     2014   0:00 grep python
+
+planetlab3.williams.edu: 427 bytes
+root     13527  0.0  0.0   3140  1144 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1029     13559  0.0  0.0   3060  1320 ?        Rs    2014   0:00 -bash -c ps aux|grep python
+1029     18851  0.0  0.1  10160  5416 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+1029     32586  0.0  0.2  11764  7184 ?        Ss    2014   5:12 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planet-lab3.uba.ar: 520 bytes
+root     20147  0.0  0.0   3140  1200 ?        Ss   19:27   0:00 /bin/su - cmu_agens -c ps aux|grep python
+834      20189  0.0  0.0   3060  1324 ?        Ss   19:27   0:00 -bash -c ps aux|grep python
+834      20212  0.0  0.0   3060   504 ?        D    19:27   0:00 -bash -c ps aux|grep python
+834      23502  0.0  0.0  10164  2328 ?        Ss   Feb01   0:02 python /home/cmu_agens/moncloud/run_ping.py
+834      25388  0.0  0.0  11764  4076 ?        Ss   Feb01   1:01 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab1.cs.ubc.ca: 504 bytes
+1313       837  0.0  0.0  10164  5420 ?        Ss    2014   0:03 python /home/cmu_agens/moncloud/run_ping.py
+root       919  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1313       958  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1313       975  0.0  0.0   2224   568 ?        S     2014   0:00 grep python
+1313     12204  0.0  0.0  11768  7188 ?        Ss    2014 142:42 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab4.cnds.jhu.edu: 0 bytes
+
+planetlab1.comp.nus.edu.sg: 386 bytes
+2918      1499  0.0  0.0  10160  4064 ?        Ss   Jan25   0:05 python /home/cmu_agens/moncloud/run_ping.py
+root     11157  0.0  0.0   3140  1192 ?        Ss   Jan26   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2918     11209  0.0  0.0   3060  1320 ?        Ss   Jan26   0:00 -bash -c ps aux|grep python
+2918     11224  0.0  0.0   2224   564 ?        S    Jan26   0:00 grep python
+
+planetlab2.c3sl.ufpr.br: 277 bytes
+root     30165  0.0  0.0   3140  1188 ?        Ss   19:26   0:00 /bin/su - cmu_agens -c ps aux|grep python
+868      30200  0.0  0.0   3060  1320 ?        Ss   19:26   0:00 -bash -c ps aux|grep python
+868      30213  0.0  0.0   2224   564 ?        S    19:26   0:00 grep python
+
+plab3.eece.ksu.edu: 395 bytes
+root      2736  0.0  0.0   3140  1188 ?        Ss   19:22   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1560      2773  0.0  0.0   3060  1320 ?        Ss   19:22   0:00 -bash -c ps aux|grep python
+1560      2783  0.0  0.0   2224   564 ?        S    19:22   0:00 grep python
+1560     10109  0.5  0.1  11768  7184 ?        Ss   Feb01   6:59 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab1.nrl.eecs.qmul.ac.uk: 395 bytes
+870       1955  0.0  0.0  12812  8348 ?        Ss    2014   3:05 python /home/cmu_agens/agens-client/run_superbowl.py
+root      9496  0.0  0.0   3200  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+870       9530  0.0  0.0   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+870       9540  0.0  0.0   2288   560 ?        S     2014   0:00 grep python
+
+planetlab4.postel.org: 504 bytes
+2156     10001  0.0  0.1  11772  6196 ?        Ss    2014   6:45 python /home/cmu_agens/agens-client/run_superbowl.py
+2156     17087  0.0  0.1  10160  4488 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+root     27684  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2156     27719  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+2156     27729  0.0  0.0   2224   568 ?        S     2014   0:00 grep python
+
+planetlab-2.cs.uic.edu: 504 bytes
+root     15881  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1953     15924  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1953     15935  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+1953     15939  0.0  0.1  11772  7204 ?        Ss    2014   8:31 python /home/cmu_agens/agens-client/run_superbowl.py
+1953     29564  0.0  0.1  10164  5416 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab-um10.di.uminho.pt: 386 bytes
+root      2919  0.0  0.0   3200  1208 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1553      2962  0.0  0.0   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1553      2972  0.0  0.0   2288   564 ?        S     2014   0:00 grep python
+1553     17434  0.0  0.0  11316  6748 ?        Ss    2014   0:07 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab2.tsuniv.edu: 520 bytes
+1345       435  0.0  0.0  11768  7196 ?        Ss    2014   6:12 python /home/cmu_agens/agens-client/run_superbowl.py
+root      6399  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1345      6446  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1345      6459  0.0  0.0   3060   500 ?        R     2014   0:00 -bash -c ps aux|grep python
+1345     16493  0.0  0.0  10164  5416 ?        Ss    2014   0:02 python /home/cmu_agens/moncloud/run_ping.py
+
+merkur.planetlab.haw-hamburg.de: 520 bytes
+1424     11366  0.0  0.0  12808  8352 ?        Ss    2014  10:19 python /home/cmu_agens/agens-client/run_superbowl.py
+root     25854  0.0  0.0   3200  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1424     25887  0.0  0.0   3120  1332 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1424     25897  0.0  0.0   3120   496 ?        R     2014   0:00 -bash -c ps aux|grep python
+1424     29826  0.0  0.0  11372  6788 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+
+empusa.ipv6.lip6.fr: 419 bytes
+1021      3494  0.0  0.0  10220  5496 ?        Ss   Feb01   0:07 python /home/cmu_agens/moncloud/run_ping.py
+root      6713  0.0  0.0   5880  1560 ?        S    19:30   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep python
+1021      6714  0.0  0.0   3116  1248 ?        S    19:30   0:00 /bin/sh --login -c ps aux|grep python
+1021      6728  0.0  0.0   2372   532 ?        S    19:30   0:00 grep python
+
+planetlab2.rutgers.edu: 427 bytes
+root       562  0.0  0.1   4032  1188 ?        Ss   19:24   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2271       598  0.0  0.1   3060  1324 ?        Ss   19:24   0:00 -bash -c ps aux|grep python
+2271      5922  0.0  0.2  10164  2356 ?        Ss   Feb01   0:13 python /home/cmu_agens/moncloud/run_ping.py
+2271     19202  6.6  0.4  11772  4808 ?        Ss   Feb01  88:46 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab2.pop-mg.rnp.br: 504 bytes
+1192     23959  0.0  0.1  10168  4084 ?        Ss   Jan09   0:03 python /home/cmu_agens/moncloud/run_ping.py
+1192     25747  0.0  0.1  11772  5808 ?        Ss   Jan09   1:39 python /home/cmu_agens/agens-client/run_superbowl.py
+root     30330  0.0  0.0   3140  1192 ?        Ss   Jan10   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1192     30369  0.0  0.0   3060  1316 ?        Ss   Jan10   0:00 -bash -c ps aux|grep python
+1192     30381  0.0  0.0    600   132 ?        D    Jan10   0:00 grep python
+
+ampelos.ipv6.lip6.fr: 310 bytes
+root     24390  0.0  0.0   5880  1560 ?        S    19:30   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep python
+1109     24391  0.0  0.0   3116  1244 ?        S    19:30   0:00 /bin/sh --login -c ps aux|grep python
+1109     24405  0.0  0.0   2372   532 ?        S    19:30   0:00 grep python
+
+sybaris.ipv6.lip6.fr: 310 bytes
+root     25593  0.0  0.0   5880  1564 ?        S    19:30   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep python
+1276     25594  0.0  0.0   3116  1244 ?        S    19:30   0:00 /bin/sh --login -c ps aux|grep python
+1276     25608  0.0  0.0   2372   524 ?        S    19:30   0:00 grep python
+
+plewifi.ipv6.lip6.fr: 386 bytes
+943      12224  0.0  0.1  11368  4308 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+root     15557  0.0  0.0   3200  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+943      15596  0.0  0.0   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+943      15606  0.0  0.0   2288   564 ?        S     2014   0:00 grep python
+
+ple6.ipv6.lip6.fr: 386 bytes
+793       5479  0.0  0.0  11380  3948 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+root     29150  0.0  0.0   3200  1200 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+793      29202  0.0  0.0   3120  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+793      29219  0.0  0.0   2288   568 ?        S     2014   0:00 grep python
+
+pl1.cs.montana.edu: 386 bytes
+root      2127  0.0  0.0   3140  1188 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep python
+916       2322  0.0  0.0   3060  1324 ?        Ss    2013   0:00 -bash -c ps aux|grep python
+916       2353  0.0  0.0    600   128 ?        D     2013   0:00 grep python
+916      21652  0.0  0.1  10160  5416 ?        Ss    2013   0:03 python /home/cmu_agens/moncloud/run_ping.py
+
+anateus.ipv6.lip6.fr: 419 bytes
+1019      4082  0.0  0.0  10220  5496 ?        Ss   Feb01   0:07 python /home/cmu_agens/moncloud/run_ping.py
+root      7283  0.0  0.0   5880  1556 ?        S    19:30   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep python
+1019      7284  0.0  0.0   3116  1244 ?        S    19:30   0:00 /bin/sh --login -c ps aux|grep python
+1019      7298  0.0  0.0   2372   528 ?        S    19:30   0:00 grep python
+
+ple4.ipv6.lip6.fr: 386 bytes
+1216      2222  0.0  0.0  11380  6796 ?        Ss    2014   0:03 python /home/cmu_agens/moncloud/run_ping.py
+root     16729  0.0  0.0   3200  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1216     16764  0.0  0.0   3120  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1216     16776  0.0  0.0   2288   552 ?        S     2014   0:00 grep python
+
+ple2.ipv6.lip6.fr: 504 bytes
+1611      1871  0.0  0.7  12816  7444 ?        Ss    2014  25:23 python /home/cmu_agens/agens-client/run_superbowl.py
+1611     20963  0.0  0.4  11372  4516 ?        Ss    2014   0:08 python /home/cmu_agens/moncloud/run_ping.py
+root     31410  0.0  0.1   3200  1180 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1611     31486  0.0  0.1   3120  1300 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1611     31502  0.0  0.0   2288   556 ?        S     2014   0:00 grep python
+
+planetlab5.csee.usf.edu: 504 bytes
+1688      1323  0.0  0.1  10164  5416 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+root      4732  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1688      4767  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1688      4777  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+1688     14735  0.0  0.1  11768  7200 ?        Ss    2014   4:28 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab1.s3.kth.se: timed out probe
+
+planetlab-04.vt.nodes.planet-lab.org: 504 bytes
+1675     21262  0.0  0.1  11768  7196 ?        Ss    2014   8:07 python /home/cmu_agens/agens-client/run_superbowl.py
+1675     22093  0.0  0.1  10168  5416 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+root     27515  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1675     27550  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1675     27561  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+
+planetlabone.ccs.neu.edu: 504 bytes
+1195      3202  0.0  0.1  11772  6312 ?        Ss    2014   8:11 python /home/cmu_agens/agens-client/run_superbowl.py
+root     24772  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1195     24975  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1195     25080  0.0  0.0   2224   568 ?        S     2014   0:00 grep python
+1195     30069  0.0  0.1  10168  4616 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+
+onelab10.pl.sophia.inria.fr: 445 bytes
+1217     17376  0.0  0.0  10220  2296 ?        Ss   Feb01   0:04 python /home/cmu_agens/moncloud/run_ping.py
+root     19464  0.0  0.0   5880  1572 ?        S    19:30   0:00 /usr/bin/sudo -u cmu_agens /bin/sh --login -c ps aux|grep python
+1217     19465  0.0  0.0   3116  1256 ?        S    19:30   0:00 /bin/sh --login -c ps aux|grep python
+1217     19479  0.0  0.0   3116   360 ?        D    19:30   0:00 /bin/sh --login -c ps aux|grep python
+
+planetlab3.rutgers.edu: 395 bytes
+root      3807  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1519      3843  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1519      3853  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+1519     18864  0.0  0.1  11764  7192 ?        Ss    2014   3:25 python /home/cmu_agens/agens-client/run_superbowl.py
+
+plink.cs.uwaterloo.ca: 504 bytes
+2346      5215  0.0  0.1  11772  7200 ?        Ss    2014   8:37 python /home/cmu_agens/agens-client/run_superbowl.py
+2346     15285  0.0  0.1  10164  5416 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+root     25117  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2346     25219  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+2346     25237  0.0  0.0   2224   568 ?        S     2014   0:00 grep python
+
+pl-node-0.csl.sri.com: 504 bytes
+789      10674  0.0  0.1  10160  5412 ?        Ss   Feb01   0:05 python /home/cmu_agens/moncloud/run_ping.py
+root     28372  0.0  0.0   3140  1192 ?        Ss   19:24   0:00 /bin/su - cmu_agens -c ps aux|grep python
+789      28407  0.0  0.0   3060  1324 ?        Ss   19:24   0:00 -bash -c ps aux|grep python
+789      28417  0.0  0.0   2224   568 ?        S    19:24   0:00 grep python
+789      29290  0.4  0.1  11768  7196 ?        Ss   Feb01   5:33 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planet2.cc.gt.atl.ga.us: 504 bytes
+1855     10420  0.1  0.3  11772  4068 ?        Ss   Jan29   9:19 python /home/cmu_agens/agens-client/run_superbowl.py
+root     14806  0.0  0.1   3140  1184 ?        Ss   Jan30   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1855     14862  0.0  0.1   3060  1320 ?        Ss   Jan30   0:00 -bash -c ps aux|grep python
+1855     14890  0.0  0.0   2092   292 ?        D    Jan30   0:00 grep python
+1855     18227  0.0  0.2  10160  2208 ?        Ss   Jan29   0:08 python /home/cmu_agens/moncloud/run_ping.py
+
+planet2.pnl.nitech.ac.jp: 386 bytes
+762       1985  0.0  0.1  10164  5416 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+root     14437  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+762      14472  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+762      14482  0.0  0.0   2224   568 ?        S     2014   0:00 grep python
+
+planetlab2.unl.edu: 504 bytes
+1213      8610  0.0  0.1  10164  4164 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+1213     16880  0.0  0.1  11764  5892 ?        Ss    2014   8:29 python /home/cmu_agens/agens-client/run_superbowl.py
+root     20370  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1213     20408  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1213     20419  0.0  0.0   2224   568 ?        S     2014   0:00 grep python
+
+planetlab2.cesnet.cz: 504 bytes
+root      1988  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1286      2028  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1286      2038  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+1286      8502  0.0  0.0  10164  1844 ?        Ss    2014   0:10 python /home/cmu_agens/moncloud/run_ping.py
+1286     15416  0.0  0.1  11772  3912 ?        Ss    2014  16:23 python /home/cmu_agens/agens-client/run_superbowl.py
+
+plab3.cs.msu.ru: 504 bytes
+root      6499  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+771       6538  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+771       6548  0.0  0.0   2224   560 ?        S     2014   0:00 grep python
+771       9388  0.0  0.3  11768  6316 ?        Ss    2014  20:00 python /home/cmu_agens/agens-client/run_superbowl.py
+771      25984  0.0  0.2  10164  4632 ?        Ss    2014   0:10 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab-1.ida.liu.se: 504 bytes
+979      17286  0.0  0.0  11380  6784 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+root     25506  0.0  0.0   3200  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+979      25541  0.0  0.0   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+979      25551  0.0  0.0   2288   556 ?        S     2014   0:00 grep python
+979      30580  0.0  0.1  12808  8288 ?        Ss    2014   5:31 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab-2.ida.liu.se: 504 bytes
+1101      1476  0.0  0.0  11316  5536 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+root      6883  0.0  0.0   3200  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1101      7230  0.0  0.0   3120  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1101      7294  0.0  0.0   2288   560 ?        S     2014   0:00 grep python
+1101     29720  0.0  0.0  12812  6948 ?        Ss    2014   6:07 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab2.mini.pw.edu.pl: 386 bytes
+root     21745  0.0  0.0   3200  1188 ?        Ss   19:27   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1036     21778  0.0  0.0   3120  1324 ?        Ss   19:27   0:00 -bash -c ps aux|grep python
+1036     21788  0.0  0.0   2288   560 ?        S    19:27   0:00 grep python
+1036     26579  0.0  0.3  11368  6788 ?        Ss   Feb01   0:04 python /home/cmu_agens/moncloud/run_ping.py
+
+openlab01.pl.sophia.inria.fr: timed out probe
+
+planetlab3.ucsd.edu: 504 bytes
+2502      1971  0.0  0.1  10168  4612 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+2502     12886  0.0  0.2  11768  6288 ?        Ss    2014 149:54 python /home/cmu_agens/agens-client/run_superbowl.py
+root     20676  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2502     20711  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+2502     20721  0.0  0.0   2224   560 ?        S     2014   0:00 grep python
+
+planetlab1.cesnet.cz: 504 bytes
+1364       991  0.0  0.2  10164  4248 ?        Ss    2014   0:10 python /home/cmu_agens/moncloud/run_ping.py
+1364     10707  0.0  0.2  11764  5832 ?        Ss    2014  14:56 python /home/cmu_agens/agens-client/run_superbowl.py
+root     27263  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1364     27418  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1364     27456  0.0  0.0    600   132 ?        R     2014   0:00 grep python
+
+node1.planetlab.albany.edu: 277 bytes
+root     27767  0.0  0.0   3140  1196 ?        Ss   19:27   0:00 /bin/su - cmu_agens -c ps aux|grep python
+991      27911  0.0  0.0   3060  1324 ?        Ss   19:27   0:00 -bash -c ps aux|grep python
+991      28064  0.0  0.0   2224   564 ?        S    19:27   0:00 grep python
+
+pli1-pa-4.hpl.hp.com: 504 bytes
+root      2361  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1299      2398  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1299      2408  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+1299      8556  0.0  0.0  10160  3736 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+1299     31430  0.0  0.0  11768  5484 ?        Ss    2014  11:19 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab0.otemachi.wide.ad.jp: 395 bytes
+756       8162  0.0  0.1  11768  5812 ?        Ss    2014  12:38 python /home/cmu_agens/agens-client/run_superbowl.py
+root     14149  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+756      14189  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+756      14199  0.0  0.0   2224   436 ?        D     2014   0:00 grep python
+
+planetlab1.c3sl.ufpr.br: 200 bytes
+root     20403  0.0  0.0   3140  1184 ?        Ss   19:26   0:00 /bin/su - cmu_agens -c ps aux|grep python
+813      20745  0.0  0.0   3060  1324 ?        Ss   19:26   0:00 -bash -c ps aux|grep python
+
+planetlab3.arizona-gigapop.net: 504 bytes
+1259     17731  0.0  0.1  10160  5412 ?        Ss    2014   0:07 python /home/cmu_agens/moncloud/run_ping.py
+1259     18576  0.0  0.1  11772  7204 ?        Ss    2014   4:45 python /home/cmu_agens/agens-client/run_superbowl.py
+root     31975  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1259     32074  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1259     32096  0.0  0.0    600   128 ?        D     2014   0:00 grep python
+
+planetlab1.cs.okstate.edu: 277 bytes
+root     12735  0.0  0.0   3140  1192 ?        Ss   Jan27   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1074     12770  0.0  0.0   3060  1320 ?        Ss   Jan27   0:00 -bash -c ps aux|grep python
+1074     12780  0.0  0.0   2224   568 ?        S    Jan27   0:00 grep python
+
+planetlab2.arizona-gigapop.net: 504 bytes
+1255      2836  0.0  0.1  10164  5420 ?        Ss    2014   0:07 python /home/cmu_agens/moncloud/run_ping.py
+1255     14987  0.0  0.1  11772  7200 ?        Ss    2014   6:05 python /home/cmu_agens/agens-client/run_superbowl.py
+root     20503  0.0  0.0   3140  1144 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1255     20535  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1255     20545  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+
+planetlab1.cs.colorado.edu: 504 bytes
+root      1879  0.0  0.0   3140  1188 ?        Ss   Jan27   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2445      1914  0.0  0.0   3060  1316 ?        Ss   Jan27   0:00 -bash -c ps aux|grep python
+2445      1924  0.0  0.0   2224   568 ?        S    Jan27   0:00 grep python
+2445     13261  0.0  0.1  10168  4608 ?        Ss   Jan26   0:04 python /home/cmu_agens/moncloud/run_ping.py
+2445     26882  0.8  0.1  11772  6300 ?        Rs   Jan26  98:10 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planet4.cc.gt.atl.ga.us: 504 bytes
+2044      5073  0.0  0.1  10160  4420 ?        Ss    2014   0:06 python /home/cmu_agens/moncloud/run_ping.py
+root     15132  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2044     15224  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+2044     15236  0.0  0.0    600   136 ?        D     2014   0:00 grep python
+2044     21559  0.0  0.1  11768  5844 ?        Ss    2014   4:14 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planet-plc-1.mpi-sws.org: 504 bytes
+root      3756  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+701       3791  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+701       3802  0.0  0.0   2224   560 ?        S     2014   0:00 grep python
+701       6861  0.0  0.1  11772  7208 ?        Ss    2014   8:27 python /home/cmu_agens/agens-client/run_superbowl.py
+701      25830  0.0  0.1  10164  5420 ?        Ss    2014   0:03 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab-01.bu.edu: 504 bytes
+1312      1231  0.0  0.1  10160  4612 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+root     19753  0.0  0.0   3140  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1312     20065  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1312     20182  0.0  0.0   2224   568 ?        S     2014   0:00 grep python
+1312     30787  0.0  0.1  11772  6296 ?        Ss    2014 163:10 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab1.cs.otago.ac.nz: 427 bytes
+root     10053  0.0  0.0   3140  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1316     10088  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1316     16653  0.0  0.1  10160  5408 ?        Ss    2014   0:03 python /home/cmu_agens/moncloud/run_ping.py
+1316     28323  0.0  0.1  11772  7204 ?        Ss    2014   4:01 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlabtwo.ccs.neu.edu: 504 bytes
+1752       668  0.0  0.1  10164  4612 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+1752     10200  0.0  0.1  11772  6284 ?        Ss    2014   5:07 python /home/cmu_agens/agens-client/run_superbowl.py
+root     17336  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1752     17379  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1752     17406  0.0  0.0   2224   560 ?        S     2014   0:00 grep python
+
+planetlab-1.cs.uic.edu: 386 bytes
+root      2039  0.0  0.0   3140  1188 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep python
+900       2075  0.0  0.0   3060  1320 ?        Ss    2013   0:00 -bash -c ps aux|grep python
+900       2085  0.0  0.0   2224   564 ?        S     2013   0:00 grep python
+900      28245  0.0  0.1  10164  5416 ?        Ss    2013   0:05 python /home/cmu_agens/moncloud/run_ping.py
+
+planet-lab2.cs.ucr.edu: 504 bytes
+1149      1850  0.0  0.0  10164  4020 ?        Ss    2014   0:02 python /home/cmu_agens/moncloud/run_ping.py
+1149      3988  0.0  0.1  11768  5772 ?        Ss    2014 186:28 python /home/cmu_agens/agens-client/run_superbowl.py
+root     18818  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1149     18854  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1149     18865  0.0  0.0    368   128 ?        D     2014   0:00 grep python
+
+planetlab1.unl.edu: 386 bytes
+root      9741  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1234      9782  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1234      9792  0.0  0.0   2224   568 ?        S     2014   0:00 grep python
+1234     28767  0.0  0.1  10164  5412 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+
+pl1.eng.monash.edu.au: 504 bytes
+934       8910  0.0  0.1  10164  5412 ?        Ss   Jan25   0:04 python /home/cmu_agens/moncloud/run_ping.py
+root     15091  0.0  0.0   3140  1188 ?        Ss   Jan26   0:00 /bin/su - cmu_agens -c ps aux|grep python
+934      15126  0.0  0.0   3060  1320 ?        Ss   Jan26   0:00 -bash -c ps aux|grep python
+934      15136  0.0  0.0   2224   560 ?        S    Jan26   0:00 grep python
+934      28010  0.0  0.1  11768  7204 ?        Ss   Jan25   9:48 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab1.cs.columbia.edu: 504 bytes
+769        880  0.3  0.4  11768  4808 ?        Rs   Jan09 123:38 python /home/cmu_agens/agens-client/run_superbowl.py
+769      26111  0.0  0.2  10164  2308 ?        Ss   Jan09   0:14 python /home/cmu_agens/moncloud/run_ping.py
+root     31069  0.0  0.1   3140  1192 ?        Ss   Jan10   0:00 /bin/su - cmu_agens -c ps aux|grep python
+769      31127  0.0  0.1   3060  1320 ?        Ss   Jan10   0:00 -bash -c ps aux|grep python
+769      31143  0.0  0.0   2224   564 ?        S    Jan10   0:00 grep python
+
+planetlab02.cs.washington.edu: 504 bytes
+2596      7902  0.0  0.1  10164  4556 ?        Ss    2014   0:07 python /home/cmu_agens/moncloud/run_ping.py
+2596     12722  0.0  0.1  11772  6240 ?        Ss    2014   8:30 python /home/cmu_agens/agens-client/run_superbowl.py
+root     20693  0.0  0.0   4032  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2596     20739  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+2596     20751  0.0  0.0    368   128 ?        D     2014   0:00 grep python
+
+planetlab2.eecs.wsu.edu: 277 bytes
+root     12136  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1973     12185  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1973     12196  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+
+pl2.ucs.indiana.edu: 402 bytes
+2349     12117  0.0  0.1  10160  4372 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+root     21561  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2349     21639  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+2349     21667  0.0  0.0   3060   380 ?        D     2014   0:00 -bash -c ps aux|grep python
+
+planetlab3.cs.columbia.edu: 504 bytes
+815        815  0.0  0.2  10168  2292 ?        Ss    2014   0:15 python /home/cmu_agens/moncloud/run_ping.py
+root      6365  0.0  0.1   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+815       6440  0.0  0.1   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+815       6478  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+815      16904  0.0  0.4  11768  4760 ?        Ss    2014  80:32 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab-5.eecs.cwru.edu: 504 bytes
+1996      6598  0.0  0.1  10164  4616 ?        Ss   Feb01   0:04 python /home/cmu_agens/moncloud/run_ping.py
+1996     16468  0.4  0.1  11768  6292 ?        Ss   Feb01   5:38 python /home/cmu_agens/agens-client/run_superbowl.py
+root     18110  0.0  0.0   3140  1192 ?        Ss   19:25   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1996     18145  0.0  0.0   3060  1324 ?        Ss   19:25   0:00 -bash -c ps aux|grep python
+1996     18157  0.0  0.0   2224   568 ?        S    19:25   0:00 grep python
+
+netapp6.cs.kookmin.ac.kr: 386 bytes
+root      2259  0.0  0.0   3140  1188 ?        Ss   19:26   0:00 /bin/su - cmu_agens -c ps aux|grep python
+948       2294  0.0  0.0   3060  1320 ?        Ss   19:26   0:00 -bash -c ps aux|grep python
+948       2304  0.0  0.0   2224   564 ?        S    19:26   0:00 grep python
+948      27192  0.0  0.1  10164  5412 ?        Ss   Feb01   0:03 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab3.cnds.jhu.edu: 504 bytes
+root      9860  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2204     10076  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+2204     10165  0.0  0.0   2224   568 ?        S     2014   0:00 grep python
+2204     20802  0.0  0.1  11768  6292 ?        Ss    2014   5:44 python /home/cmu_agens/agens-client/run_superbowl.py
+2204     30437  0.0  0.1  10164  4616 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab-1.calpoly-netlab.net: 504 bytes
+2072     13293  0.0  0.0  10164  4104 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+2072     26356  0.0  0.1  11772  5820 ?        Ss    2014  10:38 python /home/cmu_agens/agens-client/run_superbowl.py
+root     28024  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2072     28060  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+2072     28070  0.0  0.0   2224   568 ?        S     2014   0:00 grep python
+
+planet-plc-2.mpi-sws.org: 504 bytes
+root      3772  0.0  0.0   3140  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+895       3808  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+895       3832  0.0  0.0   2224   568 ?        S     2014   0:00 grep python
+895      16315  0.0  0.0  10160  3932 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+895      27565  0.0  0.1  11768  5712 ?        Ss    2014   8:45 python /home/cmu_agens/agens-client/run_superbowl.py
+
+vn4.cse.wustl.edu: 520 bytes
+2300     10325  0.0  0.1  11772  7204 ?        Ss    2014   9:50 python /home/cmu_agens/agens-client/run_superbowl.py
+root     10916  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2300     10954  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+2300     10965  0.0  0.0   3060   500 ?        D     2014   0:00 -bash -c ps aux|grep python
+2300     19811  0.0  0.1  10164  5416 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab1.cs.unc.edu: 520 bytes
+1351      6139  0.0  0.1  10160  4612 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+root      6835  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1351      6879  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1351      6890  0.0  0.0   3060   412 ?        R     2014   0:00 -bash -c ps aux|grep python
+1351     26691  0.0  0.1  11772  6312 ?        Ss    2014 182:34 python /home/cmu_agens/agens-client/run_superbowl.py
+
+plnode-03.gpolab.bbn.com: 520 bytes
+1813      2145  0.0  0.1  10160  5412 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+root      6348  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1813      6385  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1813      6395  0.0  0.0   3060   496 ?        R     2014   0:00 -bash -c ps aux|grep python
+1813     15634  0.0  0.1  11772  7208 ?        Ss    2014   2:28 python /home/cmu_agens/agens-client/run_superbowl.py
+
+saturn.planetlab.carleton.ca: 427 bytes
+1206     13837  0.0  0.1  11768  5760 ?        Ss    2014   1:07 python /home/cmu_agens/agens-client/run_superbowl.py
+root     17895  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1206     18190  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1206     31016  0.0  0.0  10168  3960 ?        Ss    2014   0:02 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab1.arizona-gigapop.net: 504 bytes
+root      2104  0.0  0.0   3140  1144 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1728      2135  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1728      2145  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+1728     12683  0.0  0.1  10164  5420 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+1728     23372  0.0  0.2  11768  7192 ?        Ss    2014   5:27 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab2.sics.se: 504 bytes
+1459     10821  0.0  0.2  11304  2692 ?        Ss    2014   0:09 python /home/cmu_agens/moncloud/run_ping.py
+root     12199  0.0  0.1   3200  1176 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1459     12232  0.0  0.1   3120  1304 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1459     12244  0.0  0.0    356   116 ?        D     2014   0:00 grep python
+1459     23014  0.0  0.5  12820  5204 ?        Ss    2014  12:57 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab2.cs.uoi.gr: 504 bytes
+532       7081  0.3  0.7  12816  7916 ?        Ss   Feb01   5:13 python /home/cmu_agens/agens-client/run_superbowl.py
+root     15437  0.0  0.1   3200  1172 ?        Ss   19:26   0:00 /bin/su - cmu_agens -c ps aux|grep python
+532      15472  0.0  0.1   3120  1308 ?        Ss   19:26   0:00 -bash -c ps aux|grep python
+532      15483  0.0  0.0   2288   544 ?        S    19:26   0:00 grep python
+532      21889  0.0  0.6  11384  6216 ?        Ss   Feb01   0:07 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab1.cs.purdue.edu: 504 bytes
+3011      3233  0.0  0.1  10160  5412 ?        Ss   Feb01   0:04 python /home/cmu_agens/moncloud/run_ping.py
+3011     24871  9.9  0.1  11764  7196 ?        Ss   Feb01 133:34 python /home/cmu_agens/agens-client/run_superbowl.py
+root     30559  0.0  0.0   3140  1188 ?        Ss   19:28   0:00 /bin/su - cmu_agens -c ps aux|grep python
+3011     30594  0.0  0.0   3060  1320 ?        Ss   19:28   0:00 -bash -c ps aux|grep python
+3011     30604  0.0  0.0    600   136 ?        D    19:28   0:00 grep python
+
+vicky.planetlab.ntua.gr: 504 bytes
+1400      7651  0.0  0.2  11288  2608 ?        Ss    2014   0:07 python /home/cmu_agens/moncloud/run_ping.py
+1400     13193  0.0  0.4  12804  4288 ?        Ss    2014   4:07 python /home/cmu_agens/agens-client/run_superbowl.py
+root     32097  0.0  0.1   3200  1180 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1400     32296  0.0  0.1   3120  1308 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1400     32362  0.0  0.0   2288   552 ?        S     2014   0:00 grep python
+
+pli1-pa-6.hpl.hp.com: 504 bytes
+root      4963  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1782      4998  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1782      5008  0.0  0.0   2224   568 ?        S     2014   0:00 grep python
+1782      6719  0.0  0.1  11768  7200 ?        Ss    2014   7:22 python /home/cmu_agens/agens-client/run_superbowl.py
+1782     25259  0.0  0.0  10168  5412 ?        Ss    2014   0:02 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab2.cs.colorado.edu: 386 bytes
+root      6106  0.0  0.0   3140  1188 ?        Ss   Jan10   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2004      6141  0.0  0.0   3060  1320 ?        Ss   Jan10   0:00 -bash -c ps aux|grep python
+2004      6156  0.0  0.0   2224   568 ?        S    Jan10   0:00 grep python
+2004     18773  0.0  0.1  10164  5404 ?        Ss   Jan09   0:04 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab1.otemachi.wide.ad.jp: 504 bytes
+1472      6927  0.0  0.1  10160  4612 ?        Ss    2014   0:07 python /home/cmu_agens/moncloud/run_ping.py
+1472     18170  0.0  0.1  11768  6288 ?        Ss    2014  12:26 python /home/cmu_agens/agens-client/run_superbowl.py
+root     19232  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1472     19270  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1472     19281  0.0  0.0    600   128 ?        D     2014   0:00 grep python
+
+planetlab1.unineuchatel.ch: 395 bytes
+root     17111  0.0  0.0   3200  1200 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1476     17681  0.0  0.0   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1476     17800  0.0  0.0   2288   564 ?        S     2014   0:00 grep python
+1476     32500  0.0  0.1  12804  7196 ?        Ss    2014   7:24 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab2.cs.columbia.edu: 504 bytes
+root     16364  0.0  0.1   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+786      16493  0.0  0.1   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+786      16537  0.0  0.0   2224   568 ?        S     2014   0:00 grep python
+786      26169  0.0  0.1  10164  1936 ?        Ss    2014   0:16 python /home/cmu_agens/moncloud/run_ping.py
+786      30975  0.0  0.4  11768  4564 ?        Rs    2014  48:30 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab2.ics.forth.gr: 520 bytes
+1326      6917  0.0  0.1  11380  6792 ?        Ss    2014   0:03 python /home/cmu_agens/moncloud/run_ping.py
+1326     21949  0.0  0.2  12816  8332 ?        Ss    2014   3:27 python /home/cmu_agens/agens-client/run_superbowl.py
+root     29719  0.0  0.0   3200  1200 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1326     29830  0.0  0.0   3120  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1326     29866  0.0  0.0   3120   168 ?        R     2014   0:00 -bash -c ps aux|grep python
+
+planetlab-2.tagus.ist.utl.pt: 504 bytes
+root      5981  0.0  0.0   3200  1176 ?        Ss   19:23   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1408      6017  0.0  0.0   3120  1300 ?        Ss   19:23   0:00 -bash -c ps aux|grep python
+1408      6027  0.0  0.0   2288   552 ?        S    19:23   0:00 grep python
+1408      8042  0.3  0.2  12808  8248 ?        Ss   Feb01   5:19 python /home/cmu_agens/agens-client/run_superbowl.py
+1408     23195  0.0  0.1  11364  6688 ?        Ss   Feb01   0:07 python /home/cmu_agens/moncloud/run_ping.py
+
+plab4.eece.ksu.edu: 395 bytes
+2114     24984  0.4  0.1  11768  5900 ?        Ss   Feb01   6:39 python /home/cmu_agens/agens-client/run_superbowl.py
+root     32580  0.0  0.0   3140  1188 ?        Ss   19:22   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2114     32616  0.0  0.0   3060  1320 ?        Ss   19:22   0:00 -bash -c ps aux|grep python
+2114     32627  0.0  0.0   2224   560 ?        S    19:22   0:00 grep python
+
+ple1.ait.ac.th: 504 bytes
+root     12623  0.0  0.0   3200  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1324     12660  0.0  0.0   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1324     12671  0.0  0.0   2288   564 ?        S     2014   0:00 grep python
+1324     17137  0.0  0.1  12804  5444 ?        Ss    2014   7:10 python /home/cmu_agens/agens-client/run_superbowl.py
+1324     32156  0.0  0.0  11388  3776 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab3.bupt.edu.cn: 386 bytes
+root     14625  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1065     14668  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1065     14678  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+1065     23892  0.0  0.0  10164  5420 ?        Ss    2014   0:03 python /home/cmu_agens/moncloud/run_ping.py
+
+righthand.eecs.harvard.edu: 504 bytes
+root      6328  0.0  0.0   3140  1196 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1223      6364  0.0  0.0   3060  1324 ?        Ss    2013   0:00 -bash -c ps aux|grep python
+1223      6377  0.0  0.0   2224   560 ?        S     2013   0:00 grep python
+1223     10422  0.0  0.1  11768  7196 ?        Ss    2013 282:09 python /home/cmu_agens/agens-client/run_superbowl.py
+1223     22142  0.0  0.1  10168  5416 ?        Ss    2013   0:06 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab1.ecs.vuw.ac.nz: 427 bytes
+root      9806  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1948      9843  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1948     10054  0.0  0.1  11768  5236 ?        Ss    2014   5:24 python /home/cmu_agens/agens-client/run_superbowl.py
+1948     27392  0.0  0.0  10160  2972 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab1.mta.ac.il: 395 bytes
+1308      2460  0.0  0.2  12812  8328 ?        Ss    2014   0:00 python /home/cmu_agens/agens-client/run_superbowl.py
+root     28740  0.0  0.0   3200  1196 ?        Ss   Jan01   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1308     28775  0.0  0.0   3120  1328 ?        Ss   Jan01   0:00 -bash -c ps aux|grep python
+1308     28785  0.0  0.0   2288   560 ?        S    Jan01   0:00 grep python
+
+onelab1.info.ucl.ac.be: 395 bytes
+1101      8176  0.0  0.5  12808  5268 ?        Ss    2014  15:36 python /home/cmu_agens/agens-client/run_superbowl.py
+root     30391  0.0  0.1   3200  1172 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1101     30474  0.0  0.1   3120  1304 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1101     30502  0.0  0.0   2288   552 ?        S     2014   0:00 grep python
+
+planetlab01.alucloud.com: 0 bytes
+
+pl1.sos.info.hiroshima-cu.ac.jp: 504 bytes
+826      11536  0.0  0.0  11764  7192 ?        Ss    2014  21:39 python /home/cmu_agens/agens-client/run_superbowl.py
+826      25607  0.0  0.0  10160  5408 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+root     26811  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+826      26846  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+826      26856  0.0  0.0   2224   560 ?        S     2014   0:00 grep python
+
+planetlab1.extern.kuleuven.be: 395 bytes
+1013     24989  0.6  0.1  12804  8320 ?        Ss   Feb01   8:32 python /home/cmu_agens/agens-client/run_superbowl.py
+root     30881  0.0  0.0   3200  1188 ?        Ss   19:27   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1013     30916  0.0  0.0   3120  1324 ?        Ss   19:27   0:00 -bash -c ps aux|grep python
+1013     30926  0.0  0.0   2288   556 ?        S    19:27   0:00 grep python
+
+planetlab2.extern.kuleuven.be: 395 bytes
+922       1893  0.7  0.0  12808  7000 ?        Ss   Feb01   9:52 python /home/cmu_agens/agens-client/run_superbowl.py
+root     26110  0.0  0.0   3200  1184 ?        Ss   19:28   0:00 /bin/su - cmu_agens -c ps aux|grep python
+922      26171  0.0  0.0   3120  1328 ?        Ss   19:28   0:00 -bash -c ps aux|grep python
+922      26183  0.0  0.0   2288   556 ?        S    19:28   0:00 grep python
+
+planetlab2.ecs.vuw.ac.nz: 427 bytes
+root      8533  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1401      8569  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1401     13116  0.0  0.1  11772  6424 ?        Ss    2014   5:46 python /home/cmu_agens/agens-client/run_superbowl.py
+1401     31291  0.0  0.1  10160  4708 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+
+onelab2.info.ucl.ac.be: 504 bytes
+1683     12600  0.0  0.6  11372  6740 ?        Ss   Feb01   0:05 python /home/cmu_agens/moncloud/run_ping.py
+root     20415  0.0  0.1   3200  1172 ?        Ss   19:20   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1683     20448  0.0  0.1   3120  1300 ?        Ss   19:20   0:00 -bash -c ps aux|grep python
+1683     20458  0.0  0.0   2288   552 ?        S    19:20   0:00 grep python
+1683     24608  0.9  0.8  12816  8272 ?        Ss   Feb01  13:05 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab3.mini.pw.edu.pl: 504 bytes
+532       2707  0.0  0.1  10164  4636 ?        Ss   Feb01   0:06 python /home/cmu_agens/moncloud/run_ping.py
+root     12549  0.0  0.0   3140  1188 ?        Ss   19:27   0:00 /bin/su - cmu_agens -c ps aux|grep python
+532      12584  0.0  0.0   3060  1324 ?        Ss   19:27   0:00 -bash -c ps aux|grep python
+532      12595  0.0  0.0   2224   568 ?        S    19:27   0:00 grep python
+532      15892  0.4  0.1  11768  6320 ?        Ss   Feb01   6:31 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab1.cs.uoi.gr: 277 bytes
+root     26033  0.0  0.1   3200  1172 ?        Ss   19:26   0:00 /bin/su - cmu_agens -c ps aux|grep python
+837      26074  0.0  0.1   3120  1308 ?        Ss   19:26   0:00 -bash -c ps aux|grep python
+837      26085  0.0  0.0   2288   548 ?        S    19:26   0:00 grep python
+
+planetlab2.sfc.wide.ad.jp: 520 bytes
+root      4098  0.0  0.0   3140  1140 ?        Ss   19:24   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1965      4130  0.0  0.0   3060  1316 ?        Ss   19:24   0:00 -bash -c ps aux|grep python
+1965      4143  0.0  0.0   3060   496 ?        D    19:24   0:00 -bash -c ps aux|grep python
+1965     25804  0.0  0.1  10160  5416 ?        Ss   Feb01   0:07 python /home/cmu_agens/moncloud/run_ping.py
+1965     31481  1.0  0.1  11768  7196 ?        Ss   Feb01  14:04 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab2.clemson.edu: 0 bytes
+
+planet-lab1.uba.ar: 277 bytes
+root       696  0.0  0.0   3140  1192 ?        Ss   19:28   0:00 /bin/su - cmu_agens -c ps aux|grep python
+985        744  0.0  0.0   3060  1320 ?        Ss   19:28   0:00 -bash -c ps aux|grep python
+985        754  0.0  0.0   2224   568 ?        S    19:28   0:00 grep python
+
+planetlab2.cs.otago.ac.nz: 504 bytes
+1249      5113  0.0  0.1  10160  5408 ?        Ss    2014   0:03 python /home/cmu_agens/moncloud/run_ping.py
+root     15609  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1249     15646  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1249     15656  0.0  0.0   2224   560 ?        S     2014   0:00 grep python
+1249     19725  0.0  0.1  11768  7204 ?        Ss    2014   4:20 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab-1.ssvl.kth.se: 504 bytes
+root      6118  0.0  0.1   3140  1184 ?        Ss   Jan10   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1636      6166  0.0  0.1   3060  1320 ?        Ss   Jan10   0:00 -bash -c ps aux|grep python
+1636      6176  0.0  0.0   2224   560 ?        S    Jan10   0:00 grep python
+1636     16733  0.0  0.4  11764  4760 ?        Ss   Jan09  21:47 python /home/cmu_agens/agens-client/run_superbowl.py
+1636     32694  0.0  0.2  10164  2328 ?        Ss   Jan09   0:06 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab1.clemson.edu: 277 bytes
+root     27248  0.0  0.0   3140  1188 ?        Ss   19:28   0:00 /bin/su - cmu_agens -c ps aux|grep python
+873      27283  0.0  0.0   3060  1320 ?        Ss   19:29   0:00 -bash -c ps aux|grep python
+873      27293  0.0  0.0   2224   564 ?        S    19:29   0:00 grep python
+
+pl2.cs.montana.edu: 504 bytes
+917       2367  0.0  0.1  11772  7200 ?        Ss    2013   7:48 python /home/cmu_agens/agens-client/run_superbowl.py
+root      5044  0.0  0.0   3140  1192 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep python
+917       5082  0.0  0.0   3060  1324 ?        Ss    2013   0:00 -bash -c ps aux|grep python
+917       5092  0.0  0.0    600   132 ?        D     2013   0:00 grep python
+917      21865  0.0  0.1  10160  5416 ?        Ss    2013   0:03 python /home/cmu_agens/moncloud/run_ping.py
+
+pl2.eng.monash.edu.au: 504 bytes
+1789     10781  0.0  0.1  11768  5788 ?        Ss   Jan25   9:22 python /home/cmu_agens/agens-client/run_superbowl.py
+1789     24937  0.0  0.0  10168  3888 ?        Ss   Jan25   0:04 python /home/cmu_agens/moncloud/run_ping.py
+root     30162  0.0  0.0   3140  1196 ?        Ss   Jan26   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1789     30198  0.0  0.0   3060  1320 ?        Ss   Jan26   0:00 -bash -c ps aux|grep python
+1789     30210  0.0  0.0   2224   564 ?        S    Jan26   0:00 grep python
+
+planetlab2.cs.okstate.edu: 277 bytes
+root     18389  0.0  0.0   3140  1192 ?        Ss   19:29   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1071     18424  0.0  0.0   3060  1324 ?        Ss   19:29   0:00 -bash -c ps aux|grep python
+1071     18437  0.0  0.0    600   136 ?        D    19:29   0:00 grep python
+
+planetlab1.cqupt.edu.cn: 309 bytes
+root     23180  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1142     23215  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1142     30803  0.0  0.1  10168  5416 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+
+pl2.sos.info.hiroshima-cu.ac.jp: 504 bytes
+root      3920  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+798       3958  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+798       3968  0.0  0.0   2224   568 ?        S     2014   0:00 grep python
+798       5489  0.0  0.0  10164  5416 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+798      21740  0.0  0.0  11772  7192 ?        Ss    2014   6:48 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab1.sfc.wide.ad.jp: 520 bytes
+1315     22387  0.0  0.1  10160  5416 ?        Ss   Jan11   0:08 python /home/cmu_agens/moncloud/run_ping.py
+root     28611  0.0  0.0   3140  1144 ?        Ss   Jan12   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1315     28643  0.0  0.0   3060  1324 ?        Ss   Jan12   0:00 -bash -c ps aux|grep python
+1315     28659  0.0  0.0   3060   504 ?        D    Jan12   0:00 -bash -c ps aux|grep python
+1315     30728  0.0  0.1  11764  7196 ?        Ss   Jan11  17:39 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab1.utt.fr: 395 bytes
+root      2268  0.0  0.0   3200  1200 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2019      2557  0.0  0.0   3120  1332 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+2019      2619  0.0  0.0   2288   560 ?        S     2014   0:00 grep python
+2019      8493  0.0  0.1  12816  7680 ?        Ss    2014  13:58 python /home/cmu_agens/agens-client/run_superbowl.py
+
+utet.ii.uam.es: 277 bytes
+root     15094  0.0  0.0   3200  1188 ?        Ss   Jan02   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1425     15132  0.0  0.0   3120  1332 ?        Ss   Jan02   0:00 -bash -c ps aux|grep python
+1425     15143  0.0  0.0   2288   568 ?        S    Jan02   0:00 grep python
+
+planetlab1.cnis.nyit.edu: 277 bytes
+root     27618  0.0  0.0   3140  1188 ?        Ss   19:29   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1621     27694  0.0  0.0   3060  1316 ?        Ss   19:29   0:00 -bash -c ps aux|grep python
+1621     27714  0.0  0.0   2224   560 ?        S    19:29   0:00 grep python
+
+planetlab2.upc.es: 504 bytes
+root      1227  0.0  0.1   3200  1176 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1496      1262  0.0  0.1   3120  1308 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1496      1272  0.0  0.0   2288   556 ?        S     2014   0:00 grep python
+1496      6327  0.0  0.2  11312  2548 ?        Ss    2014   0:07 python /home/cmu_agens/moncloud/run_ping.py
+1496     19395  0.0  0.4  12816  5048 ?        Rs    2014  10:16 python /home/cmu_agens/agens-client/run_superbowl.py
+
+dplanet1.uoc.edu: 504 bytes
+1765     14458  0.0  0.1  11376  6544 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+root     22139  0.0  0.0   3200  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1765     22184  0.0  0.0   3120  1328 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1765     22194  0.0  0.0   2288   564 ?        S     2014   0:00 grep python
+1765     30446  0.0  0.1  12804  8088 ?        Ss    2014   9:47 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab2.cs.uml.edu: 386 bytes
+root      3273  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1680      3436  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1680      3454  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+1680     12031  0.0  0.0  10160  5416 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab3.wail.wisc.edu: 386 bytes
+1333      7763  0.0  0.1  10160  5412 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+root     31988  0.0  0.0   3140  1184 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1333     32217  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1333     32262  0.0  0.0    600   132 ?        D     2014   0:00 grep python
+
+planetlab2.cs.ubc.ca: 386 bytes
+root      6000  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1312      6199  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1312      6250  0.0  0.0   2224   568 ?        S     2014   0:00 grep python
+1312     15492  0.0  0.0  10160  5416 ?        Ss    2014   0:03 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab1.uta.edu: 277 bytes
+root      3201  0.0  0.0   3140  1188 ?        Ss   19:28   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1675      3324  0.0  0.0   3060  1316 ?        Ss   19:28   0:00 -bash -c ps aux|grep python
+1675      3347  0.0  0.0    368   128 ?        D    19:28   0:00 grep python
+
+planetlab02.alucloud.com: 0 bytes
+
+planetlab01.dis.unina.it: 504 bytes
+760        522  0.3  0.1  12804  8300 ?        Ss   Feb01   4:31 python /home/cmu_agens/agens-client/run_superbowl.py
+root       607  0.0  0.0   3200  1168 ?        Ss   19:19   0:00 /bin/su - cmu_agens -c ps aux|grep python
+760        642  0.0  0.0   3120  1308 ?        Ss   19:19   0:00 -bash -c ps aux|grep python
+760        652  0.0  0.0   2288   552 ?        S    19:19   0:00 grep python
+760      19068  0.0  0.1  11372  6760 ?        Ss   Feb01   0:19 python /home/cmu_agens/moncloud/run_ping.py
+
+pl2.6test.edu.cn: 402 bytes
+1533      5858  0.0  0.0  10164  5420 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+root     22102  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1533     22137  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1533     22147  0.0  0.0   3060   500 ?        R     2014   0:00 -bash -c ps aux|grep python
+
+planetlab2.jcp-consult.net: 277 bytes
+root     12605  0.0  0.0   3200  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1017     12878  0.0  0.0   3120  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1017     12988  0.0  0.0   2288   556 ?        S     2014   0:00 grep python
+
+planetlab2.utdallas.edu: 504 bytes
+root       710  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1299       749  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1299       762  0.0  0.0    368   124 ?        D     2014   0:00 grep python
+1299     23350  0.0  0.1  10164  4608 ?        Ss    2014   0:02 python /home/cmu_agens/moncloud/run_ping.py
+1299     31647  0.0  0.1  11768  6296 ?        Ss    2014   6:11 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab-2.cse.ohio-state.edu: 504 bytes
+root      5137  0.0  0.1   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1373      5290  0.0  0.1   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1373      5311  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+1373      7488  0.0  0.1  11764  1304 ?        Ss    2014  16:19 python /home/cmu_agens/agens-client/run_superbowl.py
+1373     32699  0.0  0.2  10160  2340 ?        Ss    2014   0:13 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab-2.cs.colostate.edu: timed out probe
+
+planetlab1.ustc.edu.cn: 504 bytes
+1144     11808  0.0  0.1  11764  7104 ?        Ss    2014   0:00 python /home/cmu_agens/agens-client/run_superbowl.py
+root     19770  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1144     19850  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1144     19860  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+1144     31378  0.0  0.1  10164  5416 ?        Ss    2014   0:03 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab1.citadel.edu: 277 bytes
+root      5766  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+857       5807  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+857       5844  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+
+planetlab1.mini.pw.edu.pl: 386 bytes
+1090     10035  0.0  0.2  11376  5120 ?        Ss   Feb01   0:04 python /home/cmu_agens/moncloud/run_ping.py
+root     26397  0.0  0.0   3200  1184 ?        Ss   19:27   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1090     26435  0.0  0.0   3120  1324 ?        Ss   19:27   0:00 -bash -c ps aux|grep python
+1090     26445  0.0  0.0    356   116 ?        D    19:27   0:00 grep python
+
+planetlab-01.vt.nodes.planet-lab.org: 427 bytes
+864       6982  0.0  0.1  11768  6300 ?        Ss    2014   7:16 python /home/cmu_agens/agens-client/run_superbowl.py
+root     23186  0.0  0.0   3140  1196 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+864      23228  0.0  0.0   3060  1324 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+864      31857  0.0  0.1  10164  4616 ?        Ss    2014   0:05 python /home/cmu_agens/moncloud/run_ping.py
+
+lefthand.eecs.harvard.edu: 504 bytes
+1338      8198  0.0  0.1  10168  4616 ?        Ss    2013   0:06 python /home/cmu_agens/moncloud/run_ping.py
+root     17413  0.0  0.0   3140  1192 ?        Ss    2013   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1338     17510  0.0  0.0   3060  1316 ?        Ss    2013   0:00 -bash -c ps aux|grep python
+1338     17523  0.0  0.0   2224   560 ?        S     2013   0:00 grep python
+1338     21951  0.0  0.1  11768  6288 ?        Ss    2013  77:01 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab1.cs.du.edu: 520 bytes
+root      3810  0.0  0.0   3140  1188 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2026      3994  0.0  0.0   3060  1316 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+2026      4016  0.0  0.0   3060   496 ?        R     2014   0:00 -bash -c ps aux|grep python
+2026      9314  0.0  0.0  10168  5420 ?        Ss    2014   0:06 python /home/cmu_agens/moncloud/run_ping.py
+2026     18347  0.0  0.0  11772  7200 ?        Ss    2014   5:03 python /home/cmu_agens/agens-client/run_superbowl.py
+
+planetlab1.utdallas.edu: 386 bytes
+root      1238  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+2760      1277  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+2760      1299  0.0  0.0   2092   308 ?        R     2014   0:00 grep python
+2760     15971  0.0  0.1  10160  4404 ?        Ss    2014   0:02 python /home/cmu_agens/moncloud/run_ping.py
+
+planetlab1.fit.vutbr.cz: 504 bytes
+root      7767  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1503      8050  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1503      8168  0.0  0.0   2224   564 ?        S     2014   0:00 grep python
+1503     17640  0.0  0.2  10164  4720 ?        Ss    2014   0:04 python /home/cmu_agens/moncloud/run_ping.py
+1503     19170  0.0  0.3  11768  6432 ?        Ss    2014   7:25 python /home/cmu_agens/agens-client/run_superbowl.py
+
+pl1.6test.edu.cn: 386 bytes
+1425     14040  0.0  0.0  10164  5420 ?        Ss    2014   0:08 python /home/cmu_agens/moncloud/run_ping.py
+root     25961  0.0  0.0   3140  1192 ?        Ss    2014   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1425     25997  0.0  0.0   3060  1320 ?        Ss    2014   0:00 -bash -c ps aux|grep python
+1425     26015  0.0  0.0   2224   568 ?        S     2014   0:00 grep python
+
+planetlab-2.sjtu.edu.cn: 386 bytes
+1158     22328  0.0  0.1  10164  5412 ?        Ss   Jan31   0:05 python /home/cmu_agens/moncloud/run_ping.py
+root     27603  0.0  0.0   3140  1192 ?        Ss   Feb01   0:00 /bin/su - cmu_agens -c ps aux|grep python
+1158     27638  0.0  0.0   3060  1320 ?        Ss   Feb01   0:00 -bash -c ps aux|grep python
+1158     27648  0.0  0.0   2224   564 ?        S    Feb01   0:00 grep python
+
