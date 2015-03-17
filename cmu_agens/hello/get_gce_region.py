@@ -5,7 +5,7 @@ import csv
 import os
 from ping import *
 
-def get_gce_region:
+def get_gce_region():
 	min_srv_rtt = 2000
 	zone = ''
 	region = ''
