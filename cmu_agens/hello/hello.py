@@ -36,10 +36,15 @@ print os_version
 python_version = "python " + platform.python_version()
 print python_version
 
+## Get the zone and region for this client
+zone, region = get_gce_region()
+
 node_info = {}
 node_info['node_id'] = query[0]['node_id']
 node_info['site_id'] = query[0]['site_id']
 node_info['hostname'] = query[0]['hostname']
+node_info['zone'] = zone
+node_info['region'] = region
 node_info['node_type'] = query[0]['node_type']
 node_info['node_os'] = os_version
 node_info['node_python'] = python_version
