@@ -4,7 +4,17 @@
 update_site_url = "http://146.148.66.148:8000/hello/site/"
 update_node_url = "http://146.148.66.148:8000/hello/node/"
 import sys, urllib, xmlrpclib, socket, subprocess, platform
+import random, time
 from get_gce_region import *
+
+## Wait a random period to avoid congesting planetlab nodes
+def waitRandom(minPeriod, maxPeriod):
+        ## Sleeping a random interval before starting the client agent
+        waitingTime = random.randint(minPeriod, maxPeriod)
+        print "Before running DASH on the client agent on %s, sleep %d seconds!" % (client, waitingTime)
+        time.sleep(waitingTime)
+
+waitRandom(1, 300)
 
 # PlanetLab PLCAPI url
 plc_host = 'www.planet-lab.org'
