@@ -8,13 +8,14 @@ import random, time
 from get_gce_region import *
 
 ## Wait a random period to avoid congesting planetlab nodes
-def waitRandom(minPeriod, maxPeriod):
+def waitRandom(hostname, minPeriod, maxPeriod):
         ## Sleeping a random interval before starting the client agent
         waitingTime = random.randint(minPeriod, maxPeriod)
-        print "Before running DASH on the client agent on %s, sleep %d seconds!" % (client, waitingTime)
+        print "Before run hello to report node info on %s, sleep %d seconds!" % (hostname, waitingTime)
         time.sleep(waitingTime)
 
-waitRandom(1, 300)
+hostname = socket.gethostname()
+waitRandom(hostname, 1, 300)
 
 # PlanetLab PLCAPI url
 plc_host = 'www.planet-lab.org'
@@ -27,7 +28,7 @@ plc_api = xmlrpclib.ServerProxy(api_url, allow_none=True)
 auth = {}
 auth['AuthMethod'] = "anonymous"
 auth['Role'] = "user"
-hostname = socket.gethostname()
+
 query = plc_api.GetNodes(auth, {'hostname': hostname}, ['site_id', 'node_id', 'hostname', 'node_type'])
 
 site_id = query[0]['site_id']
