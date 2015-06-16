@@ -1,8 +1,8 @@
 #!/usr/bin/python
 ### phonehome.py
 ### Hello World demonstration script
-update_site_url = "http://146.148.66.148:8000/hello/site/"
-update_node_url = "http://146.148.66.148:8000/hello/node/"
+update_site_url = "http://104.197.6.6:8000/hello/site/"
+update_node_url = "http://104.197.6.6:8000/hello/node/"
 import sys, urllib, xmlrpclib, socket, subprocess, platform
 import random, time
 from get_gce_region import *
