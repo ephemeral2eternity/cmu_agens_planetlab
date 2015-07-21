@@ -1,0 +1,2852 @@
+--2015-07-21 20:44:15--  http://planetlab2.csee.usf.edu:8717/latest
+Resolving planetlab2.csee.usf.edu (planetlab2.csee.usf.edu)... 131.247.2.242
+Connecting to planetlab2.csee.usf.edu (planetlab2.csee.usf.edu)|131.247.2.242|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.5’
+
+     0K                                                        89.8M=0s
+
+2015-07-21 20:44:16 (89.8 MB/s) - ‘latest.5’ saved [468]
+
+--2015-07-21 20:44:16--  http://planetlab2.csg.uzh.ch:8717/latest
+Resolving planetlab2.csg.uzh.ch (planetlab2.csg.uzh.ch)... 192.41.136.219
+Connecting to planetlab2.csg.uzh.ch (planetlab2.csg.uzh.ch)|192.41.136.219|:8717... failed: Connection refused.
+--2015-07-21 20:44:16--  http://pl-node-1.csl.sri.com:8717/latest
+Resolving pl-node-1.csl.sri.com (pl-node-1.csl.sri.com)... 192.12.33.102
+Connecting to pl-node-1.csl.sri.com (pl-node-1.csl.sri.com)|192.12.33.102|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.6’
+
+     0K                                                         104M=0s
+
+2015-07-21 20:44:16 (104 MB/s) - ‘latest.6’ saved [393]
+
+--2015-07-21 20:44:16--  http://onelab3.info.ucl.ac.be:8717/latest
+Resolving onelab3.info.ucl.ac.be (onelab3.info.ucl.ac.be)... 130.104.72.213
+Connecting to onelab3.info.ucl.ac.be (onelab3.info.ucl.ac.be)|130.104.72.213|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.7’
+
+     0K                                                        94.4M=0s
+
+2015-07-21 20:44:16 (94.4 MB/s) - ‘latest.7’ saved [428]
+
+--2015-07-21 20:44:16--  http://planetlab1.xeno.cl.cam.ac.uk:8717/latest
+Resolving planetlab1.xeno.cl.cam.ac.uk (planetlab1.xeno.cl.cam.ac.uk)... 128.232.103.201
+Connecting to planetlab1.xeno.cl.cam.ac.uk (planetlab1.xeno.cl.cam.ac.uk)|128.232.103.201|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.8’
+
+     0K                                                         167M=0s
+
+2015-07-21 20:44:16 (167 MB/s) - ‘latest.8’ saved [546]
+
+--2015-07-21 20:44:16--  http://planetlab01.tkn.tu-berlin.de:8717/latest
+Resolving planetlab01.tkn.tu-berlin.de (planetlab01.tkn.tu-berlin.de)... 130.149.49.136
+Connecting to planetlab01.tkn.tu-berlin.de (planetlab01.tkn.tu-berlin.de)|130.149.49.136|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.9’
+
+     0K                                                        81.2M=0s
+
+2015-07-21 20:44:17 (81.2 MB/s) - ‘latest.9’ saved [430]
+
+--2015-07-21 20:44:17--  http://pl2.tailab.eu:8717/latest
+Resolving pl2.tailab.eu (pl2.tailab.eu)... 194.79.147.165
+Connecting to pl2.tailab.eu (pl2.tailab.eu)|194.79.147.165|:8717... failed: Connection refused.
+--2015-07-21 20:44:17--  http://planetlab4.wail.wisc.edu:8717/latest
+Resolving planetlab4.wail.wisc.edu (planetlab4.wail.wisc.edu)... 198.133.224.149
+Connecting to planetlab4.wail.wisc.edu (planetlab4.wail.wisc.edu)|198.133.224.149|:8717... failed: Connection refused.
+--2015-07-21 20:44:17--  http://icnalplabs2.epfl.ch:8717/latest
+Resolving icnalplabs2.epfl.ch (icnalplabs2.epfl.ch)... 192.33.193.18
+Connecting to icnalplabs2.epfl.ch (icnalplabs2.epfl.ch)|192.33.193.18|:8717... failed: Connection refused.
+--2015-07-21 20:44:17--  http://planetlab4.ie.cuhk.edu.hk:8717/latest
+Resolving planetlab4.ie.cuhk.edu.hk (planetlab4.ie.cuhk.edu.hk)... 137.189.98.209
+Connecting to planetlab4.ie.cuhk.edu.hk (planetlab4.ie.cuhk.edu.hk)|137.189.98.209|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.10’
+
+     0K                                                        79.0M=0s
+
+2015-07-21 20:44:17 (79.0 MB/s) - ‘latest.10’ saved [423]
+
+--2015-07-21 20:44:17--  http://planetlab-13.e5.ijs.si:8717/latest
+Resolving planetlab-13.e5.ijs.si (planetlab-13.e5.ijs.si)... 193.138.2.13
+Connecting to planetlab-13.e5.ijs.si (planetlab-13.e5.ijs.si)|193.138.2.13|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.11’
+
+     0K                                                        95.4M=0s
+
+2015-07-21 20:44:18 (95.4 MB/s) - ‘latest.11’ saved [484]
+
+--2015-07-21 20:44:18--  http://planetlab-coffee.ait.ie:8717/latest
+Resolving planetlab-coffee.ait.ie (planetlab-coffee.ait.ie)... 193.1.13.12
+Connecting to planetlab-coffee.ait.ie (planetlab-coffee.ait.ie)|193.1.13.12|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.12’
+
+     0K                                                        80.0M=0s
+
+2015-07-21 20:44:18 (80.0 MB/s) - ‘latest.12’ saved [339]
+
+--2015-07-21 20:44:18--  http://ple2.tu.koszalin.pl:8717/latest
+Resolving ple2.tu.koszalin.pl (ple2.tu.koszalin.pl)... 62.108.171.76
+Connecting to ple2.tu.koszalin.pl (ple2.tu.koszalin.pl)|62.108.171.76|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.13’
+
+     0K                                                         128M=0s
+
+2015-07-21 20:44:18 (128 MB/s) - ‘latest.13’ saved [439]
+
+--2015-07-21 20:44:18--  http://planetlab1.cs.uml.edu:8717/latest
+Resolving planetlab1.cs.uml.edu (planetlab1.cs.uml.edu)... 129.63.159.101
+Connecting to planetlab1.cs.uml.edu (planetlab1.cs.uml.edu)|129.63.159.101|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.14’
+
+     0K                                                        89.4M=0s
+
+2015-07-21 20:44:18 (89.4 MB/s) - ‘latest.14’ saved [385]
+
+--2015-07-21 20:44:18--  http://planetlab3.di.unito.it:8717/latest
+Resolving planetlab3.di.unito.it (planetlab3.di.unito.it)... 130.192.157.138
+Connecting to planetlab3.di.unito.it (planetlab3.di.unito.it)|130.192.157.138|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.15’
+
+     0K                                                         135M=0s
+
+2015-07-21 20:44:19 (135 MB/s) - ‘latest.15’ saved [464]
+
+--2015-07-21 20:44:19--  http://planetlab2.acis.ufl.edu:8717/latest
+Resolving planetlab2.acis.ufl.edu (planetlab2.acis.ufl.edu)... 128.227.150.12
+Connecting to planetlab2.acis.ufl.edu (planetlab2.acis.ufl.edu)|128.227.150.12|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.16’
+
+     0K                                                        99.9M=0s
+
+2015-07-21 20:44:19 (99.9 MB/s) - ‘latest.16’ saved [666]
+
+--2015-07-21 20:44:19--  http://aguila1.lsi.upc.edu:8717/latest
+Resolving aguila1.lsi.upc.edu (aguila1.lsi.upc.edu)... 147.83.29.232
+Connecting to aguila1.lsi.upc.edu (aguila1.lsi.upc.edu)|147.83.29.232|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.17’
+
+     0K                                                         128M=0s
+
+2015-07-21 20:44:20 (128 MB/s) - ‘latest.17’ saved [474]
+
+--2015-07-21 20:44:20--  http://planetlab6.csee.usf.edu:8717/latest
+Resolving planetlab6.csee.usf.edu (planetlab6.csee.usf.edu)... 131.247.2.248
+Connecting to planetlab6.csee.usf.edu (planetlab6.csee.usf.edu)|131.247.2.248|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.18’
+
+     0K                                                         134M=0s
+
+2015-07-21 20:44:20 (134 MB/s) - ‘latest.18’ saved [466]
+
+--2015-07-21 20:44:20--  http://planet-lab1.cs.ucr.edu:8717/latest
+Resolving planet-lab1.cs.ucr.edu (planet-lab1.cs.ucr.edu)... 169.235.24.133
+Connecting to planet-lab1.cs.ucr.edu (planet-lab1.cs.ucr.edu)|169.235.24.133|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.19’
+
+     0K                                                        58.0M=0s
+
+2015-07-21 20:44:20 (58.0 MB/s) - ‘latest.19’ saved [268]
+
+--2015-07-21 20:44:20--  http://planetlab1.cs.pitt.edu:8717/latest
+Resolving planetlab1.cs.pitt.edu (planetlab1.cs.pitt.edu)... 192.52.240.213
+Connecting to planetlab1.cs.pitt.edu (planetlab1.cs.pitt.edu)|192.52.240.213|:8717... failed: Connection refused.
+--2015-07-21 20:44:20--  http://planetlab1.csuohio.edu:8717/latest
+Resolving planetlab1.csuohio.edu (planetlab1.csuohio.edu)... 137.148.16.10
+Connecting to planetlab1.csuohio.edu (planetlab1.csuohio.edu)|137.148.16.10|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.20’
+
+     0K                                                         102M=0s
+
+2015-07-21 20:44:20 (102 MB/s) - ‘latest.20’ saved [361]
+
+--2015-07-21 20:44:20--  http://plab1.cs.msu.ru:8717/latest
+Resolving plab1.cs.msu.ru (plab1.cs.msu.ru)... 188.44.50.106
+Connecting to plab1.cs.msu.ru (plab1.cs.msu.ru)|188.44.50.106|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.21’
+
+     0K                                                        62.2M=0s
+
+2015-07-21 20:44:21 (62.2 MB/s) - ‘latest.21’ saved [415]
+
+--2015-07-21 20:44:21--  http://pl2.cs.unm.edu:8717/latest
+Resolving pl2.cs.unm.edu (pl2.cs.unm.edu)... 198.83.85.45
+Connecting to pl2.cs.unm.edu (pl2.cs.unm.edu)|198.83.85.45|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.22’
+
+     0K                                                        85.3M=0s
+
+2015-07-21 20:44:21 (85.3 MB/s) - ‘latest.22’ saved [327]
+
+--2015-07-21 20:44:21--  http://kc-sce-plab2.umkc.edu:8717/latest
+Resolving kc-sce-plab2.umkc.edu (kc-sce-plab2.umkc.edu)... 204.56.0.138
+Connecting to kc-sce-plab2.umkc.edu (kc-sce-plab2.umkc.edu)|204.56.0.138|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.23’
+
+     0K                                                         102M=0s
+
+2015-07-21 20:44:21 (102 MB/s) - ‘latest.23’ saved [364]
+
+--2015-07-21 20:44:21--  http://plonk.cs.uwaterloo.ca:8717/latest
+Resolving plonk.cs.uwaterloo.ca (plonk.cs.uwaterloo.ca)... 129.97.74.14
+Connecting to plonk.cs.uwaterloo.ca (plonk.cs.uwaterloo.ca)|129.97.74.14|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.24’
+
+     0K                                                         137M=0s
+
+2015-07-21 20:44:21 (137 MB/s) - ‘latest.24’ saved [529]
+
+--2015-07-21 20:44:21--  http://planetlab2.cs.purdue.edu:8717/latest
+Resolving planetlab2.cs.purdue.edu (planetlab2.cs.purdue.edu)... 128.10.18.53
+Connecting to planetlab2.cs.purdue.edu (planetlab2.cs.purdue.edu)|128.10.18.53|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.25’
+
+     0K                                                        88.9M=0s
+
+2015-07-21 20:44:21 (88.9 MB/s) - ‘latest.25’ saved [469]
+
+--2015-07-21 20:44:21--  http://pl-dccd-02.cua.uam.mx:8717/latest
+Resolving pl-dccd-02.cua.uam.mx (pl-dccd-02.cua.uam.mx)... 148.206.185.34
+Connecting to pl-dccd-02.cua.uam.mx (pl-dccd-02.cua.uam.mx)|148.206.185.34|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2015-07-21 20:44:22--  (try: 2)  http://pl-dccd-02.cua.uam.mx:8717/latest
+Connecting to pl-dccd-02.cua.uam.mx (pl-dccd-02.cua.uam.mx)|148.206.185.34|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2015-07-21 20:44:25--  (try: 3)  http://pl-dccd-02.cua.uam.mx:8717/latest
+Connecting to pl-dccd-02.cua.uam.mx (pl-dccd-02.cua.uam.mx)|148.206.185.34|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Giving up.
+
+--2015-07-21 20:44:25--  http://planetlab2.cs.uiuc.edu:8717/latest
+Resolving planetlab2.cs.uiuc.edu (planetlab2.cs.uiuc.edu)... 72.36.112.72
+Connecting to planetlab2.cs.uiuc.edu (planetlab2.cs.uiuc.edu)|72.36.112.72|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.26’
+
+     0K                                                        33.8M=0s
+
+2015-07-21 20:44:25 (33.8 MB/s) - ‘latest.26’ saved [461]
+
+--2015-07-21 20:44:25--  http://planetlab2.koganei.itrc.net:8717/latest
+Resolving planetlab2.koganei.itrc.net (planetlab2.koganei.itrc.net)... 133.69.32.133
+Connecting to planetlab2.koganei.itrc.net (planetlab2.koganei.itrc.net)|133.69.32.133|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.27’
+
+     0K                                                         116M=0s
+
+2015-07-21 20:44:25 (116 MB/s) - ‘latest.27’ saved [388]
+
+--2015-07-21 20:44:25--  http://planetlab-1.scie.uestc.edu.cn:8717/latest
+Resolving planetlab-1.scie.uestc.edu.cn (planetlab-1.scie.uestc.edu.cn)... 222.197.180.137
+Connecting to planetlab-1.scie.uestc.edu.cn (planetlab-1.scie.uestc.edu.cn)|222.197.180.137|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2015-07-21 20:44:27--  (try: 2)  http://planetlab-1.scie.uestc.edu.cn:8717/latest
+Connecting to planetlab-1.scie.uestc.edu.cn (planetlab-1.scie.uestc.edu.cn)|222.197.180.137|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2015-07-21 20:44:29--  (try: 3)  http://planetlab-1.scie.uestc.edu.cn:8717/latest
+Connecting to planetlab-1.scie.uestc.edu.cn (planetlab-1.scie.uestc.edu.cn)|222.197.180.137|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Giving up.
+
+--2015-07-21 20:44:30--  http://planet1.pnl.nitech.ac.jp:8717/latest
+Resolving planet1.pnl.nitech.ac.jp (planet1.pnl.nitech.ac.jp)... 133.68.253.242
+Connecting to planet1.pnl.nitech.ac.jp (planet1.pnl.nitech.ac.jp)|133.68.253.242|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.28’
+
+     0K                                                        97.1M=0s
+
+2015-07-21 20:44:30 (97.1 MB/s) - ‘latest.28’ saved [444]
+
+--2015-07-21 20:44:30--  http://planetlab1.koganei.itrc.net:8717/latest
+Resolving planetlab1.koganei.itrc.net (planetlab1.koganei.itrc.net)... 133.69.32.131
+Connecting to planetlab1.koganei.itrc.net (planetlab1.koganei.itrc.net)|133.69.32.131|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.29’
+
+     0K                                                        95.9M=0s
+
+2015-07-21 20:44:30 (95.9 MB/s) - ‘latest.29’ saved [364]
+
+--2015-07-21 20:44:30--  http://planetlab2.informatik.uni-erlangen.de:8717/latest
+Resolving planetlab2.informatik.uni-erlangen.de (planetlab2.informatik.uni-erlangen.de)... 131.188.44.102
+Connecting to planetlab2.informatik.uni-erlangen.de (planetlab2.informatik.uni-erlangen.de)|131.188.44.102|:8717... failed: Connection refused.
+--2015-07-21 20:44:30--  http://planetlab1.aut.ac.nz:8717/latest
+Resolving planetlab1.aut.ac.nz (planetlab1.aut.ac.nz)... 156.62.231.242
+Connecting to planetlab1.aut.ac.nz (planetlab1.aut.ac.nz)|156.62.231.242|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.30’
+
+     0K                                                        59.0M=0s
+
+2015-07-21 20:44:31 (59.0 MB/s) - ‘latest.30’ saved [325]
+
+--2015-07-21 20:44:31--  http://planetlab1.cnds.jhu.edu:8717/latest
+Resolving planetlab1.cnds.jhu.edu (planetlab1.cnds.jhu.edu)... 128.220.231.2
+Connecting to planetlab1.cnds.jhu.edu (planetlab1.cnds.jhu.edu)|128.220.231.2|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.31’
+
+     0K                                                         120M=0s
+
+2015-07-21 20:44:31 (120 MB/s) - ‘latest.31’ saved [426]
+
+--2015-07-21 20:44:31--  http://planet3.cc.gt.atl.ga.us:8717/latest
+Resolving planet3.cc.gt.atl.ga.us (planet3.cc.gt.atl.ga.us)... 143.215.131.198
+Connecting to planet3.cc.gt.atl.ga.us (planet3.cc.gt.atl.ga.us)|143.215.131.198|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.32’
+
+     0K                                                         120M=0s
+
+2015-07-21 20:44:31 (120 MB/s) - ‘latest.32’ saved [423]
+
+--2015-07-21 20:44:31--  http://planetlab-n1.wand.net.nz:8717/latest
+Resolving planetlab-n1.wand.net.nz (planetlab-n1.wand.net.nz)... 130.217.77.2
+Connecting to planetlab-n1.wand.net.nz (planetlab-n1.wand.net.nz)|130.217.77.2|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.33’
+
+     0K                                                         164M=0s
+
+2015-07-21 20:44:32 (164 MB/s) - ‘latest.33’ saved [537]
+
+--2015-07-21 20:44:32--  http://planetlab2.comp.nus.edu.sg:8717/latest
+Resolving planetlab2.comp.nus.edu.sg (planetlab2.comp.nus.edu.sg)... 137.132.80.105
+Connecting to planetlab2.comp.nus.edu.sg (planetlab2.comp.nus.edu.sg)|137.132.80.105|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.34’
+
+     0K                                                         173M=0s
+
+2015-07-21 20:44:33 (173 MB/s) - ‘latest.34’ saved [578]
+
+--2015-07-21 20:44:33--  http://planetlab2.bgu.ac.il:8717/latest
+Resolving planetlab2.bgu.ac.il (planetlab2.bgu.ac.il)... 132.72.23.11
+Connecting to planetlab2.bgu.ac.il (planetlab2.bgu.ac.il)|132.72.23.11|:8717... failed: Connection refused.
+--2015-07-21 20:44:33--  http://of-planet5.stanford.edu:8717/latest
+Resolving of-planet5.stanford.edu (of-planet5.stanford.edu)... failed: Name or service not known.
+wget: unable to resolve host address ‘of-planet5.stanford.edu’
+--2015-07-21 20:44:33--  http://planetlab2.een.orst.edu:8717/latest
+Resolving planetlab2.een.orst.edu (planetlab2.een.orst.edu)... failed: Name or service not known.
+wget: unable to resolve host address ‘planetlab2.een.orst.edu’
+--2015-07-21 20:44:33--  http://planetlab2.informatik.uni-kl.de:8717/latest
+Resolving planetlab2.informatik.uni-kl.de (planetlab2.informatik.uni-kl.de)... 131.246.19.202
+Connecting to planetlab2.informatik.uni-kl.de (planetlab2.informatik.uni-kl.de)|131.246.19.202|:8717... failed: Connection refused.
+--2015-07-21 20:44:33--  http://planetlab1.informatik.uni-kl.de:8717/latest
+Resolving planetlab1.informatik.uni-kl.de (planetlab1.informatik.uni-kl.de)... 131.246.19.201
+Connecting to planetlab1.informatik.uni-kl.de (planetlab1.informatik.uni-kl.de)|131.246.19.201|:8717... failed: Connection refused.
+--2015-07-21 20:44:33--  http://planetlab2.gdansk.rd.tp.pl:8717/latest
+Resolving planetlab2.gdansk.rd.tp.pl (planetlab2.gdansk.rd.tp.pl)... failed: Name or service not known.
+wget: unable to resolve host address ‘planetlab2.gdansk.rd.tp.pl’
+--2015-07-21 20:44:33--  http://planetlab3.cesnet.cz:8717/latest
+Resolving planetlab3.cesnet.cz (planetlab3.cesnet.cz)... 195.113.161.84
+Connecting to planetlab3.cesnet.cz (planetlab3.cesnet.cz)|195.113.161.84|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2015-07-21 20:44:35--  (try: 2)  http://planetlab3.cesnet.cz:8717/latest
+Connecting to planetlab3.cesnet.cz (planetlab3.cesnet.cz)|195.113.161.84|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2015-07-21 20:44:37--  (try: 3)  http://planetlab3.cesnet.cz:8717/latest
+Connecting to planetlab3.cesnet.cz (planetlab3.cesnet.cz)|195.113.161.84|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Giving up.
+
+--2015-07-21 20:44:37--  http://planetlab2.cqupt.edu.cn:8717/latest
+Resolving planetlab2.cqupt.edu.cn (planetlab2.cqupt.edu.cn)... 202.202.43.199
+Connecting to planetlab2.cqupt.edu.cn (planetlab2.cqupt.edu.cn)|202.202.43.199|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.35’
+
+     0K                                                         124M=0s
+
+2015-07-21 20:44:38 (124 MB/s) - ‘latest.35’ saved [488]
+
+--2015-07-21 20:44:38--  http://planetlab1.unr.edu:8717/latest
+Resolving planetlab1.unr.edu (planetlab1.unr.edu)... 134.197.113.3
+Connecting to planetlab1.unr.edu (planetlab1.unr.edu)|134.197.113.3|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.36’
+
+     0K                                                         107M=0s
+
+2015-07-21 20:44:38 (107 MB/s) - ‘latest.36’ saved [362]
+
+--2015-07-21 20:44:38--  http://planetlab1.dojima.wide.ad.jp:8717/latest
+Resolving planetlab1.dojima.wide.ad.jp (planetlab1.dojima.wide.ad.jp)... 203.178.133.11
+Connecting to planetlab1.dojima.wide.ad.jp (planetlab1.dojima.wide.ad.jp)|203.178.133.11|:8717... failed: Connection refused.
+--2015-07-21 20:44:38--  http://planetlab-n2.wand.net.nz:8717/latest
+Resolving planetlab-n2.wand.net.nz (planetlab-n2.wand.net.nz)... 130.217.77.4
+Connecting to planetlab-n2.wand.net.nz (planetlab-n2.wand.net.nz)|130.217.77.4|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.37’
+
+     0K                                                         136M=0s
+
+2015-07-21 20:44:39 (136 MB/s) - ‘latest.37’ saved [538]
+
+--2015-07-21 20:44:39--  http://planetlab1.acis.ufl.edu:8717/latest
+Resolving planetlab1.acis.ufl.edu (planetlab1.acis.ufl.edu)... 128.227.150.11
+Connecting to planetlab1.acis.ufl.edu (planetlab1.acis.ufl.edu)|128.227.150.11|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.38’
+
+     0K                                                         173M=0s
+
+2015-07-21 20:44:39 (173 MB/s) - ‘latest.38’ saved [669]
+
+--2015-07-21 20:44:39--  http://planetlab1.netlab.uky.edu:8717/latest
+Resolving planetlab1.netlab.uky.edu (planetlab1.netlab.uky.edu)... 128.163.142.20
+Connecting to planetlab1.netlab.uky.edu (planetlab1.netlab.uky.edu)|128.163.142.20|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.39’
+
+     0K                                                        81.1M=0s
+
+2015-07-21 20:44:39 (81.1 MB/s) - ‘latest.39’ saved [415]
+
+--2015-07-21 20:44:39--  http://csplanetlab4.kaist.ac.kr:8717/latest
+Resolving csplanetlab4.kaist.ac.kr (csplanetlab4.kaist.ac.kr)... 143.248.55.129
+Connecting to csplanetlab4.kaist.ac.kr (csplanetlab4.kaist.ac.kr)|143.248.55.129|:8717... failed: Connection refused.
+--2015-07-21 20:44:39--  http://cs-planetlab3.cs.surrey.sfu.ca:8717/latest
+Resolving cs-planetlab3.cs.surrey.sfu.ca (cs-planetlab3.cs.surrey.sfu.ca)... 206.12.16.154
+Connecting to cs-planetlab3.cs.surrey.sfu.ca (cs-planetlab3.cs.surrey.sfu.ca)|206.12.16.154|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.40’
+
+     0K                                                         124M=0s
+
+2015-07-21 20:44:39 (124 MB/s) - ‘latest.40’ saved [445]
+
+--2015-07-21 20:44:39--  http://planetlab1.postel.org:8717/latest
+Resolving planetlab1.postel.org (planetlab1.postel.org)... 206.117.37.4
+Connecting to planetlab1.postel.org (planetlab1.postel.org)|206.117.37.4|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.41’
+
+     0K                                                         102M=0s
+
+2015-07-21 20:44:40 (102 MB/s) - ‘latest.41’ saved [345]
+
+--2015-07-21 20:44:40--  http://pl3.cs.unm.edu:8717/latest
+Resolving pl3.cs.unm.edu (pl3.cs.unm.edu)... 198.83.85.46
+Connecting to pl3.cs.unm.edu (pl3.cs.unm.edu)|198.83.85.46|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.42’
+
+     0K                                                        82.1M=0s
+
+2015-07-21 20:44:40 (82.1 MB/s) - ‘latest.42’ saved [324]
+
+--2015-07-21 20:44:40--  http://pl2.pku.edu.cn:8717/latest
+Resolving pl2.pku.edu.cn (pl2.pku.edu.cn)... 162.105.205.22
+Connecting to pl2.pku.edu.cn (pl2.pku.edu.cn)|162.105.205.22|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.43’
+
+     0K                                                         123M=0s
+
+2015-07-21 20:44:40 (123 MB/s) - ‘latest.43’ saved [472]
+
+--2015-07-21 20:44:40--  http://planetlab2.citadel.edu:8717/latest
+Resolving planetlab2.citadel.edu (planetlab2.citadel.edu)... 155.225.2.72
+Connecting to planetlab2.citadel.edu (planetlab2.citadel.edu)|155.225.2.72|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.44’
+
+     0K                                                         128M=0s
+
+2015-07-21 20:44:40 (128 MB/s) - ‘latest.44’ saved [508]
+
+--2015-07-21 20:44:40--  http://pl-dccd-01.cua.uam.mx:8717/latest
+Resolving pl-dccd-01.cua.uam.mx (pl-dccd-01.cua.uam.mx)... 148.206.185.33
+Connecting to pl-dccd-01.cua.uam.mx (pl-dccd-01.cua.uam.mx)|148.206.185.33|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.45’
+
+     0K                                                         190M=0s
+
+2015-07-21 20:44:41 (190 MB/s) - ‘latest.45’ saved [729]
+
+--2015-07-21 20:44:41--  http://planetlab3.net.in.tum.de:8717/latest
+Resolving planetlab3.net.in.tum.de (planetlab3.net.in.tum.de)... 138.246.253.3
+Connecting to planetlab3.net.in.tum.de (planetlab3.net.in.tum.de)|138.246.253.3|:8717... failed: Connection refused.
+--2015-07-21 20:44:41--  http://planet-lab2.itba.edu.ar:8717/latest
+Resolving planet-lab2.itba.edu.ar (planet-lab2.itba.edu.ar)... 190.227.163.141
+Connecting to planet-lab2.itba.edu.ar (planet-lab2.itba.edu.ar)|190.227.163.141|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.46’
+
+     0K                                                         130M=0s
+
+2015-07-21 20:44:42 (130 MB/s) - ‘latest.46’ saved [482]
+
+--2015-07-21 20:44:42--  http://planetlab2.dit.upm.es:8717/latest
+Resolving planetlab2.dit.upm.es (planetlab2.dit.upm.es)... 138.4.0.120
+Connecting to planetlab2.dit.upm.es (planetlab2.dit.upm.es)|138.4.0.120|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.47’
+
+     0K                                                        91.1M=0s
+
+2015-07-21 20:44:43 (91.1 MB/s) - ‘latest.47’ saved [447]
+
+--2015-07-21 20:44:43--  http://plab-2.diegm.uniud.it:8717/latest
+Resolving plab-2.diegm.uniud.it (plab-2.diegm.uniud.it)... 158.110.27.127
+Connecting to plab-2.diegm.uniud.it (plab-2.diegm.uniud.it)|158.110.27.127|:8717... failed: Connection refused.
+--2015-07-21 20:44:43--  http://planetvs2.informatik.uni-stuttgart.de:8717/latest
+Resolving planetvs2.informatik.uni-stuttgart.de (planetvs2.informatik.uni-stuttgart.de)... 129.69.210.97
+Connecting to planetvs2.informatik.uni-stuttgart.de (planetvs2.informatik.uni-stuttgart.de)|129.69.210.97|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.48’
+
+     0K                                                        55.8M=0s
+
+2015-07-21 20:44:43 (55.8 MB/s) - ‘latest.48’ saved [621]
+
+--2015-07-21 20:44:43--  http://planetlab-2.scie.uestc.edu.cn:8717/latest
+Resolving planetlab-2.scie.uestc.edu.cn (planetlab-2.scie.uestc.edu.cn)... 222.197.180.139
+Connecting to planetlab-2.scie.uestc.edu.cn (planetlab-2.scie.uestc.edu.cn)|222.197.180.139|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2015-07-21 20:44:45--  (try: 2)  http://planetlab-2.scie.uestc.edu.cn:8717/latest
+Connecting to planetlab-2.scie.uestc.edu.cn (planetlab-2.scie.uestc.edu.cn)|222.197.180.139|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2015-07-21 20:44:47--  (try: 3)  http://planetlab-2.scie.uestc.edu.cn:8717/latest
+Connecting to planetlab-2.scie.uestc.edu.cn (planetlab-2.scie.uestc.edu.cn)|222.197.180.139|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Giving up.
+
+--2015-07-21 20:44:48--  http://planetlab-um00.di.uminho.pt:8717/latest
+Resolving planetlab-um00.di.uminho.pt (planetlab-um00.di.uminho.pt)... 193.136.19.13
+Connecting to planetlab-um00.di.uminho.pt (planetlab-um00.di.uminho.pt)|193.136.19.13|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.49’
+
+     0K                                                         126M=0s
+
+2015-07-21 20:44:48 (126 MB/s) - ‘latest.49’ saved [463]
+
+--2015-07-21 20:44:48--  http://plab4.ple.silweb.pl:8717/latest
+Resolving plab4.ple.silweb.pl (plab4.ple.silweb.pl)... 83.230.127.124
+Connecting to plab4.ple.silweb.pl (plab4.ple.silweb.pl)|83.230.127.124|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.50’
+
+     0K                                                         103M=0s
+
+2015-07-21 20:44:48 (103 MB/s) - ‘latest.50’ saved [372]
+
+--2015-07-21 20:44:48--  http://75-130-96-12.static.oxfr.ma.charter.com:8717/latest
+Resolving 75-130-96-12.static.oxfr.ma.charter.com (75-130-96-12.static.oxfr.ma.charter.com)... 75.130.96.12
+Connecting to 75-130-96-12.static.oxfr.ma.charter.com (75-130-96-12.static.oxfr.ma.charter.com)|75.130.96.12|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.51’
+
+     0K                                                         111M=0s
+
+2015-07-21 20:44:48 (111 MB/s) - ‘latest.51’ saved [390]
+
+--2015-07-21 20:44:48--  http://planetlab02.dis.unina.it:8717/latest
+Resolving planetlab02.dis.unina.it (planetlab02.dis.unina.it)... 143.225.229.238
+Connecting to planetlab02.dis.unina.it (planetlab02.dis.unina.it)|143.225.229.238|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.52’
+
+     0K                                                         165M=0s
+
+2015-07-21 20:44:49 (165 MB/s) - ‘latest.52’ saved [513]
+
+--2015-07-21 20:44:49--  http://node2.planetlab.mathcs.emory.edu:8717/latest
+Resolving node2.planetlab.mathcs.emory.edu (node2.planetlab.mathcs.emory.edu)... 170.140.119.70
+Connecting to node2.planetlab.mathcs.emory.edu (node2.planetlab.mathcs.emory.edu)|170.140.119.70|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.53’
+
+     0K                                                        93.0M=0s
+
+2015-07-21 20:44:49 (93.0 MB/s) - ‘latest.53’ saved [443]
+
+--2015-07-21 20:44:49--  http://planetlab1.informatik.uni-goettingen.de:8717/latest
+Resolving planetlab1.informatik.uni-goettingen.de (planetlab1.informatik.uni-goettingen.de)... 134.76.249.229
+Connecting to planetlab1.informatik.uni-goettingen.de (planetlab1.informatik.uni-goettingen.de)|134.76.249.229|:8717... failed: Connection refused.
+--2015-07-21 20:44:49--  http://planetlab-js2.cert.org.cn:8717/latest
+Resolving planetlab-js2.cert.org.cn (planetlab-js2.cert.org.cn)... failed: Temporary failure in name resolution.
+wget: unable to resolve host address ‘planetlab-js2.cert.org.cn’
+--2015-07-21 20:44:57--  http://planetlab-1.sjtu.edu.cn:8717/latest
+Resolving planetlab-1.sjtu.edu.cn (planetlab-1.sjtu.edu.cn)... 202.112.28.98
+Connecting to planetlab-1.sjtu.edu.cn (planetlab-1.sjtu.edu.cn)|202.112.28.98|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.54’
+
+     0K                                                         112M=0s
+
+2015-07-21 20:44:58 (112 MB/s) - ‘latest.54’ saved [516]
+
+--2015-07-21 20:44:58--  http://planetlab1.eecs.umich.edu:8717/latest
+Resolving planetlab1.eecs.umich.edu (planetlab1.eecs.umich.edu)... 141.213.4.201
+Connecting to planetlab1.eecs.umich.edu (planetlab1.eecs.umich.edu)|141.213.4.201|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.55’
+
+     0K                                                         125M=0s
+
+2015-07-21 20:44:58 (125 MB/s) - ‘latest.55’ saved [468]
+
+--2015-07-21 20:44:58--  http://pl4.cs.unm.edu:8717/latest
+Resolving pl4.cs.unm.edu (pl4.cs.unm.edu)... 198.83.85.47
+Connecting to pl4.cs.unm.edu (pl4.cs.unm.edu)|198.83.85.47|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.56’
+
+     0K                                                        93.6M=0s
+
+2015-07-21 20:44:58 (93.6 MB/s) - ‘latest.56’ saved [329]
+
+--2015-07-21 20:44:58--  http://planetlab2.ucsd.edu:8717/latest
+Resolving planetlab2.ucsd.edu (planetlab2.ucsd.edu)... 132.239.17.225
+Connecting to planetlab2.ucsd.edu (planetlab2.ucsd.edu)|132.239.17.225|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.57’
+
+     0K                                                         161M=0s
+
+2015-07-21 20:45:03 (161 MB/s) - ‘latest.57’ saved [514]
+
+--2015-07-21 20:45:03--  http://planetlab1.ifi.uio.no:8717/latest
+Resolving planetlab1.ifi.uio.no (planetlab1.ifi.uio.no)... 193.157.115.250
+Connecting to planetlab1.ifi.uio.no (planetlab1.ifi.uio.no)|193.157.115.250|:8717... failed: Connection refused.
+--2015-07-21 20:45:03--  http://planetlab4.hiit.fi:8717/latest
+Resolving planetlab4.hiit.fi (planetlab4.hiit.fi)... 193.167.187.186
+Connecting to planetlab4.hiit.fi (planetlab4.hiit.fi)|193.167.187.186|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.58’
+
+     0K                                                        85.7M=0s
+
+2015-07-21 20:45:04 (85.7 MB/s) - ‘latest.58’ saved [437]
+
+--2015-07-21 20:45:04--  http://planetlab1.bgu.ac.il:8717/latest
+Resolving planetlab1.bgu.ac.il (planetlab1.bgu.ac.il)... 132.72.23.10
+Connecting to planetlab1.bgu.ac.il (planetlab1.bgu.ac.il)|132.72.23.10|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.59’
+
+     0K                                                         115M=0s
+
+2015-07-21 20:45:04 (115 MB/s) - ‘latest.59’ saved [449]
+
+--2015-07-21 20:45:04--  http://ple2.dmcs.p.lodz.pl:8717/latest
+Resolving ple2.dmcs.p.lodz.pl (ple2.dmcs.p.lodz.pl)... 212.51.218.237
+Connecting to ple2.dmcs.p.lodz.pl (ple2.dmcs.p.lodz.pl)|212.51.218.237|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.60’
+
+     0K                                                        27.7M=0s
+
+2015-07-21 20:45:04 (27.7 MB/s) - ‘latest.60’ saved [550]
+
+--2015-07-21 20:45:04--  http://planetlab3.comp.nus.edu.sg:8717/latest
+Resolving planetlab3.comp.nus.edu.sg (planetlab3.comp.nus.edu.sg)... 137.132.80.110
+Connecting to planetlab3.comp.nus.edu.sg (planetlab3.comp.nus.edu.sg)|137.132.80.110|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.61’
+
+     0K                                                         138M=0s
+
+2015-07-21 20:45:05 (138 MB/s) - ‘latest.61’ saved [578]
+
+--2015-07-21 20:45:05--  http://planet-lab-node2.netgroup.uniroma2.it:8717/latest
+Resolving planet-lab-node2.netgroup.uniroma2.it (planet-lab-node2.netgroup.uniroma2.it)... 160.80.221.39
+Connecting to planet-lab-node2.netgroup.uniroma2.it (planet-lab-node2.netgroup.uniroma2.it)|160.80.221.39|:8717... failed: Connection refused.
+--2015-07-21 20:45:05--  http://node1.planetlab.uni-luebeck.de:8717/latest
+Resolving node1.planetlab.uni-luebeck.de (node1.planetlab.uni-luebeck.de)... 141.83.148.101
+Connecting to node1.planetlab.uni-luebeck.de (node1.planetlab.uni-luebeck.de)|141.83.148.101|:8717... failed: Connection refused.
+--2015-07-21 20:45:05--  http://node2.planetlab.uni-luebeck.de:8717/latest
+Resolving node2.planetlab.uni-luebeck.de (node2.planetlab.uni-luebeck.de)... 141.83.148.102
+Connecting to node2.planetlab.uni-luebeck.de (node2.planetlab.uni-luebeck.de)|141.83.148.102|:8717... failed: Connection refused.
+--2015-07-21 20:45:05--  http://host1.planetlab.informatik.tu-darmstadt.de:8717/latest
+Resolving host1.planetlab.informatik.tu-darmstadt.de (host1.planetlab.informatik.tu-darmstadt.de)... 130.83.166.243
+Connecting to host1.planetlab.informatik.tu-darmstadt.de (host1.planetlab.informatik.tu-darmstadt.de)|130.83.166.243|:8717... failed: Connection refused.
+--2015-07-21 20:45:05--  http://iraplab1.iralab.uni-karlsruhe.de:8717/latest
+Resolving iraplab1.iralab.uni-karlsruhe.de (iraplab1.iralab.uni-karlsruhe.de)... 193.196.39.9
+Connecting to iraplab1.iralab.uni-karlsruhe.de (iraplab1.iralab.uni-karlsruhe.de)|193.196.39.9|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.62’
+
+     0K                                                         128M=0s
+
+2015-07-21 20:45:06 (128 MB/s) - ‘latest.62’ saved [430]
+
+--2015-07-21 20:45:06--  http://planetlab4.williams.edu:8717/latest
+Resolving planetlab4.williams.edu (planetlab4.williams.edu)... 137.165.1.114
+Connecting to planetlab4.williams.edu (planetlab4.williams.edu)|137.165.1.114|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.63’
+
+     0K                                                         113M=0s
+
+2015-07-21 20:45:06 (113 MB/s) - ‘latest.63’ saved [564]
+
+--2015-07-21 20:45:06--  http://planetlab-1.research.netlab.hut.fi:8717/latest
+Resolving planetlab-1.research.netlab.hut.fi (planetlab-1.research.netlab.hut.fi)... 195.148.124.73
+Connecting to planetlab-1.research.netlab.hut.fi (planetlab-1.research.netlab.hut.fi)|195.148.124.73|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.64’
+
+     0K                                                         133M=0s
+
+2015-07-21 20:45:06 (133 MB/s) - ‘latest.64’ saved [449]
+
+--2015-07-21 20:45:06--  http://planetlab2.s3.kth.se:8717/latest
+Resolving planetlab2.s3.kth.se (planetlab2.s3.kth.se)... 130.237.50.125
+Connecting to planetlab2.s3.kth.se (planetlab2.s3.kth.se)|130.237.50.125|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2015-07-21 20:45:07--  (try: 2)  http://planetlab2.s3.kth.se:8717/latest
+Connecting to planetlab2.s3.kth.se (planetlab2.s3.kth.se)|130.237.50.125|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2015-07-21 20:45:10--  (try: 3)  http://planetlab2.s3.kth.se:8717/latest
+Connecting to planetlab2.s3.kth.se (planetlab2.s3.kth.se)|130.237.50.125|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Giving up.
+
+--2015-07-21 20:45:10--  http://planetlab2.ci.pwr.wroc.pl:8717/latest
+Resolving planetlab2.ci.pwr.wroc.pl (planetlab2.ci.pwr.wroc.pl)... 156.17.10.52
+Connecting to planetlab2.ci.pwr.wroc.pl (planetlab2.ci.pwr.wroc.pl)|156.17.10.52|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.65’
+
+     0K                                                         164M=0s
+
+2015-07-21 20:45:10 (164 MB/s) - ‘latest.65’ saved [587]
+
+--2015-07-21 20:45:10--  http://planetlab2.diku.dk:8717/latest
+Resolving planetlab2.diku.dk (planetlab2.diku.dk)... 192.38.109.144
+Connecting to planetlab2.diku.dk (planetlab2.diku.dk)|192.38.109.144|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.66’
+
+     0K                                                         112M=0s
+
+2015-07-21 20:45:12 (112 MB/s) - ‘latest.66’ saved [483]
+
+--2015-07-21 20:45:12--  http://ricepl-5.cs.rice.edu:8717/latest
+Resolving ricepl-5.cs.rice.edu (ricepl-5.cs.rice.edu)... 128.42.142.45
+Connecting to ricepl-5.cs.rice.edu (ricepl-5.cs.rice.edu)|128.42.142.45|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.67’
+
+     0K                                                         108M=0s
+
+2015-07-21 20:45:12 (108 MB/s) - ‘latest.67’ saved [411]
+
+--2015-07-21 20:45:12--  http://planetlab-4.cs.ucy.ac.cy:8717/latest
+Resolving planetlab-4.cs.ucy.ac.cy (planetlab-4.cs.ucy.ac.cy)... 194.42.17.124
+Connecting to planetlab-4.cs.ucy.ac.cy (planetlab-4.cs.ucy.ac.cy)|194.42.17.124|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.68’
+
+     0K                                                        72.9M=0s
+
+2015-07-21 20:45:12 (72.9 MB/s) - ‘latest.68’ saved [260]
+
+--2015-07-21 20:45:12--  http://planetlab1.fct.ualg.pt:8717/latest
+Resolving planetlab1.fct.ualg.pt (planetlab1.fct.ualg.pt)... 193.136.227.163
+Connecting to planetlab1.fct.ualg.pt (planetlab1.fct.ualg.pt)|193.136.227.163|:8717... failed: Connection refused.
+--2015-07-21 20:45:12--  http://iraplab2.iralab.uni-karlsruhe.de:8717/latest
+Resolving iraplab2.iralab.uni-karlsruhe.de (iraplab2.iralab.uni-karlsruhe.de)... 193.196.39.10
+Connecting to iraplab2.iralab.uni-karlsruhe.de (iraplab2.iralab.uni-karlsruhe.de)|193.196.39.10|:8717... failed: Connection refused.
+--2015-07-21 20:45:12--  http://planetlab6.goto.info.waseda.ac.jp:8717/latest
+Resolving planetlab6.goto.info.waseda.ac.jp (planetlab6.goto.info.waseda.ac.jp)... 133.9.81.166
+Connecting to planetlab6.goto.info.waseda.ac.jp (planetlab6.goto.info.waseda.ac.jp)|133.9.81.166|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.69’
+
+     0K                                                         123M=0s
+
+2015-07-21 20:45:13 (123 MB/s) - ‘latest.69’ saved [451]
+
+--2015-07-21 20:45:13--  http://prata.mimuw.edu.pl:8717/latest
+Resolving prata.mimuw.edu.pl (prata.mimuw.edu.pl)... 193.0.109.25
+Connecting to prata.mimuw.edu.pl (prata.mimuw.edu.pl)|193.0.109.25|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.70’
+
+     0K                                                        76.6M=0s
+
+2015-07-21 20:45:13 (76.6 MB/s) - ‘latest.70’ saved [322]
+
+--2015-07-21 20:45:13--  http://planetlab1.upm.ro:8717/latest
+Resolving planetlab1.upm.ro (planetlab1.upm.ro)... 193.226.19.30
+Connecting to planetlab1.upm.ro (planetlab1.upm.ro)|193.226.19.30|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.71’
+
+     0K                                                         102M=0s
+
+2015-07-21 20:45:14 (102 MB/s) - ‘latest.71’ saved [426]
+
+--2015-07-21 20:45:14--  http://planetlab1.di.unito.it:8717/latest
+Resolving planetlab1.di.unito.it (planetlab1.di.unito.it)... 130.192.157.131
+Connecting to planetlab1.di.unito.it (planetlab1.di.unito.it)|130.192.157.131|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.72’
+
+     0K                                                         117M=0s
+
+2015-07-21 20:45:14 (117 MB/s) - ‘latest.72’ saved [465]
+
+--2015-07-21 20:45:14--  http://planetlabeu-1.tssg.org:8717/latest
+Resolving planetlabeu-1.tssg.org (planetlabeu-1.tssg.org)... 193.1.201.26
+Connecting to planetlabeu-1.tssg.org (planetlabeu-1.tssg.org)|193.1.201.26|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.73’
+
+     0K                                                         128M=0s
+
+2015-07-21 20:45:14 (128 MB/s) - ‘latest.73’ saved [427]
+
+--2015-07-21 20:45:14--  http://plato.di.uoa.gr:8717/latest
+Resolving plato.di.uoa.gr (plato.di.uoa.gr)... 88.197.53.228
+Connecting to plato.di.uoa.gr (plato.di.uoa.gr)|88.197.53.228|:8717... failed: Connection refused.
+--2015-07-21 20:45:14--  http://plutarch.di.uoa.gr:8717/latest
+Resolving plutarch.di.uoa.gr (plutarch.di.uoa.gr)... 88.197.53.226
+Connecting to plutarch.di.uoa.gr (plutarch.di.uoa.gr)|88.197.53.226|:8717... failed: Connection refused.
+--2015-07-21 20:45:15--  http://planetlab2.utt.fr:8717/latest
+Resolving planetlab2.utt.fr (planetlab2.utt.fr)... 194.254.215.12
+Connecting to planetlab2.utt.fr (planetlab2.utt.fr)|194.254.215.12|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.74’
+
+     0K                                                         137M=0s
+
+2015-07-21 20:45:15 (137 MB/s) - ‘latest.74’ saved [467]
+
+--2015-07-21 20:45:15--  http://planetlab1.upc.es:8717/latest
+Resolving planetlab1.upc.es (planetlab1.upc.es)... 147.83.30.166
+Connecting to planetlab1.upc.es (planetlab1.upc.es)|147.83.30.166|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.75’
+
+     0K                                                         113M=0s
+
+2015-07-21 20:45:18 (113 MB/s) - ‘latest.75’ saved [466]
+
+--2015-07-21 20:45:18--  http://pl2.rcc.uottawa.ca:8717/latest
+Resolving pl2.rcc.uottawa.ca (pl2.rcc.uottawa.ca)... 216.48.80.14
+Connecting to pl2.rcc.uottawa.ca (pl2.rcc.uottawa.ca)|216.48.80.14|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.76’
+
+     0K                                                        95.1M=0s
+
+2015-07-21 20:45:18 (95.1 MB/s) - ‘latest.76’ saved [382]
+
+--2015-07-21 20:45:18--  http://planetlab2.tamu.edu:8717/latest
+Resolving planetlab2.tamu.edu (planetlab2.tamu.edu)... 165.91.55.9
+Connecting to planetlab2.tamu.edu (planetlab2.tamu.edu)|165.91.55.9|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.77’
+
+     0K                                                         102M=0s
+
+2015-07-21 20:45:18 (102 MB/s) - ‘latest.77’ saved [375]
+
+--2015-07-21 20:45:18--  http://planetlab3.upc.es:8717/latest
+Resolving planetlab3.upc.es (planetlab3.upc.es)... 147.83.30.164
+Connecting to planetlab3.upc.es (planetlab3.upc.es)|147.83.30.164|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.78’
+
+     0K                                                         136M=0s
+
+2015-07-21 20:45:18 (136 MB/s) - ‘latest.78’ saved [469]
+
+--2015-07-21 20:45:18--  http://planetlab1.informatik.uni-erlangen.de:8717/latest
+Resolving planetlab1.informatik.uni-erlangen.de (planetlab1.informatik.uni-erlangen.de)... 131.188.44.100
+Connecting to planetlab1.informatik.uni-erlangen.de (planetlab1.informatik.uni-erlangen.de)|131.188.44.100|:8717... failed: Connection refused.
+--2015-07-21 20:45:19--  http://gschembra3.diit.unict.it:8717/latest
+Resolving gschembra3.diit.unict.it (gschembra3.diit.unict.it)... 151.97.9.224
+Connecting to gschembra3.diit.unict.it (gschembra3.diit.unict.it)|151.97.9.224|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.79’
+
+     0K                                                        99.0M=0s
+
+2015-07-21 20:45:19 (99.0 MB/s) - ‘latest.79’ saved [509]
+
+--2015-07-21 20:45:19--  http://planetlab2.di.unito.it:8717/latest
+Resolving planetlab2.di.unito.it (planetlab2.di.unito.it)... 130.192.157.132
+Connecting to planetlab2.di.unito.it (planetlab2.di.unito.it)|130.192.157.132|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.80’
+
+     0K                                                        76.8M=0s
+
+2015-07-21 20:45:20 (76.8 MB/s) - ‘latest.80’ saved [465]
+
+--2015-07-21 20:45:20--  http://planetlab-1.fhi-fokus.de:8717/latest
+Resolving planetlab-1.fhi-fokus.de (planetlab-1.fhi-fokus.de)... 193.175.135.58
+Connecting to planetlab-1.fhi-fokus.de (planetlab-1.fhi-fokus.de)|193.175.135.58|:8717... failed: Connection refused.
+--2015-07-21 20:45:20--  http://planetlab02.tkn.tu-berlin.de:8717/latest
+Resolving planetlab02.tkn.tu-berlin.de (planetlab02.tkn.tu-berlin.de)... 130.149.49.137
+Connecting to planetlab02.tkn.tu-berlin.de (planetlab02.tkn.tu-berlin.de)|130.149.49.137|:8717... failed: Connection refused.
+--2015-07-21 20:45:21--  http://planetlab1.tlm.unavarra.es:8717/latest
+Resolving planetlab1.tlm.unavarra.es (planetlab1.tlm.unavarra.es)... 130.206.158.138
+Connecting to planetlab1.tlm.unavarra.es (planetlab1.tlm.unavarra.es)|130.206.158.138|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.81’
+
+     0K                                                         131M=0s
+
+2015-07-21 20:45:22 (131 MB/s) - ‘latest.81’ saved [450]
+
+--2015-07-21 20:45:22--  http://planetlab5.eecs.umich.edu:8717/latest
+Resolving planetlab5.eecs.umich.edu (planetlab5.eecs.umich.edu)... 141.212.113.180
+Connecting to planetlab5.eecs.umich.edu (planetlab5.eecs.umich.edu)|141.212.113.180|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.82’
+
+     0K                                                         136M=0s
+
+2015-07-21 20:45:22 (136 MB/s) - ‘latest.82’ saved [457]
+
+--2015-07-21 20:45:22--  http://planetlab1.tsuniv.edu:8717/latest
+Resolving planetlab1.tsuniv.edu (planetlab1.tsuniv.edu)... 206.23.240.28
+Connecting to planetlab1.tsuniv.edu (planetlab1.tsuniv.edu)|206.23.240.28|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.83’
+
+     0K                                                        90.8M=0s
+
+2015-07-21 20:45:22 (90.8 MB/s) - ‘latest.83’ saved [363]
+
+--2015-07-21 20:45:22--  http://cs-planetlab4.cs.surrey.sfu.ca:8717/latest
+Resolving cs-planetlab4.cs.surrey.sfu.ca (cs-planetlab4.cs.surrey.sfu.ca)... 206.12.16.155
+Connecting to cs-planetlab4.cs.surrey.sfu.ca (cs-planetlab4.cs.surrey.sfu.ca)|206.12.16.155|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.84’
+
+     0K                                                         117M=0s
+
+2015-07-21 20:45:22 (117 MB/s) - ‘latest.84’ saved [447]
+
+--2015-07-21 20:45:22--  http://planetlab3.cs.uoregon.edu:8717/latest
+Resolving planetlab3.cs.uoregon.edu (planetlab3.cs.uoregon.edu)... 128.223.8.113
+Connecting to planetlab3.cs.uoregon.edu (planetlab3.cs.uoregon.edu)|128.223.8.113|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.85’
+
+     0K                                                        92.7M=0s
+
+2015-07-21 20:45:22 (92.7 MB/s) - ‘latest.85’ saved [400]
+
+--2015-07-21 20:45:22--  http://planetlab4.tamu.edu:8717/latest
+Resolving planetlab4.tamu.edu (planetlab4.tamu.edu)... 165.91.55.11
+Connecting to planetlab4.tamu.edu (planetlab4.tamu.edu)|165.91.55.11|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.86’
+
+     0K                                                        83.3M=0s
+
+2015-07-21 20:45:22 (83.3 MB/s) - ‘latest.86’ saved [371]
+
+--2015-07-21 20:45:22--  http://planetlab4.inf.ethz.ch:8717/latest
+Resolving planetlab4.inf.ethz.ch (planetlab4.inf.ethz.ch)... 192.33.90.69
+Connecting to planetlab4.inf.ethz.ch (planetlab4.inf.ethz.ch)|192.33.90.69|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.87’
+
+     0K                                                         131M=0s
+
+2015-07-21 20:45:23 (131 MB/s) - ‘latest.87’ saved [437]
+
+--2015-07-21 20:45:23--  http://planetlab2.cs.uoregon.edu:8717/latest
+Resolving planetlab2.cs.uoregon.edu (planetlab2.cs.uoregon.edu)... 128.223.8.112
+Connecting to planetlab2.cs.uoregon.edu (planetlab2.cs.uoregon.edu)|128.223.8.112|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.88’
+
+     0K                                                         104M=0s
+
+2015-07-21 20:45:23 (104 MB/s) - ‘latest.88’ saved [402]
+
+--2015-07-21 20:45:23--  http://planetlab1.u-strasbg.fr:8717/latest
+Resolving planetlab1.u-strasbg.fr (planetlab1.u-strasbg.fr)... 130.79.48.55
+Connecting to planetlab1.u-strasbg.fr (planetlab1.u-strasbg.fr)|130.79.48.55|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.89’
+
+     0K                                                        80.9M=0s
+
+2015-07-21 20:45:23 (80.9 MB/s) - ‘latest.89’ saved [484]
+
+--2015-07-21 20:45:23--  http://planetlab2.u-strasbg.fr:8717/latest
+Resolving planetlab2.u-strasbg.fr (planetlab2.u-strasbg.fr)... 130.79.48.57
+Connecting to planetlab2.u-strasbg.fr (planetlab2.u-strasbg.fr)|130.79.48.57|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.90’
+
+     0K                                                         139M=0s
+
+2015-07-21 20:45:23 (139 MB/s) - ‘latest.90’ saved [482]
+
+--2015-07-21 20:45:23--  http://planetlab1.cti.espol.edu.ec:8717/latest
+Resolving planetlab1.cti.espol.edu.ec (planetlab1.cti.espol.edu.ec)... 200.10.150.252, 2801:0:20:352d::252
+Connecting to planetlab1.cti.espol.edu.ec (planetlab1.cti.espol.edu.ec)|200.10.150.252|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.91’
+
+     0K                                                         110M=0s
+
+2015-07-21 20:45:23 (110 MB/s) - ‘latest.91’ saved [431]
+
+--2015-07-21 20:45:23--  http://planet-lab-node1.netgroup.uniroma2.it:8717/latest
+Resolving planet-lab-node1.netgroup.uniroma2.it (planet-lab-node1.netgroup.uniroma2.it)... 160.80.221.37
+Connecting to planet-lab-node1.netgroup.uniroma2.it (planet-lab-node1.netgroup.uniroma2.it)|160.80.221.37|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2015-07-21 20:45:25--  (try: 2)  http://planet-lab-node1.netgroup.uniroma2.it:8717/latest
+Connecting to planet-lab-node1.netgroup.uniroma2.it (planet-lab-node1.netgroup.uniroma2.it)|160.80.221.37|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2015-07-21 20:45:27--  (try: 3)  http://planet-lab-node1.netgroup.uniroma2.it:8717/latest
+Connecting to planet-lab-node1.netgroup.uniroma2.it (planet-lab-node1.netgroup.uniroma2.it)|160.80.221.37|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Giving up.
+
+--2015-07-21 20:45:27--  http://planetlab1.ucsd.edu:8717/latest
+Resolving planetlab1.ucsd.edu (planetlab1.ucsd.edu)... 132.239.17.224
+Connecting to planetlab1.ucsd.edu (planetlab1.ucsd.edu)|132.239.17.224|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.92’
+
+     0K                                                         143M=0s
+
+2015-07-21 20:45:32 (143 MB/s) - ‘latest.92’ saved [514]
+
+--2015-07-21 20:45:32--  http://planetlab4.mini.pw.edu.pl:8717/latest
+Resolving planetlab4.mini.pw.edu.pl (planetlab4.mini.pw.edu.pl)... 194.29.178.14
+Connecting to planetlab4.mini.pw.edu.pl (planetlab4.mini.pw.edu.pl)|194.29.178.14|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2015-07-21 20:45:34--  (try: 2)  http://planetlab4.mini.pw.edu.pl:8717/latest
+Connecting to planetlab4.mini.pw.edu.pl (planetlab4.mini.pw.edu.pl)|194.29.178.14|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2015-07-21 20:45:36--  (try: 3)  http://planetlab4.mini.pw.edu.pl:8717/latest
+Connecting to planetlab4.mini.pw.edu.pl (planetlab4.mini.pw.edu.pl)|194.29.178.14|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Giving up.
+
+--2015-07-21 20:45:36--  http://planetlab1-buenosaires.lan.redclara.net:8717/latest
+Resolving planetlab1-buenosaires.lan.redclara.net (planetlab1-buenosaires.lan.redclara.net)... 200.0.206.168
+Connecting to planetlab1-buenosaires.lan.redclara.net (planetlab1-buenosaires.lan.redclara.net)|200.0.206.168|:8717... failed: No route to host.
+--2015-07-21 20:45:39--  http://planetlab2.inf.ethz.ch:8717/latest
+Resolving planetlab2.inf.ethz.ch (planetlab2.inf.ethz.ch)... 192.33.90.67
+Connecting to planetlab2.inf.ethz.ch (planetlab2.inf.ethz.ch)|192.33.90.67|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.93’
+
+     0K                                                         122M=0s
+
+2015-07-21 20:45:40 (122 MB/s) - ‘latest.93’ saved [431]
+
+--2015-07-21 20:45:40--  http://planetlab4.goto.info.waseda.ac.jp:8717/latest
+Resolving planetlab4.goto.info.waseda.ac.jp (planetlab4.goto.info.waseda.ac.jp)... 133.9.81.164
+Connecting to planetlab4.goto.info.waseda.ac.jp (planetlab4.goto.info.waseda.ac.jp)|133.9.81.164|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.94’
+
+     0K                                                         137M=0s
+
+2015-07-21 20:45:40 (137 MB/s) - ‘latest.94’ saved [456]
+
+--2015-07-21 20:45:40--  http://planetlab1.pop-mg.rnp.br:8717/latest
+Resolving planetlab1.pop-mg.rnp.br (planetlab1.pop-mg.rnp.br)... 200.19.159.34
+Connecting to planetlab1.pop-mg.rnp.br (planetlab1.pop-mg.rnp.br)|200.19.159.34|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.95’
+
+     0K                                                         121M=0s
+
+2015-07-21 20:45:40 (121 MB/s) - ‘latest.95’ saved [430]
+
+--2015-07-21 20:45:40--  http://planetlab-js1.cert.org.cn:8717/latest
+Resolving planetlab-js1.cert.org.cn (planetlab-js1.cert.org.cn)... failed: No address associated with hostname.
+wget: unable to resolve host address ‘planetlab-js1.cert.org.cn’
+--2015-07-21 20:45:48--  http://pl2.zju.edu.cn:8717/latest
+Resolving pl2.zju.edu.cn (pl2.zju.edu.cn)... 210.32.181.184
+Connecting to pl2.zju.edu.cn (pl2.zju.edu.cn)|210.32.181.184|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.96’
+
+     0K                                                         103M=0s
+
+2015-07-21 20:45:49 (103 MB/s) - ‘latest.96’ saved [552]
+
+--2015-07-21 20:45:49--  http://ebb.colgate.edu:8717/latest
+Resolving ebb.colgate.edu (ebb.colgate.edu)... 149.43.80.20
+Connecting to ebb.colgate.edu (ebb.colgate.edu)|149.43.80.20|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.97’
+
+     0K                                                         103M=0s
+
+2015-07-21 20:45:49 (103 MB/s) - ‘latest.97’ saved [507]
+
+--2015-07-21 20:45:49--  http://planetlab1.diku.dk:8717/latest
+Resolving planetlab1.diku.dk (planetlab1.diku.dk)... 192.38.109.143
+Connecting to planetlab1.diku.dk (planetlab1.diku.dk)|192.38.109.143|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.98’
+
+     0K                                                         148M=0s
+
+2015-07-21 20:45:49 (148 MB/s) - ‘latest.98’ saved [491]
+
+--2015-07-21 20:45:49--  http://planetlab2.ustc.edu.cn:8717/latest
+Resolving planetlab2.ustc.edu.cn (planetlab2.ustc.edu.cn)... 202.141.161.44
+Connecting to planetlab2.ustc.edu.cn (planetlab2.ustc.edu.cn)|202.141.161.44|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.99’
+
+     0K                                                         113M=0s
+
+2015-07-21 20:45:50 (113 MB/s) - ‘latest.99’ saved [422]
+
+--2015-07-21 20:45:50--  http://planetlab-01.cs.princeton.edu:8717/latest
+Resolving planetlab-01.cs.princeton.edu (planetlab-01.cs.princeton.edu)... 128.112.139.42
+Connecting to planetlab-01.cs.princeton.edu (planetlab-01.cs.princeton.edu)|128.112.139.42|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.100’
+
+     0K                                                         163M=0s
+
+2015-07-21 20:45:50 (163 MB/s) - ‘latest.100’ saved [535]
+
+--2015-07-21 20:45:50--  http://planetlab2.cti.espol.edu.ec:8717/latest
+Resolving planetlab2.cti.espol.edu.ec (planetlab2.cti.espol.edu.ec)... 200.10.150.253, 2801:0:20:352d::253
+Connecting to planetlab2.cti.espol.edu.ec (planetlab2.cti.espol.edu.ec)|200.10.150.253|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.101’
+
+     0K                                                         102M=0s
+
+2015-07-21 20:45:50 (102 MB/s) - ‘latest.101’ saved [434]
+
+--2015-07-21 20:45:50--  http://planetlab1.cs.ucla.edu:8717/latest
+Resolving planetlab1.cs.ucla.edu (planetlab1.cs.ucla.edu)... 131.179.150.70
+Connecting to planetlab1.cs.ucla.edu (planetlab1.cs.ucla.edu)|131.179.150.70|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.102’
+
+     0K                                                        92.1M=0s
+
+2015-07-21 20:45:50 (92.1 MB/s) - ‘latest.102’ saved [425]
+
+--2015-07-21 20:45:50--  http://planetlab1.cs.uoregon.edu:8717/latest
+Resolving planetlab1.cs.uoregon.edu (planetlab1.cs.uoregon.edu)... 128.223.8.111
+Connecting to planetlab1.cs.uoregon.edu (planetlab1.cs.uoregon.edu)|128.223.8.111|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.103’
+
+     0K                                                        80.9M=0s
+
+2015-07-21 20:45:50 (80.9 MB/s) - ‘latest.103’ saved [405]
+
+--2015-07-21 20:45:50--  http://planetlab-2.research.netlab.hut.fi:8717/latest
+Resolving planetlab-2.research.netlab.hut.fi (planetlab-2.research.netlab.hut.fi)... 195.148.124.74
+Connecting to planetlab-2.research.netlab.hut.fi (planetlab-2.research.netlab.hut.fi)|195.148.124.74|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.104’
+
+     0K                                                         106M=0s
+
+2015-07-21 20:45:51 (106 MB/s) - ‘latest.104’ saved [438]
+
+--2015-07-21 20:45:51--  http://planetlab3.cs.st-andrews.ac.uk:8717/latest
+Resolving planetlab3.cs.st-andrews.ac.uk (planetlab3.cs.st-andrews.ac.uk)... 138.251.214.77
+Connecting to planetlab3.cs.st-andrews.ac.uk (planetlab3.cs.st-andrews.ac.uk)|138.251.214.77|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.105’
+
+     0K                                                         101M=0s
+
+2015-07-21 20:45:51 (101 MB/s) - ‘latest.105’ saved [536]
+
+--2015-07-21 20:45:51--  http://chronos.disy.inf.uni-konstanz.de:8717/latest
+Resolving chronos.disy.inf.uni-konstanz.de (chronos.disy.inf.uni-konstanz.de)... 134.34.246.5
+Connecting to chronos.disy.inf.uni-konstanz.de (chronos.disy.inf.uni-konstanz.de)|134.34.246.5|:8717... failed: Connection refused.
+--2015-07-21 20:45:52--  http://planetlab2.cs.aueb.gr:8717/latest
+Resolving planetlab2.cs.aueb.gr (planetlab2.cs.aueb.gr)... 195.251.248.181
+Connecting to planetlab2.cs.aueb.gr (planetlab2.cs.aueb.gr)|195.251.248.181|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.106’
+
+     0K                                                         132M=0s
+
+2015-07-21 20:45:53 (132 MB/s) - ‘latest.106’ saved [492]
+
+--2015-07-21 20:45:53--  http://planetlab5.ie.cuhk.edu.hk:8717/latest
+Resolving planetlab5.ie.cuhk.edu.hk (planetlab5.ie.cuhk.edu.hk)... 137.189.98.210
+Connecting to planetlab5.ie.cuhk.edu.hk (planetlab5.ie.cuhk.edu.hk)|137.189.98.210|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.107’
+
+     0K                                                        87.1M=0s
+
+2015-07-21 20:45:53 (87.1 MB/s) - ‘latest.107’ saved [428]
+
+--2015-07-21 20:45:53--  http://pl1.rcc.uottawa.ca:8717/latest
+Resolving pl1.rcc.uottawa.ca (pl1.rcc.uottawa.ca)... 216.48.80.12
+Connecting to pl1.rcc.uottawa.ca (pl1.rcc.uottawa.ca)|216.48.80.12|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.108’
+
+     0K                                                        36.2M=0s
+
+2015-07-21 20:45:53 (36.2 MB/s) - ‘latest.108’ saved [381]
+
+--2015-07-21 20:45:53--  http://node1.planetlab.mathcs.emory.edu:8717/latest
+Resolving node1.planetlab.mathcs.emory.edu (node1.planetlab.mathcs.emory.edu)... 170.140.119.69
+Connecting to node1.planetlab.mathcs.emory.edu (node1.planetlab.mathcs.emory.edu)|170.140.119.69|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.109’
+
+     0K                                                         105M=0s
+
+2015-07-21 20:45:54 (105 MB/s) - ‘latest.109’ saved [440]
+
+--2015-07-21 20:45:54--  http://ple2.ait.ac.th:8717/latest
+Resolving ple2.ait.ac.th (ple2.ait.ac.th)... 203.159.63.250
+Connecting to ple2.ait.ac.th (ple2.ait.ac.th)|203.159.63.250|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.110’
+
+     0K                                                        73.6M=0s
+
+2015-07-21 20:45:54 (73.6 MB/s) - ‘latest.110’ saved [559]
+
+--2015-07-21 20:45:54--  http://planetlab1.virtues.fi:8717/latest
+Resolving planetlab1.virtues.fi (planetlab1.virtues.fi)... 85.23.168.76
+Connecting to planetlab1.virtues.fi (planetlab1.virtues.fi)|85.23.168.76|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.111’
+
+     0K                                                         133M=0s
+
+2015-07-21 20:45:55 (133 MB/s) - ‘latest.111’ saved [471]
+
+--2015-07-21 20:45:55--  http://pluto.cs.brown.edu:8717/latest
+Resolving pluto.cs.brown.edu (pluto.cs.brown.edu)... 192.91.235.230
+Connecting to pluto.cs.brown.edu (pluto.cs.brown.edu)|192.91.235.230|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.112’
+
+     0K                                                         183M=0s
+
+2015-07-21 20:45:55 (183 MB/s) - ‘latest.112’ saved [607]
+
+--2015-07-21 20:45:55--  http://pl1.pku.edu.cn:8717/latest
+Resolving pl1.pku.edu.cn (pl1.pku.edu.cn)... 162.105.205.21
+Connecting to pl1.pku.edu.cn (pl1.pku.edu.cn)|162.105.205.21|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.113’
+
+     0K                                                         148M=0s
+
+2015-07-21 20:45:56 (148 MB/s) - ‘latest.113’ saved [466]
+
+--2015-07-21 20:45:56--  http://pl1.eecs.utk.edu:8717/latest
+Resolving pl1.eecs.utk.edu (pl1.eecs.utk.edu)... 160.36.57.172
+Connecting to pl1.eecs.utk.edu (pl1.eecs.utk.edu)|160.36.57.172|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.114’
+
+     0K                                                        77.1M=0s
+
+2015-07-21 20:45:56 (77.1 MB/s) - ‘latest.114’ saved [378]
+
+--2015-07-21 20:45:56--  http://planetlab2.cnis.nyit.edu:8717/latest
+Resolving planetlab2.cnis.nyit.edu (planetlab2.cnis.nyit.edu)... 108.58.13.206
+Connecting to planetlab2.cnis.nyit.edu (planetlab2.cnis.nyit.edu)|108.58.13.206|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.115’
+
+     0K                                                        76.3M=0s
+
+2015-07-21 20:45:56 (76.3 MB/s) - ‘latest.115’ saved [393]
+
+--2015-07-21 20:45:56--  http://planetlab1.um.es:8717/latest
+Resolving planetlab1.um.es (planetlab1.um.es)... 155.54.239.64
+Connecting to planetlab1.um.es (planetlab1.um.es)|155.54.239.64|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.116’
+
+     0K                                                         127M=0s
+
+2015-07-21 20:45:57 (127 MB/s) - ‘latest.116’ saved [483]
+
+--2015-07-21 20:45:57--  http://planetlab2.um.es:8717/latest
+Resolving planetlab2.um.es (planetlab2.um.es)... 155.54.239.65
+Connecting to planetlab2.um.es (planetlab2.um.es)|155.54.239.65|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.117’
+
+     0K                                                         137M=0s
+
+2015-07-21 20:45:57 (137 MB/s) - ‘latest.117’ saved [484]
+
+--2015-07-21 20:45:57--  http://planetlab2.temple.edu:8717/latest
+Resolving planetlab2.temple.edu (planetlab2.temple.edu)... 129.32.84.161
+Connecting to planetlab2.temple.edu (planetlab2.temple.edu)|129.32.84.161|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.118’
+
+     0K                                                         197M=0s
+
+2015-07-21 20:45:57 (197 MB/s) - ‘latest.118’ saved [627]
+
+--2015-07-21 20:45:57--  http://planetlab2.unr.edu:8717/latest
+Resolving planetlab2.unr.edu (planetlab2.unr.edu)... 134.197.113.4
+Connecting to planetlab2.unr.edu (planetlab2.unr.edu)|134.197.113.4|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.119’
+
+     0K                                                        78.7M=0s
+
+2015-07-21 20:45:57 (78.7 MB/s) - ‘latest.119’ saved [362]
+
+--2015-07-21 20:45:57--  http://planetlab-tea.ait.ie:8717/latest
+Resolving planetlab-tea.ait.ie (planetlab-tea.ait.ie)... 193.1.13.14
+Connecting to planetlab-tea.ait.ie (planetlab-tea.ait.ie)|193.1.13.14|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.120’
+
+     0K                                                        59.5M=0s
+
+2015-07-21 20:45:58 (59.5 MB/s) - ‘latest.120’ saved [342]
+
+--2015-07-21 20:45:58--  http://planetlab1.temple.edu:8717/latest
+Resolving planetlab1.temple.edu (planetlab1.temple.edu)... 129.32.84.160
+Connecting to planetlab1.temple.edu (planetlab1.temple.edu)|129.32.84.160|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.121’
+
+     0K                                                         154M=0s
+
+2015-07-21 20:45:58 (154 MB/s) - ‘latest.121’ saved [635]
+
+--2015-07-21 20:45:58--  http://planetlab2.uta.edu:8717/latest
+Resolving planetlab2.uta.edu (planetlab2.uta.edu)... 129.107.35.132
+Connecting to planetlab2.uta.edu (planetlab2.uta.edu)|129.107.35.132|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.122’
+
+     0K                                                        28.6M=0s
+
+2015-07-21 20:45:58 (28.6 MB/s) - ‘latest.122’ saved [379]
+
+--2015-07-21 20:45:58--  http://planetlab2.xeno.cl.cam.ac.uk:8717/latest
+Resolving planetlab2.xeno.cl.cam.ac.uk (planetlab2.xeno.cl.cam.ac.uk)... 128.232.103.202
+Connecting to planetlab2.xeno.cl.cam.ac.uk (planetlab2.xeno.cl.cam.ac.uk)|128.232.103.202|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.123’
+
+     0K                                                         159M=0s
+
+2015-07-21 20:45:58 (159 MB/s) - ‘latest.123’ saved [546]
+
+--2015-07-21 20:45:58--  http://planetlab2.cs.ucla.edu:8717/latest
+Resolving planetlab2.cs.ucla.edu (planetlab2.cs.ucla.edu)... 131.179.150.72
+Connecting to planetlab2.cs.ucla.edu (planetlab2.cs.ucla.edu)|131.179.150.72|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.124’
+
+     0K                                                         128M=0s
+
+2015-07-21 20:45:58 (128 MB/s) - ‘latest.124’ saved [419]
+
+--2015-07-21 20:45:58--  http://planetlab1.rutgers.edu:8717/latest
+Resolving planetlab1.rutgers.edu (planetlab1.rutgers.edu)... 165.230.49.114
+Connecting to planetlab1.rutgers.edu (planetlab1.rutgers.edu)|165.230.49.114|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.125’
+
+     0K                                                         122M=0s
+
+2015-07-21 20:45:58 (122 MB/s) - ‘latest.125’ saved [589]
+
+--2015-07-21 20:45:58--  http://planetlab2.aut.ac.nz:8717/latest
+Resolving planetlab2.aut.ac.nz (planetlab2.aut.ac.nz)... 156.62.231.244
+Connecting to planetlab2.aut.ac.nz (planetlab2.aut.ac.nz)|156.62.231.244|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.126’
+
+     0K                                                        85.0M=0s
+
+2015-07-21 20:45:59 (85.0 MB/s) - ‘latest.126’ saved [329]
+
+--2015-07-21 20:45:59--  http://plab2.ple.silweb.pl:8717/latest
+Resolving plab2.ple.silweb.pl (plab2.ple.silweb.pl)... 83.230.127.122
+Connecting to plab2.ple.silweb.pl (plab2.ple.silweb.pl)|83.230.127.122|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.127’
+
+     0K                                                        27.8M=0s
+
+2015-07-21 20:46:04 (27.8 MB/s) - ‘latest.127’ saved [359]
+
+--2015-07-21 20:46:04--  http://planetlab1.research.nicta.com.au:8717/latest
+Resolving planetlab1.research.nicta.com.au (planetlab1.research.nicta.com.au)... 221.199.217.144
+Connecting to planetlab1.research.nicta.com.au (planetlab1.research.nicta.com.au)|221.199.217.144|:8717... failed: Connection timed out.
+Retrying.
+
+--2015-07-21 20:48:12--  (try: 2)  http://planetlab1.research.nicta.com.au:8717/latest
+Connecting to planetlab1.research.nicta.com.au (planetlab1.research.nicta.com.au)|221.199.217.144|:8717... failed: Connection timed out.
+Retrying.
+
+--2015-07-21 20:50:21--  (try: 3)  http://planetlab1.research.nicta.com.au:8717/latest
+Connecting to planetlab1.research.nicta.com.au (planetlab1.research.nicta.com.au)|221.199.217.144|:8717... failed: Connection timed out.
+Giving up.
+
+--2015-07-21 20:52:29--  http://planetlab3.xeno.cl.cam.ac.uk:8717/latest
+Resolving planetlab3.xeno.cl.cam.ac.uk (planetlab3.xeno.cl.cam.ac.uk)... 128.232.103.203
+Connecting to planetlab3.xeno.cl.cam.ac.uk (planetlab3.xeno.cl.cam.ac.uk)|128.232.103.203|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.128’
+
+     0K                                                         166M=0s
+
+2015-07-21 20:52:29 (166 MB/s) - ‘latest.128’ saved [544]
+
+--2015-07-21 20:52:29--  http://planetlab1.ie.cuhk.edu.hk:8717/latest
+Resolving planetlab1.ie.cuhk.edu.hk (planetlab1.ie.cuhk.edu.hk)... 137.189.98.208
+Connecting to planetlab1.ie.cuhk.edu.hk (planetlab1.ie.cuhk.edu.hk)|137.189.98.208|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.129’
+
+     0K                                                         116M=0s
+
+2015-07-21 20:52:29 (116 MB/s) - ‘latest.129’ saved [429]
+
+--2015-07-21 20:52:29--  http://planetlab2.cs.du.edu:8717/latest
+Resolving planetlab2.cs.du.edu (planetlab2.cs.du.edu)... 130.253.21.123
+Connecting to planetlab2.cs.du.edu (planetlab2.cs.du.edu)|130.253.21.123|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.130’
+
+     0K                                                        94.7M=0s
+
+2015-07-21 20:52:29 (94.7 MB/s) - ‘latest.130’ saved [360]
+
+--2015-07-21 20:52:29--  http://planetlab4.cs.uoregon.edu:8717/latest
+Resolving planetlab4.cs.uoregon.edu (planetlab4.cs.uoregon.edu)... 128.223.8.114
+Connecting to planetlab4.cs.uoregon.edu (planetlab4.cs.uoregon.edu)|128.223.8.114|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.131’
+
+     0K                                                         112M=0s
+
+2015-07-21 20:52:29 (112 MB/s) - ‘latest.131’ saved [399]
+
+--2015-07-21 20:52:29--  http://netapp7.cs.kookmin.ac.kr:8717/latest
+Resolving netapp7.cs.kookmin.ac.kr (netapp7.cs.kookmin.ac.kr)... 203.246.112.148
+Connecting to netapp7.cs.kookmin.ac.kr (netapp7.cs.kookmin.ac.kr)|203.246.112.148|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.132’
+
+     0K                                                        28.4M=0s
+
+2015-07-21 20:52:30 (28.4 MB/s) - ‘latest.132’ saved [500]
+
+--2015-07-21 20:52:30--  http://planetlab-02.vt.nodes.planet-lab.org:8717/latest
+Resolving planetlab-02.vt.nodes.planet-lab.org (planetlab-02.vt.nodes.planet-lab.org)... 198.82.160.239
+Connecting to planetlab-02.vt.nodes.planet-lab.org (planetlab-02.vt.nodes.planet-lab.org)|198.82.160.239|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.133’
+
+     0K                                                        99.5M=0s
+
+2015-07-21 20:52:30 (99.5 MB/s) - ‘latest.133’ saved [382]
+
+--2015-07-21 20:52:30--  http://planet-lab3.uba.ar:8717/latest
+Resolving planet-lab3.uba.ar (planet-lab3.uba.ar)... 157.92.44.103
+Connecting to planet-lab3.uba.ar (planet-lab3.uba.ar)|157.92.44.103|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.134’
+
+     0K                                                         104M=0s
+
+2015-07-21 20:52:30 (104 MB/s) - ‘latest.134’ saved [397]
+
+--2015-07-21 20:52:30--  http://planetlab-2.ssvl.kth.se:8717/latest
+Resolving planetlab-2.ssvl.kth.se (planetlab-2.ssvl.kth.se)... 192.16.125.12
+Connecting to planetlab-2.ssvl.kth.se (planetlab-2.ssvl.kth.se)|192.16.125.12|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.135’
+
+     0K                                                         144M=0s
+
+2015-07-21 20:52:31 (144 MB/s) - ‘latest.135’ saved [541]
+
+--2015-07-21 20:52:31--  http://planetlab1.comp.nus.edu.sg:8717/latest
+Resolving planetlab1.comp.nus.edu.sg (planetlab1.comp.nus.edu.sg)... 137.132.80.106
+Connecting to planetlab1.comp.nus.edu.sg (planetlab1.comp.nus.edu.sg)|137.132.80.106|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.136’
+
+     0K                                                         121M=0s
+
+2015-07-21 20:52:31 (121 MB/s) - ‘latest.136’ saved [586]
+
+--2015-07-21 20:52:31--  http://planetlab3.williams.edu:8717/latest
+Resolving planetlab3.williams.edu (planetlab3.williams.edu)... 137.165.1.113
+Connecting to planetlab3.williams.edu (planetlab3.williams.edu)|137.165.1.113|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.137’
+
+     0K                                                         177M=0s
+
+2015-07-21 20:52:31 (177 MB/s) - ‘latest.137’ saved [565]
+
+--2015-07-21 20:52:31--  http://planet2.elte.hu:8717/latest
+Resolving planet2.elte.hu (planet2.elte.hu)... 157.181.175.248
+Connecting to planet2.elte.hu (planet2.elte.hu)|157.181.175.248|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.138’
+
+     0K                                                        83.5M=0s
+
+2015-07-21 20:52:32 (83.5 MB/s) - ‘latest.138’ saved [438]
+
+--2015-07-21 20:52:32--  http://planetlab1.cs.ubc.ca:8717/latest
+Resolving planetlab1.cs.ubc.ca (planetlab1.cs.ubc.ca)... 142.103.2.1
+Connecting to planetlab1.cs.ubc.ca (planetlab1.cs.ubc.ca)|142.103.2.1|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.139’
+
+     0K                                                        28.1M=0s
+
+2015-07-21 20:52:32 (28.1 MB/s) - ‘latest.139’ saved [399]
+
+--2015-07-21 20:52:32--  http://planetlab-um10.di.uminho.pt:8717/latest
+Resolving planetlab-um10.di.uminho.pt (planetlab-um10.di.uminho.pt)... 193.136.19.29
+Connecting to planetlab-um10.di.uminho.pt (planetlab-um10.di.uminho.pt)|193.136.19.29|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.140’
+
+     0K                                                         138M=0s
+
+2015-07-21 20:52:32 (138 MB/s) - ‘latest.140’ saved [463]
+
+--2015-07-21 20:52:32--  http://planetlab2.pop-mg.rnp.br:8717/latest
+Resolving planetlab2.pop-mg.rnp.br (planetlab2.pop-mg.rnp.br)... 200.19.159.35
+Connecting to planetlab2.pop-mg.rnp.br (planetlab2.pop-mg.rnp.br)|200.19.159.35|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.141’
+
+     0K                                                        94.2M=0s
+
+2015-07-21 20:52:32 (94.2 MB/s) - ‘latest.141’ saved [428]
+
+--2015-07-21 20:52:32--  http://planetlab2.tsuniv.edu:8717/latest
+Resolving planetlab2.tsuniv.edu (planetlab2.tsuniv.edu)... 206.23.240.29
+Connecting to planetlab2.tsuniv.edu (planetlab2.tsuniv.edu)|206.23.240.29|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.142’
+
+     0K                                                         100M=0s
+
+2015-07-21 20:52:32 (100 MB/s) - ‘latest.142’ saved [355]
+
+--2015-07-21 20:52:32--  http://merkur.planetlab.haw-hamburg.de:8717/latest
+Resolving merkur.planetlab.haw-hamburg.de (merkur.planetlab.haw-hamburg.de)... 141.22.213.34
+Connecting to merkur.planetlab.haw-hamburg.de (merkur.planetlab.haw-hamburg.de)|141.22.213.34|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.143’
+
+     0K                                                        86.3M=0s
+
+2015-07-21 20:52:33 (86.3 MB/s) - ‘latest.143’ saved [457]
+
+--2015-07-21 20:52:33--  http://planetlab2.rutgers.edu:8717/latest
+Resolving planetlab2.rutgers.edu (planetlab2.rutgers.edu)... 165.230.49.115
+Connecting to planetlab2.rutgers.edu (planetlab2.rutgers.edu)|165.230.49.115|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.144’
+
+     0K                                                         153M=0s
+
+2015-07-21 20:52:33 (153 MB/s) - ‘latest.144’ saved [590]
+
+--2015-07-21 20:52:33--  http://empusa.ipv6.lip6.fr:8717/latest
+Resolving empusa.ipv6.lip6.fr (empusa.ipv6.lip6.fr)... 132.227.62.96
+Connecting to empusa.ipv6.lip6.fr (empusa.ipv6.lip6.fr)|132.227.62.96|:8717... failed: Connection refused.
+--2015-07-21 20:52:33--  http://plewifi.ipv6.lip6.fr:8717/latest
+Resolving plewifi.ipv6.lip6.fr (plewifi.ipv6.lip6.fr)... 132.227.62.118
+Connecting to plewifi.ipv6.lip6.fr (plewifi.ipv6.lip6.fr)|132.227.62.118|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.145’
+
+     0K                                                         104M=0s
+
+2015-07-21 20:52:33 (104 MB/s) - ‘latest.145’ saved [498]
+
+--2015-07-21 20:52:33--  http://ple6.ipv6.lip6.fr:8717/latest
+Resolving ple6.ipv6.lip6.fr (ple6.ipv6.lip6.fr)... 132.227.62.124
+Connecting to ple6.ipv6.lip6.fr (ple6.ipv6.lip6.fr)|132.227.62.124|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.146’
+
+     0K                                                         156M=0s
+
+2015-07-21 20:52:33 (156 MB/s) - ‘latest.146’ saved [516]
+
+--2015-07-21 20:52:33--  http://ple2.ipv6.lip6.fr:8717/latest
+Resolving ple2.ipv6.lip6.fr (ple2.ipv6.lip6.fr)... 132.227.62.120
+Connecting to ple2.ipv6.lip6.fr (ple2.ipv6.lip6.fr)|132.227.62.120|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.147’
+
+     0K                                                         131M=0s
+
+2015-07-21 20:52:34 (131 MB/s) - ‘latest.147’ saved [511]
+
+--2015-07-21 20:52:34--  http://ple3.ipv6.lip6.fr:8717/latest
+Resolving ple3.ipv6.lip6.fr (ple3.ipv6.lip6.fr)... 132.227.62.121
+Connecting to ple3.ipv6.lip6.fr (ple3.ipv6.lip6.fr)|132.227.62.121|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.148’
+
+     0K                                                         157M=0s
+
+2015-07-21 20:52:34 (157 MB/s) - ‘latest.148’ saved [512]
+
+--2015-07-21 20:52:34--  http://anateus.ipv6.lip6.fr:8717/latest
+Resolving anateus.ipv6.lip6.fr (anateus.ipv6.lip6.fr)... 132.227.62.85
+Connecting to anateus.ipv6.lip6.fr (anateus.ipv6.lip6.fr)|132.227.62.85|:8717... failed: Connection refused.
+--2015-07-21 20:52:34--  http://pl1.cs.montana.edu:8717/latest
+Resolving pl1.cs.montana.edu (pl1.cs.montana.edu)... 153.90.1.34
+Connecting to pl1.cs.montana.edu (pl1.cs.montana.edu)|153.90.1.34|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.149’
+
+     0K                                                        62.8M=0s
+
+2015-07-21 20:52:34 (62.8 MB/s) - ‘latest.149’ saved [353]
+
+--2015-07-21 20:52:34--  http://planetlab5.csee.usf.edu:8717/latest
+Resolving planetlab5.csee.usf.edu (planetlab5.csee.usf.edu)... 131.247.2.246
+Connecting to planetlab5.csee.usf.edu (planetlab5.csee.usf.edu)|131.247.2.246|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.150’
+
+     0K                                                         128M=0s
+
+2015-07-21 20:52:34 (128 MB/s) - ‘latest.150’ saved [465]
+
+--2015-07-21 20:52:34--  http://planetlabone.ccs.neu.edu:8717/latest
+Resolving planetlabone.ccs.neu.edu (planetlabone.ccs.neu.edu)... 129.10.120.193
+Connecting to planetlabone.ccs.neu.edu (planetlabone.ccs.neu.edu)|129.10.120.193|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.151’
+
+     0K                                                        60.4M=0s
+
+2015-07-21 20:52:34 (60.4 MB/s) - ‘latest.151’ saved [393]
+
+--2015-07-21 20:52:34--  http://planetlab3.ucsd.edu:8717/latest
+Resolving planetlab3.ucsd.edu (planetlab3.ucsd.edu)... 132.239.17.226
+Connecting to planetlab3.ucsd.edu (planetlab3.ucsd.edu)|132.239.17.226|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.152’
+
+     0K                                                         112M=0s
+
+2015-07-21 20:52:40 (112 MB/s) - ‘latest.152’ saved [513]
+
+--2015-07-21 20:52:40--  http://planetlab3.rutgers.edu:8717/latest
+Resolving planetlab3.rutgers.edu (planetlab3.rutgers.edu)... 165.230.49.118
+Connecting to planetlab3.rutgers.edu (planetlab3.rutgers.edu)|165.230.49.118|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.153’
+
+     0K                                                         172M=0s
+
+2015-07-21 20:52:40 (172 MB/s) - ‘latest.153’ saved [590]
+
+--2015-07-21 20:52:40--  http://plink.cs.uwaterloo.ca:8717/latest
+Resolving plink.cs.uwaterloo.ca (plink.cs.uwaterloo.ca)... 129.97.74.12
+Connecting to plink.cs.uwaterloo.ca (plink.cs.uwaterloo.ca)|129.97.74.12|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.154’
+
+     0K                                                        82.3M=0s
+
+2015-07-21 20:52:40 (82.3 MB/s) - ‘latest.154’ saved [531]
+
+--2015-07-21 20:52:40--  http://planet2.pnl.nitech.ac.jp:8717/latest
+Resolving planet2.pnl.nitech.ac.jp (planet2.pnl.nitech.ac.jp)... 133.68.253.243
+Connecting to planet2.pnl.nitech.ac.jp (planet2.pnl.nitech.ac.jp)|133.68.253.243|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.155’
+
+     0K                                                         126M=0s
+
+2015-07-21 20:52:40 (126 MB/s) - ‘latest.155’ saved [444]
+
+--2015-07-21 20:52:40--  http://pl-node-0.csl.sri.com:8717/latest
+Resolving pl-node-0.csl.sri.com (pl-node-0.csl.sri.com)... 192.12.33.100
+Connecting to pl-node-0.csl.sri.com (pl-node-0.csl.sri.com)|192.12.33.100|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.156’
+
+     0K                                                        73.0M=0s
+
+2015-07-21 20:52:40 (73.0 MB/s) - ‘latest.156’ saved [393]
+
+--2015-07-21 20:52:40--  http://planet2.cc.gt.atl.ga.us:8717/latest
+Resolving planet2.cc.gt.atl.ga.us (planet2.cc.gt.atl.ga.us)... 143.215.131.197
+Connecting to planet2.cc.gt.atl.ga.us (planet2.cc.gt.atl.ga.us)|143.215.131.197|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.157’
+
+     0K                                                         121M=0s
+
+2015-07-21 20:52:40 (121 MB/s) - ‘latest.157’ saved [440]
+
+--2015-07-21 20:52:40--  http://planetlab2.cesnet.cz:8717/latest
+Resolving planetlab2.cesnet.cz (planetlab2.cesnet.cz)... 195.113.161.83
+Connecting to planetlab2.cesnet.cz (planetlab2.cesnet.cz)|195.113.161.83|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2015-07-21 20:52:42--  (try: 2)  http://planetlab2.cesnet.cz:8717/latest
+Connecting to planetlab2.cesnet.cz (planetlab2.cesnet.cz)|195.113.161.83|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2015-07-21 20:52:44--  (try: 3)  http://planetlab2.cesnet.cz:8717/latest
+Connecting to planetlab2.cesnet.cz (planetlab2.cesnet.cz)|195.113.161.83|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Giving up.
+
+--2015-07-21 20:52:44--  http://planetlab2.unl.edu:8717/latest
+Resolving planetlab2.unl.edu (planetlab2.unl.edu)... 129.93.229.139
+Connecting to planetlab2.unl.edu (planetlab2.unl.edu)|129.93.229.139|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.158’
+
+     0K                                                         117M=0s
+
+2015-07-21 20:52:44 (117 MB/s) - ‘latest.158’ saved [430]
+
+--2015-07-21 20:52:44--  http://plab3.cs.msu.ru:8717/latest
+Resolving plab3.cs.msu.ru (plab3.cs.msu.ru)... 93.180.19.232
+Connecting to plab3.cs.msu.ru (plab3.cs.msu.ru)|93.180.19.232|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.159’
+
+     0K                                                         126M=0s
+
+2015-07-21 20:52:44 (126 MB/s) - ‘latest.159’ saved [448]
+
+--2015-07-21 20:52:44--  http://planetlab-1.ida.liu.se:8717/latest
+Resolving planetlab-1.ida.liu.se (planetlab-1.ida.liu.se)... 192.36.94.2
+Connecting to planetlab-1.ida.liu.se (planetlab-1.ida.liu.se)|192.36.94.2|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.160’
+
+     0K                                                         146M=0s
+
+2015-07-21 20:52:45 (146 MB/s) - ‘latest.160’ saved [482]
+
+--2015-07-21 20:52:45--  http://planetlab-2.ida.liu.se:8717/latest
+Resolving planetlab-2.ida.liu.se (planetlab-2.ida.liu.se)... 192.36.94.3
+Connecting to planetlab-2.ida.liu.se (planetlab-2.ida.liu.se)|192.36.94.3|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.161’
+
+     0K                                                        85.2M=0s
+
+2015-07-21 20:52:45 (85.2 MB/s) - ‘latest.161’ saved [485]
+
+--2015-07-21 20:52:45--  http://node1.planetlab.albany.edu:8717/latest
+Resolving node1.planetlab.albany.edu (node1.planetlab.albany.edu)... 169.226.40.2
+Connecting to node1.planetlab.albany.edu (node1.planetlab.albany.edu)|169.226.40.2|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.162’
+
+     0K                                                         112M=0s
+
+2015-07-21 20:52:45 (112 MB/s) - ‘latest.162’ saved [423]
+
+--2015-07-21 20:52:45--  http://planetlab1.c3sl.ufpr.br:8717/latest
+Resolving planetlab1.c3sl.ufpr.br (planetlab1.c3sl.ufpr.br)... 200.17.202.194, 2801:82:80ff:8009:215:17ff:fe5f:8b5c
+Connecting to planetlab1.c3sl.ufpr.br (planetlab1.c3sl.ufpr.br)|200.17.202.194|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.163’
+
+     0K                                                        60.5M=0s
+
+2015-07-21 20:52:46 (60.5 MB/s) - ‘latest.163’ saved [392]
+
+--2015-07-21 20:52:46--  http://planetlab1.cesnet.cz:8717/latest
+Resolving planetlab1.cesnet.cz (planetlab1.cesnet.cz)... 195.113.161.82
+Connecting to planetlab1.cesnet.cz (planetlab1.cesnet.cz)|195.113.161.82|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2015-07-21 20:52:48--  (try: 2)  http://planetlab1.cesnet.cz:8717/latest
+Connecting to planetlab1.cesnet.cz (planetlab1.cesnet.cz)|195.113.161.82|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2015-07-21 20:52:50--  (try: 3)  http://planetlab1.cesnet.cz:8717/latest
+Connecting to planetlab1.cesnet.cz (planetlab1.cesnet.cz)|195.113.161.82|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Giving up.
+
+--2015-07-21 20:52:50--  http://planetlab0.otemachi.wide.ad.jp:8717/latest
+Resolving planetlab0.otemachi.wide.ad.jp (planetlab0.otemachi.wide.ad.jp)... 203.178.133.2
+Connecting to planetlab0.otemachi.wide.ad.jp (planetlab0.otemachi.wide.ad.jp)|203.178.133.2|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.164’
+
+     0K                                                         111M=0s
+
+2015-07-21 20:52:51 (111 MB/s) - ‘latest.164’ saved [384]
+
+--2015-07-21 20:52:51--  http://planetlab3.arizona-gigapop.net:8717/latest
+Resolving planetlab3.arizona-gigapop.net (planetlab3.arizona-gigapop.net)... 206.207.248.38
+Connecting to planetlab3.arizona-gigapop.net (planetlab3.arizona-gigapop.net)|206.207.248.38|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.165’
+
+     0K                                                         114M=0s
+
+2015-07-21 20:52:51 (114 MB/s) - ‘latest.165’ saved [403]
+
+--2015-07-21 20:52:51--  http://planetlab2.arizona-gigapop.net:8717/latest
+Resolving planetlab2.arizona-gigapop.net (planetlab2.arizona-gigapop.net)... 206.207.248.35
+Connecting to planetlab2.arizona-gigapop.net (planetlab2.arizona-gigapop.net)|206.207.248.35|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.166’
+
+     0K                                                        97.4M=0s
+
+2015-07-21 20:52:51 (97.4 MB/s) - ‘latest.166’ saved [401]
+
+--2015-07-21 20:52:51--  http://planetlab1.cs.okstate.edu:8717/latest
+Resolving planetlab1.cs.okstate.edu (planetlab1.cs.okstate.edu)... 139.78.141.243
+Connecting to planetlab1.cs.okstate.edu (planetlab1.cs.okstate.edu)|139.78.141.243|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.167’
+
+     0K                                                        88.5M=0s
+
+2015-07-21 20:52:51 (88.5 MB/s) - ‘latest.167’ saved [413]
+
+--2015-07-21 20:52:51--  http://planetlab1.cs.otago.ac.nz:8717/latest
+Resolving planetlab1.cs.otago.ac.nz (planetlab1.cs.otago.ac.nz)... 139.80.206.132
+Connecting to planetlab1.cs.otago.ac.nz (planetlab1.cs.otago.ac.nz)|139.80.206.132|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.168’
+
+     0K                                                         149M=0s
+
+2015-07-21 20:52:52 (149 MB/s) - ‘latest.168’ saved [602]
+
+--2015-07-21 20:52:52--  http://planet4.cc.gt.atl.ga.us:8717/latest
+Resolving planet4.cc.gt.atl.ga.us (planet4.cc.gt.atl.ga.us)... 143.215.131.199
+Connecting to planet4.cc.gt.atl.ga.us (planet4.cc.gt.atl.ga.us)|143.215.131.199|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.169’
+
+     0K                                                        86.7M=0s
+
+2015-07-21 20:52:52 (86.7 MB/s) - ‘latest.169’ saved [427]
+
+--2015-07-21 20:52:52--  http://planetlab1.cs.columbia.edu:8717/latest
+Resolving planetlab1.cs.columbia.edu (planetlab1.cs.columbia.edu)... 128.59.20.226
+Connecting to planetlab1.cs.columbia.edu (planetlab1.cs.columbia.edu)|128.59.20.226|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.170’
+
+     0K                                                         129M=0s
+
+2015-07-21 20:52:52 (129 MB/s) - ‘latest.170’ saved [548]
+
+--2015-07-21 20:52:52--  http://planetlabtwo.ccs.neu.edu:8717/latest
+Resolving planetlabtwo.ccs.neu.edu (planetlabtwo.ccs.neu.edu)... 129.10.120.194
+Connecting to planetlabtwo.ccs.neu.edu (planetlabtwo.ccs.neu.edu)|129.10.120.194|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.171’
+
+     0K                                                        77.7M=0s
+
+2015-07-21 20:52:52 (77.7 MB/s) - ‘latest.171’ saved [407]
+
+--2015-07-21 20:52:52--  http://planetlab-01.bu.edu:8717/latest
+Resolving planetlab-01.bu.edu (planetlab-01.bu.edu)... 204.8.155.226
+Connecting to planetlab-01.bu.edu (planetlab-01.bu.edu)|204.8.155.226|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.172’
+
+     0K                                                         121M=0s
+
+2015-07-21 20:52:52 (121 MB/s) - ‘latest.172’ saved [475]
+
+--2015-07-21 20:52:52--  http://pl1.eng.monash.edu.au:8717/latest
+Resolving pl1.eng.monash.edu.au (pl1.eng.monash.edu.au)... 130.194.252.8
+Connecting to pl1.eng.monash.edu.au (pl1.eng.monash.edu.au)|130.194.252.8|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.173’
+
+     0K                                                         107M=0s
+
+2015-07-21 20:52:53 (107 MB/s) - ‘latest.173’ saved [397]
+
+--2015-07-21 20:52:53--  http://planetlab-02.bu.edu:8717/latest
+Resolving planetlab-02.bu.edu (planetlab-02.bu.edu)... 204.8.155.227
+Connecting to planetlab-02.bu.edu (planetlab-02.bu.edu)|204.8.155.227|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.174’
+
+     0K                                                        94.2M=0s
+
+2015-07-21 20:52:53 (94.2 MB/s) - ‘latest.174’ saved [480]
+
+--2015-07-21 20:52:53--  http://planetlab4.cs.uiuc.edu:8717/latest
+Resolving planetlab4.cs.uiuc.edu (planetlab4.cs.uiuc.edu)... 72.36.112.74
+Connecting to planetlab4.cs.uiuc.edu (planetlab4.cs.uiuc.edu)|72.36.112.74|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.175’
+
+     0K                                                        96.1M=0s
+
+2015-07-21 20:52:53 (96.1 MB/s) - ‘latest.175’ saved [443]
+
+--2015-07-21 20:52:53--  http://planetlab3.cs.columbia.edu:8717/latest
+Resolving planetlab3.cs.columbia.edu (planetlab3.cs.columbia.edu)... 128.59.20.228
+Connecting to planetlab3.cs.columbia.edu (planetlab3.cs.columbia.edu)|128.59.20.228|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.176’
+
+     0K                                                         136M=0s
+
+2015-07-21 20:52:53 (136 MB/s) - ‘latest.176’ saved [548]
+
+--2015-07-21 20:52:53--  http://planetlab02.cs.washington.edu:8717/latest
+Resolving planetlab02.cs.washington.edu (planetlab02.cs.washington.edu)... 128.208.4.198
+Connecting to planetlab02.cs.washington.edu (planetlab02.cs.washington.edu)|128.208.4.198|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.177’
+
+     0K                                                         117M=0s
+
+2015-07-21 20:52:53 (117 MB/s) - ‘latest.177’ saved [431]
+
+--2015-07-21 20:52:53--  http://planet-lab2.cs.ucr.edu:8717/latest
+Resolving planet-lab2.cs.ucr.edu (planet-lab2.cs.ucr.edu)... 169.235.24.232
+Connecting to planet-lab2.cs.ucr.edu (planet-lab2.cs.ucr.edu)|169.235.24.232|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2015-07-21 20:52:54--  (try: 2)  http://planet-lab2.cs.ucr.edu:8717/latest
+Connecting to planet-lab2.cs.ucr.edu (planet-lab2.cs.ucr.edu)|169.235.24.232|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2015-07-21 20:52:56--  (try: 3)  http://planet-lab2.cs.ucr.edu:8717/latest
+Connecting to planet-lab2.cs.ucr.edu (planet-lab2.cs.ucr.edu)|169.235.24.232|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Giving up.
+
+--2015-07-21 20:52:56--  http://planetlab1.unl.edu:8717/latest
+Resolving planetlab1.unl.edu (planetlab1.unl.edu)... 129.93.229.138
+Connecting to planetlab1.unl.edu (planetlab1.unl.edu)|129.93.229.138|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.178’
+
+     0K                                                         128M=0s
+
+2015-07-21 20:52:56 (128 MB/s) - ‘latest.178’ saved [424]
+
+--2015-07-21 20:52:56--  http://planetlab3.inf.ethz.ch:8717/latest
+Resolving planetlab3.inf.ethz.ch (planetlab3.inf.ethz.ch)... 192.33.90.68
+Connecting to planetlab3.inf.ethz.ch (planetlab3.inf.ethz.ch)|192.33.90.68|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.179’
+
+     0K                                                         122M=0s
+
+2015-07-21 20:52:57 (122 MB/s) - ‘latest.179’ saved [440]
+
+--2015-07-21 20:52:57--  http://netapp6.cs.kookmin.ac.kr:8717/latest
+Resolving netapp6.cs.kookmin.ac.kr (netapp6.cs.kookmin.ac.kr)... 203.246.112.147
+Connecting to netapp6.cs.kookmin.ac.kr (netapp6.cs.kookmin.ac.kr)|203.246.112.147|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.180’
+
+     0K                                                         141M=0s
+
+2015-07-21 20:52:57 (141 MB/s) - ‘latest.180’ saved [504]
+
+--2015-07-21 20:52:57--  http://planetlab-5.eecs.cwru.edu:8717/latest
+Resolving planetlab-5.eecs.cwru.edu (planetlab-5.eecs.cwru.edu)... 129.22.150.78
+Connecting to planetlab-5.eecs.cwru.edu (planetlab-5.eecs.cwru.edu)|129.22.150.78|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.181’
+
+     0K                                                        74.9M=0s
+
+2015-07-21 20:52:57 (74.9 MB/s) - ‘latest.181’ saved [378]
+
+--2015-07-21 20:52:57--  http://planetlab3.cnds.jhu.edu:8717/latest
+Resolving planetlab3.cnds.jhu.edu (planetlab3.cnds.jhu.edu)... 128.220.231.4
+Connecting to planetlab3.cnds.jhu.edu (planetlab3.cnds.jhu.edu)|128.220.231.4|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.182’
+
+     0K                                                         145M=0s
+
+2015-07-21 20:52:57 (145 MB/s) - ‘latest.182’ saved [494]
+
+--2015-07-21 20:52:57--  http://planetlab1.cs.unc.edu:8717/latest
+Resolving planetlab1.cs.unc.edu (planetlab1.cs.unc.edu)... 204.85.191.10
+Connecting to planetlab1.cs.unc.edu (planetlab1.cs.unc.edu)|204.85.191.10|:8717... failed: Connection refused.
+--2015-07-21 20:52:57--  http://saturn.planetlab.carleton.ca:8717/latest
+Resolving saturn.planetlab.carleton.ca (saturn.planetlab.carleton.ca)... 134.117.226.180
+Connecting to saturn.planetlab.carleton.ca (saturn.planetlab.carleton.ca)|134.117.226.180|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.183’
+
+     0K                                                         130M=0s
+
+2015-07-21 20:52:58 (130 MB/s) - ‘latest.183’ saved [438]
+
+--2015-07-21 20:52:58--  http://planetlab3.eecs.umich.edu:8717/latest
+Resolving planetlab3.eecs.umich.edu (planetlab3.eecs.umich.edu)... 141.212.113.178
+Connecting to planetlab3.eecs.umich.edu (planetlab3.eecs.umich.edu)|141.212.113.178|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.184’
+
+     0K                                                         135M=0s
+
+2015-07-21 20:52:58 (135 MB/s) - ‘latest.184’ saved [457]
+
+--2015-07-21 20:52:58--  http://planetlab1.cs.vu.nl:8717/latest
+Resolving planetlab1.cs.vu.nl (planetlab1.cs.vu.nl)... 130.37.193.141
+Connecting to planetlab1.cs.vu.nl (planetlab1.cs.vu.nl)|130.37.193.141|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.185’
+
+     0K                                                        96.7M=0s
+
+2015-07-21 20:52:58 (96.7 MB/s) - ‘latest.185’ saved [446]
+
+--2015-07-21 20:52:58--  http://planetlab1.arizona-gigapop.net:8717/latest
+Resolving planetlab1.arizona-gigapop.net (planetlab1.arizona-gigapop.net)... 206.207.248.34
+Connecting to planetlab1.arizona-gigapop.net (planetlab1.arizona-gigapop.net)|206.207.248.34|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.186’
+
+     0K                                                         146M=0s
+
+2015-07-21 20:52:58 (146 MB/s) - ‘latest.186’ saved [470]
+
+--2015-07-21 20:52:58--  http://planetlab2.cs.uoi.gr:8717/latest
+Resolving planetlab2.cs.uoi.gr (planetlab2.cs.uoi.gr)... 195.130.121.205
+Connecting to planetlab2.cs.uoi.gr (planetlab2.cs.uoi.gr)|195.130.121.205|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.187’
+
+     0K                                                         118M=0s
+
+2015-07-21 20:52:59 (118 MB/s) - ‘latest.187’ saved [465]
+
+--2015-07-21 20:52:59--  http://planetlab1.cs.purdue.edu:8717/latest
+Resolving planetlab1.cs.purdue.edu (planetlab1.cs.purdue.edu)... 128.10.18.52
+Connecting to planetlab1.cs.purdue.edu (planetlab1.cs.purdue.edu)|128.10.18.52|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.188’
+
+     0K                                                         133M=0s
+
+2015-07-21 20:52:59 (133 MB/s) - ‘latest.188’ saved [468]
+
+--2015-07-21 20:52:59--  http://planetlab1.otemachi.wide.ad.jp:8717/latest
+Resolving planetlab1.otemachi.wide.ad.jp (planetlab1.otemachi.wide.ad.jp)... 203.178.133.3
+Connecting to planetlab1.otemachi.wide.ad.jp (planetlab1.otemachi.wide.ad.jp)|203.178.133.3|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.189’
+
+     0K                                                        68.0M=0s
+
+2015-07-21 20:52:59 (68.0 MB/s) - ‘latest.189’ saved [379]
+
+--2015-07-21 20:52:59--  http://planetlab1.unineuchatel.ch:8717/latest
+Resolving planetlab1.unineuchatel.ch (planetlab1.unineuchatel.ch)... 192.42.43.22
+Connecting to planetlab1.unineuchatel.ch (planetlab1.unineuchatel.ch)|192.42.43.22|:8717... failed: Connection refused.
+--2015-07-21 20:52:59--  http://planetlab2.ics.forth.gr:8717/latest
+Resolving planetlab2.ics.forth.gr (planetlab2.ics.forth.gr)... 139.91.90.239
+Connecting to planetlab2.ics.forth.gr (planetlab2.ics.forth.gr)|139.91.90.239|:8717... failed: Connection timed out.
+Retrying.
+
+--2015-07-21 20:55:07--  (try: 2)  http://planetlab2.ics.forth.gr:8717/latest
+Connecting to planetlab2.ics.forth.gr (planetlab2.ics.forth.gr)|139.91.90.239|:8717... failed: Connection timed out.
+Retrying.
+
+--2015-07-21 20:57:17--  (try: 3)  http://planetlab2.ics.forth.gr:8717/latest
+Connecting to planetlab2.ics.forth.gr (planetlab2.ics.forth.gr)|139.91.90.239|:8717... failed: Connection timed out.
+Giving up.
+
+--2015-07-21 20:59:24--  http://planetlab5.williams.edu:8717/latest
+Resolving planetlab5.williams.edu (planetlab5.williams.edu)... 137.165.1.115
+Connecting to planetlab5.williams.edu (planetlab5.williams.edu)|137.165.1.115|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.190’
+
+     0K                                                         116M=0s
+
+2015-07-21 20:59:24 (116 MB/s) - ‘latest.190’ saved [564]
+
+--2015-07-21 20:59:24--  http://onelab1.info.ucl.ac.be:8717/latest
+Resolving onelab1.info.ucl.ac.be (onelab1.info.ucl.ac.be)... 130.104.72.200
+Connecting to onelab1.info.ucl.ac.be (onelab1.info.ucl.ac.be)|130.104.72.200|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.191’
+
+     0K                                                        45.7M=0s
+
+2015-07-21 20:59:30 (45.7 MB/s) - ‘latest.191’ saved [427]
+
+--2015-07-21 20:59:30--  http://planetlab1.mta.ac.il:8717/latest
+Resolving planetlab1.mta.ac.il (planetlab1.mta.ac.il)... 212.199.61.203
+Connecting to planetlab1.mta.ac.il (planetlab1.mta.ac.il)|212.199.61.203|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.192’
+
+     0K                                                         128M=0s
+
+2015-07-21 20:59:30 (128 MB/s) - ‘latest.192’ saved [476]
+
+--2015-07-21 20:59:30--  http://planetlab-2.tagus.ist.utl.pt:8717/latest
+Resolving planetlab-2.tagus.ist.utl.pt (planetlab-2.tagus.ist.utl.pt)... 193.136.166.68
+Connecting to planetlab-2.tagus.ist.utl.pt (planetlab-2.tagus.ist.utl.pt)|193.136.166.68|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.193’
+
+     0K                                                         122M=0s
+
+2015-07-21 20:59:31 (122 MB/s) - ‘latest.193’ saved [443]
+
+--2015-07-21 20:59:31--  http://ple1.ait.ac.th:8717/latest
+Resolving ple1.ait.ac.th (ple1.ait.ac.th)... 203.159.63.249
+Connecting to ple1.ait.ac.th (ple1.ait.ac.th)|203.159.63.249|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.194’
+
+     0K                                                         155M=0s
+
+2015-07-21 20:59:32 (155 MB/s) - ‘latest.194’ saved [564]
+
+--2015-07-21 20:59:32--  http://planetlab3.bupt.edu.cn:8717/latest
+Resolving planetlab3.bupt.edu.cn (planetlab3.bupt.edu.cn)... 211.68.70.40
+Connecting to planetlab3.bupt.edu.cn (planetlab3.bupt.edu.cn)|211.68.70.40|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.195’
+
+     0K                                                         120M=0s
+
+2015-07-21 20:59:33 (120 MB/s) - ‘latest.195’ saved [422]
+
+--2015-07-21 20:59:33--  http://planetlab1.ecs.vuw.ac.nz:8717/latest
+Resolving planetlab1.ecs.vuw.ac.nz (planetlab1.ecs.vuw.ac.nz)... 130.195.4.68
+Connecting to planetlab1.ecs.vuw.ac.nz (planetlab1.ecs.vuw.ac.nz)|130.195.4.68|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.196’
+
+     0K                                                         148M=0s
+
+2015-07-21 20:59:33 (148 MB/s) - ‘latest.196’ saved [511]
+
+--2015-07-21 20:59:33--  http://planetlab1.cs.uoi.gr:8717/latest
+Resolving planetlab1.cs.uoi.gr (planetlab1.cs.uoi.gr)... 195.130.121.204
+Connecting to planetlab1.cs.uoi.gr (planetlab1.cs.uoi.gr)|195.130.121.204|:8717... failed: Connection refused.
+--2015-07-21 20:59:34--  http://pl1.sos.info.hiroshima-cu.ac.jp:8717/latest
+Resolving pl1.sos.info.hiroshima-cu.ac.jp (pl1.sos.info.hiroshima-cu.ac.jp)... 165.242.90.128
+Connecting to pl1.sos.info.hiroshima-cu.ac.jp (pl1.sos.info.hiroshima-cu.ac.jp)|165.242.90.128|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.197’
+
+     0K                                                         123M=0s
+
+2015-07-21 20:59:35 (123 MB/s) - ‘latest.197’ saved [471]
+
+--2015-07-21 20:59:35--  http://planetlab2.ecs.vuw.ac.nz:8717/latest
+Resolving planetlab2.ecs.vuw.ac.nz (planetlab2.ecs.vuw.ac.nz)... 130.195.4.69
+Connecting to planetlab2.ecs.vuw.ac.nz (planetlab2.ecs.vuw.ac.nz)|130.195.4.69|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.198’
+
+     0K                                                         127M=0s
+
+2015-07-21 20:59:35 (127 MB/s) - ‘latest.198’ saved [511]
+
+--2015-07-21 20:59:35--  http://planetlab1.extern.kuleuven.be:8717/latest
+Resolving planetlab1.extern.kuleuven.be (planetlab1.extern.kuleuven.be)... 193.190.168.49
+Connecting to planetlab1.extern.kuleuven.be (planetlab1.extern.kuleuven.be)|193.190.168.49|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.199’
+
+     0K                                                         149M=0s
+
+2015-07-21 20:59:36 (149 MB/s) - ‘latest.199’ saved [539]
+
+--2015-07-21 20:59:36--  http://planetlab2.extern.kuleuven.be:8717/latest
+Resolving planetlab2.extern.kuleuven.be (planetlab2.extern.kuleuven.be)... 193.190.168.51
+Connecting to planetlab2.extern.kuleuven.be (planetlab2.extern.kuleuven.be)|193.190.168.51|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.200’
+
+     0K                                                         123M=0s
+
+2015-07-21 20:59:36 (123 MB/s) - ‘latest.200’ saved [491]
+
+--2015-07-21 20:59:36--  http://planetlab3.mini.pw.edu.pl:8717/latest
+Resolving planetlab3.mini.pw.edu.pl (planetlab3.mini.pw.edu.pl)... 194.29.178.13
+Connecting to planetlab3.mini.pw.edu.pl (planetlab3.mini.pw.edu.pl)|194.29.178.13|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.201’
+
+     0K                                                         144M=0s
+
+2015-07-21 20:59:37 (144 MB/s) - ‘latest.201’ saved [529]
+
+--2015-07-21 20:59:37--  http://planetlab2.sfc.wide.ad.jp:8717/latest
+Resolving planetlab2.sfc.wide.ad.jp (planetlab2.sfc.wide.ad.jp)... 203.178.143.28
+Connecting to planetlab2.sfc.wide.ad.jp (planetlab2.sfc.wide.ad.jp)|203.178.143.28|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.202’
+
+     0K                                                         104M=0s
+
+2015-07-21 20:59:37 (104 MB/s) - ‘latest.202’ saved [488]
+
+--2015-07-21 20:59:37--  http://planetlab2.cs.otago.ac.nz:8717/latest
+Resolving planetlab2.cs.otago.ac.nz (planetlab2.cs.otago.ac.nz)... 139.80.206.133
+Connecting to planetlab2.cs.otago.ac.nz (planetlab2.cs.otago.ac.nz)|139.80.206.133|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.203’
+
+     0K                                                         162M=0s
+
+2015-07-21 20:59:38 (162 MB/s) - ‘latest.203’ saved [608]
+
+--2015-07-21 20:59:38--  http://planet-lab1.itba.edu.ar:8717/latest
+Resolving planet-lab1.itba.edu.ar (planet-lab1.itba.edu.ar)... 190.227.163.142
+Connecting to planet-lab1.itba.edu.ar (planet-lab1.itba.edu.ar)|190.227.163.142|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.204’
+
+     0K                                                        68.9M=0s
+
+2015-07-21 20:59:39 (68.9 MB/s) - ‘latest.204’ saved [484]
+
+--2015-07-21 20:59:39--  http://planetlab2.cs.okstate.edu:8717/latest
+Resolving planetlab2.cs.okstate.edu (planetlab2.cs.okstate.edu)... 139.78.141.245
+Connecting to planetlab2.cs.okstate.edu (planetlab2.cs.okstate.edu)|139.78.141.245|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.205’
+
+     0K                                                         120M=0s
+
+2015-07-21 20:59:39 (120 MB/s) - ‘latest.205’ saved [418]
+
+--2015-07-21 20:59:39--  http://planetlab-1.ssvl.kth.se:8717/latest
+Resolving planetlab-1.ssvl.kth.se (planetlab-1.ssvl.kth.se)... 192.16.125.11
+Connecting to planetlab-1.ssvl.kth.se (planetlab-1.ssvl.kth.se)|192.16.125.11|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.206’
+
+     0K                                                         131M=0s
+
+2015-07-21 20:59:40 (131 MB/s) - ‘latest.206’ saved [540]
+
+--2015-07-21 20:59:40--  http://pl2.eng.monash.edu.au:8717/latest
+Resolving pl2.eng.monash.edu.au (pl2.eng.monash.edu.au)... 130.194.252.9
+Connecting to pl2.eng.monash.edu.au (pl2.eng.monash.edu.au)|130.194.252.9|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.207’
+
+     0K                                                        66.9M=0s
+
+2015-07-21 20:59:41 (66.9 MB/s) - ‘latest.207’ saved [397]
+
+--2015-07-21 20:59:41--  http://planetlab1.cqupt.edu.cn:8717/latest
+Resolving planetlab1.cqupt.edu.cn (planetlab1.cqupt.edu.cn)... 202.202.43.198
+Connecting to planetlab1.cqupt.edu.cn (planetlab1.cqupt.edu.cn)|202.202.43.198|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.208’
+
+     0K                                                         108M=0s
+
+2015-07-21 20:59:42 (108 MB/s) - ‘latest.208’ saved [489]
+
+--2015-07-21 20:59:42--  http://pl2.cs.montana.edu:8717/latest
+Resolving pl2.cs.montana.edu (pl2.cs.montana.edu)... 153.90.1.35
+Connecting to pl2.cs.montana.edu (pl2.cs.montana.edu)|153.90.1.35|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.209’
+
+     0K                                                        20.9M=0s
+
+2015-07-21 20:59:42 (20.9 MB/s) - ‘latest.209’ saved [355]
+
+--2015-07-21 20:59:42--  http://planetlab1.cnis.nyit.edu:8717/latest
+Resolving planetlab1.cnis.nyit.edu (planetlab1.cnis.nyit.edu)... 108.58.13.205
+Connecting to planetlab1.cnis.nyit.edu (planetlab1.cnis.nyit.edu)|108.58.13.205|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.210’
+
+     0K                                                        49.7M=0s
+
+2015-07-21 20:59:43 (49.7 MB/s) - ‘latest.210’ saved [409]
+
+--2015-07-21 20:59:43--  http://pl2.sos.info.hiroshima-cu.ac.jp:8717/latest
+Resolving pl2.sos.info.hiroshima-cu.ac.jp (pl2.sos.info.hiroshima-cu.ac.jp)... 165.242.90.129
+Connecting to pl2.sos.info.hiroshima-cu.ac.jp (pl2.sos.info.hiroshima-cu.ac.jp)|165.242.90.129|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.211’
+
+     0K                                                         102M=0s
+
+2015-07-21 20:59:43 (102 MB/s) - ‘latest.211’ saved [472]
+
+--2015-07-21 20:59:43--  http://planetlab1.uta.edu:8717/latest
+Resolving planetlab1.uta.edu (planetlab1.uta.edu)... 129.107.35.131
+Connecting to planetlab1.uta.edu (planetlab1.uta.edu)|129.107.35.131|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.212’
+
+     0K                                                        84.1M=0s
+
+2015-07-21 20:59:43 (84.1 MB/s) - ‘latest.212’ saved [375]
+
+--2015-07-21 20:59:43--  http://planetlab1.sfc.wide.ad.jp:8717/latest
+Resolving planetlab1.sfc.wide.ad.jp (planetlab1.sfc.wide.ad.jp)... 203.178.143.10
+Connecting to planetlab1.sfc.wide.ad.jp (planetlab1.sfc.wide.ad.jp)|203.178.143.10|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.213’
+
+     0K                                                        87.9M=0s
+
+2015-07-21 20:59:44 (87.9 MB/s) - ‘latest.213’ saved [484]
+
+--2015-07-21 20:59:44--  http://planetlab1.utt.fr:8717/latest
+Resolving planetlab1.utt.fr (planetlab1.utt.fr)... 194.254.215.11
+Connecting to planetlab1.utt.fr (planetlab1.utt.fr)|194.254.215.11|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.214’
+
+     0K                                                         122M=0s
+
+2015-07-21 20:59:44 (122 MB/s) - ‘latest.214’ saved [470]
+
+--2015-07-21 20:59:44--  http://utet.ii.uam.es:8717/latest
+Resolving utet.ii.uam.es (utet.ii.uam.es)... 150.244.58.161
+Connecting to utet.ii.uam.es (utet.ii.uam.es)|150.244.58.161|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.215’
+
+     0K                                                        21.3M=0s
+
+2015-07-21 20:59:45 (21.3 MB/s) - ‘latest.215’ saved [493]
+
+--2015-07-21 20:59:45--  http://planetlab2.upc.es:8717/latest
+Resolving planetlab2.upc.es (planetlab2.upc.es)... 147.83.30.167
+Connecting to planetlab2.upc.es (planetlab2.upc.es)|147.83.30.167|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.216’
+
+     0K                                                        93.9M=0s
+
+2015-07-21 20:59:46 (93.9 MB/s) - ‘latest.216’ saved [464]
+
+--2015-07-21 20:59:46--  http://dplanet1.uoc.edu:8717/latest
+Resolving dplanet1.uoc.edu (dplanet1.uoc.edu)... 213.73.40.105
+Connecting to dplanet1.uoc.edu (dplanet1.uoc.edu)|213.73.40.105|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.217’
+
+     0K                                                         116M=0s
+
+2015-07-21 20:59:48 (116 MB/s) - ‘latest.217’ saved [467]
+
+--2015-07-21 20:59:48--  http://planetlab2.cs.uml.edu:8717/latest
+Resolving planetlab2.cs.uml.edu (planetlab2.cs.uml.edu)... 129.63.159.102
+Connecting to planetlab2.cs.uml.edu (planetlab2.cs.uml.edu)|129.63.159.102|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.218’
+
+     0K                                                         107M=0s
+
+2015-07-21 20:59:48 (107 MB/s) - ‘latest.218’ saved [391]
+
+--2015-07-21 20:59:48--  http://planetlab2.cs.ubc.ca:8717/latest
+Resolving planetlab2.cs.ubc.ca (planetlab2.cs.ubc.ca)... 142.103.2.2
+Connecting to planetlab2.cs.ubc.ca (planetlab2.cs.ubc.ca)|142.103.2.2|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.219’
+
+     0K                                                        89.3M=0s
+
+2015-07-21 20:59:48 (89.3 MB/s) - ‘latest.219’ saved [401]
+
+--2015-07-21 20:59:48--  http://planetlab3.wail.wisc.edu:8717/latest
+Resolving planetlab3.wail.wisc.edu (planetlab3.wail.wisc.edu)... 198.133.224.147
+Connecting to planetlab3.wail.wisc.edu (planetlab3.wail.wisc.edu)|198.133.224.147|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.220’
+
+     0K                                                        92.7M=0s
+
+2015-07-21 20:59:48 (92.7 MB/s) - ‘latest.220’ saved [464]
+
+--2015-07-21 20:59:48--  http://planetlab2.utdallas.edu:8717/latest
+Resolving planetlab2.utdallas.edu (planetlab2.utdallas.edu)... 129.110.125.52
+Connecting to planetlab2.utdallas.edu (planetlab2.utdallas.edu)|129.110.125.52|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.221’
+
+     0K                                                        98.3M=0s
+
+2015-07-21 20:59:53 (98.3 MB/s) - ‘latest.221’ saved [352]
+
+--2015-07-21 20:59:53--  http://planetlab-2.cse.ohio-state.edu:8717/latest
+Resolving planetlab-2.cse.ohio-state.edu (planetlab-2.cse.ohio-state.edu)... 164.107.127.13
+Connecting to planetlab-2.cse.ohio-state.edu (planetlab-2.cse.ohio-state.edu)|164.107.127.13|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.222’
+
+     0K                                                         125M=0s
+
+2015-07-21 20:59:53 (125 MB/s) - ‘latest.222’ saved [486]
+
+--2015-07-21 20:59:53--  http://planetlab1.jcp-consult.net:8717/latest
+Resolving planetlab1.jcp-consult.net (planetlab1.jcp-consult.net)... 80.65.237.10
+Connecting to planetlab1.jcp-consult.net (planetlab1.jcp-consult.net)|80.65.237.10|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.223’
+
+     0K                                                         110M=0s
+
+2015-07-21 20:59:54 (110 MB/s) - ‘latest.223’ saved [479]
+
+--2015-07-21 20:59:54--  http://pl2.6test.edu.cn:8717/latest
+Resolving pl2.6test.edu.cn (pl2.6test.edu.cn)... 219.243.208.62
+Connecting to pl2.6test.edu.cn (pl2.6test.edu.cn)|219.243.208.62|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.224’
+
+     0K                                                        55.0M=0s
+
+2015-07-21 20:59:55 (55.0 MB/s) - ‘latest.224’ saved [416]
+
+--2015-07-21 20:59:55--  http://planetlab2.jcp-consult.net:8717/latest
+Resolving planetlab2.jcp-consult.net (planetlab2.jcp-consult.net)... 80.65.237.11
+Connecting to planetlab2.jcp-consult.net (planetlab2.jcp-consult.net)|80.65.237.11|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.225’
+
+     0K                                                         121M=0s
+
+2015-07-21 20:59:55 (121 MB/s) - ‘latest.225’ saved [474]
+
+--2015-07-21 20:59:55--  http://planetlab1.ustc.edu.cn:8717/latest
+Resolving planetlab1.ustc.edu.cn (planetlab1.ustc.edu.cn)... 202.141.161.43
+Connecting to planetlab1.ustc.edu.cn (planetlab1.ustc.edu.cn)|202.141.161.43|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.226’
+
+     0K                                                         100M=0s
+
+2015-07-21 20:59:56 (100 MB/s) - ‘latest.226’ saved [443]
+
+--2015-07-21 20:59:56--  http://salt.planetlab.cs.umd.edu:8717/latest
+Resolving salt.planetlab.cs.umd.edu (salt.planetlab.cs.umd.edu)... 128.8.126.111
+Connecting to salt.planetlab.cs.umd.edu (salt.planetlab.cs.umd.edu)|128.8.126.111|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.227’
+
+     0K                                                         126M=0s
+
+2015-07-21 20:59:56 (126 MB/s) - ‘latest.227’ saved [494]
+
+--2015-07-21 20:59:56--  http://planet1.zib.de:8717/latest
+Resolving planet1.zib.de (planet1.zib.de)... 130.73.241.33
+Connecting to planet1.zib.de (planet1.zib.de)|130.73.241.33|:8717... failed: Connection refused.
+--2015-07-21 20:59:57--  http://planetlab3.cslab.ece.ntua.gr:8717/latest
+Resolving planetlab3.cslab.ece.ntua.gr (planetlab3.cslab.ece.ntua.gr)... 147.102.3.113
+Connecting to planetlab3.cslab.ece.ntua.gr (planetlab3.cslab.ece.ntua.gr)|147.102.3.113|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.228’
+
+     0K                                                         151M=0s
+
+2015-07-21 20:59:57 (151 MB/s) - ‘latest.228’ saved [503]
+
+--2015-07-21 20:59:57--  http://planetlab-2.sjtu.edu.cn:8717/latest
+Resolving planetlab-2.sjtu.edu.cn (planetlab-2.sjtu.edu.cn)... 202.112.28.100
+Connecting to planetlab-2.sjtu.edu.cn (planetlab-2.sjtu.edu.cn)|202.112.28.100|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.229’
+
+     0K                                                        29.1M=0s
+
+2015-07-21 20:59:58 (29.1 MB/s) - ‘latest.229’ saved [513]
+
+--2015-07-21 20:59:58--  http://planetlab1.csee.usf.edu:8717/latest
+Resolving planetlab1.csee.usf.edu (planetlab1.csee.usf.edu)... 131.247.2.241
+Connecting to planetlab1.csee.usf.edu (planetlab1.csee.usf.edu)|131.247.2.241|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.230’
+
+     0K                                                         138M=0s
+
+2015-07-21 20:59:58 (138 MB/s) - ‘latest.230’ saved [469]
+
+--2015-07-21 20:59:58--  http://planetlab1.mini.pw.edu.pl:8717/latest
+Resolving planetlab1.mini.pw.edu.pl (planetlab1.mini.pw.edu.pl)... 194.29.178.5
+Connecting to planetlab1.mini.pw.edu.pl (planetlab1.mini.pw.edu.pl)|194.29.178.5|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.231’
+
+     0K                                                         149M=0s
+
+2015-07-21 20:59:59 (149 MB/s) - ‘latest.231’ saved [527]
+
+--2015-07-21 20:59:59--  http://planetlab-01.vt.nodes.planet-lab.org:8717/latest
+Resolving planetlab-01.vt.nodes.planet-lab.org (planetlab-01.vt.nodes.planet-lab.org)... 198.82.160.238
+Connecting to planetlab-01.vt.nodes.planet-lab.org (planetlab-01.vt.nodes.planet-lab.org)|198.82.160.238|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.232’
+
+     0K                                                        75.4M=0s
+
+2015-07-21 20:59:59 (75.4 MB/s) - ‘latest.232’ saved [388]
+
+--2015-07-21 20:59:59--  http://pl1.6test.edu.cn:8717/latest
+Resolving pl1.6test.edu.cn (pl1.6test.edu.cn)... 219.243.208.60
+Connecting to pl1.6test.edu.cn (pl1.6test.edu.cn)|219.243.208.60|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.233’
+
+     0K                                                         114M=0s
+
+2015-07-21 21:00:00 (114 MB/s) - ‘latest.233’ saved [428]
+
+--2015-07-21 21:00:00--  http://planetlab1.cs.du.edu:8717/latest
+Resolving planetlab1.cs.du.edu (planetlab1.cs.du.edu)... 130.253.21.121
+Connecting to planetlab1.cs.du.edu (planetlab1.cs.du.edu)|130.253.21.121|:8717... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘latest.234’
+
+     0K                                                        98.6M=0s
+
+2015-07-21 21:00:00 (98.6 MB/s) - ‘latest.234’ saved [361]
+
+--2015-07-21 21:00:00--  http://planetlab1.fit.vutbr.cz:8717/latest
+Resolving planetlab1.fit.vutbr.cz (planetlab1.fit.vutbr.cz)... 147.229.8.26
+Connecting to planetlab1.fit.vutbr.cz (planetlab1.fit.vutbr.cz)|147.229.8.26|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2015-07-21 21:00:01--  (try: 2)  http://planetlab1.fit.vutbr.cz:8717/latest
+Connecting to planetlab1.fit.vutbr.cz (planetlab1.fit.vutbr.cz)|147.229.8.26|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2015-07-21 21:00:03--  (try: 3)  http://planetlab1.fit.vutbr.cz:8717/latest
+Connecting to planetlab1.fit.vutbr.cz (planetlab1.fit.vutbr.cz)|147.229.8.26|:8717... connected.
+HTTP request sent, awaiting response... No data received.
+Giving up.
+
+FINISHED --2015-07-21 21:00:04--
+Total wall clock time: 15m 48s
+Downloaded: 230 files, 103K in 0.001s (96.4 MB/s)
