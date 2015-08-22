@@ -7,8 +7,6 @@ import random
 import time
 import math
 import urllib2
-from attach_cache_agent import *
-from traceroute import *
 
 ## ======================================================================== 
 # Wait for a random period of time
@@ -49,16 +47,3 @@ def weighted_choice(dist_pdf):
 	for i, total in enumerate(dist_pdf, start=1):
 		if rnd < total:
 			return i
-
-## ======================================================================== 
-# Update the client's cache agent to cmu-agens
-# @input : client ---- The client name
-#		   cache_agent ---- The cache agent the client is connecting to
-## ========================================================================
-def update_cache_agent(client, cache_agent):
-	update_url = "http://104.197.6.6:8000/cacheagent/add?client=%s&cache_agent=%s" % (client, cache_agent)
-	try:
-		rsp = urllib2.urlopen(update_url)
-		print "Update cache agent for client :", client, " and its cache agent is ", cache_agent, " successfully!"
-	except:
-		print "Failed to update cache agent for client ", client, " to cmu-agens server!"

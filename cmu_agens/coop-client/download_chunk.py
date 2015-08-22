@@ -7,7 +7,7 @@ def download_chunk(server_addr, vidName, chunk_name):
 	# print "download url: " + url
 	try:
 		u = urllib2.urlopen(url)
-		localCache = './tmp/'
+		localCache = os.getcwd() + '/tmp/'
 
 		# Create a cache folder locally
 		try:

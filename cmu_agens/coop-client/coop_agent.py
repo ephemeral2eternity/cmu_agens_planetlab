@@ -6,16 +6,18 @@
 from os import curdir, sep
 from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer
 import os # os. path
+import urlparse
 from attach_cache_agent import *
 from test_utils import *
 from coop_utils import *
-import urlparse
+from cfds_logger_utils import *
+
 
 ## Globe Variables
 PORT = 8717
 hostname = getMyName()
 
-# Get Trace Routes from all servers
+# SAVE Trace Routes from all servers
 all_hops = get_all_routes()
 
 #==========================================================================================
@@ -149,6 +151,12 @@ def main(argv):
 	connect_cache_agent(client_name, cache_agent['name'], cache_agent['ip'])
 	update_cache_agent(client_name, cache_agent['name'])
 	create_db()
+
+	# Get Trace Routes from all servers
+	insert_route(all_hops)
+
+	# Update the client hostname in the cfds-logger
+	update_client_cfds_logger(client_name)
 
 	## Start listening as a server on PORT
 	server = HTTPServer(('', PORT), MyHandler)

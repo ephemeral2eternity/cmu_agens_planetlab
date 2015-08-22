@@ -1,2 +1,1 @@
-50 15 21 7 * python ~/coop-client/coop_agent.py
-10 16 21 7 * python ~/coop-client/test_client_agent.py
+15 00 24 7 * python ~/coop-client/coop_agent.py

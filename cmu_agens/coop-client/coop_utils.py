@@ -9,9 +9,17 @@ import math
 import os
 import urllib2
 import sqlite3 as lite
+from calendar import timegm
 from attach_cache_agent import *
 from traceroute import *
 from sys_traceroute import *
+
+# Note: if you pass in a naive dttm object it's assumed to already be in UTC
+def unix_time(dttm=None):
+    if dttm is None:
+       dttm = datetime.utcnow()
+
+    return timegm(dttm.utctimetuple())
 
 ## ======================================================================== 
 # Create and Initialize a database to keep
@@ -26,27 +34,14 @@ def create_db():
 	cur = con.cursor()
 
 	# Check if there exists a table called QoE.
-	cur.execute("CREATE TABLE IF NOT EXISTS QoE(vidID int, srvName text, srvIP text, QoE real, TS datetime)")
+	cur.execute("DROP TABLE IF EXISTS QoE;")
+	cur.execute("CREATE TABLE QoE(vidID int, srvName text, srvIP text, QoE real, TS datetime);")
 	cur.execute("INSERT INTO QoE(vidID, srvName, srvIP, QoE, TS) values (?, ?, ?, ?, ?)", (1, 'cache-01', '104.197.42.89', 5.0, datetime.datetime.now()))
 	cur.execute("INSERT INTO QoE(vidID, srvName, srvIP, QoE, TS) values (?, ?, ?, ?, ?)", (1, 'cache-02', '104.197.59.54', 5.0, datetime.datetime.now()))
 	cur.execute("INSERT INTO QoE(vidID, srvName, srvIP, QoE, TS) values (?, ?, ?, ?, ?)", (1, 'cache-03', '104.197.8.50', 5.0, datetime.datetime.now()))
+
 	con.commit()	
-
 	con.close()
-
-## ======================================================================== 
-# Connect the client to its closest cache agent
-# @input : client ---- The client name
-#		   cache_agent ---- The cache agent the client is connecting to
-## ========================================================================
-def connect_cache_agent(client, cache_agent, cache_agent_ip):
-	update_url = "http://%s:8615/client/add?%s" % (cache_agent_ip, client)
-	try:
-		rsp = urllib2.urlopen(update_url)
-		print rsp
-		print "Connect client :", client, " to its cache agent ", cache_agent, " successfully!"
-	except:
-		print "Failed to connect client ", client, " to its cache_agent", cache_agent, "!"
 
 #==========================================================================================
 # Get Traceroutes to all available servers
@@ -89,12 +84,14 @@ def get_info(vidID):
 		video = lite_info[0][0]
 		qoe = lite_info[0][3]
 		srv_name = lite_info[0][1]
+		ts = lite_info[0][4]
 
 		info = dict()
 		info['srv'] = srv
 		info['srvName'] = srv_name
 		info['qoe'] = float(qoe)
 		info['video'] = video
+		info['ts'] = unix_time(ts)
 
 	## Should add code to handle empty info.
 	else:
@@ -125,18 +122,60 @@ def get_latest():
 		video = lite_info[0][0]
 		qoe = lite_info[0][3]
 		srv_name = lite_info[0][1]
+		ts = lite_info[0][4]
 
 		info = dict()
 		info['srv'] = srv
 		info['srvName'] = srv_name
 		info['qoe'] = float(qoe)
 		info['video'] = video
+		info['ts'] = unix_time(ts)
 
 	else:
 		info = {}
 
 	return info
 
+#==========================================================================================
+# Update INFO to qoe.db
+#==========================================================================================
+def insert_qoe(video_id, srv_name, srv_ip, qoe):
+	full_path = os.path.realpath(__file__)
+	path, fn = os.path.split(full_path)
+	db_name = path + "/qoe.db"
+
+	## Connect to the local qoe.db
+	con = lite.connect(db_name)
+	cur = con.cursor()
+
+	## Update the average QoE for 6 chunks to the qoe.db
+	cur.execute("INSERT INTO QoE(vidID, srvName, srvIP, QoE, TS) values (?, ?, ?, ?, ?)", (video_id, srv_name, srv_ip, qoe, datetime.datetime.now()))
+	con.commit()
+	con.close()
+
+#==========================================================================================
+# Insert Route info to qoe.db
+#==========================================================================================
+def insert_route(all_routes):
+	full_path = os.path.realpath(__file__)
+	path, fn = os.path.split(full_path)
+	db_name = path + "/qoe.db"
+
+	## Connect to the local qoe.db
+	con = lite.connect(db_name)
+	cur = con.cursor()
+
+	# Check if there exists a table called Route.
+	cur.execute("DROP TABLE IF EXISTS Route;")
+	cur.execute("CREATE TABLE Route(srvIP text, srvRoute text);")
+
+	## Insert all the routes from current client to all servers into qoe.db
+	for srv in all_routes.keys():
+		cur_route = get_route_str(srv, all_routes)
+		cur.execute("INSERT INTO Route(srvIP, srvRoute) values (?, ?)", (srv, cur_route))
+
+	con.commit()
+	con.close()
 
 #==========================================================================================
 # Get the string of route info from all routes

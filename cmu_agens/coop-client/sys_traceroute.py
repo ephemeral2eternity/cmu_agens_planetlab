@@ -1,5 +1,4 @@
 #!/usr/bin/python
-
 import socket
 import time
 import re
@@ -15,6 +14,9 @@ def sys_traceroute(host):
 
         tr_line = line.replace('ms', '')
         tr_data = tr_line.split()
+
+        if len(tr_data) < 1:
+            continue
 
         if tr_data[0].isdigit():
             hop_id = int(tr_data[0])
