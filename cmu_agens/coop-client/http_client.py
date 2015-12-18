@@ -20,9 +20,8 @@ from failover import *
 # @input : cache_agent_ip ---- the cache agent that is responsible for monitoring the client
 #		   video_srv_ip --- the ip address of the video server
 #		   video_name --- the string name of the requested video
-#		   period ---- the period to report QoE to compute the Server QoE Score
 ## ==================================================================================================
-def simple_client(cache_agent_ip, srv_info, video_name, period=30):
+def http_client(cache_agent_ip, srv_info, video_name, bitrate_lvl, period=30):
 
 	## ==================================================================================================
 	## Client name and info
@@ -60,15 +59,14 @@ def simple_client(cache_agent_ip, srv_info, video_name, period=30):
 
 	sortedVids = sorted(vidBWs.items(), key=itemgetter(1))
 
-	# Start streaming from the minimum bitrate
-	minID = sortedVids[0][0]
-	vidInit = reps[minID]['initialization']
+	# Start streaming from the denoted bitrate lvl
+	vidInit = reps[str(bitrate_lvl)]['initialization']
 	maxBW = sortedVids[-1][1]
 
 	# Read common parameters for all chunks
-	timescale = int(reps[minID]['timescale'])
-	chunkLen = int(reps[minID]['length']) / timescale
-	chunkNext = int(reps[minID]['start'])
+	timescale = int(reps[str(bitrate_lvl)]['timescale'])
+	chunkLen = int(reps[str(bitrate_lvl)]['length']) / timescale
+	chunkNext = int(reps[str(bitrate_lvl)]['start'])
 
 	## ==================================================================================================
 	# Start downloading the initial video chunk
@@ -91,13 +89,13 @@ def simple_client(cache_agent_ip, srv_info, video_name, period=30):
 	client_tr = {}
 	srv_qoe_tr = {}
 	alpha = 0.1
+	
 
 	## ==================================================================================================
 	# Start streaming the video
 	## ==================================================================================================
 	while (chunkNext * chunkLen < vidLength) :
-		nextRep = findRep(sortedVids, est_bw, curBuffer, minBuffer)
-		vidChunk = reps[nextRep]['name'].replace('$Number$', str(chunkNext))
+		vidChunk = reps[str(bitrate_lvl)]['name'].replace('$Number$', str(chunkNext))
 		loadTS = time.time();
 		vchunk_sz = download_chunk(srv_info['ip'], video_name, vidChunk)
 		
@@ -133,13 +131,13 @@ def simple_client(cache_agent_ip, srv_info, video_name, period=30):
 			curBuffer = curBuffer - time_elapsed
 
 		# Compute QoE of a chunk here
-		curBW = num(reps[nextRep]['bw'])
+		curBW = num(reps[str(bitrate_lvl)]['bw'])
 		chunk_QoE = computeQoE(freezingTime, curBW, maxBW)
 
-		print "|---", str(int(curTS)), "---|---", str(chunkNext), "---|---", nextRep, "---|---", str(chunk_QoE), "---|---", \
+		print "|---", str(int(curTS)), "---|---", str(chunkNext), "---|---", str(bitrate_lvl), "---|---", str(chunk_QoE), "---|---", \
 						str(curBuffer), "---|---", str(freezingTime), "---|---", srv_info['srv'], "---|---", str(rsp_time), "---|"
 		
-		client_tr[chunkNext] = dict(TS=int(curTS), Representation=nextRep, QoE=chunk_QoE, Buffer=curBuffer, \
+		client_tr[chunkNext] = dict(TS=int(curTS), Representation=str(bitrate_lvl), QoE=chunk_QoE, Buffer=curBuffer, \
 			Freezing=freezingTime, Server=srv_info['srv'], Response=rsp_time)
 		srv_qoe_tr[chunkNext] = chunk_QoE
 
@@ -155,8 +153,7 @@ def simple_client(cache_agent_ip, srv_info, video_name, period=30):
 		# Update iteration information
 		curBuffer = curBuffer + chunkLen
 		if curBuffer > 30:
-			time.sleep(curBuffer - 30)
-
+			time.sleep(chunkLen)
 		preTS = curTS
 		chunk_download += 1
 		chunkNext += 1

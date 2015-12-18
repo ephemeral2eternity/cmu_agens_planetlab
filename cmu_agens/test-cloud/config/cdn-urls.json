@@ -1,0 +1,6 @@
+{
+	"Azure" : {"url" : "az833905.vo.msecnd.net/videos", "QoE" : 5.0}, 
+	"Fastly" : {"url" : "fastly.cmu-agens.com/videos", "QoE": 5.0},
+	"CloudFront" : {"url" : "aws.cmu-agens.com/videos", "QoE": 5.0},
+	"Rackspace" : {"url" : "rs-cdn.cmu-agens.com/videos", "QoE":5.0}
+}

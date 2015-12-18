@@ -1,0 +1,6 @@
+00 00 30 11 * python ~/test-cdn/run_cdn_streaming.py Azure BBB
+00 04 30 11 * python ~/test-cdn/run_cdn_streaming.py Azure BBB
+00 08 30 11 * python ~/test-cdn/run_cdn_streaming.py Azure BBB
+00 12 30 11 * python ~/test-cdn/run_cdn_streaming.py Azure BBB
+00 16 30 11 * python ~/test-cdn/run_cdn_streaming.py Azure BBB
+00 20 30 11 * python ~/test-cdn/run_cdn_streaming.py Azure BBB

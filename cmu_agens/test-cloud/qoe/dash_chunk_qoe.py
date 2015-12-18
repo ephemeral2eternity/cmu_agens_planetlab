@@ -5,13 +5,36 @@ import urllib2
 
 ## ==================================================================================================
 # Compute per chunk QoE based on the video bitrate, the maximum available bitrate and freezing caused
+# by current chunk, this method is to consider freezing as the only factor when there is freezing happens.
+# @input : freezing_time --- the freezing time caused by current chunk
+#		   cur_bw ---- the bitrate of current chunk
+#		   max_bw ---- the maximum bitrate available
+## ==================================================================================================
+def computeCasQoE(freezing_time, cur_bw, max_bw):
+	# delta = 0.2            # The minimum bitrate corresponds to QoE=1 if there is no freezing.
+	a = [1.3554, 40]
+	b = [0.87942, 1.26968, 4.4, 0.72134]
+	q = [1.0, 5.0]
+
+	if (freezing_time > 0) and (freezing_time < 10):
+		q[0] = b[0] - b[1] / (1 + math.pow((b[2]/freezing_time), b[3]))
+	elif freezing_time >= 10:
+		q[0] = 0.0
+
+	q[1] = a[0] * math.log(a[1]*float(cur_bw)/float(max_bw))
+
+	qoe = q[0] * q[1]
+	return qoe
+
+## ==================================================================================================
+# Compute per chunk QoE based on the video bitrate, the maximum available bitrate and freezing caused
 # by current chunk
 # @input : freezing_time --- the freezing time caused by current chunk
 #		   cur_bw ---- the bitrate of current chunk
 #		   max_bw ---- the maximum bitrate available
 ## ==================================================================================================
-def computeQoE(freezing_time, cur_bw, max_bw):
-	delta = 0.2            # The minimum bitrate corresponds to QoE=1 if there is no freezing.
+def computeLinQoE(freezing_time, cur_bw, max_bw):
+	delta = 0.5            # The minimum bitrate corresponds to QoE=1 if there is no freezing.
 	a = [1.3554, 40]
 	b = [5.0, 6.3484, 4.4, 0.72134]
 	q = [5.0, 5.0]
@@ -23,6 +46,7 @@ def computeQoE(freezing_time, cur_bw, max_bw):
 
 	qoe = delta * q[0] + (1 - delta) * q[1]
 	return qoe
+
 
 ## ==================================================================================================
 # Get the average of previous 12 chunk QoEs (1 minute) on a given server
