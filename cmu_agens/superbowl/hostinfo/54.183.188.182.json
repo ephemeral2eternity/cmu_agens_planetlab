@@ -1,0 +1,12 @@
+{
+    "AS": "AS16509", 
+    "ISP": "Amazon.com, Inc.", 
+    "city": "San Jose", 
+    "country": "US", 
+    "hostname": "ec2-54-183-188-182.us-west-1.compute.amazonaws.com", 
+    "ip": "54.183.188.182", 
+    "loc": "37.3394,-121.8950", 
+    "org": "AS16509 Amazon.com, Inc.", 
+    "postal": "95103", 
+    "region": "California"
+}

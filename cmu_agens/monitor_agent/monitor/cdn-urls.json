@@ -1,0 +1,5 @@
+{
+	"Azure" : "cmu-agens.azureedge.net",
+	"CloudFront" : "aws.cmu-agens.com",
+	"Rackspace" : "rs-cdn.cmu-agens.com"
+}

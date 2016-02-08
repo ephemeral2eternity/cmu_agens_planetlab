@@ -1,0 +1,5 @@
+{
+	"Azure" : {"url" : "cmu-agens.azureedge.net/videos", "QoE" : 5.0},
+	"CloudFront" : {"url" : "aws.cmu-agens.com/videos", "QoE": 5.0},
+	"Rackspace" : {"url" : "rs-cdn.cmu-agens.com/videos", "QoE":5.0}
+}

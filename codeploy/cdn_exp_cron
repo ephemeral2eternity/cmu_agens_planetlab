@@ -1,9 +1,0 @@
-00 06 28 11 * python ~/test-cdn/run_cdn_streaming.py Azure ToS
-15 06 28 11 * python ~/test-cdn/run_cdn_streaming.py CloudFront ToS
-30 06 28 11 * python ~/test-cdn/run_cdn_streaming.py Fastly ToS
-45 06 28 11 * python ~/test-cdn/run_cdn_streaming.py Rackspace ToS
-00 07 28 11 * python ~/test-cdn/run_cdn_streaming.py Adapt1 ToS
-15 07 28 11 * python ~/test-cdn/run_cdn_streaming.py Adapt2 ToS
-00 10 28 11 * python ~/test-cdn/run_cdn_streaming.py Azure BBB
-00 14 28 11 * python ~/test-cdn/run_cdn_streaming.py Azure ToS
-00 18 28 11 * python ~/test-cdn/run_cdn_streaming.py Azure BBB

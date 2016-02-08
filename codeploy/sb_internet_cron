@@ -1,0 +1,2 @@
+* * * * * sudo python ~/superbowl/probe_sites.py
+*/5 * * * * sudo python ~/superbowl/trace_sites.py

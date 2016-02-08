@@ -155,10 +155,6 @@ do
 		echo "Current OS Version: $os_version. OS needs to be upgraded!"
 		upgrade_os_16
 		os_version=`cat /etc/redhat-release`
-	then
-		echo "Current OS Version: $os_version. OS needs to be upgraded!"
-		upgrade_os_18
-		os_version=`cat /etc/redhat-release`
 	else
 		echo "Error: Unknown OS Version: $os_version!"
 		break
