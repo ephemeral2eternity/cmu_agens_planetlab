@@ -657,3 +657,4 @@ iperf version 2.0.5 (08 Jul 2010) pthreads
 planetlab1.fit.vutbr.cz: 0 bytes
 
 ssh_exchange_identification: read: Connection reset by peer
+Write failed: Broken pipe
