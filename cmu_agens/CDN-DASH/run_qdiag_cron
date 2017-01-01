@@ -1,0 +1,15 @@
+#!/bin/bash
+
+url="http://manage.cmu-agens.com/verify/get_peers"
+peers=$(curl -s -L $url)
+IFS=',' read -r -a peersArray <<< $peers
+
+runTime=$(date -d 'next hour' +'00 %H %d %m *')
+
+echo "$runTime sudo python ~/CDN-DASH/verify_agent.py az.cmu-agens.com"
+for peer in ${peersArray[@]}
+do
+	echo "$runTime sudo python ~/CDN-DASH/verify_agent.py $peer"
+done
+
+echo "$runTime sudo python ~/CDN-DASH/test_qdiag_client_agent.py"

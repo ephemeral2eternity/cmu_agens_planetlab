@@ -1,15 +1,8 @@
-import urllib2
-import socket
-import time
-import datetime
-import json
-import shutil
-import os
-import logging
+from dash.fault_tolerance import *
 from dash.utils import *
 from qoe.dash_chunk_qoe import *
-from dash.fault_tolerance import *
-from client_utils import *
+from utils.client_utils import *
+
 
 ## ==================================================================================================
 # define the simple client agent that only downloads videos from denoted server
@@ -37,7 +30,7 @@ def dash_client(srv_addr, video_name, method=None):
 	## ==================================================================================================
 	## Parse the mpd file for the streaming video
 	## ==================================================================================================
-	rsts = ft_mpd_parser(srv_addr, retry_num, video_name)
+	rsts, srv_ip = ft_mpd_parser(srv_addr, retry_num, video_name)
 	if not rsts:
 		return
 

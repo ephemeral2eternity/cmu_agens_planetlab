@@ -3,6 +3,7 @@ import requests
 import os
 import socket
 import struct
+import urllib2
 from host2ip import *
 
 def is_reserved(ip):
@@ -24,6 +25,7 @@ def ipinfo(ip=None):
     else:
         url = 'http://ipinfo.io/'
 
+    hop_info = {}
     try:
         resp = requests.get(url)
         hop_info = json.loads(resp.text)
@@ -35,10 +37,10 @@ def ipinfo(ip=None):
     if 'org' in hop_info.keys():
         hop_org = hop_info['org']
         hop_org_items = hop_org.split()
-        hop_info['AS'] = hop_org_items[0]
+        hop_info['AS'] = int(hop_org_items[0][2:])
         hop_info['ISP'] = " ".join(hop_org_items[1:])
     else:
-        hop_info['AS'] = "unknown"
+        hop_info['AS'] = -1
         hop_info['ISP'] = "unknown"
 
     if 'loc' in hop_info.keys():
@@ -49,8 +51,21 @@ def ipinfo(ip=None):
         hop_info['latitude'] = 0.0
         hop_info['longitude'] = 0.0
 
-    if 'hostname' not in hop_info.keys():
+    if ('city' not in hop_info.keys()):
+        hop_info['city'] = ''
+
+    if ('region' not in hop_info.keys()):
+        hop_info['region'] = ''
+
+    if ('country' not in hop_info.keys()):
+        hop_info['country'] = ''
+
+    if ('hostname' not in hop_info.keys()):
         hop_info['hostname'] = ip
+    elif ('No' in hop_info['hostname']):
+        hop_info['hostname'] = ip
+
+    hop_info['name'] = hop_info['hostname']
 
     return hop_info
 
@@ -66,9 +81,61 @@ def save_ipinfo(outPath, hop_info):
         with open(out_file, 'w') as outfile:
             json.dump(hop_info, outfile, sort_keys = True, indent = 4, ensure_ascii=True)
 
+##########################################################################
+## Obtain node info from our centralized manager's database
+## manager: manager ip address
+## ip: the ip of the node to be retrieved
+## @return: the node info json dict
+#########################################################################
+def get_node_info_from_manager(manager, ip=None, nodeType="router"):
+    if ip:
+        url = 'http://%s/nodeinfo/get_node?ip=%s' % (manager, ip)
+    else:
+        url = 'http://%s/nodeinfo/get_node' % manager
+
+    try:
+        resp = requests.get(url)
+        node_info = json.loads(resp.text)
+        if node_info:
+            obtained = True
+        else:
+            obtained = False
+    except:
+        obtained = False
+
+    if not obtained:
+        if ip:
+            node_info = ipinfo(ip)
+        else:
+            node_info = ipinfo()
+        node_info['type'] = nodeType
+
+        post_node_info_to_manager(manager, node_info)
+
+    return node_info
+
+##########################################################################
+## Post node info to the centralized manager
+## manager: manager ip address
+## ip: the ip of the node to be retrieved
+## @return: the node info json dict
+#########################################################################
+def post_node_info_to_manager(manager, node_info):
+    url = 'http://%s/nodeinfo/add_node' % manager
+    isSuccess = True
+    try:
+        req = urllib2.Request(url)
+        req.add_header('Content-Type', 'application/json')
+        response = urllib2.urlopen(req, json.dumps(node_info))
+    except:
+        isSuccess = False
+
+    return isSuccess
+
 
 if __name__ == "__main__":
     # hop_name = "et-5-0-0.120.rtr.eqny.net.internet2.edu"
+    '''
     hop_name = "10.50.20.61"
     if is_hostname(hop_name):
         ip = host2ip(hop_name)
@@ -83,3 +150,10 @@ if __name__ == "__main__":
         hop_info = ipinfo(ip)
         outPath = 'D://GitHub/monitor_agent/clientsInfo/'
         save_ipinfo(outPath, hop_info)
+
+    '''
+
+    # node_ip = "62.115.40.254"
+    # node_info = ipinfo(node_ip)
+    node_info = ipinfo()
+    print node_info

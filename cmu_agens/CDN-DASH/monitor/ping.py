@@ -4,6 +4,7 @@ PING a server with count times and get the RTT list
 from subprocess import Popen, PIPE
 import re
 import sys
+import time
 
 def extract_number(s):
     regex=r'[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?'
@@ -36,19 +37,20 @@ def ping(ip, count):
     process = Popen(cmd, stdout=PIPE, stderr=PIPE)
     stdout, stderr = process.communicate()
     print stdout
-    rttList = parsePingRst(stdout, count)
-    return rttList
+    rttList, srv_ip = parsePingRst(stdout, count)
+    return rttList, srv_ip
 
 def getMnRTT(ip, count=3):
-    rttList = ping(ip, count)
+    rttList, srv_ip = ping(ip, count)
     if len(rttList) > 0:
         mnRTT = sum(rttList) / float(len(rttList))
     else:
         mnRTT = 500.0
-    return mnRTT
+    return mnRTT, srv_ip
 
 def parsePingRst(pingString, count):
     rtts = []
+    srv_ip = None
     lines = pingString.splitlines()
     for line in lines:
         curline = line
@@ -58,7 +60,12 @@ def parsePingRst(pingString, count):
             curDataDict = extractPingInfo(curDataStr)
             # print "curDataDict:", curDataDict
             rtts.append(curDataDict['time'])
-    return rtts
+
+        if not srv_ip:
+            tmp = re.search(r'\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}', curline)
+            if tmp:
+                srv_ip = tmp.group()
+    return rtts, srv_ip
 
 def pingVMs(vmList):
     srvRTTs = {}
@@ -68,6 +75,9 @@ def pingVMs(vmList):
         srvRTTs[srv] = mnRTT
     return srvRTTs
 
+
 if __name__ == "__main__":
-    mnRTT = getMnRTT('cmu-agens.azureedge.net')
-    print mnRTT
+    time_start = time.time()
+    mnRTT, srv_ip = getMnRTT('az.cmu-agens.com')
+    duration = time.time() -  time_start
+    print srv_ip, mnRTT, duration

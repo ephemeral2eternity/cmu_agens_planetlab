@@ -1,51 +1,39 @@
+from communication.thread_wrapper import *
 from dash.fault_tolerance import *
 from dash.utils import *
 from qoe.dash_chunk_qoe import *
 from utils.client_utils import *
-
-
-def select_best_addr(addrs):
-	cdn_qoe = 0
-	selected_cdn = ''
-	for current_cdn in addrs.keys():
-		if addrs[current_cdn]['QoE'] > cdn_qoe:
-			selected_cdn = current_cdn
-			cdn_qoe = addrs[current_cdn]['QoE']
-
-	return selected_cdn
-
+from anomaly.detect_anomaly import *
+from communication.comm_monitor import *
+import client_config
 
 ## ==================================================================================================
 # define the simple client agent that only downloads videos from denoted server
-# @input : addr_objs ---- the dict of cdn addresses as keys initialized with QoE they have as values
+# @input : srv_addr ---- the server name address
 #		   video_name --- the string name of the requested video
 ## ==================================================================================================
-def adaptive_client(addr_objs, video_name, method=None):
+def qdiag_client_agent(diag_agent, client_info, qoe_writer):
 	## Define all parameters used in this client
-	alpha = 0.5
-	WARMUP_PERIOD = 4
 	retry_num = 10
 
-	## ==================================================================================================
-	## Client name and info
-	client = str(socket.gethostname())
-	cur_ts = time.strftime("%m%d%H%M")
-	if method is not None:
-		client_ID = client + "_" + cur_ts + "_" + method
-	else:
-		client_ID = client + "_" + cur_ts
+	## CDN SQS
+	qoe_queue = []
+	uniq_srvs = []
 
-	## ======================================================================================
-	## Select the CDN according to QoE
-	selected_cdn = select_best_addr(addr_objs)
-	selected_cdn_url = addr_objs[selected_cdn]['url']
+	## Process pool
+	procs = []
 
-	## ==================================================================================================
-	## Parse the mpd file for the streaming video
-	## ==================================================================================================
-	rsts = ft_mpd_parser(selected_cdn_url, retry_num, video_name)
+	### client vars
+	client_ID = client_info["id"]
+	client_ip = client_info["ip"]
+
+	rsts, srv_ip = ft_mpd_parser(client_config.cdn_srv_addr, retry_num, client_config.video_name)
 	if not rsts:
 		return
+
+	## Fork a process doing traceroute to srv_ip and report it to the locator.
+	tr_proc = fork_cache_client_info(diag_agent, client_info, srv_ip, client_config.cdn_host, True)
+	procs.append(tr_proc)
 
 	### ===========================================================================================================
 	## Read parameters from dash.mpd_parser
@@ -59,7 +47,7 @@ def adaptive_client(addr_objs, video_name, method=None):
 	for rep in reps:
 		if not 'audio' in rep:
 			vidBWs[rep] = int(reps[rep]['bw'])
-	print vidBWs
+	# print vidBWs
 
 	sortedVids = sorted(vidBWs.items(), key=itemgetter(1))
 
@@ -82,26 +70,24 @@ def adaptive_client(addr_objs, video_name, method=None):
 	## Traces to write out
 	client_tr = {}
 	http_errors = {}
-	sqs_tr = {}
 
 	## Download initial chunk
 	loadTS = time.time()
-	print "[" + client_ID + "] Start downloading video " + video_name + " at " + \
-	datetime.datetime.fromtimestamp(int(loadTS)).strftime("%Y-%m-%d %H:%M:%S") + \
-	" from CDN : " + selected_cdn
+	print "[" + client_ID + "] Start downloading video " + client_config.video_name + " at " + \
+		  datetime.datetime.fromtimestamp(int(loadTS)).strftime("%Y-%m-%d %H:%M:%S") + \
+		  " from server : " + client_config.cdn_host
 
-	(vchunk_sz, chunk_srv_ip, error_codes) = ft_download_chunk(selected_cdn_url, retry_num, video_name, vidInit)
+	(vchunk_sz, chunk_srv_ip, error_codes) = ft_download_chunk(client_config.cdn_srv_addr, retry_num, client_config.video_name, vidInit)
 	http_errors.update(error_codes)
 	if vchunk_sz == 0:
 		## Write out traces after finishing the streaming
-		writeTrace(client_ID + "_cdn", client_tr)
 		writeHTTPError(client_ID, http_errors)
 		return
 
 	startTS = time.time()
 	print "[" + client_ID + "] Start playing video at " + datetime.datetime.fromtimestamp(int(startTS)).strftime("%Y-%m-%d %H:%M:%S")
 	est_bw = vchunk_sz * 8 / (startTS - loadTS)
-	print "|-- TS --|-- Chunk # --|- Representation -|-- Linear QoE --|--Cascade QoE --|-- Buffer --|-- Freezing --|-- Selected Server --|-- Selected CDN --|-- Chunk Response Time --|"
+	print "|-- TS --|-- Chunk # --|- Representation -|-- Linear QoE --|-- Cascading QoE --|-- Buffer --|-- Freezing --|-- Selected Server --|-- Chunk Response Time --|"
 	preTS = startTS
 	chunk_download += 1
 	curBuffer += chunkLen
@@ -111,16 +97,25 @@ def adaptive_client(addr_objs, video_name, method=None):
 	## ==================================================================================================
 	while (chunkNext * chunkLen < vidLength):
 		nextRep = findRep(sortedVids, est_bw, curBuffer, minBuffer)
-		
 		vidChunk = reps[nextRep]['name'].replace('$Number$', str(chunkNext))
 		loadTS = time.time()
-		(vchunk_sz, chunk_srv_ip, error_codes) = ft_download_chunk(selected_cdn_url, retry_num, video_name, vidChunk)
+		(vchunk_sz, chunk_srv_ip, error_codes) = ft_download_chunk(client_config.cdn_srv_addr, retry_num, client_config.video_name, vidChunk)
+
+		# If the client changes servers, get the traceroute to the new server.
+		if chunk_srv_ip != srv_ip:
+			pre_srv_ip = srv_ip
+			srv_ip = chunk_srv_ip
+			eventType = "server_switch"
+			## Fork a process doing traceroute to srv_ip and report it to the locator.
+			tr_proc = fork_cache_client_info(diag_agent, client_info, srv_ip, client_config.cdn_host)
+			procs.append(tr_proc)
+			event_proc = fork_add_event(diag_agent, client_ip, eventType, pre_srv_ip, srv_ip)
+			procs.append(event_proc)
+
 		http_errors.update(error_codes)
 		if vchunk_sz == 0:
 			## Write out traces after finishing the streaming
-			writeTrace(client_ID, client_tr)
-			writeTrace(client_ID + "_SQS", sqs_tr)
-			writeTrace(client_ID + "_httperr", http_errors)
+			writeHTTPError(client_ID, http_errors)
 			return
 
 		curTS = time.time()
@@ -132,7 +127,7 @@ def adaptive_client(addr_objs, video_name, method=None):
 		if time_elapsed > curBuffer:
 			freezingTime = time_elapsed - curBuffer
 			curBuffer = 0
-			# print "[AGENP] Client freezes for " + str(freezingTime)
+		# print "[AGENP] Client freezes for " + str(freezingTime)
 		else:
 			freezingTime = 0
 			curBuffer = curBuffer - time_elapsed
@@ -142,36 +137,48 @@ def adaptive_client(addr_objs, video_name, method=None):
 		chunk_linear_QoE = computeLinQoE(freezingTime, curBW, maxBW)
 		chunk_cascading_QoE = computeCasQoE(freezingTime, curBW, maxBW)
 
-		if chunkNext > WARMUP_PERIOD:
-			addr_objs[selected_cdn]['QoE'] = addr_objs[selected_cdn]['QoE'] * (1 - alpha) + chunk_cascading_QoE * alpha
-			## ======================================================================================
-			## Select the CDN according to QoE
-			selected_cdn = select_best_addr(addr_objs)
-			selected_cdn_url = addr_objs[selected_cdn]['url']
+		# Record QoE
+		qoe_queue.append(chunk_cascading_QoE)
+		# add_qoe_proc = fork_add_qoe(client_config.monitor, client_config.client_ip, srv_ip, chunkNext, chunk_cascading_QoE)
+		# procs.append(add_qoe_proc)
 
-		cur_sqs = {}
-		for cdn in addr_objs:
-			print cdn, addr_objs[cdn]['QoE']
-			cur_sqs[cdn] = addr_objs[cdn]['QoE']
-		sqs_tr[curTS] = cur_sqs
+		# print "Chunk Size: ", vchunk_sz, "estimated throughput: ", est_bw, " current bitrate: ", curBW
 
-		print "|---", str(curTS), "---|---", str(chunkNext), "---|---", nextRep, "---|---", str(chunk_linear_QoE), "---|---", str(chunk_cascading_QoE), "---|---", \
-						str(curBuffer), "---|---", str(freezingTime), "---|---", chunk_srv_ip, "---|---", selected_cdn, "---|---", str(rsp_time), "---|"
-		
-		client_tr[chunkNext] = dict(TS=curTS, Representation=nextRep, QoE1=chunk_linear_QoE, QoE2=chunk_cascading_QoE, Buffer=curBuffer, \
-			Freezing=freezingTime, Server=chunk_srv_ip, CDN = selected_cdn, Response=rsp_time)
-			
+		print "|---", str(curTS), "---|---", str(chunkNext), "---|---", nextRep, "---|---", str(chunk_linear_QoE), "---|---", \
+				str(chunk_cascading_QoE), "---|---", str(curBuffer), "---|---", str(freezingTime), "---|---", chunk_srv_ip, "---|---", str(rsp_time), "---|"
+
+		cur_tr = dict(TS=curTS, Representation=nextRep, QoE1=chunk_linear_QoE, QoE2=chunk_cascading_QoE, Buffer=curBuffer, \
+										Freezing=freezingTime, Server=chunk_srv_ip, Response=rsp_time, ChunkID=chunkNext)
+		qoe_writer.writerow(cur_tr)
+
+		if chunk_srv_ip not in uniq_srvs:
+			uniq_srvs.append(chunk_srv_ip)
+
 		# Update iteration information
 		curBuffer = curBuffer + chunkLen
 		if curBuffer > 30:
 			time.sleep(curBuffer - 30)
+
+		## Detect anomalies or send updates periodically
+		if (chunkNext % client_config.update_period == 0) and (chunkNext > client_config.update_period - 1):
+			recent_qoes = qoe_queue[-client_config.update_period:]
+			mnQoE = sum(recent_qoes) / float(len(recent_qoes))
+			[isAnomaly, anomaly_type] = detect_anomaly(recent_qoes)
+			if isAnomaly:
+				diag_p = fork_diagnose_anomaly(diag_agent, client_ip, srv_ip, mnQoE, anomaly_type)
+				procs.append(diag_p)
+			else:
+				update_p = fork_update_attributes(diag_agent, client_ip, srv_ip, mnQoE)
+				procs.append(update_p)
 
 		preTS = curTS
 		chunk_download += 1
 		chunkNext += 1
 
 	## Write out traces after finishing the streaming
-	writeTrace(client_ID, client_tr)
-	writeTrace(client_ID + "_SQS", sqs_tr)
-	writeTrace(client_ID + "_httperr", http_errors)
-	return addr_objs
+	if http_errors:
+		writeTrace(client_ID + "_httperr", http_errors)
+
+	for p in procs:
+		p.join(timeout=100)
+	return uniq_srvs

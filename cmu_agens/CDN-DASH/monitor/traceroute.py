@@ -32,12 +32,22 @@ def findAddr(tr_data):
 
     return -1, '*'
 
+def findHostname(tr_data):
+    item_ind = 0
+    ch_pattern = re.compile('[a-zA-Z]')
+    for item in tr_data:
+        chars = re.findall(ch_pattern, item)
+        if ('.' in item) and (len(chars) > 0):
+           return item_ind, item
+        item_ind += 1
+    return -1, '*'
+
 def traceroute(host):
     hops = dict()
     if sys.platform == 'win32':
         cmd = ['tracert', host]
     else:
-        cmd = ['traceroute', '-I', '-m', '30', host]
+        cmd = ['traceroute', '-m', '30', host]
     p = Popen(cmd, stdout=PIPE)
     while True:
         line = p.stdout.readline()
@@ -47,10 +57,14 @@ def traceroute(host):
         tr_line = line.replace('ms', '')
         if sys.platform == 'win32':
             ip_addrs = re.findall(r'\[.*?\]', tr_line)
-            tr_line = re.sub(r'\[.*?\]', '', tr_line)
+            tr_line = re.sub(r'\[', '', tr_line)
+            tr_line = re.sub(r'\]', '', tr_line)
+
         else:
             ip_addrs = re.findall(r'\(.*?\)', tr_line)
-            tr_line = re.sub(r'\(.*?\)', '', tr_line)
+            tr_line = re.sub(r'\(', '', tr_line)
+            tr_line = re.sub(r'\)', '', tr_line)
+
         tr_data = tr_line.split()
 
         if len(tr_data) < 1:
@@ -60,6 +74,14 @@ def traceroute(host):
             hop_id = int(tr_data[0])
             hop = {}
             addr_ind, addr = findAddr(tr_data)
+            hop_name_ind, hop_name = findHostname(tr_data)
+            # print hop_name_ind, hop_name
+
+            if hop_name_ind < 0:
+                hop['name'] = addr
+            else:
+                hop['name'] = hop_name
+                tr_data.pop(hop_name_ind)
 
             hop['name'] = addr
             if addr_ind > 0:
@@ -103,5 +125,5 @@ def trVMs(vmList):
     return srvHops
 
 if __name__ == "__main__":
-    hops = traceroute('rs-cdn.cmu-agens.com')
+    hops = traceroute('az.cmu-agens.com')
     print hops

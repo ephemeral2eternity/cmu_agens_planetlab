@@ -2,37 +2,30 @@
 # test_cdn_client.py
 # Chen Wang, Oct. 23, 2015
 # chenw@cmu.edu
-import random
-import sys
-import os
-import logging
-import shutil
-import time
-from datetime import datetime
+from utils.client_utils import *
+
 from dash_client import *
-from test_utils import *
-from client_utils import *
-
-
+from utils.test_utils import *
 
 ### Get client name and attache to the closest cache agent
 client_name = getMyName()
 
+if len(sys.argv) > 1:
+	cdn_host = sys.argv[1]
+else:
+	cdn_host = 'az.cmu-agens.com'
+
+if len(sys.argv) > 2:
+	video_name = sys.argv[2]
+else:
+	video_name = 'BBB'
+
 ## Denote the server info
-# srv_addr = 'www.cmu-agens.tk.global.prod.fastly.net/videos/'
-# srv_addr = '23.251.129.31'
-srv_addr = 'cache-01.cloudapp.net/videos/'
-# srv_addr = 'az833905.vo.msecnd.net/videos/'
-video_name = 'BBB'
+srv_addr = cdn_host + '/videos'
 
 ### Get the server to start streaming
-for i in range(1):
-	cur_ts = time.time()
+dash_client(srv_addr, video_name)
 
-	## Testing rtt based server selection
-	# waitRandom(1, 100)
-	dash_client(srv_addr, video_name)
+if os.path.exists(os.getcwd() + "/tmp/"):
+	shutil.rmtree(os.getcwd() + "/tmp/")
 
-#time_elapsed = time.time() - cur_ts
-#if time_elapsed < 600:
-#	time.sleep(600 - time_elapsed)

@@ -13,15 +13,6 @@ from ipinfo.ipinfo import *
 # ================================================================================
 ## Get Client Agent Name
 # ================================================================================
-def get_ext_ip():
-	ext_ip_info = ipinfo()
-	ext_ip = ext_ip_info['ip']
-	node_info = get_node_info(ext_ip)
-	return ext_ip, node_info
-
-# ================================================================================
-## Get Client Agent Name
-# ================================================================================
 def getMyName():
 	hostname = socket.gethostname()
 
@@ -34,6 +25,8 @@ def getMyName():
 			hostname = "planetlab1.research.nicta.com.au"
 		elif ext_ip == "221.199.217.145":
 			hostname = "planetlab2.research.nicta.com.au"
+		elif ext_ip == "128.2.57.73":
+			hostname = "superman.andrew.cmu.edu"
 
 		if '.' not in hostname:
 			hostname = ext_ip

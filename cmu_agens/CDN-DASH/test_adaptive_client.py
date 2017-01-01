@@ -2,20 +2,11 @@
 # test_cdn_client.py
 # Chen Wang, Oct. 23, 2015
 # chenw@cmu.edu
-import random
-import sys
-import os
-import logging
-import shutil
-import time
-import random
-import json
-from datetime import datetime
-from dash_client import *
-from adaptive_client import *
-from test_utils import *
-from client_utils import *
+from utils.client_utils import *
 
+from adaptive_client import *
+from dash_client import *
+from utils.test_utils import *
 
 ### Get client name and attache to the closest cache agent
 client_name = getMyName()

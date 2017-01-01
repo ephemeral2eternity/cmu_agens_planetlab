@@ -140,21 +140,21 @@ do
 		echo "Current OS Version: $os_version. OS needs to be upgraded!"
 		upgrade_os_13
 		os_version=`cat /etc/redhat-release`
-	elif [[ "$os_version" =~ "14" ]]
-	then
-		echo "Current OS Version: $os_version. OS needs to be upgraded!"
-		upgrade_os_14
-		os_version=`cat /etc/redhat-release`
-	elif [[ "$os_version" =~ "15" ]]
-	then
-		echo "Current OS Version: $os_version. OS needs to be upgraded!"
-		upgrade_os_15
-		os_version=`cat /etc/redhat-release`
-	elif [[ "$os_version" =~ "16" ]]
-	then
-		echo "Current OS Version: $os_version. OS needs to be upgraded!"
-		upgrade_os_16
-		os_version=`cat /etc/redhat-release`
+	#elif [[ "$os_version" =~ "14" ]]
+	#then
+	#	echo "Current OS Version: $os_version. OS needs to be upgraded!"
+	#	upgrade_os_14
+	#	os_version=`cat /etc/redhat-release`
+	# elif [[ "$os_version" =~ "15" ]]
+	#then
+	#	echo "Current OS Version: $os_version. OS needs to be upgraded!"
+	#	upgrade_os_15
+	#	os_version=`cat /etc/redhat-release`
+	#elif [[ "$os_version" =~ "16" ]]
+	#then
+	#	echo "Current OS Version: $os_version. OS needs to be upgraded!"
+	#	upgrade_os_16
+	#	os_version=`cat /etc/redhat-release`
 	else
 		echo "Error: Unknown OS Version: $os_version!"
 		break
