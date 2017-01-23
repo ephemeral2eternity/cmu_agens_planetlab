@@ -60,13 +60,26 @@ def get_node_info(ip=None, nodeTyp='router'):
     node_info = get_node_info_from_manager(manager, ip, nodeTyp)
     return node_info
 
+def get_ext_ip_from_websites():
+    url = 'http://jsonip.com'
+
+    try:
+        resp = requests.get(url)
+        ip_info = json.load(resp)
+        ext_ip = ip_info["ip"]
+    except:
+        ext_ip = urllib2.urlopen('http://whatismyip.org').read()
+    return ext_ip
+
 # ================================================================================
 ## Get Client Agent Name
 # ================================================================================
 def get_ext_ip():
-    ext_ip_info = ipinfo()
-    ext_ip = ext_ip_info['ip']
-    node_info = get_node_info(ext_ip, "client")
+    node_info = get_node_info()
+    ext_ip = node_info['ip']
+    if not node_info:
+        ext_ip = get_ext_ip_from_websites()
+        node_info = ipinfo()
     hostname = socket.gethostname()
     if node_info['name'] == node_info['ip']:
         node_info['name'] = hostname

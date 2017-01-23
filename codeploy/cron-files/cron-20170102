@@ -1,0 +1,3 @@
+00 08 02 01 * sudo ~/os_upgrade/status-check.sh > ~/node-status
+30 08 02 01 * git clone https://github.com/ephemeral2eternity/CDN-DASH.git ~/CDN-DASH
+00 09 02 01 * sudo python ~/CDN-DASH/trace_cdn.py

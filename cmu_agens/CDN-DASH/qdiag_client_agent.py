@@ -105,7 +105,7 @@ def qdiag_client_agent(diag_agent, client_info, qoe_writer):
 		if chunk_srv_ip != srv_ip:
 			pre_srv_ip = srv_ip
 			srv_ip = chunk_srv_ip
-			eventType = "server_switch"
+			eventType = "SRV_CHANGE"
 			## Fork a process doing traceroute to srv_ip and report it to the locator.
 			tr_proc = fork_cache_client_info(diag_agent, client_info, srv_ip, client_config.cdn_host)
 			procs.append(tr_proc)
@@ -158,6 +158,11 @@ def qdiag_client_agent(diag_agent, client_info, qoe_writer):
 		curBuffer = curBuffer + chunkLen
 		if curBuffer > 30:
 			time.sleep(curBuffer - 30)
+
+		## Report QoE if SLA is not satisfied
+		if (chunk_cascading_QoE < qoe_th):
+			update_p = fork_update_attributes(diag_agent, client_ip, srv_ip, chunk_cascading_QoE)
+			procs.append(update_p)
 
 		## Detect anomalies or send updates periodically
 		if (chunkNext % client_config.update_period == 0) and (chunkNext > client_config.update_period - 1):

@@ -25,6 +25,9 @@ auth['AuthString']= sys.argv[2]
 auth['Role']= "user"
 slice_name = 'cmu_agens'
 
+# Nodes file to delete
+nodes_todel_file = sys.argv[3]
+
 ## Get PLC_API
 plc_api = xmlrpclib.ServerProxy(api_url, allow_none=True)
 
@@ -33,7 +36,15 @@ print "Retrieving nodes on slice ", slice_name
 have_node_ids = plc_api.GetSlices(auth, [ slice_name ], ['node_ids'])[0]['node_ids']
 have_nodes = [node['hostname'] for node in plc_api.GetNodes(auth, have_node_ids, ['hostname'])]
 
-todel_nodes = have_nodes
+todel_nodes = []
+
+with open(nodes_todel_file) as fd:
+	lines = fd.readlines()
+	for ln in lines:
+		node_name = ln.rstrip('\n')
+		if node_name in have_nodes:
+			todel_nodes.append(node_name)
+			print "Delete node: " + node_name
 
 print "Found %d node(s) to be deleted" % (len(todel_nodes))
 

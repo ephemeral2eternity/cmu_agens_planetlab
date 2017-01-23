@@ -26,7 +26,7 @@ def is_ip(ip_addr):
 def findAddr(tr_data):
     item_ind = 0
     for item in tr_data:
-        if len(item.split('.')) > 3:
+        if re.match('\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}', item) != None:
             return item_ind, item
         item_ind += 1
 
@@ -81,11 +81,11 @@ def traceroute(host):
                 hop['name'] = addr
             else:
                 hop['name'] = hop_name
-                tr_data.pop(hop_name_ind)
+                tr_data.remove(hop_name)
 
-            hop['name'] = addr
-            if addr_ind > 0:
-                tr_data.pop(addr_ind)
+            hop['ip'] = addr
+            if addr in tr_data:
+                tr_data.remove(addr)
             tr_data.pop(0)
 
             hop_time_exist = False
@@ -126,4 +126,8 @@ def trVMs(vmList):
 
 if __name__ == "__main__":
     hops = traceroute('az.cmu-agens.com')
+    # hops = traceroute('plonk.cs.uwaterloo.ca')
+    print hops
+
+    hops = traceroute('93.184.221.200')
     print hops

@@ -1,0 +1,4 @@
+00 07 01 01 * sudo ~/os_upgrade/install-python-requests.sh
+30 07 01 01 * sudo ~/os_upgrade/install-git.sh
+00 08 01 01 * git clone https://github.com/ephemeral2eternity/CDN-DASH.git ~/CDN-DASH
+30 08 01 01 * sudo python ~/CDN-DASH/trace_cdn.py
